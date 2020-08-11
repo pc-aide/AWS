@@ -55,3 +55,4 @@
 * Flexibility
 * Cost Effective
 * Scalability
+* Security
