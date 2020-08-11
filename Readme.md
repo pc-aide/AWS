@@ -54,3 +54,4 @@
 ## Advantages of AWS
 * Flexibility
 * Cost Effective
+* Scalability
