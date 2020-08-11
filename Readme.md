@@ -32,4 +32,4 @@
 * A cloud computing environment wich uses a mix of on-primises, private cloud & third-party, public coud services
 * it helps you leverage the best of both worlds
 
-[<img src="https://i.imgur.com/V92pf1f.png">](https://i.imgur.com/V92pf1f.png)
+[<img src="https://i.imgur.com/68CiEIZ.png">](https://i.imgur.com/68CiEIZ.png)
