@@ -38,5 +38,6 @@
 1) Azure
 2) AWS
 3) DigitalOcean
-4) IBM Cloud
-5) terremark
+4) Google Cloud Platform
+5) IBM Cloud
+6) terremark
