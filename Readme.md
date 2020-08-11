@@ -47,3 +47,6 @@
 * DB storages
 * Content delivery
 * Functionality
+
+## Use Cases
+[<img src="https://i.imgur.com/S4Lvztf.png">](https://i.imgur.com/S4Lvztf.png)
