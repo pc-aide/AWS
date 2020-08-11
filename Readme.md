@@ -41,3 +41,9 @@
 4) Google Cloud Platform
 5) IBM Cloud
 6) terremark
+
+## What is AWS (offering)
+* Computers (VMs)
+* DB storages
+* Content delivery
+* Functionality
