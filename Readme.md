@@ -8,3 +8,6 @@
   * E.g.: Google app engine (Create your own app)
 * SaaS - Software as a Service
   * E.g.: hotmail, Gmail (send or receive Email)
+
+## Service Models
+[<img src="https://i.imgur.com/QIjolSU.png">](https://i.imgur.com/QIjolSU.png)
