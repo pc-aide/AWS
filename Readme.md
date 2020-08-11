@@ -21,3 +21,8 @@
 * Easy & inexpensive set-up because hardware, application & bandwidth costs are convered by the provider
 * No wasted resources because you pay for what you use
 [<img src="https://i.imgur.com/2FmHNuF.png">](https://i.imgur.com/2FmHNuF.png)
+
+### Private Cloud
+* Offers hosted services to a limited number of people behind firewall, so it minimizes the security concerns
+* Private cloud gives compagnies direct to control over their data
+[<img src="https://i.imgur.com/gSzGaRN.png">](https://i.imgur.com/gSzGaRN.png)
