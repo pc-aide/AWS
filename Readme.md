@@ -33,3 +33,10 @@
 * it helps you leverage the best of both worlds
 
 [<img src="https://i.imgur.com/68CiEIZ.png">](https://i.imgur.com/68CiEIZ.png)
+
+## Cloud Providers
+1) Azure
+2) AWS
+3) DigitalOcean
+4) IBM Cloud
+5) terremark
