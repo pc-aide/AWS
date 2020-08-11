@@ -14,3 +14,4 @@
 
 
 ## Deployment Models
+[<img src="https://i.imgur.com/tjzbBt2.png">](https://i.imgur.com/tjzbBt2.png)
