@@ -15,3 +15,9 @@
 
 ## Deployment Models
 [<img src="https://i.imgur.com/tjzbBt2.png">](https://i.imgur.com/tjzbBt2.png)
+
+### Public
+* A service make resources, such as applications & storage, available to general public over the Internet
+* Easy & inexpensive set-up because hardware, application & bandwidth costs are convered by the provider
+* No wasted resources because you pay for what you use
+[<img src="https://i.imgur.com/2FmHNuF.png">](https://i.imgur.com/2FmHNuF.png)
