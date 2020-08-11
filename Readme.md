@@ -50,3 +50,7 @@
 
 ## Use Cases
 [<img src="https://i.imgur.com/S4Lvztf.png">](https://i.imgur.com/S4Lvztf.png)
+
+## Advantages of AWS
+* Flexibility
+* Cost Effective
