@@ -3,4 +3,4 @@
 ## Acronym
 * IaaS -
 * PaaS - 
-* SaaS -
+* SaaS - Software as a Service
