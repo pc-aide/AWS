@@ -30,13 +30,17 @@
 
 [<img src="https://i.imgur.com/DRZShnR.png">](https://i.imgur.com/DRZShnR.png)
 #### Instance Type
-* Chosse your Type, vCPUs, Memory (GiB), and sot on
+1) Chosse your Type, vCPUs, Memory (GiB), and sot on
 
 [<img src="https://i.imgur.com/DpuUW3z.png">](https://i.imgur.com/DpuUW3z.png)
-* Choose : 
+2) Choose : 
     * Nbr instance, 
     * Network
     * Subnet
     * and so on
 
 [<img src="https://i.imgur.com/BoIblRp.png">](https://i.imgur.com/BoIblRp.png)
+
+3) Add Storage
+
+[<img src="https://i.imgur.com/g8AGUCd.png">](https://i.imgur.com/g8AGUCd.png)
