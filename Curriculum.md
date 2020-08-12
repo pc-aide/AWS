@@ -58,7 +58,38 @@
       * Security group name
       * Description
 * Type
-   * Custom 
-   * 
+   * Custom TCP Rule
+   * Custom UDP Rule
+   * Custom ICMP Rule - IPv4
+   * Custom ICMP Rule - IPv6
+   * Custom Protocol
+   * All TCP
+   * All UDP
+   * All ICMP - IPv4
+   * All ICMP - IPv6
+   * All traffic
+   * SSH
+   * SMTP
+   * DNS (UDP)
+   * DNS (TCP)
+   * HTTP
+   * POP3
+   * IMAP
+   * LDAP
+   * HTTPS
+   * SMB
+   * SMTPS
+   * IMAPS
+   * POP3S
+   * MS SQL
+   * NFS
+   * MYSQL/Aurora
+   * RDP
+   * Redshift
+   * PostgreSQL
+   * Oracle-RDS
+   * WinRM-HTTP
+   * WinRM-HTTPS
+   * Elastic Graphics
    
 [<img src="https://i.imgur.com/st67M4J.png">](https://i.imgur.com/st67M4J.png)
