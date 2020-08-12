@@ -15,3 +15,8 @@
 * Choose your region (where the EC2 instance will be hosted)
 
 [<img src="https://i.imgur.com/zG4qXmQ.png">](https://i.imgur.com/zG4qXmQ.png)
+
+### Services
+* Services\EC2
+
+[<img src="https://i.imgur.com/JWyMHoT.png">](https://i.imgur.com/JWyMHoT.png)
