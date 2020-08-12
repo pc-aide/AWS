@@ -1,6 +1,7 @@
 # AWS
 
 ## Acronym
+* DB - DataBase
 * AWS - Amazon Web Service
 * IaaS - Infrastructure as a Service
   * E.g.: Create own application (which OS, Kind of Technology)
@@ -69,3 +70,4 @@
 * Networking
   * VPC - Virtual Network
 * Messaging
+* DB
