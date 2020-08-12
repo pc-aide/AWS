@@ -68,3 +68,4 @@
 * Storage
 * Networking
   * VPC - Virtual Network
+* Messaging
