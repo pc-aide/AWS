@@ -50,3 +50,5 @@
 * A tag consists of a case-sensitive key-value pari
       * E.g. tag with key = Name & Value = Webserver
 * A copy of a tag can be applied to volumes, instances or both
+
+[<img src="https://i.imgur.com/r1qgmKB.png">](https://i.imgur.com/r1qgmKB.png)
