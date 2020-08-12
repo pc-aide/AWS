@@ -33,6 +33,7 @@
 1) Chosse your Type, vCPUs, Memory (GiB), and sot on
 
 [<img src="https://i.imgur.com/DpuUW3z.png">](https://i.imgur.com/DpuUW3z.png)
+
 2) Choose : 
     * Nbr instance, 
     * Network
