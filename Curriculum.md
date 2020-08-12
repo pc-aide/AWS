@@ -97,3 +97,10 @@
 6) Review Instance Lauch
 
 [<img src="https://i.imgur.com/bt9Q4LK.png">](https://i.imgur.com/bt9Q4LK.png)
+
+7) An existing key pair or create a new key pari
+* Create a new key pair
+      * key pair name
+      * Download key pair (*.pem)
+      
+[<img src="https://i.imgur.com/jhmHbdV.png">](https://i.imgur.com/jhmHbdV.png)
