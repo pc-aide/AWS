@@ -20,3 +20,6 @@
 * Services\EC2
 
 [<img src="https://i.imgur.com/JWyMHoT.png">](https://i.imgur.com/JWyMHoT.png)
+* Launch instance
+
+[<img src="https://i.imgur.com/GRTZCTL.png">](https://i.imgur.com/GRTZCTL.png)
