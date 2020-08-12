@@ -104,3 +104,7 @@
       * Download key pair (*.pem)
       
 [<img src="https://i.imgur.com/jhmHbdV.png">](https://i.imgur.com/jhmHbdV.png)
+
+8) Lanch Status
+
+[<img src="https://i.imgur.com/yxiAwOa.png">](https://i.imgur.com/yxiAwOa.png)
