@@ -1,5 +1,8 @@
 # AWS
 
+## URL
+* https://console.aws.amazon.com/?nc2=h_m_mc
+
 ## Acronym
 * DB - DataBase
 * AWS - Amazon Web Service
@@ -74,3 +77,6 @@
   * SQL
 * Management Tools
   * CloudWatch (Monitoring)
+
+## AWS Management Console
+### Build a Solution
