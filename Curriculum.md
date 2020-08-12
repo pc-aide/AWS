@@ -3,7 +3,7 @@
 ## Acronym
 * EIP - Elastic IP Address
 * VPC - Virtual Private Cloud
-* EC2 - Amazon Elastic Cloud Compute
+* EC2 - Elastic Compute Cloud
 * SW - Software
 * HW - Hardware
 * AMI - Amazon Machine Image
