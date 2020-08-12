@@ -109,3 +109,6 @@
 
 [<img src="https://i.imgur.com/yxiAwOa.png">](https://i.imgur.com/yxiAwOa.png)
 [<img src="https://i.imgur.com/jkQMAtt.png">](https://i.imgur.com/jkQMAtt.png)
+
+## SSH
+* Default user : ec2-user
