@@ -118,3 +118,4 @@
         * Open puttygen.exe\load *.pem
 
 [<img src="https://i.imgur.com/aHW1lpQ.png">](https://i.imgur.com/aHW1lpQ.png)
+[<img src="https://i.imgur.com/7k7Dy4d.png">](https://i.imgur.com/7k7Dy4d.png)
