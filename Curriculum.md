@@ -52,3 +52,13 @@
 * A copy of a tag can be applied to volumes, instances or both
 
 [<img src="https://i.imgur.com/FNUjTTC.png">](https://i.imgur.com/FNUjTTC.png)
+
+5) Configure Security Group (firewall)
+* Create or select ... security group
+      * Security group name
+      * Description
+* Type
+   * Custom 
+   * 
+   
+[<img src="https://i.imgur.com/st67M4J.png">](https://i.imgur.com/st67M4J.png)
