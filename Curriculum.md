@@ -4,6 +4,7 @@
 * EC2 - Amazon Elastic Cloud Compute
 * SW - Software
 * HW - Hardware
+* AMI - Amazon Machine Image
 
 ## List by introduction -> advance
 1) [AWS Cloud Practitioner Essentials (Second Edition) | 6 hours](https://www.aws.training/Details/Curriculum?id=27076)
