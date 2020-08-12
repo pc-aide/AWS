@@ -122,3 +122,9 @@
 [<img src="https://i.imgur.com/7k7Dy4d.png">](https://i.imgur.com/7k7Dy4d.png)
 
 [<img src="https://i.imgur.com/BFkmXre.png">](https://i.imgur.com/BFkmXre.png)
+
+### putty
+* Connection\SSH\Auth\Browse...\*.ppk
+* host name\UserName@PublicIP
+
+[<img src="https://i.imgur.com/hkoHIYA.png">](https://i.imgur.com/hkoHIYA.png)
