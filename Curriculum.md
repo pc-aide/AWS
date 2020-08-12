@@ -112,3 +112,8 @@
 
 ## SSH
 * Default user : ec2-user
+### puttygen
+* Convert *.pem -> *.ppk
+      * Open puttygen.exe\load *.pem
+
+[<img src="https://i.imgur.com/aHW1lpQ.png">](https://i.imgur.com/aHW1lpQ.png)
