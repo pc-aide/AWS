@@ -58,3 +58,4 @@
 * Security
 
 ## Global Infrastructure
+[<img src="https://i.imgur.com/MokEzXI.png">](https://i.imgur.com/MokEzXI.png)
