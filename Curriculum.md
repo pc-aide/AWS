@@ -27,3 +27,7 @@
 * Amazon Linux AMI 2018.03 (HVM), SSD Volume Type
 
 [<img src="https://i.imgur.com/DRZShnR.png">](https://i.imgur.com/DRZShnR.png)
+#### Instance Type
+* Chosse your Type, vCPUs, Memory (GiB), and sot on
+
+[<img src="https://i.imgur.com/DpuUW3z.png">](https://i.imgur.com/DpuUW3z.png)
