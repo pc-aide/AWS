@@ -71,4 +71,6 @@
   * VPC - Virtual Network
 * Messaging
 * DB
+  * SQL
 * Management Tools
+  * CloudWatch (Monitoring)
