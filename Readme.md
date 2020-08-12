@@ -71,3 +71,4 @@
   * VPC - Virtual Network
 * Messaging
 * DB
+* Management Tools
