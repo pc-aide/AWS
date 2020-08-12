@@ -65,3 +65,4 @@
 * Compute
 * Migration
 * Security & Compliance
+* Storage
