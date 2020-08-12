@@ -67,4 +67,4 @@
 * Security & Compliance
 * Storage
 * Networking
- * VPC - Virtual Network
+  * VPC - Virtual Network
