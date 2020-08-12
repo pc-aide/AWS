@@ -24,3 +24,6 @@
 * Launch instance
 
 [<img src="https://i.imgur.com/oQ6juLX.png">](https://i.imgur.com/oQ6juLX.png)
+* Amazon Linux AMI 2018.03 (HVM), SSD Volume Type
+
+[<img src="https://i.imgur.com/DRZShnR.png">](https://i.imgur.com/DRZShnR.png)
