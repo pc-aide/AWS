@@ -62,4 +62,5 @@
 [<img src="https://i.imgur.com/SwSyGxB.png">](https://i.imgur.com/SwSyGxB.png)
 
 ## Domains
-1) compute
+* Compute
+* Migration
