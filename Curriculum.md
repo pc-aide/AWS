@@ -13,4 +13,5 @@
 ## AWS Console
 ### Region
 * Choose your region (where the EC2 instance will be hosted)
+
 [<img src="https://i.imgur.com/zG4qXmQ.png">](https://i.imgur.com/zG4qXmQ.png)
