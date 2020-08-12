@@ -22,4 +22,4 @@
 [<img src="https://i.imgur.com/JWyMHoT.png">](https://i.imgur.com/JWyMHoT.png)
 * Launch instance
 
-[<img src="https://i.imgur.com/GRTZCTL.png">](https://i.imgur.com/GRTZCTL.png)
+[<img src="https://i.imgur.com/oQ6juLX.png">](https://i.imgur.com/oQ6juLX.png)
