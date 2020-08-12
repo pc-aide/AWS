@@ -59,3 +59,4 @@
 
 ## Global Infrastructure
 [<img src="https://i.imgur.com/lCGuSo1.png">](https://i.imgur.com/lCGuSo1.png)
+[<img src="https://i.imgur.com/I9lLjGs.png">](https://i.imgur.com/I9lLjGs.png)
