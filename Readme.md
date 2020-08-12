@@ -60,3 +60,6 @@
 ## Global Infrastructure
 [<img src="https://i.imgur.com/lCGuSo1.png">](https://i.imgur.com/lCGuSo1.png)
 [<img src="https://i.imgur.com/SwSyGxB.png">](https://i.imgur.com/SwSyGxB.png)
+
+## Domains
+1) compute
