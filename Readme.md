@@ -81,3 +81,9 @@
 ## AWS Management Console
 ### Build a Solution
 [<img src="https://i.imgur.com/4iBi8ig.png">](https://i.imgur.com/4iBi8ig.png)
+
+## Instance
+### What is an instance
+* An instance is a virtuel server for running applications on Amazon's EC2. It can also be understood kike
+a tiny part of a larger computer, a tiny part which has its own hard drive, network connection, OS etc. 
+But it's actually all virtual.
