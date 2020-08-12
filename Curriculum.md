@@ -1,6 +1,8 @@
 # Curriculum
 
 ## Acronym
+* EIP - Elastic IP Address
+* VPC - Virtual Private Cloud
 * EC2 - Amazon Elastic Cloud Compute
 * SW - Software
 * HW - Hardware
@@ -31,3 +33,10 @@
 * Chosse your Type, vCPUs, Memory (GiB), and sot on
 
 [<img src="https://i.imgur.com/DpuUW3z.png">](https://i.imgur.com/DpuUW3z.png)
+* Choose : 
+    * Nbr instance, 
+    * Network
+    * Subnet
+    * and so on
+
+[<img src="https://i.imgur.com/BoIblRp.png">](https://i.imgur.com/BoIblRp.png)
