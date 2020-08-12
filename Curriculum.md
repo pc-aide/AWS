@@ -45,3 +45,5 @@
 3) Add Storage
 
 [<img src="https://i.imgur.com/g8AGUCd.png">](https://i.imgur.com/g8AGUCd.png)
+
+4) Add Tags
