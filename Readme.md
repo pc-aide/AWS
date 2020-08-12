@@ -56,3 +56,5 @@
 * Cost Effective
 * Scalability
 * Security
+
+## Global Infrastructure
