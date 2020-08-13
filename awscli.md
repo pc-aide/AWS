@@ -2,6 +2,7 @@
 
 ## Acronym
 * IAM - Manage access to AWS resources
+* MFA - Multi-Factor Authentication
 
 ## Doc
 * https://aws.amazon.com/premiumsupport/knowledge-center/s3-locate-credentials-error/
