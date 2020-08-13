@@ -10,7 +10,8 @@
 
 ## Intro
 * A private, virtual network in the AWS Cloud
-  * Uses same concepts as on premise network
+  * Uses same concepts as on premise network 
+    * A VPC defines an IP address space
 
 *Allows complete control of network configuration
   * Abilitty to isolate & expose resources inside VPC
