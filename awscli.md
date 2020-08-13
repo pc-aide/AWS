@@ -18,3 +18,10 @@ aws help
 * s3
 
 [<img src="https://i.imgur.com/VySmSjG.png">](https://i.imgur.com/VySmSjG.png)
+
+## Credentials
+* Error
+````Bash
+aws s3 cp demot.txt s3://bucket-dmo-01/demot.txt
+````
+[<img src="https://i.imgur.com/LusXlHF.png">](https://i.imgur.com/LusXlHF.png)
