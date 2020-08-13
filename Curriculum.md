@@ -140,3 +140,8 @@
 * Services\Elastic Block Store\Volumes
 
 [<img src="https://i.imgur.com/eeTnxwQ.png">](https://i.imgur.com/eeTnxwQ.png)
+
+* the EBS volume must be created on the same Availability Zone
+* Create Volume
+
+[<img src="https://i.imgur.com/QVcGCUG.png">](https://i.imgur.com/QVcGCUG.png)
