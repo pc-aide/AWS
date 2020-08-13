@@ -1,5 +1,8 @@
 # awscli
 
+## Regex 
+* ^ -	Start of string or start of line
+
 ## Apt seach
 ````Bash
 apt seach --names-only ^aws
