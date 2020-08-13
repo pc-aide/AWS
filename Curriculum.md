@@ -191,6 +191,9 @@ umount /mnt
 
 ## Simple Storage Service (S3)
 * AWS Console\Services\S3
+   * What is S3 ?
+      * Managed cloud storage service
+      * Store virtually unlimited number of objects
 
 [<img src="https://i.imgur.com/iIMF2sW.png">](https://i.imgur.com/iIMF2sW.png)
 
