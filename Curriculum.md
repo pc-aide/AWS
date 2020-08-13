@@ -193,3 +193,5 @@ umount /mnt
 * AWS Console\Services\S3
 
 [<img src="https://i.imgur.com/iIMF2sW.png">](https://i.imgur.com/iIMF2sW.png)
+
+* Create bucket
