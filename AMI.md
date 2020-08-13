@@ -14,3 +14,7 @@
 1) Instance Type
 
 [<img src="https://i.imgur.com/URobaBw.png">](https://i.imgur.com/URobaBw.png)
+
+2) Instance details
+
+[<img src="https://i.imgur.com/egfYMNE.png">](https://i.imgur.com/egfYMNE.png)
