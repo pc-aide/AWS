@@ -56,3 +56,7 @@ aws configure list
 * Review
 
 [<img src="https://i.imgur.com/is60iQu.png">](https://i.imgur.com/is60iQu.png)
+
+* Publick key + Secret Key
+
+[<img src="https://i.imgur.com/20Wwir8.png">](https://i.imgur.com/20Wwir8.png)
