@@ -1,6 +1,7 @@
 # Curriculum
 
 ## Acronym
+* S3 - Scalable Storage in the Cloud
 * EIP - Elastic IP Address
 * VPC - Virtual Private Cloud
 * EC2 - Elastic Compute Cloud
@@ -189,3 +190,6 @@ umount /mnt
 [<img src="https://i.imgur.com/V9rqgGo.png">](https://i.imgur.com/V9rqgGo.png)
 
 ## Simple Storage Service (S3)
+* AWS Console\Services\S3
+
+[<img src="https://i.imgur.com/iIMF2sW.png">](https://i.imgur.com/iIMF2sW.png)
