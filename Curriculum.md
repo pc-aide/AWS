@@ -195,3 +195,5 @@ umount /mnt
 [<img src="https://i.imgur.com/iIMF2sW.png">](https://i.imgur.com/iIMF2sW.png)
 
 * Create bucket
+
+[<img src="https://i.imgur.com/6aZybkS.png">](https://i.imgur.com/6aZybkS.png)
