@@ -231,3 +231,4 @@ umount /mnt
       * NB: Bucket name must not contain uppercase characters
       
 [<img src="https://i.imgur.com/RDtshAe.png">](https://i.imgur.com/RDtshAe.png)
+[<img src="https://i.imgur.com/6GiQsXB.png">](https://i.imgur.com/6GiQsXB.png)
