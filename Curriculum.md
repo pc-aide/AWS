@@ -194,6 +194,8 @@ umount /mnt
    * What is S3 ?
       * Managed cloud storage service
       * Store virtually unlimited number of objects
+   * E.g.
+      * media/welcome.mp4
 
 [<img src="https://i.imgur.com/iIMF2sW.png">](https://i.imgur.com/iIMF2sW.png)
 
