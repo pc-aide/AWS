@@ -19,3 +19,7 @@
 2) Instance details
 
 [<img src="https://i.imgur.com/egfYMNE.png">](https://i.imgur.com/egfYMNE.png)
+
+3) Add Storage
+
+[<img src="https://i.imgur.com/JVokUFl.png">](https://i.imgur.com/JVokUFl.png)
