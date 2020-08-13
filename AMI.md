@@ -1,6 +1,7 @@
 # AMI
 
 ## Acronym
+* RDP - Remote Desktop Protocol
 * AMI - Amazon Machine Image
 * Cfg - Configuration
 * gp - General purpose
