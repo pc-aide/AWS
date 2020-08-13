@@ -1,5 +1,8 @@
 # awscli
 
+## Doc
+* https://aws.amazon.com/premiumsupport/knowledge-center/s3-locate-credentials-error/
+
 ## Regex 
 * ^ -	Start of string or start of line
 
@@ -25,3 +28,7 @@ aws help
 aws s3 cp demot.txt s3://bucket-dmo-01/demot.txt
 ````
 [<img src="https://i.imgur.com/LusXlHF.png">](https://i.imgur.com/LusXlHF.png)
+````Bash
+aws configure list
+````
+[<img src="https://i.imgur.com/Mu4zqLV.png">](https://i.imgur.com/Mu4zqLV.png)
