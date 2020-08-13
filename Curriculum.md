@@ -168,3 +168,12 @@
 [<img src="https://i.imgur.com/I5V84ey.png">](https://i.imgur.com/I5V84ey.png)
 
 [<img src="https://i.imgur.com/FYPkTB7.png">](https://i.imgur.com/FYPkTB7.png)
+````Bach
+cd /mnt
+ls
+vim test.txt
+ls
+mkdir folder
+mv test.txt folder/
+````
+[<img src="https://i.imgur.com/VrP1HLM.png">](https://i.imgur.com/VrP1HLM.png)
