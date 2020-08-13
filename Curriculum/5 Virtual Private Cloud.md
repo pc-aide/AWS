@@ -13,6 +13,9 @@
   * Uses same concepts as on premise network 
     * A VPC defines an IP address space
 
+* Subnet
+  * By Default, all subnets within a VPC can communicate with each other
+
 *Allows complete control of network configuration
   * Abilitty to isolate & expose resources inside VPC
   
