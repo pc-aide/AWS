@@ -45,3 +45,7 @@ aws configure list
 * Users\Add user
 
 [<img src="https://i.imgur.com/v0obwMz.png">](https://i.imgur.com/v0obwMz.png)
+
+* Set permissions
+
+[<img src="https://i.imgur.com/XMSC7Jo.png">](https://i.imgur.com/XMSC7Jo.png)
