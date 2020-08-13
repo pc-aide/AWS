@@ -41,3 +41,6 @@ aws configure list
 * AWS Console\services\iam
 * Tips : Activate MFA on your root account
 [<img src="https://i.imgur.com/LjhLSVT.png">](https://i.imgur.com/LjhLSVT.png)
+
+* Users\Add user
+[<img src="https://i.imgur.com/v0obwMz.png">](https://i.imgur.com/v0obwMz.png)
