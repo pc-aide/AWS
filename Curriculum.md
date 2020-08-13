@@ -135,3 +135,8 @@
 * One Storage (OS)
 
 [<img src="https://i.imgur.com/V7f822G.png">](https://i.imgur.com/V7f822G.png)
+
+### ASW Console
+* Services\Elastic Block Store\Volumes
+
+[<img src="https://i.imgur.com/eeTnxwQ.png">](https://i.imgur.com/eeTnxwQ.png)
