@@ -222,6 +222,7 @@ umount /mnt
    * Staging area for Big Data
    * and so on
 
-* Create bucket
+* Demo
+   * Create a bucket
 
 [<img src="https://i.imgur.com/6aZybkS.png">](https://i.imgur.com/6aZybkS.png)
