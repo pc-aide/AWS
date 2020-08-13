@@ -130,3 +130,8 @@
 [<img src="https://i.imgur.com/hkoHIYA.png">](https://i.imgur.com/hkoHIYA.png)
 
 [<img src="https://i.imgur.com/ycxF4i9.png">](https://i.imgur.com/ycxF4i9.png)
+
+## Elastic Block Store (EBS)
+* One Storage (OS)
+
+[<img src="https://i.imgur.com/V7f822G.png">](https://i.imgur.com/V7f822G.png)
