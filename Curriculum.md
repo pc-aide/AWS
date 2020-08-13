@@ -211,6 +211,10 @@ umount /mnt
    * AWS CLI
    * AWS SDKs
 
+* E.g. Object (buck)
+
+[<img src="https://i.imgur.com/IPS9c0u.png">](https://i.imgur.com/IPS9c0u.png)
+
 * Create bucket
 
 [<img src="https://i.imgur.com/6aZybkS.png">](https://i.imgur.com/6aZybkS.png)
