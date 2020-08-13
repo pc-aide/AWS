@@ -16,6 +16,6 @@
    * Resizable
    * Automatic automated backups
    * The ability to have different storage requirements
-* Answer
+* [Answer](https://i.imgur.com/B7klct3.png)
 
 3) 
