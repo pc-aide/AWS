@@ -215,6 +215,13 @@ umount /mnt
 
 [<img src="https://i.imgur.com/IPS9c0u.png">](https://i.imgur.com/IPS9c0u.png)
 
+* Use Cases
+   * Storing Application Assets
+   * Static Web Hosting
+   * Backup & Disaster Recovery
+   * Staging area for Big Data
+   * and so on
+
 * Create bucket
 
 [<img src="https://i.imgur.com/6aZybkS.png">](https://i.imgur.com/6aZybkS.png)
