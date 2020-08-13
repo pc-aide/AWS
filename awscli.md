@@ -52,3 +52,6 @@ aws configure list
 
 * Add tags (optional)
   * Next
+
+* Review
+[<img src="https://i.imgur.com/is60iQu.png">](https://i.imgur.com/is60iQu.png)
