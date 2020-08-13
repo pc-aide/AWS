@@ -14,3 +14,7 @@ apt seach --names-only ^aws
 aws help
 ````
 [<img src="https://i.imgur.com/44x09aB.png">](https://i.imgur.com/44x09aB.png)
+### Available service
+* s3
+
+[<img src="https://i.imgur.com/VySmSjG.png">](https://i.imgur.com/VySmSjG.png)
