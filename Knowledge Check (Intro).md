@@ -18,4 +18,10 @@
    * The ability to have different storage requirements
 * [Answer](https://i.imgur.com/B7klct3.png)
 
-3) 
+3) Which components of the AWS infrastructure can be described
+as multiple, isolated location within one geographic area?
+   * Regions
+   * Availability zone
+   * Edge Locations
+   * S3 Buckets
+* [Answer](https://i.imgur.com/mQsGNMU.png)
