@@ -153,3 +153,7 @@
 [<img src="https://i.imgur.com/xjtREQy.png">](https://i.imgur.com/xjtREQy.png)
 
 [<img src="https://i.imgur.com/mUvjOnO.png">](https://i.imgur.com/mUvjOnO.png)
+
+* New disk
+
+[<img src="https://i.imgur.com/MvwJwFt.png">](https://i.imgur.com/MvwJwFt.png)
