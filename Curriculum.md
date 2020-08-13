@@ -226,3 +226,8 @@ umount /mnt
    * Create a bucket
 
 [<img src="https://i.imgur.com/6aZybkS.png">](https://i.imgur.com/6aZybkS.png)
+
+   * Name & region
+      * NB: Bucket name must not contain uppercase characters
+      
+[<img src="https://i.imgur.com/RDtshAe.png">](https://i.imgur.com/RDtshAe.png)
