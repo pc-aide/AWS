@@ -27,3 +27,7 @@
 4) Add Tags
 
 [<img src="https://i.imgur.com/8VHws9I.png">](https://i.imgur.com/8VHws9I.png)
+
+5) Security Group
+
+[<img src="https://i.imgur.com/fqM2esS.png">](https://i.imgur.com/fqM2esS.png)
