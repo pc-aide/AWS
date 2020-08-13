@@ -63,7 +63,7 @@ aws configure list
 
 ### configure profile
 ````Bash
-# Enter : default choice
-aws configure --profile ubuntu
+# Connect to your Server.Amazon(IMA)
+aws configure --profile User-demo-s3
 ````
-[<img src="https://i.imgur.com/0gxvdz3.png">](https://i.imgur.com/0gxvdz3.png)
+[<img src="https://i.imgur.com/9MU8cAg.png">](https://i.imgur.com/9MU8cAg.png)
