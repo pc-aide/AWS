@@ -1,6 +1,7 @@
 # Curriculum
 
 ## Acronym
+* CLI - Command Line Interface
 * S3 - Scalable Storage in the Cloud
 * EIP - Elastic IP Address
 * VPC - Virtual Private Cloud
@@ -204,7 +205,10 @@ umount /mnt
 
 [<img src="https://i.imgur.com/9RkCQTQ.png">](https://i.imgur.com/9RkCQTQ.png)
 
-
+* Access
+   * AWS Management Console
+   * AWS CLI
+   * AWS SDKs
 
 * Create bucket
 
