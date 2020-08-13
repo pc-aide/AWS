@@ -49,3 +49,6 @@ aws configure list
 * Set permissions
 
 [<img src="https://i.imgur.com/XMSC7Jo.png">](https://i.imgur.com/XMSC7Jo.png)
+
+* Add tags (optional)
+  * Next
