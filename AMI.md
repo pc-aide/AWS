@@ -3,6 +3,7 @@
 ## Acronym
 * AMI - Amazon Machine Image
 * Cfg - Configuration
+* gp - General purpose
 
 ## Free tier eligible
 ### Windows
