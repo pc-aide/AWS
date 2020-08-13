@@ -7,4 +7,4 @@
 ### Windows
 1) Microsoft Windows Server 2019 Base
 
-[<img src="https://i.imgur.com/K72jxZm.png>](https://i.imgur.com/K72jxZm.png)
+[<img src="https://i.imgur.com/K72jxZm.png">](https://i.imgur.com/K72jxZm.png)
