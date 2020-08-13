@@ -191,6 +191,9 @@ umount /mnt
 
 ## Simple Storage Service (S3)
 * AWS Console\Services\S3
+
+[<img src="https://i.imgur.com/iIMF2sW.png">](https://i.imgur.com/iIMF2sW.png)
+
    * What is S3 ?
       * Managed cloud storage service
       * Store virtually unlimited number of objects
@@ -201,7 +204,7 @@ umount /mnt
 
 [<img src="https://i.imgur.com/9RkCQTQ.png">](https://i.imgur.com/9RkCQTQ.png)
 
-[<img src="https://i.imgur.com/iIMF2sW.png">](https://i.imgur.com/iIMF2sW.png)
+
 
 * Create bucket
 
