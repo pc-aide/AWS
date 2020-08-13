@@ -64,6 +64,6 @@ aws configure list
 ### configure profile
 ````Bash
 # Enter : default choice
-aws configure profile ubuntu
+aws configure 
 ````
-[<img src="https://i.imgur.com/07DKpYd.png">](https://i.imgur.com/07DKpYd.png)
+[<img src="https://i.imgur.com/z8atKTr.png">](https://i.imgur.com/z8atKTr.png)
