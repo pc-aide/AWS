@@ -177,3 +177,9 @@ mkdir folder
 mv test.txt folder/
 ````
 [<img src="https://i.imgur.com/VrP1HLM.png">](https://i.imgur.com/VrP1HLM.png)
+
+* umount
+````Bash
+cd
+umount /mnt
+````
