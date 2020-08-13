@@ -183,3 +183,6 @@ mv test.txt folder/
 cd
 umount /mnt
 ````
+* Detach Volume
+
+[<img src="https://i.imgur.com/i6K2ndT.png">](https://i.imgur.com/i6K2ndT.png)
