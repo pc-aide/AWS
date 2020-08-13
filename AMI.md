@@ -31,3 +31,7 @@
 5) Security Group
 
 [<img src="https://i.imgur.com/fqM2esS.png">](https://i.imgur.com/fqM2esS.png)
+
+6) Key pair
+
+[<img src="https://i.imgur.com/UkyXg5c.png">](https://i.imgur.com/UkyXg5c.png)
