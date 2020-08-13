@@ -238,3 +238,6 @@ cat demot.txt
 ````
 [<img src="https://i.imgur.com/k4gTZ2o.png">](https://i.imgur.com/k4gTZ2o.png)
 * Goal : To Copy this file over to my S3 bucket
+* Download Universal Command Line Envrionment for AWS (awscli)
+
+[<img src="https://i.imgur.com/LMcZ5c5.png">](https://i.imgur.com/LMcZ5c5.png)
