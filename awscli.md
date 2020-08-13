@@ -60,3 +60,10 @@ aws configure list
 * Publick key + Secret Key
 
 [<img src="https://i.imgur.com/20Wwir8.png">](https://i.imgur.com/20Wwir8.png)
+
+### configure profile
+````Bash
+# Enter : default choice
+aws configure profile ubuntu
+````
+[<img src="https://i.imgur.com/07DKpYd.png">](https://i.imgur.com/07DKpYd.png)
