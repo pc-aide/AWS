@@ -237,3 +237,4 @@ umount /mnt
 cat demot.txt
 ````
 [<img src="https://i.imgur.com/k4gTZ2o.png">](https://i.imgur.com/k4gTZ2o.png)
+* Goal : To Copy this file over to my S3 bucket
