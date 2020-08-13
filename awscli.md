@@ -61,9 +61,14 @@ aws configure list
 
 [<img src="https://i.imgur.com/20Wwir8.png">](https://i.imgur.com/20Wwir8.png)
 
-### configure profile
+### Configure profile
 ````Bash
 # Connect to your Server.Amazon(IMA)
 aws configure --profile User-demo-s3
 ````
 [<img src="https://i.imgur.com/9MU8cAg.png">](https://i.imgur.com/9MU8cAg.png)
+````Bash
+# ls --list segment
+aws s3 ls
+````
+[<img src="https://i.imgur.com/hdL5gR8.png">](https://i.imgur.com/hdL5gR8.png)
