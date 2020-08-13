@@ -35,3 +35,7 @@
 6) Key pair (*.pem)
 
 [<img src="https://i.imgur.com/UkyXg5c.png">](https://i.imgur.com/UkyXg5c.png)
+
+## Instances
+
+[<img src="https://i.imgur.com/M0kZQRa.png">](https://i.imgur.com/M0kZQRa.png)
