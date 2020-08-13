@@ -232,3 +232,8 @@ umount /mnt
       
 [<img src="https://i.imgur.com/RDtshAe.png">](https://i.imgur.com/RDtshAe.png)
 [<img src="https://i.imgur.com/6GiQsXB.png">](https://i.imgur.com/6GiQsXB.png)
+
+````Bach
+cat demot.txt
+````
+[<img src="https://i.imgur.com/k4gTZ2o.png">](https://i.imgur.com/k4gTZ2o.png)
