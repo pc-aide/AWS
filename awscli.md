@@ -1,5 +1,8 @@
 # awscli
 
+## Acronym
+* IAM - Manage access to AWS resources
+
 ## Doc
 * https://aws.amazon.com/premiumsupport/knowledge-center/s3-locate-credentials-error/
 
@@ -32,3 +35,8 @@ aws s3 cp demot.txt s3://bucket-dmo-01/demot.txt
 aws configure list
 ````
 [<img src="https://i.imgur.com/Mu4zqLV.png">](https://i.imgur.com/Mu4zqLV.png)
+
+### IAM
+* AWS Console\services\iam
+* Tips : Activate MFA on your root account
+[<img src="https://i.imgur.com/LjhLSVT.png">](https://i.imgur.com/LjhLSVT.png)
