@@ -7,5 +7,6 @@
    * Elasticity
    * Economy
    * Expediency
+* [Answer](https://i.imgur.com/Ely40AQ.png)
 
 2) 
