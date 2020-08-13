@@ -9,4 +9,13 @@
    * Expediency
 * [Answer](https://i.imgur.com/Ely40AQ.png)
 
-2) 
+2) What are the benefits of using Amazon EC2 instances compared to 
+   physical servers in your infrastructure? (Select two.)
+   * Pay only for the capacity you use
+   * The ability to hot-add additional RAM
+   * Resizable
+   * Automatic automated backups
+   * The ability to have different storage requirements
+* Answer
+
+3) 
