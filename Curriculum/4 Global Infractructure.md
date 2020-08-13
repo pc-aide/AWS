@@ -3,6 +3,9 @@
 ## Acronym
 * CDN - Content Delivery Network
 
+## Doc
+* https://aws.amazon.com/about-aws/global-infrastructure/
+
 ## Topology
 1) Regions
 	* Host : Availability Zone
@@ -16,7 +19,6 @@
 	* deploy resource -> multiple regions
     * to provide a consisten experience globally
 * S3 or EC2 available in all regions
-* Doc : https://aws.amazon.com/about-aws/global-infrastructure/
 
 2) Availability Zones
 * Collection of data centers in a specific region
