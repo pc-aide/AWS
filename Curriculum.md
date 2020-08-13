@@ -157,3 +157,7 @@
 * New disk
 
 [<img src="https://i.imgur.com/MvwJwFt.png">](https://i.imgur.com/MvwJwFt.png)
+
+* Format
+
+[<img src="https://i.imgur.com/yX69lgN.png">](https://i.imgur.com/yX69lgN.png)
