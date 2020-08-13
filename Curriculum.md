@@ -1,6 +1,7 @@
 # Curriculum
 
 ## Acronym
+* SDK - Software Development Kit
 * CLI - Command Line Interface
 * S3 - Scalable Storage in the Cloud
 * EIP - Elastic IP Address
