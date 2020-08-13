@@ -1,4 +1,7 @@
-# AWS Global Infrastructure
+# Global Infrastructure
+
+## Acronym
+* CDN - Content Delivery Network
 
 ## Topology
 1) Regions
