@@ -21,3 +21,7 @@
    * Cloud Wacth to measure EC2 reource requirements
       * Wednesday requiring the most capacity
       * Saturday the least
+
+* Unused Capacity
+
+[<img src="https://i.imgur.com/Y0a53sq.png">](https://i.imgur.com/Y0a53sq.png)
