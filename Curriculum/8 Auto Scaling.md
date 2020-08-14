@@ -14,5 +14,6 @@
 [<img src="https://i.imgur.com/rjpzThV.png">](https://i.imgur.com/rjpzThV.png)
 
 ## Capacity Management
-* Default
+* Default (no Auto Scaling)
+
 [<img src="https://i.imgur.com/orSnsMK.png">](https://i.imgur.com/orSnsMK.png)
