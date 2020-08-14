@@ -85,3 +85,7 @@
 * Create an Auto Scaling group
 
 [<img src="https://i.imgur.com/GM9GRUH.png">](https://i.imgur.com/GM9GRUH.png)
+
+* Create a launch configuration
+
+[<img src="https://i.imgur.com/9LAYo6c.png">](https://i.imgur.com/9LAYo6c.png)
