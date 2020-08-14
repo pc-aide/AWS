@@ -47,12 +47,14 @@
 
 ## 3 Components required for auto scaling
 1) Lauch Configuration
+  * What?
     * AMI
     * Instance type
     * Security Groups
     * Roles
 
 2) Auto Scaling Group
+  * Where?
     * VPC & Subnet(s)
     * Load balancer
     * Minimum instances
