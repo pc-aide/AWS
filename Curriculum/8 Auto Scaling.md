@@ -25,3 +25,5 @@
 * Unused Capacity
 
 [<img src="https://i.imgur.com/Y0a53sq.png">](https://i.imgur.com/Y0a53sq.png)
+
+    * Our costs are not optimized
