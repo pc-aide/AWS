@@ -12,3 +12,7 @@
 
 ## Monitoring Resource Performance
 [<img src="https://i.imgur.com/rjpzThV.png">](https://i.imgur.com/rjpzThV.png)
+
+## Capacity Management
+* Default
+[<img src="https://i.imgur.com/orSnsMK.png">](https://i.imgur.com/orSnsMK.png)
