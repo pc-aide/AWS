@@ -53,5 +53,15 @@
     * Roles
 
 2) Auto Scaling Group
-
+    * VPC & Subnet(s)
+    * Load balancer
+    * Minimum instances
+    * Maximum instance
+    * Desired capacity
+    
 3) Auto Scaling Policy
+  * When?
+    * Scheduled
+    * On-demand
+    * Scale-out policy
+    * Scale-in policy
