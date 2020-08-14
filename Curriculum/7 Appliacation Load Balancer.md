@@ -9,6 +9,14 @@
     using the protocol & port that you configure. The rules that
     you define for a listener determine how the load balancer
     routes request to the targets in one or more target groups.
+* Target
+  * A target is a destination for traffic based on the established
+    listener rules.
+* Target Group
+  * Each target group routes requests to one or more registered
+    targets using the protocol & port number specified.
+    A target can be registered with multiple target groups.
+    Health checks can be configured on a per target group basis.
 
 ## Ports 
 * 80 - HTTP
