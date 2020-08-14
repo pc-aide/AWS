@@ -67,3 +67,6 @@
     * On-demand
     * Scale-out policy
     * Scale-in policy
+
+## Dynamic Auto Scaling
+[<img src="https://i.imgur.com/DWpmYGb.png">](https://i.imgur.com/DWpmYGb.png)
