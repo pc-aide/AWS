@@ -3,6 +3,7 @@
 ## Acronym
 * EC2 - Elastic Compute Cloud
 * VPC - Virtual Private Cloud
+* AMI - Amazon Machine Image
 
 ## What is Auto Scaling?
 * Auto Scaling helps you ensure that you have the correct
@@ -43,3 +44,14 @@
 
 ## Scaling Out & Scaling In
 [<img src="https://i.imgur.com/NCSONHz.png">](https://i.imgur.com/NCSONHz.png)
+
+## 3 Components required for auto scaling
+1) Lauch Configuration
+  * AMI
+  * Instance type
+  * Security Groups
+  * Roles
+
+2) Auto Scaling Group
+
+3) Auto Scaling Policy
