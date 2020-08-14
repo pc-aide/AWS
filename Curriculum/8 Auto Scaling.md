@@ -69,4 +69,4 @@
     * Scale-in policy
 
 ## Dynamic Auto Scaling
-[<img src="https://i.imgur.com/DWpmYGb.png">](https://i.imgur.com/DWpmYGb.png)
+[<img src="https://i.imgur.com/03RDtqQ.png">](https://i.imgur.com/03RDtqQ.png)
