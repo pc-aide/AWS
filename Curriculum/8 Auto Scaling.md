@@ -17,4 +17,5 @@
 * Default (no Auto Scaling)
 
 [<img src="https://i.imgur.com/orSnsMK.png">](https://i.imgur.com/orSnsMK.png)
+
     * Cloud Wacth to measure EC2 reource requirements
