@@ -70,3 +70,6 @@
 
 ## Dynamic Auto Scaling
 [<img src="https://i.imgur.com/03RDtqQ.png">](https://i.imgur.com/03RDtqQ.png)
+* CloudWatch\Create Alarm triggers
+    * Auto Scaling Event
+    * Scale Out or Scale In -> EC2 instances in the environment
