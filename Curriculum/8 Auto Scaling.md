@@ -2,6 +2,7 @@
 
 ## Acronym
 * EC2 - Elastic Compute Cloud
+* VPC - Virtual Private Cloud
 
 ## What is Auto Scaling?
 * Auto Scaling helps you ensure that you have the correct
