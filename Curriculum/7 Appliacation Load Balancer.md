@@ -28,9 +28,13 @@
 
 ## Features
 * Supported Protocols
+  * HTTP, HTTPS, HTTP/2, & WebSockets
 * CloudWatch Metrics
+  * addtitional load balance metrics & Target Group metric dimension
 * Access Logs
+  * Ability to see connection details for WebSocket connections
 * Health Checks
+  * Insight into target & application
 
 ## Addtional Features
 [<img src="https://i.imgur.com/Nt57Osy.png">](https://i.imgur.com/Nt57Osy.png)
