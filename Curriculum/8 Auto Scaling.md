@@ -40,3 +40,6 @@
 [<img src="https://i.imgur.com/c8Z6nm6.png">](https://i.imgur.com/c8Z6nm6.png)
 * This allows you to maintain performance
 * Minimize cost
+
+## Scaling Out & Scaling In
+[<img src="https://i.imgur.com/NCSONHz.png">](https://i.imgur.com/NCSONHz.png)
