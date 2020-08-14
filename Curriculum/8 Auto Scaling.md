@@ -81,3 +81,7 @@
 * AWS Console\EC2\Auto Scaling Groups
 
 [<img src="https://i.imgur.com/0VI8Xia.png">](https://i.imgur.com/0VI8Xia.png)
+
+* Create an Auto Scaling group
+
+[<img src="https://i.imgur.com/GM9GRUH.png">](https://i.imgur.com/GM9GRUH.png)
