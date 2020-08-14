@@ -27,3 +27,7 @@
 [<img src="https://i.imgur.com/Y0a53sq.png">](https://i.imgur.com/Y0a53sq.png)
 
    * Our Costs are not optimized
+
+* Over Capacity
+
+[<img src="https://i.imgur.com/qYbrU4T.png">](https://i.imgur.com/qYbrU4T.png)
