@@ -18,4 +18,4 @@
 
 [<img src="https://i.imgur.com/orSnsMK.png">](https://i.imgur.com/orSnsMK.png)
 
-    * Cloud Wacth to measure EC2 reource requirements
+   * Cloud Wacth to measure EC2 reource requirements
