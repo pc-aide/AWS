@@ -35,6 +35,10 @@
   * Ability to see connection details for WebSocket connections
 * Health Checks
   * Insight into target & application
+    * E.g
+      * Check
+        * Protocol : HTTP
+        * Path : /test.html
 
 ## Addtional Features
 [<img src="https://i.imgur.com/kXctbMi.png">](https://i.imgur.com/kXctbMi.png)
