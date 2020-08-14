@@ -14,7 +14,7 @@
 [<img src="https://i.imgur.com/rjpzThV.png">](https://i.imgur.com/rjpzThV.png)
 
 ## Capacity Management
-* Default (no Auto Scaling)
+### Default (no Auto Scaling)
 
 [<img src="https://i.imgur.com/orSnsMK.png">](https://i.imgur.com/orSnsMK.png)
 
@@ -22,13 +22,13 @@
       * Wednesday requiring the most capacity
       * Saturday the least
 
-* Unused Capacity
+### Unused Capacity
 
 [<img src="https://i.imgur.com/Y0a53sq.png">](https://i.imgur.com/Y0a53sq.png)
 
    * Our Costs are not optimized
 
 
-* Over Capacity
+### Over Capacity
 
 [<img src="https://i.imgur.com/qYbrU4T.png">](https://i.imgur.com/qYbrU4T.png)
