@@ -19,4 +19,5 @@
 [<img src="https://i.imgur.com/orSnsMK.png">](https://i.imgur.com/orSnsMK.png)
 
    * Cloud Wacth to measure EC2 reource requirements
-      * The resource requirements vary with Wednesday requiring the most capacity
+      * Wednesday requiring the most capacity
+      * Saturday the least
