@@ -32,4 +32,5 @@ as multiple, isolated location within one geographic area?
       * A VPC acts as a physical firewall for your cloud infrastructure
       * Each AWS account can have only one VPC associated with it
       * You can create many subnets in a VPC, though fewre is recommended to limit complexity
+
 *[Answer](https://i.imgur.com/KG1yNNT.png)
