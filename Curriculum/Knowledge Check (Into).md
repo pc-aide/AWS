@@ -33,3 +33,12 @@ as multiple, isolated location within one geographic area?
       * Each AWS account can have only one VPC associated with it
       * You can create many subnets in a VPC, though fewre is recommended to limit complexity
 * [Answer](https://i.imgur.com/KG1yNNT.png)
+
+5) You have an application composed of individual services. You
+   need to route a request to a service based on the content
+   of the request. Which service should you use?
+      * EC2 Auto Scaling
+      * Elastic Load Balancing
+      * AWS CloudTrail
+      * Amazon Route 53
+* [Answer](https://i.imgur.com/jAOIgSy.png)
