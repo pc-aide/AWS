@@ -9,3 +9,6 @@
   number of Amazon EC2 instances available to handle the load
   for your application
     * Minimizing Cost
+
+## Monitoring Resource Performance
+[<img src="https://i.imgur.com/rjpzThV.png">](https://i.imgur.com/rjpzThV.png)
