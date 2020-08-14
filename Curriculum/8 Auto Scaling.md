@@ -37,4 +37,4 @@
   * Our application cloud under perform or potentially even time-out for the user
 
 ### Auto Scaling
-[<img src="https://i.imgur.com/gLfvokY.png">](https://i.imgur.com/gLfvokY.png)
+[<img src="https://i.imgur.com/c8Z6nm6.png">](https://i.imgur.com/c8Z6nm6.png)
