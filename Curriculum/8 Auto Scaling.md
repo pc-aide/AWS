@@ -47,10 +47,10 @@
 
 ## 3 Components required for auto scaling
 1) Lauch Configuration
-  * AMI
-  * Instance type
-  * Security Groups
-  * Roles
+    * AMI
+    * Instance type
+    * Security Groups
+    * Roles
 
 2) Auto Scaling Group
 
