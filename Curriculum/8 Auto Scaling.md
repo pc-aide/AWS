@@ -73,3 +73,6 @@
 * CloudWatch\Create Alarm triggers
     * Auto Scaling Event
     * Scale Out or Scale In -> EC2 instances in the environment
+
+## CloudWatch Alarm for Auto Scaling
+[<img src="https://i.imgur.com/BrkESs0.png">](https://i.imgur.com/BrkESs0.png)
