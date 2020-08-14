@@ -76,3 +76,8 @@
 
 ## CloudWatch Alarm for Auto Scaling
 [<img src="https://i.imgur.com/BrkESs0.png">](https://i.imgur.com/BrkESs0.png)
+
+## E.g.
+* AWS Console\EC2\Auto Scaling Groups
+
+[<img src="https://i.imgur.com/0VI8Xia.png">](https://i.imgur.com/0VI8Xia.png)
