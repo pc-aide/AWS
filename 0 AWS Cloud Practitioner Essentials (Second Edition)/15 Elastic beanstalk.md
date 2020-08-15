@@ -14,3 +14,18 @@
    * Update your application
    * Access server log files
    * Enable HTTPS on load balancer
+
+5) Supports a large range of platforms
+   * Packer Builder
+   * Single Container, Multicontainer, or Preconfigured Docker
+   * Go
+   * Java SE
+   * Java with Tomcat
+   * .NET on Windows Server with IIS
+   * Node.js
+   * PHP
+   * Python
+   * Ruby
+   
+## Components
+[<img src="https://i.imgur.com/6EMDgrJ.png">](https://i.imgur.com/6EMDgrJ.png)
