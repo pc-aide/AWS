@@ -8,6 +8,7 @@
 
 ## Doc
 * [What is Amazon SNS?](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
+* [How do I avoid the error "Unable to validate the following destination configurations" when using S3 event notifications in AWS CloudFormation?](https://aws.amazon.com/premiumsupport/knowledge-center/unable-validate-destination-s3/)
 
 ## Acronym
 * SNS - Simple Notification Service
