@@ -1,6 +1,9 @@
 # Elastic beanstalk
 
-# Doc
+## Emulator
+* [php sandbox](https://sandbox.onlinephpfunctions.com/)
+
+## Doc
 * [AWS Elastic Beanstalk Documentation](https://docs.aws.amazon.com/elastic-beanstalk/index.html)
 
 ## sample-code
