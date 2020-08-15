@@ -11,3 +11,6 @@
    * Choose your instance type
    * Choose your database
    * Set & adjust Auto Scaling
+   * Update your application
+   * Access server log files
+   * Enable HTTPS on load balancer
