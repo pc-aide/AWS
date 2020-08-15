@@ -1,5 +1,9 @@
 # Lambda
 
+## Doc
+* [What is AWS Lambda?](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html?icmpid=docs_lambda_help)
+* [Managing AWS Lambda functions](https://docs.aws.amazon.com/lambda/latest/dg/lambda-functions.html?icmpid=docs_lambda_help)
+
 ## What is Lambda?
 * Lambda is a compute service that lets you run code without provisioning
   or managing servers
