@@ -1,5 +1,8 @@
 # Elastic beanstalk
 
+# Doc
+* [AWS Elastic Beanstalk Documentation](https://docs.aws.amazon.com/elastic-beanstalk/index.html)
+
 ## Introduction
 [<img src="https://i.imgur.com/1wo0ijX.png">](https://i.imgur.com/1wo0ijX.png)
 
@@ -32,3 +35,12 @@
 
 ## Deployment & Updates
 [<img src="https://i.imgur.com/L6GYZ92.png">](https://i.imgur.com/L6GYZ92.png)
+
+## E.g
+* file zip
+    * application.py
+    * cron.yaml
+    
+* AWS Console\Service\Elastic beanstalk
+
+[<img src="https://i.imgur.com/ZgNw81l.png">]
