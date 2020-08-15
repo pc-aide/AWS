@@ -48,3 +48,4 @@
 * Create an application
 
 [<img src="https://i.imgur.com/G86O11b.png">](https://i.imgur.com/G86O11b.png)
+[<img src="https://i.imgur.com/wxqV59y.png">](https://i.imgur.com/wxqV59y.png)
