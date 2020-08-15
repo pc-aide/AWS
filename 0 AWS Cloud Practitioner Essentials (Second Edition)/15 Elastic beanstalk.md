@@ -44,3 +44,7 @@
 * AWS Console\Service\Elastic beanstalk
 
 [<img src="https://i.imgur.com/ZgNw81l.png">](https://i.imgur.com/ZgNw81l.png)
+
+* Create an application
+
+[<img src="https://i.imgur.com/G86O11b.png">](https://i.imgur.com/G86O11b.png)
