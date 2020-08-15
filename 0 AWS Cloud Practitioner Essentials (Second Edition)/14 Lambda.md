@@ -54,3 +54,6 @@
 
 ## IoT Backeds
 [<img src="https://i.imgur.com/sSlwmqj.png">](https://i.imgur.com/sSlwmqj.png)
+
+## Mobile Backeds
+[<img src="https://i.imgur.com/INcxd6W.png">](https://i.imgur.com/INcxd6W.png)
