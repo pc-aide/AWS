@@ -47,4 +47,4 @@
 
 * S3\<BucketName\>\Properties\Event\Add noti.
 
-[<img src="https://i.imgur.com/pugxrcC.png">](https://i.imgur.com/pugxrcC.png)
+[<img src="https://i.imgur.com/RXh5zAT.png">](https://i.imgur.com/RXh5zAT.png)
