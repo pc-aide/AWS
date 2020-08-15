@@ -27,6 +27,11 @@
 * Sub-second metering
 * Multiple languages supported
 
+## How does work?
+* No Servers to Manage
+* Continuous Scaling
+* Subsecond Metering
+
 ## E.g
 * AWS\Services\Lambda\Create function
 
