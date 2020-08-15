@@ -1,4 +1,4 @@
-# Knowledge Check (Intro)
+# Knowledge Check
 
 ## Questions
 1) Which of the folling terms refers to the power to scale computing
