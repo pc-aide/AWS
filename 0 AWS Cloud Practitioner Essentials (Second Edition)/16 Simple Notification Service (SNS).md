@@ -4,7 +4,7 @@
 ### New Event(S3)
 * Unable to validate the following destination configurations. Permissions on
   the destination topic do not allow S3 to publish notifications from this bucket.
-  (arn:aws:sns:us-east-2:739648617573:SNSDemo01)
+  (arn:aws:sns:us-east-2:11111111111:SNSDemo01)
 
 ## Doc
 * [What is Amazon SNS?](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
