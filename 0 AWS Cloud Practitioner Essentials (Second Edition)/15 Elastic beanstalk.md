@@ -3,6 +3,20 @@
 # Doc
 * [AWS Elastic Beanstalk Documentation](https://docs.aws.amazon.com/elastic-beanstalk/index.html)
 
+## sample-code
+````html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Developer News</h1>
+
+<?php echo "The Best PHP Examples"; ?>
+
+</body>
+</html> 
+````
+
 ## Introduction
 [<img src="https://i.imgur.com/1wo0ijX.png">](https://i.imgur.com/1wo0ijX.png)
 
