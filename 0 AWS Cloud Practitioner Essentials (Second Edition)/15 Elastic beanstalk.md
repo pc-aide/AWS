@@ -29,3 +29,6 @@
    
 ## Components
 [<img src="https://i.imgur.com/6EMDgrJ.png">](https://i.imgur.com/6EMDgrJ.png)
+
+## Deployment & Updates
+[<img src="https://i.imgur.com/L6GYZ92.png">](https://i.imgur.com/L6GYZ92.png)
