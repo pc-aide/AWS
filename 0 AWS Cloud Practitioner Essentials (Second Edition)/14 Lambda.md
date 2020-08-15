@@ -48,3 +48,6 @@
 
 ## Extract, Transform, Load
 [<img src="https://i.imgur.com/CxuXAJL.png">](https://i.imgur.com/CxuXAJL.png)
+
+## IoT Backeds
+[<img src="https://i.imgur.com/sSlwmqj.png">](https://i.imgur.com/sSlwmqj.png)
