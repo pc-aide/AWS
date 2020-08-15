@@ -8,6 +8,6 @@
 2) Allows quick deployment of your applications
 3) Reduces management complexity
 4) Keeps control in your hands
-  * Choose your instance type
-  * Choose your database
-  * Set & adjust Auto Scaling
+   * Choose your instance type
+   * Choose your database
+   * Set & adjust Auto Scaling
