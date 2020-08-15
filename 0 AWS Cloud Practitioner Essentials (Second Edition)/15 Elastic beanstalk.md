@@ -43,4 +43,4 @@
     
 * AWS Console\Service\Elastic beanstalk
 
-[<img src="https://i.imgur.com/ZgNw81l.png">]
+[<img src="https://i.imgur.com/ZgNw81l.png">](https://i.imgur.com/ZgNw81l.png)
