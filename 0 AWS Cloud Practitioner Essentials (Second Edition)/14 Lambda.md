@@ -1,5 +1,8 @@
 # Lambda
 
+## Acronym
+* IoT - Internet of Things
+
 ## Terminology
 * Runtime
     * A runtime is a version of programming language or framework that you can
