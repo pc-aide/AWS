@@ -56,3 +56,10 @@ as multiple, isolated location within one geographic area?
       * Provides topics for high-throughput, push-based, many-to-many messaging
       * Provide you with data & actionable insights to monitor your applications
 * [Answer](https://i.imgur.com/4WARE6I.png)
+
+8) Which of the following is NOT a pillar of the AWS Well-Architected Framework?
+      * Cost Optimization
+      * Operational Excellence
+      * Persistence
+      * Security
+* [Answer](https://i.imgur.com/LEgxO0F.png)
