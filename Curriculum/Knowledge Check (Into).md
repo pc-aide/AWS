@@ -42,3 +42,10 @@ as multiple, isolated location within one geographic area?
       * AWS CloudTrail
       * Amazon Route 53
 * [Answer](https://i.imgur.com/jAOIgSy.png)
+
+6) What is the first step in getting started with AWS Lambda?
+      * Deploy an OS image
+      * Pay for estimated compute time
+      * Upload your code
+      * Provision EC2 instances
+* [Answer](https://i.imgur.com/c98Afia.png)
