@@ -106,4 +106,4 @@ mke2fs -t ext4 /dev/xvdb
 ````Bash
 mount /dev/xvdb /mnt
 ````
-[<img src="https://i.imgur.com/wZBM6eR.png>](https://i.imgur.com/wZBM6eR.png)
+[<img src="https://i.imgur.com/wZBM6eR.png">](https://i.imgur.com/wZBM6eR.png)
