@@ -68,6 +68,8 @@
 
 [<img src="https://i.imgur.com/qlaHJql.png">](https://i.imgur.com/qlaHJql.png)
 
+### New Volume
+
 * Create Volume
  * Volume type
  * Size (GiB)
@@ -82,3 +84,8 @@
 * Name (object)
 
 [<img src="https://i.imgur.com/teRWXNr.png">](https://i.imgur.com/teRWXNr.png)
+
+### Attach Volume
+* Action\Attach Volume
+
+[<img src="https://i.imgur.com/XhuosWi.png">](https://i.imgur.com/XhuosWi.png)
