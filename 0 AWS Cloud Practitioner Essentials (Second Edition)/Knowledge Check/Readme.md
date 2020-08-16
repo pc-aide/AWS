@@ -63,3 +63,10 @@ as multiple, isolated location within one geographic area?
       * Persistence
       * Security
 * [Answer](https://i.imgur.com/LEgxO0F.png)
+
+9) Your web application requires temporary authorization to use AWS service. Which IAM entity should be used?
+      * User
+      * Role
+      * MFA
+      * Group
+* [Answer](https://i.imgur.com/iv5JwZo.png)
