@@ -1,5 +1,8 @@
 # Support Plans
 
+## Doc
+* aws.amazon.com/premiumsupport/plans
+
 ## Acronym
 * TAM - Technical Account Manager
 
