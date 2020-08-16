@@ -99,3 +99,5 @@
 ````Bash
 mke2fs -t ext4 /dev/xvdb
 ````
+
+[<img src="https://i.imgur.com/7SL9NGD.png">](https://i.imgur.com/7SL9NGD.png)
