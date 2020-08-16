@@ -94,3 +94,8 @@
 
 ### New disk (not FileSystem)
 [<img src="https://i.imgur.com/W6lFY9k.png">](https://i.imgur.com/W6lFY9k.png)
+
+* ext4
+````Bash
+mke2fs -t ext4 /dev/xvdb
+````
