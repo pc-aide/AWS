@@ -7,7 +7,7 @@
 ## Teminology
 * IOPS
   * IOPS 100/3000
-   * Baseline of 3 IOPS per GiB with a min of 100 IOPS, bustable to 3000 IOPS
+    * Baseline of 3 IOPS per GiB with a min of 100 IOPS, bustable to 3000 IOPS
 
 ## Acronym
 * EBS - Elastic Block Store
