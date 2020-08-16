@@ -118,3 +118,6 @@ mount /dev/xvdb /mnt
 umount /mnt
 ````
 [<img src="https://i.imgur.com/Rc1rqbe.png">](https://i.imgur.com/Rc1rqbe.png)
+
+#### Detach
+[<img src="https://i.imgur.com/F8xd9xo.png">](https://i.imgur.com/F8xd9xo.png)
