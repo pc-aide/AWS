@@ -123,3 +123,11 @@ umount /mnt
 [<img src="https://i.imgur.com/F8xd9xo.png">](https://i.imgur.com/F8xd9xo.png)
 
 [<img src="https://i.imgur.com/LX3QGKu.png">](https://i.imgur.com/LX3QGKu.png)
+
+* Working
+
+[<img src="https://i.imgur.com/UA3bACy.png">](https://i.imgur.com/UA3bACy.png)
+
+* Available
+
+[<img src="https://i.imgur.com/p2YJYQ3.png">](https://i.imgur.com/p2YJYQ3.png)
