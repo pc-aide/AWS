@@ -70,3 +70,10 @@ as multiple, isolated location within one geographic area?
       * MFA
       * Group
 * [Answer](https://i.imgur.com/iv5JwZo.png)
+
+10) Which of the following is a managed Distributed Denial of Service (DDoS) protection service?
+      * AWS Trusted Advisor
+      * AWS Identity & Access Management (IAM)
+      * Amazon Inspector
+      * AWS Shield
+* [Answer](https://i.imgur.com/9O3YkPL.png)
