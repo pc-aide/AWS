@@ -124,10 +124,10 @@ umount /mnt
 
 [<img src="https://i.imgur.com/LX3QGKu.png">](https://i.imgur.com/LX3QGKu.png)
 
-* Working
+* State: in-use
 
 [<img src="https://i.imgur.com/UA3bACy.png">](https://i.imgur.com/UA3bACy.png)
 
-* Available
+* State: available
 
 [<img src="https://i.imgur.com/p2YJYQ3.png">](https://i.imgur.com/p2YJYQ3.png)
