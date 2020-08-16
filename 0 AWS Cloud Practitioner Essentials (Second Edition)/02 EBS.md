@@ -111,3 +111,10 @@ mount /dev/xvdb /mnt
 [<img src="https://i.imgur.com/3krjGSQ.png">](https://i.imgur.com/3krjGSQ.png)
 
 [<img src="https://i.imgur.com/P76Vnhi.png">](https://i.imgur.com/P76Vnhi.png)
+
+
+#### Umount
+````Bash
+umount /mnt
+````
+[<img src="https://i.imgur.com/Rc1rqbe.png">](https://i.imgur.com/Rc1rqbe.png)
