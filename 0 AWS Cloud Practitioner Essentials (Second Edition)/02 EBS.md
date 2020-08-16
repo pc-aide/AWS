@@ -92,5 +92,5 @@
 
 [<img src="https://i.imgur.com/5iBA906.png">](https://i.imgur.com/5iBA906.png)
 
-### New disk (not mounted)
-[<img src="https://i.imgur.com/1fscSWl.png">](https://i.imgur.com/1fscSWl.png)
+### New disk (not FileSystem)
+[<img src="https://i.imgur.com/W6lFY9k.png">](https://i.imgur.com/W6lFY9k.png)
