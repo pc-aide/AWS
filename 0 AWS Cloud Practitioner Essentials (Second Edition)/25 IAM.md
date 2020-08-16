@@ -23,6 +23,6 @@
   * Scheduled (e.g. Monday)
   * E.g.
     * Deny EC2.production to stop
-    * root
+    * root (MFA)
     
-[<img src="https://i.imgur.com/RgcQMuK.png">](https://i.imgur.com/RgcQMuK.png)
+[<img src="https://i.imgur.com/0J2gRnc.png">](https://i.imgur.com/0J2gRnc.png)
