@@ -77,4 +77,4 @@
  * Encryption
  * Add tag (Optional)
  
- [img src="https://i.imgur.com/cUzcnRJ.png">](https://i.imgur.com/cUzcnRJ.png)
+[img src="https://i.imgur.com/cUzcnRJ.png">](https://i.imgur.com/cUzcnRJ.png)
