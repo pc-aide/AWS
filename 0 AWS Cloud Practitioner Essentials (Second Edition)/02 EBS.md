@@ -131,3 +131,7 @@ umount /mnt
 * State: available
 
 [<img src="https://i.imgur.com/p2YJYQ3.png">](https://i.imgur.com/p2YJYQ3.png)
+
+* Wrap-up
+ * Tag Name : important
+  * you can drill down your billing per tags
