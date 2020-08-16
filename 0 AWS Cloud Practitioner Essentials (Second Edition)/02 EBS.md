@@ -119,5 +119,7 @@ umount /mnt
 ````
 [<img src="https://i.imgur.com/Rc1rqbe.png">](https://i.imgur.com/Rc1rqbe.png)
 
-#### Detach
+#### Detach Volume
 [<img src="https://i.imgur.com/F8xd9xo.png">](https://i.imgur.com/F8xd9xo.png)
+
+[<img src="https://i.imgur.com/LX3QGKu.png">](https://i.imgur.com/LX3QGKu.png)
