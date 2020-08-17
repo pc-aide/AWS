@@ -16,7 +16,7 @@
 	* dev resources -> 1 region
     * primary customer -> different region
 * E.g.02
-	* deploy resource -> multiple regions
+	* Deploy resource -> multiple regions
     * to provide a consisten experience globally
 * S3 or EC2 available in all regions
 
