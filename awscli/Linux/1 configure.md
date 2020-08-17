@@ -11,6 +11,9 @@
 
 [<img src="https://i.imgur.com/NxScs6K.png">](https://i.imgur.com/NxScs6K.png)
 
+## IAM
+* AWS Console\IAM to create an user (key public & secret)
+
 ## switch
 * list : list profile (IAM) + access_key + secret_key + region
 ````
