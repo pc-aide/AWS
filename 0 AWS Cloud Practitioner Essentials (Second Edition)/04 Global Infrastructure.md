@@ -22,7 +22,7 @@
     * to provide a consisten experience globally
 * S3 or EC2 available in all regions
 
-[<img src="https://i.imgur.com/FWHu0gb.png">](https://i.imgur.com/FWHu0gb.png)
+[<img src="https://i.imgur.com/Cqjihgz.png">](https://i.imgur.com/Cqjihgz.png)
 
 * List
 	* US East (N. Virginia) | us-east-1
