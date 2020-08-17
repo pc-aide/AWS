@@ -4,7 +4,8 @@
 * CDN - Content Delivery Network
 
 ## Doc
-* https://aws.amazon.com/about-aws/global-infrastructure/
+* [Global-Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
+* [Regions, Availability Zones, and Local Zones](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html)
 
 ## Topology
 1) Regions
