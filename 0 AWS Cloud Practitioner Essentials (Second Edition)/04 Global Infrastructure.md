@@ -52,6 +52,10 @@
     * provisioning your data across multiple Availability Zones
 
 3) Edge locatlions
-* host a content delivery network, or CDN (CloudFront)
-	* CloudFront
-    	* To deliver content to your customers
+* An Edge location is a datacenter owned by a trusted partnet of AWS whci has a **direct connection**
+  to the AWS network
+* Theses location serve requests for **CloudFront** & **Route 53**. Requests goint ot either of 
+  these services will be routed to the nearest edge location automatically.
+* **S3 Transfer Acceleration** traffic & **API Gateway** endpoint traffic also use the AWS Edge
+  Network.
+* This allows for **low latency** no matter where the end user is geographically located
