@@ -8,7 +8,8 @@
 * 0.0.0.0, ::/0 - all IP addresses (allow they entire internet)
 
 ## Acronym
-* sg - security group
+* sg - Security Group
+* VPC - Virtual Private Cloud
 
 ## Doc
 * [EC2 Security groups for Linux instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html?icmpid=docs_ec2_console#creating-security-group)
@@ -22,6 +23,17 @@
 [<img src="https://i.imgur.com/xtDozF6.png">](https://i.imgur.com/xtDozF6.png)
 
 ### Create Security group
+#### 1st step (ObjectName + VPC)
+1) Name
+2) Description
+3) VPC
+
+#### 2th step (Inbound & Outbount)
+4) Inbound
+
+	* Type
+		* HTTP, SSH, ICMPv4
+
 
 [<img src="https://i.imgur.com/zf2ZKdt.png">](https://i.imgur.com/zf2ZKdt.png)
 
