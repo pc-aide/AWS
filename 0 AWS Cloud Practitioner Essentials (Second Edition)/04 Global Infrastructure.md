@@ -2,6 +2,7 @@
 
 ## Acronym
 * CDN - Content Delivery Network
+* AZ - Availability Zone
 
 ## Doc
 * [Global-Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
@@ -59,3 +60,8 @@
 * **S3 Transfer Acceleration** traffic & **API Gateway** endpoint traffic also use the AWS Edge
   Network.
 * This allows for **low latency** no matter where the end user is geographically located
+
+## Visio
+* Regions & AZ
+
+[<img src="https://i.imgur.com/J5N89Yd.png">](https://i.imgur.com/J5N89Yd.png)
