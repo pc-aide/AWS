@@ -54,4 +54,4 @@
 [<img src="https://i.imgur.com/JlSIMpA.png">](https://i.imgur.com/JlSIMpA.png)
 
 ## E.g
-* AWS Console\EC2\Intances
+* AWS Console\EC2\Load Balancers
