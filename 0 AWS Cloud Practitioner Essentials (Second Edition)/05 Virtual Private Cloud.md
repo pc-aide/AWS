@@ -73,3 +73,4 @@
 * No ping between 2 hosts
   * Event if wf.msc\{inbound,outbound} enabled ICMPv4
    * Because it's firewall -> aws security-group
+    * Only RDP (SG : Inbound.RDP & Oubound all traffic)
