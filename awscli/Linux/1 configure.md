@@ -22,11 +22,11 @@ aws configure list
 1) Credential (user + keys)
 
 2) Default OutPut format
-  * json
-  * 
+    * json
+    * 
   
 3) AWS Region
-  * us-east-2
+    * us-east-2
 
 ### Profile
 * AWS CLI stores this information in a profile (a collection of settings) named default
