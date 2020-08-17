@@ -26,7 +26,9 @@ aws configure list
 
 2) Default OutPut format
     * json
-    * 
+    * yaml
+    * text
+    * table
   
 3) AWS Region
     * us-east-2
