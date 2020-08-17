@@ -75,3 +75,9 @@
    * Because it's firewall -> aws security-group
     * Only RDP (SG : Inbound.RDP & Oubound all traffic)
       * Solution: sg-ICMPv4_Inbount_Request (echo) + VPC peering connection
+
+## Goal
+1) Enable ping between 2x EC2
+
+### Visio (draft)
+[<img src="https://i.imgur.com/hTeLcqI.png">](https://i.imgur.com/hTeLcqI.png)
