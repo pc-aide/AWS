@@ -67,3 +67,7 @@ aws s3 ls --profile User-S3
 cat demo.txt
 ````
 [<img src="https://i.imgur.com/cECFTBU.png">](https://i.imgur.com/cECFTBU.png)
+````Bash
+aws s3 cp demo.txt s3://bucket-demo-02/demo.txt --profile User-S3
+````
+[<img src="https://i.imgur.com/DhWIPj4.png">](https://i.imgur.com/DhWIPj4.png)
