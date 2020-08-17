@@ -74,4 +74,4 @@
   * Event if wf.msc\{inbound,outbound} enabled ICMPv4
    * Because it's firewall -> aws security-group
     * Only RDP (SG : Inbound.RDP & Oubound all traffic)
-     * Solution: sg-ICMPv4_Inbount_Request (echo) + VPC peering connection
+      * Solution: sg-ICMPv4_Inbount_Request (echo) + VPC peering connection
