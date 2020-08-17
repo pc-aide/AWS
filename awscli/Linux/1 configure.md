@@ -1,7 +1,10 @@
 # configure
 
+## Acronym
+* IAM - Identity & Access Management
+
 ## switch
-* list : list profile + access_key + secret_key + region
+* list : list profile (IAM) + access_key + secret_key + region
 ````
 aws configure list
 ````
