@@ -67,7 +67,7 @@
 [<img src="https://i.imgur.com/q0tQO4l.png">](https://i.imgur.com/q0tQO4l.png)
 
 # E.g.
-[<img src="https://i.imgur.com/RltUeNz.png">](https://i.imgur.com/RltUeNz.png)
+[<img src="https://i.imgur.com/n4M5BDJ.png">](https://i.imgur.com/n4M5BDJ.png)
 
 ## Demo
 [<img src="https://i.imgur.com/l4oLe11.png">](https://i.imgur.com/l4oLe11.png)
