@@ -59,3 +59,11 @@ aws configure list --profile User-S3
 aws s3 ls --profile User-S3
 ````
 [<img src="https://i.imgur.com/mfBnr2s.png">](https://i.imgur.com/mfBnr2s.png)
+
+
+## Tranfert a file (S3)
+````Bash
+# hostname : client (no connected on SRV)
+cat demo.txt
+````
+[<img src="https://i.imgur.com/cECFTBU.png">](https://i.imgur.com/cECFTBU.png)
