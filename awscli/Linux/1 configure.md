@@ -18,3 +18,10 @@ aws configure list
 ````
 [<img src="https://i.imgur.com/CsGHtNf.png">](https://i.imgur.com/CsGHtNf.png)
 
+## Configure
+1) Credential (user + keys)
+2) Default OutPut format
+3) AWS Region
+
+### Profile
+* AWS CLI stores this information in a profile (a collection of settings) named default
