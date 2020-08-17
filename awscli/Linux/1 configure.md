@@ -46,3 +46,11 @@ aws configure
 ````Bash
 aws configure --profile User-S3
 ````
+
+* Tested your profile wiht s3
+
+````Bash
+#
+aws s3 ls --profile User-S3
+````
+[<img src="https://i.imgur.com/mfBnr2s.png">](https://i.imgur.com/mfBnr2s.png)
