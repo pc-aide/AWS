@@ -21,7 +21,7 @@
 
 [<img src="https://i.imgur.com/xtDozF6.png">](https://i.imgur.com/xtDozF6.png)
 
-* Create Security group
+### Create Security group
 
 [<img src="https://i.imgur.com/zf2ZKdt.png">](https://i.imgur.com/zf2ZKdt.png)
 
