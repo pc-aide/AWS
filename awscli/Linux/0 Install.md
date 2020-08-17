@@ -1,5 +1,12 @@
 # Install
 
+## Acronym
+* AMI - Amazon Machine Image
+
+## AMI
+* Ubuntu Server 1804.5 LTS
+  * awscli not installed
+
 ## Doc
 * https://docs.aws.amazon.com/cli/latest/userguide/aws-cli.pdf
 
