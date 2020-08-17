@@ -61,6 +61,8 @@
   Network.
 * This allows for **low latency** no matter where the end user is geographically located
 
+* Goal : **get data fast or upload data fast to AWS**
+
 ## Visio
 * Regions & AZ
 
