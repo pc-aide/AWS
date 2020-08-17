@@ -1,5 +1,8 @@
 # Install
 
+## Doc
+* https://docs.aws.amazon.com/cli/latest/userguide/aws-cli.pdf
+
 ## search
 ````Bash
 apt get search --name-only ^awscli
@@ -16,3 +19,4 @@ apt install -y awscli
 aws --version
 ````
 [<img src="https://i.imgur.com/2ywexVo.png">](https://i.imgur.com/2ywexVo.png)
+*We recommended to used the version 2 (more feature)*
