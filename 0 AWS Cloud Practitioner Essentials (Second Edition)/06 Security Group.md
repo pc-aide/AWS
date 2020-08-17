@@ -10,6 +10,7 @@
 ## Acronym
 * sg - Security Group
 * VPC - Virtual Private Cloud
+* ISP - Internet Service Provider
 
 ## Doc
 * [EC2 Security groups for Linux instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html?icmpid=docs_ec2_console#creating-security-group)
@@ -32,7 +33,17 @@
 4) Inbound
 
 	* Type
-		* HTTP, SSH, ICMPv4
+		* HTTP, SSH, ICMPv4, RDP
+	* Protocol
+		* Echo Reply, TCP, UDP
+	* Port 
+		* 53, 22,23, 80, 443,3389 ,8080
+	* Source
+		* Custom
+		* Anywhere
+		* My IP
+			* what is my ISP (IPv4 Public)
+	* Description
 
 
 [<img src="https://i.imgur.com/zf2ZKdt.png">](https://i.imgur.com/zf2ZKdt.png)
