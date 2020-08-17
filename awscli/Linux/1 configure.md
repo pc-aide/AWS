@@ -41,3 +41,8 @@ aws configure list
 aws configure 
 ````
 [<img src="https://i.imgur.com/MEe4PSd.png">](https://i.imgur.com/MEe4PSd.png)
+
+* with profile
+````Bash
+aws configure --profile User-S3
+````
