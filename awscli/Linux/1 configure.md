@@ -6,6 +6,8 @@
 ## Note
 * AWS requires that all incoming requests are cryptographically signed
 * Ensure that your computer's date and time are set correctly
+* If you don't, and the date/time in the signature is too
+  far off of the date/time recognized by the AWS service, AWS rejects the request
 
 [<img src="https://i.imgur.com/NxScs6K.png">](https://i.imgur.com/NxScs6K.png)
 
