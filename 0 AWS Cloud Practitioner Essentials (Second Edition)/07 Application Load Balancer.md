@@ -53,5 +53,7 @@
 
 [<img src="https://i.imgur.com/JlSIMpA.png">](https://i.imgur.com/JlSIMpA.png)
 
-## E.g
-* AWS Console\EC2\Load Balancers
+## AWS Console
+* EC2\Load Balancers
+
+[<img src="https://i.imgur.com/g571XX3.png">](https://i.imgur.com/g571XX3.png)
