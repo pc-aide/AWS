@@ -21,6 +21,8 @@
     * to provide a consisten experience globally
 * S3 or EC2 available in all regions
 
+[<img src="https://i.imgur.com/z3k8JuV.png">](https://i.imgur.com/z3k8JuV.png)
+
 * List
 	* US East (N. Virginia) | us-east-1
 	* US East (Ohio) | us-east-2
