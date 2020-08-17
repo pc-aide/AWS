@@ -37,3 +37,10 @@ unzip awscli-exe-linux-x86_64.zip; cd aws/ ; ls
 ./install ; aws --version
 ````
 [<img src="https://i.imgur.com/oQdp0at.png">](https://i.imgur.com/oQdp0at.png)
+
+
+## help
+````Bash
+aws help
+````
+[<img src="https://i.imgur.com/qAraxTA.png">](https://i.imgur.com/qAraxTA.png)
