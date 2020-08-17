@@ -7,6 +7,7 @@
 ## Doc
 * [Global-Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
 * [Regions, Availability Zones, and Local Zones](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html)
+* [Amazon CloudFront Infrastructure](https://aws.amazon.com/cloudfront/features/?p=ugi&l=na)
 
 ## Topology
 1) Regions
