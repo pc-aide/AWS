@@ -27,3 +27,8 @@ aws --version
 wget "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip
 ````
 [<img src="https://i.imgur.com/9QVhp2q.png">](https://i.imgur.com/9QVhp2q.png)
+
+```Bash
+unzip awscli-exe-linux-x86_64.zip; cd aws/ ; ls
+```
+[<img src="https://i.imgur.com/rblYsLv.png">](https://i.imgur.com/rblYsLv.png)
