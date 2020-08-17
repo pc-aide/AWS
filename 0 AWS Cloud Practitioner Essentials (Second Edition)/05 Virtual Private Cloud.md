@@ -8,6 +8,9 @@
 * NAT - Network Address Translation
 * NACL - Network Access Control Lists
 
+## Yotube
+* [how do I enable communication between a EC2-Classic instance & rescources in a peered VPC?](https://www.youtube.com/watch?v=8idAaDMHHHY)
+
 ## Doc
 * https://aws.amazon.com/vpc/
 
