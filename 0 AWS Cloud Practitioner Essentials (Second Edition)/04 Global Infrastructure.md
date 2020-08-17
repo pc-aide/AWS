@@ -63,6 +63,15 @@
 
 * Goal : **get data fast or upload data fast to AWS**
 
+[<img src="https://i.imgur.com/1pHlINB.png">](https://i.imgur.com/1pHlINB.png)
+* To deliver content to end users with lower latency (CDN), Amazon CloudFront uses a global network
+  of 217 Points of Presence (205 Edge Locations and 12 Regional Edge Caches) in 84 cities across 42 countries.
+* Edge Locations
+	* 205 Ege Locations
+* Multiple Edge Locations
+* Regional Edge Cachce
+	* 12 Regional Edge Caches
+
 ## Visio
 * Regions & AZ
 
