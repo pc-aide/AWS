@@ -69,3 +69,5 @@
 ## Demo
 [<img src="https://i.imgur.com/l4oLe11.png">](https://i.imgur.com/l4oLe11.png)
 [<img src="https://i.imgur.com/b7u7yjJ.png">](https://i.imgur.com/b7u7yjJ.png)
+* Idem AZ
+* No ping between 2 hosts
