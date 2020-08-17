@@ -71,3 +71,5 @@
 [<img src="https://i.imgur.com/b7u7yjJ.png">](https://i.imgur.com/b7u7yjJ.png)
 * Idem AZ
 * No ping between 2 hosts
+  * Event if wf.msc\{inbound,outbound} enabled ICMPv4
+   * Because it's firewall -> aws security-group
