@@ -47,6 +47,11 @@ aws configure
 aws configure --profile User-S3
 ````
 
+````Bash
+aws configure list --profile User-S3
+````
+[<img src="https://i.imgur.com/cGNMp83.png">](https://i.imgur.com/cGNMp83.png)
+
 * Tested your profile wiht s3
 
 ````Bash
