@@ -1,5 +1,8 @@
 # Architecting on AWS
 
+## Time
+* 3 days
+
 ## URL
 * [Architecting on AWS](https://www.aws.training/SessionSearch?pageNumber=1&courseId=10002)
 
@@ -16,6 +19,7 @@
 ## Find a class
 [<img src="https://i.imgur.com/bZaMkOV.png">](https://i.imgur.com/bZaMkOV.png)
 ### $
+#### English
 * $200 US (enroll)
 * https://www.globalknowledge.com/us-en/course/90734/architecting-on-aws/
 [<img src="https://i.imgur.com/uGg3W5V.png">](https://i.imgur.com/uGg3W5V.png)
@@ -24,6 +28,9 @@
 [<img src="https://i.imgur.com/rJudoFK.png">](https://i.imgur.com/rJudoFK.png)
 [<img src="https://i.imgur.com/8I7qrm5.png">](https://i.imgur.com/8I7qrm5.png)
 [<img src="https://i.imgur.com/6lRECE6.png">](https://i.imgur.com/6lRECE6.png)
+
+#### French
+[<img src="https://i.imgur.com/Fs4JU2p.png">](https://i.imgur.com/Fs4JU2p.png)
 
 ## Free ?
 * No free
