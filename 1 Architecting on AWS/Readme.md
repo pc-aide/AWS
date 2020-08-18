@@ -9,7 +9,9 @@
 ## Home
 [<img src="https://i.imgur.com/6nmloPM.png">](https://i.imgur.com/6nmloPM.png)
 
-## $
+## Find a class
+[<img src="https://i.imgur.com/bZaMkOV.png">](https://i.imgur.com/bZaMkOV.png)
+### $
 * $200 US (enroll)
 * https://www.globalknowledge.com/us-en/course/90734/architecting-on-aws/
 [<img src="https://i.imgur.com/uGg3W5V.png">](https://i.imgur.com/uGg3W5V.png)
