@@ -14,3 +14,4 @@
 * https://www.globalknowledge.com/us-en/course/90734/architecting-on-aws/
 [<img src="https://i.imgur.com/uGg3W5V.png">](https://i.imgur.com/uGg3W5V.png)
 [<img src="https://i.imgur.com/SsBxkZJ.png">](https://i.imgur.com/SsBxkZJ.png)
+[<img src="https://i.imgur.com/8I7qrm5.png">](https://i.imgur.com/8I7qrm5.png)
