@@ -8,3 +8,7 @@
 
 ## Home
 [<img src="https://i.imgur.com/6nmloPM.png">](https://i.imgur.com/6nmloPM.png)
+
+## $
+* $200 US (enroll)
+* https://www.globalknowledge.com/us-en/course/90734/architecting-on-aws/
