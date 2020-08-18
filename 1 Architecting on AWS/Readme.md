@@ -30,7 +30,7 @@
 [<img src="https://i.imgur.com/6lRECE6.png">](https://i.imgur.com/6lRECE6.png)
 
 #### French
-[<img src="https://i.imgur.com/Fs4JU2p.png">](https://i.imgur.com/Fs4JU2p.png)
+[<img src="https://i.imgur.com/Fs4JU2p.png">](https://www.afiexpertise.com/fr/formation/architecture-sur-aws-1742)
 
 ## Free ?
 * No free
