@@ -3,7 +3,11 @@
 ## URL
 * [Architecting on AWS](https://www.aws.training/SessionSearch?pageNumber=1&courseId=10002)
 
-## Architect Learning Path
+## [Architect Learning Path](https://aws.amazon.com/training/path-architecting/)
+[<img src="https://i.imgur.com/GNaDDMv.png">](https://i.imgur.com/GNaDDMv.png)
+
+
+## Course
 [<img src="https://i.imgur.com/3jxytND.png">](https://i.imgur.com/3jxytND.png)
 
 ## Home
