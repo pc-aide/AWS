@@ -5,3 +5,7 @@
 
 ## Find a class near you
 [<img src="https://i.imgur.com/vOClKAq.png">](https://i.imgur.com/vOClKAq.png)
+
+### Find a class
+#### All
+[<img src="https://i.imgur.com/QbM1VSU.png>](https://i.imgur.com/QbM1VSU.png)
