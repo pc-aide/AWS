@@ -89,6 +89,9 @@
 ## Target Tracking Scaling Policies
 [<img src="https://i.imgur.com/VCNpU36.png">](https://i.imgur.com/VCNpU36.png)
 
+## Comparing AWS Auto Scaling
+[<img src="https://i.imgur.com/i57tKgL.png">](https://i.imgur.com/i57tKgL.png)
+
 ## E.g.
 * AWS Console\EC2\Auto Scaling Groups
 
