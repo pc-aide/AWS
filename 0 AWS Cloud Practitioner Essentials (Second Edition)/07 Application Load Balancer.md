@@ -213,3 +213,6 @@
 
 #### Edit rule
 [<img src="https://i.imgur.com/Iawh5GM.png">](https://i.imgur.com/Iawh5GM.png)
+
+## Test
+* copy DNS name
