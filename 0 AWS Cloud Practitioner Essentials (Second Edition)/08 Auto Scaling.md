@@ -93,7 +93,8 @@
 [<img src="https://i.imgur.com/i57tKgL.png">](https://i.imgur.com/i57tKgL.png)
 
 ## E.g.
-* AWS Console\EC2\Auto Scaling Groups
+### AWS Console
+* EC2\Auto Scaling Groups
 
 [<img src="https://i.imgur.com/0VI8Xia.png">](https://i.imgur.com/0VI8Xia.png)
 
