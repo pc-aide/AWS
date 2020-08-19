@@ -13,4 +13,4 @@
 * AWS Certified Cloud Practitioner - Practice
 * USD 20.00
 
-[<img src"https://i.imgur.com/hiuEsjO.png">](https://i.imgur.com/hiuEsjO.png)
+[img src="https://i.imgur.com/hiuEsjO.png">](https://i.imgur.com/hiuEsjO.png)
