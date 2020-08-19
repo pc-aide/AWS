@@ -1,7 +1,7 @@
 # AWS Well-Architected Framework
 
 ## Video
-* Curriculum
+* Curriculum (1.5h)
 	* [AWS Well-Architected](https://www.aws.training/Details/Curriculum?id=42037)
 
 ## Acronym
