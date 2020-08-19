@@ -5,9 +5,9 @@
 
 ## Eligible Exams
 1) AWS Certification
-    * AWS Certified Cloud Practitioner
+    * AWS Certified Cloud Practitioner | Time 30m | $20
     
 2) AWS Practice Exams
-    * AWS Certified Cloud Practitioner Practice
+    * AWS Certified Cloud Practitioner Practice | Time 90m | $
 
 [<img src="https://i.imgur.com/leqzowR.png">](https://i.imgur.com/leqzowR.png)
