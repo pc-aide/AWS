@@ -64,3 +64,8 @@
 
 #### Port 8080
 [<img src="https://i.imgur.com/ufV6Eow.png">](https://i.imgur.com/ufV6Eow.png)
+
+### Create Application Load Balancer
+* EC2\Instance\Load Balancers
+
+[<img src="https://i.imgur.com/Oei8E79.png">](https://i.imgur.com/Oei8E79.png)
