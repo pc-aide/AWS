@@ -222,3 +222,6 @@
 
 ### Container 02
 [<img src="https://i.imgur.com/a38kbh1.png">](https://i.imgur.com/a38kbh1.png)
+
+### If we stop or problem with our instance-01
+[<img src="https://i.imgur.com/Nn6AU6p.png">](https://i.imgur.com/Nn6AU6p.png)
