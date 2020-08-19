@@ -231,3 +231,8 @@
 * if COS7-01 is down
 
 [<img src="https://i.imgur.com/5QtS4H8.png">](https://i.imgur.com/5QtS4H8.png)
+
+#### Target 01 
+* Still alive event if httpd is stoped
+
+[<img src="https://i.imgur.com/QyZ0vEr.png">](https://i.imgur.com/QyZ0vEr.png)
