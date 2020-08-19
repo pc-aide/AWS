@@ -60,6 +60,7 @@
 
 ## E.g
 ### Port 80
-[<img src="https://i.imgur.com/AKs0CiF.png">](https://i.imgur.com/AKs0CiF.png)
+[<img src="https://i.imgur.com/TF2caXJ.png">](https://i.imgur.com/TF2caXJ.png)
 
-### Port 443
+### Port 8080
+[<img src="https://i.imgur.com/ufV6Eow.png">](https://i.imgur.com/ufV6Eow.png)
