@@ -1,5 +1,9 @@
 # AWS Well-Architected Framework
 
+## Video
+* Curriculum
+	* [AWS Well-Architected](https://www.aws.training/Details/Curriculum?id=42037)
+
 ## Acronym
 * IAM - Indentity & access Management
 
