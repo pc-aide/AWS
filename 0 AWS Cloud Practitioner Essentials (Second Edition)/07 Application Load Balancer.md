@@ -7,6 +7,12 @@
 * Cfg - Configuration
 * VPC - Virtual Private Cloud
 
+## Doc
+* [Application Load Balancer components](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html)
+* [What is a Network Load Balancer?](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html)
+* [What is a Classic Load Balancer?](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/introduction.html)
+
+
 ## Terminology
 * Scheme (cfg load balancer)
   * An Internet-facing load balancer routes requests from clients over
