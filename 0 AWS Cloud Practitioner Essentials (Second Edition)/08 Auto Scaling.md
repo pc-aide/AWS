@@ -1,5 +1,8 @@
 # Auto Scaling
 
+## Video
+* [Introduction to EC2 Auto Scaling](https://www.aws.training/Details/Video?id=16387)
+
 ## Doc
 * [Creating an Auto Scaling group using a launch template](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-asg-launch-template.html)
 * [Scaling the size of your Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/scaling_plan.html#scaling_typesof)
