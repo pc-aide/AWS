@@ -233,6 +233,6 @@
 [<img src="https://i.imgur.com/5QtS4H8.png">](https://i.imgur.com/5QtS4H8.png)
 
 #### Target 01 
-* Still alive event if httpd is stoped
+* Still alive event if httpd is stoped (COS7-01)
 
 [<img src="https://i.imgur.com/QyZ0vEr.png">](https://i.imgur.com/QyZ0vEr.png)
