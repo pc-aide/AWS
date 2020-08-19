@@ -227,3 +227,7 @@
 [<img src="https://i.imgur.com/Nn6AU6p.png">](https://i.imgur.com/Nn6AU6p.png)
 
 ## 2x Different Registered
+### listener 8080 
+* if COS7-01 is down
+
+[<img src="https://i.imgur.com/5QtS4H8.png">](https://i.imgur.com/5QtS4H8.png)
