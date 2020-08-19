@@ -53,14 +53,14 @@
 
 [<img src="https://i.imgur.com/JlSIMpA.png">](https://i.imgur.com/JlSIMpA.png)
 
-## AWS Console
+## E.g
+### AWS Console
 * EC2\Instance\CentOS7
 
 [<img src="httpshttps://i.imgur.com/b5H05Be.png">](https://i.imgur.com/b5H05Be.png)
 
-## E.g
-### Port 80
+#### Port 80
 [<img src="https://i.imgur.com/TF2caXJ.png">](https://i.imgur.com/TF2caXJ.png)
 
-### Port 8080
+#### Port 8080
 [<img src="https://i.imgur.com/ufV6Eow.png">](https://i.imgur.com/ufV6Eow.png)
