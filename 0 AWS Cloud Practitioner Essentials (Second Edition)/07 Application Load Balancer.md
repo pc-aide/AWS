@@ -210,3 +210,6 @@
   * edit rule
 
 [<img src="https://i.imgur.com/rfGkKKF.png">](https://i.imgur.com/rfGkKKF.png)
+
+#### Edit rule
+[<img src="https://i.imgur.com/Iawh5GM.png">](https://i.imgur.com/Iawh5GM.png)
