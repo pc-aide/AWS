@@ -228,7 +228,7 @@
 
 ## 2x Different Registered
 ### listener 8080 
-* if COS7-01 is down
+* if COS7-01 is down, so forwarding COS702 (demo02)
 
 [<img src="https://i.imgur.com/5QtS4H8.png">](https://i.imgur.com/5QtS4H8.png)
 
