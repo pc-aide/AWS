@@ -2,7 +2,7 @@
 
 ## Acronym
 * WAF - Web Application Firewall
-* L
+* ElB - Elastic Loab Balacing
 
 ## Terminology
 * Listeners
@@ -69,3 +69,7 @@
 * EC2\Instance\Load Balancers
 
 [<img src="https://i.imgur.com/Oei8E79.png">](https://i.imgur.com/Oei8E79.png)
+
+* Create Load Balancer\**Application Load Balancer**
+
+[<img src="https://i.imgur.com/BtwOpgS.png">](https://i.imgur.com/BtwOpgS.png)
