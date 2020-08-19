@@ -54,9 +54,9 @@
 [<img src="https://i.imgur.com/JlSIMpA.png">](https://i.imgur.com/JlSIMpA.png)
 
 ## AWS Console
-* EC2\Load Balancers
+* EC2\Instance\CentOS7
 
-[<img src="https://i.imgur.com/g571XX3.png">](https://i.imgur.com/g571XX3.png)
+[<img src="httpshttps://i.imgur.com/b5H05Be.png">](https://i.imgur.com/b5H05Be.png)
 
 ## E.g
 ### Port 80
