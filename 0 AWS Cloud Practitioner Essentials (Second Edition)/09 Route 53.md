@@ -44,3 +44,8 @@
 * WebSrv - httpd
 
 [<img src="https://i.imgur.com/hlD6nS1.png">](https://i.imgur.com/hlD6nS1.png)
+
+3) Service\route 53\Hosted zones\
+  * Create Hosted zone
+  
+[<img src="https://i.imgur.com/yELvo2h.png">](https://i.imgur.com/yELvo2h.png)
