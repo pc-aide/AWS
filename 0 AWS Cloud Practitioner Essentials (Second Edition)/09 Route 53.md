@@ -42,4 +42,4 @@
 
 2) Ipv4 Public (httpd)
 
-[<img src="https://i.imgur.com/hlD6nS1.png>](https://i.imgur.com/hlD6nS1.png)
+[<img src="https://i.imgur.com/hlD6nS1.png">](https://i.imgur.com/hlD6nS1.png)
