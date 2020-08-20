@@ -4,6 +4,10 @@
 * [Creating records by using the Amazon Route 53 console](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html)
 * [What is Amazon Route 53?](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html)
 
+## Domain free
+* carefull (used only for test)
+  * http://www.dot.tk/en/index.html
+
 ## Terminology
 * Amazon Route 53 registrar
   * Alternative godaddy
@@ -94,3 +98,11 @@
 
 * It doesn't work because i didn't pay for this domain (domain register)
 * No record found (DNS lookup) - no paid no gain ;-)
+
+## DNS Resolution Strategies
+* Simple routing
+* Geo-location
+* Failover
+* Weighted round robin
+* Latency-based
+* Multi-van answer
