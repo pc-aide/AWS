@@ -4,7 +4,7 @@
 * [Introduction to Amazon Simple Notification Service (SNS)](https://www.aws.training/Details/Video?id=15881)
 
 ## Errors
-### New Event(S3)
+### [New Event(S3)](https://i.imgur.com/qptgj4u.png)
 * Unable to validate the following destination configurations. Permissions on
   the destination topic do not allow S3 to publish notifications from this bucket.
   (arn:aws:sns:us-east-2:11111111111:SNSDemo01)
