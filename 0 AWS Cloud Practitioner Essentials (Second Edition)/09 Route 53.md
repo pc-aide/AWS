@@ -5,10 +5,6 @@
 * [What is Amazon Route 53?](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html)
 * [Amazon Route 53 Documentation](https://docs.aws.amazon.com/route53/)
 
-## Domain free
-* careful (used only for tests)
-  * http://www.dot.tk/en/index.html
-
 ## Terminology
 * Amazon Route 53 registrar
   * Alternative godaddy
