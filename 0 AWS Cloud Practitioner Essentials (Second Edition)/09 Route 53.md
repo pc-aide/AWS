@@ -3,6 +3,7 @@
 ## Doc
 * [Creating records by using the Amazon Route 53 console](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html)
 * [What is Amazon Route 53?](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html)
+* [Amazon Route 53 Documentation](https://docs.aws.amazon.com/route53/)
 
 ## Domain free
 * careful (used only for tests)
