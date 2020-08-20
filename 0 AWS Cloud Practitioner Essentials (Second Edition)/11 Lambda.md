@@ -1,5 +1,11 @@
 # Lambda
 
+## Video
+* [Introduction to AWS Lambda](https://www.aws.training/Details/Video?id=16360)
+
+## Doc
+* [Managing AWS Lambda functions](https://docs.aws.amazon.com/lambda/latest/dg/lambda-functions.html?icmpid=docs_lambda_help)
+
 ## Acronym
 * IoT - Internet of Things
 
