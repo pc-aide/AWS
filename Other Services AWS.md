@@ -25,6 +25,12 @@
 3) [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html?icmpid=docs_cloudtrail_console)
 * Track User Activity & API Usage
 
-4) [AWS Cost Explorer](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-what-is.html)
-
 [<img src="https://i.imgur.com/TEEbN9F.png">](https://i.imgur.com/TEEbN9F.png)
+
+4) [AWS Cost Explorer](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-what-is.html)
+* Visualize & Explore Your AWS Costs & Usage
+
+5) [AWS Budgets](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-managing-costs.html)
+* Set Custom Budgets & Receive Alerts
+* 62 budget days are free of charge each month
+* Each additional budget **day costs $0.02**
