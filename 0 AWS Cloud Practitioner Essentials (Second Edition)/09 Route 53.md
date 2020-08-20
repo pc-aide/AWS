@@ -106,3 +106,11 @@
 * Weighted round robin
 * Latency-based
 * Multi-van answer
+
+## Route 53: your Managed DNS Translator
+* Domain registrtion
+* Global, highly available DNS
+* Public & private DNS names
+* Multiple routing algorithms
+* Both IPv4 & IPv6
+* Integrated with other AWS cloud service
