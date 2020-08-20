@@ -39,3 +39,11 @@
     * Acronyme
       * ECS - Elastic Container Service
     * Highly secure, reliable, & scalable way to run containers 
+
+7) [AWS Config](https://aws.amazon.com/config/)
+    * Acronyme
+    
+    * Good config (✓)
+    * Bad config (x)
+
+[<img src="https://i.imgur.com/uNrwNOL.png">](https://i.imgur.com/uNrwNOL.png)
