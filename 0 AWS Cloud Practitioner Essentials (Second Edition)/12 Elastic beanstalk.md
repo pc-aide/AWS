@@ -1,5 +1,8 @@
 # Elastic beanstalk
 
+## Video
+* [Introduction to AWS Elastic Beanstalk](https://www.aws.training/Details/Video?id=15878)
+
 ## Emulator
 * [php sandbox](https://sandbox.onlinephpfunctions.com/)
 
