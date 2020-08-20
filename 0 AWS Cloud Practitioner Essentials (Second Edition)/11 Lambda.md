@@ -44,13 +44,6 @@
 ## Demo
 [<img src="https://i.imgur.com/BrwkuDD.png">](https://i.imgur.com/BrwkuDD.png)
 
-## E.g
-* AWS\Services\Lambda\Create function
-
-[<img src="https://i.imgur.com/A5kbSFS.png">](https://i.imgur.com/A5kbSFS.png)
-
-[<img src="https://i.imgur.com/LIKzDQ3.png">](https://i.imgur.com/LIKzDQ3.png)
-
 ## Real-Time Image Processing
 [<img src="https://i.imgur.com/3c6WwN8.png">](https://i.imgur.com/3c6WwN8.png)
 [<img src="https://i.imgur.com/DB8KJrh.png">](https://i.imgur.com/DB8KJrh.png)
@@ -66,3 +59,11 @@
 
 ## Web Backends
 [<img src="https://i.imgur.com/oyi11VB.png">](https://i.imgur.com/oyi11VB.png)
+
+## E.g
+### AWS Console
+* Services\Lambda\Create function
+
+[<img src="https://i.imgur.com/A5kbSFS.png">](https://i.imgur.com/A5kbSFS.png)
+
+[<img src="https://i.imgur.com/LIKzDQ3.png">](https://i.imgur.com/LIKzDQ3.png)
