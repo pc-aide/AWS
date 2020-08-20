@@ -67,6 +67,19 @@
 
 
 9) [Amazon SQS](https://docs.aws.amazon.com/sqs/)
-    * SQS Managed Message Queues
+    * Amazon SQS provides queues for high-throughput, system-to-system messaging.
+      You can use queues to decouple heavyweight processes and to buffer and batch
+      work. Amazon SQS stores messages until microservices and serverless applications
+      process them.
     * Acronym
       * SQS - Simple Queue Service
+
+10) [Amazon Macie](https://us-east-2.console.aws.amazon.com/macie/home?region=us-east-2#home)
+    * Amazon Macie is a data security and data privacy service that uses machine learning to
+      help you identify and protect your sensitive data in AWS.
+      
+[<img src="https://i.imgur.com/WXMHmvn.png">](https://i.imgur.com/WXMHmvn.png)
+[<img src="https://i.imgur.com/A2pP9xK.png">](https://i.imgur.com/A2pP9xK.png)
+
+    * Features
+      * Detectiong & Classification
