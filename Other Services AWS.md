@@ -53,3 +53,13 @@
     * Bad config (x)
 
 [<img src="https://i.imgur.com/BIXbIgv.png">](https://i.imgur.com/BIXbIgv.png)
+
+8) [AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html)
+    * AWS Systems Manager is a Central Place to View & Mnage AWS Resources
+    * How it works
+      * Group your resources (s3, EC2, RDS)
+      * View insights
+      * Take action
+      
+[img src="https://i.imgur.com/HwQ82bP.png">](https://i.imgur.com/HwQ82bP.png)
+        
