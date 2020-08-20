@@ -5,7 +5,7 @@
 * [What is Amazon Route 53?](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html)
 
 ## Domain free
-* carefull (used only for test)
+* careful (used only for tests)
   * http://www.dot.tk/en/index.html
 
 ## Terminology
