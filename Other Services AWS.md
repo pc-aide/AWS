@@ -41,7 +41,13 @@
     * Highly secure, reliable, & scalable way to run containers 
 
 7) [AWS Config](https://aws.amazon.com/config/)
-    * Acronyme
+    * Define your policy guidance
+    
+[<img src="https://i.imgur.com/55ggq3x.png">](https://i.imgur.com/55ggq3x.png)    
+
+    * Notifications / response
+    
+[<img src="https://i.imgur.com/2ji72wG.png">](https://i.imgur.com/2ji72wG.png)
     
     * Good config (✓)
     * Bad config (x)
