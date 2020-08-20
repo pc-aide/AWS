@@ -34,3 +34,8 @@
    * Set Custom Budgets & Receive Alerts
    * 62 budget days are free of charge each month
    * Each additional budget **day costs $0.02**
+
+6) Amazon ECS
+  * Acronyme
+    * ECS - Elastic Container Service
+  * Highly secure, reliable, & scalable way to run containers 
