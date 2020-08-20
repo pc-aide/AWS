@@ -100,3 +100,8 @@
       * A lack of knowledge as tot the sensitivity of the data being stored on S3
       
 [<img src="https://i.imgur.com/vFZfvsk.png">](https://i.imgur.com/vFZfvsk.png)
+
+  * Maintain Compliance
+  
+[<img src="https://i.imgur.com/2p2nRcp.png">](https://i.imgur.com/2p2nRcp.png)
+  * If Desjardins were in Europe, their penalty would be ~ $ 200 million instead of ~ $ 50 million
