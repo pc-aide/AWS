@@ -91,3 +91,5 @@
   
 [<img src="https://i.imgur.com/Cy0Z1gO.png">](https://i.imgur.com/Cy0Z1gO.png)
 [<img src="https://i.imgur.com/bEGiry4.png">](https://i.imgur.com/bEGiry4.png)
+
+* that not working because i have no paid it for this domain (domain register)
