@@ -1,10 +1,15 @@
 # Route 53
 
+## Doc
+* [Creating records by using the Amazon Route 53 console](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html)
+* [What is Amazon Route 53?](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html)
+
 ## Terminology
 * Amazon Route 53 registrar
   * Alternative godaddy
 
 ## Acronym
+* ELB - Elastic Load Balancer
 * DNS - Domain Name System
 * NS - Name Server
 * FQDN - Full Qualified Domain Name
@@ -49,3 +54,40 @@
   * Create Hosted zone
   
 [<img src="https://i.imgur.com/yELvo2h.png">](https://i.imgur.com/yELvo2h.png)
+
+#### Create Hosted Zone
+* Domain Name
+* Comment
+* Type
+
+[<img src="https://i.imgur.com/GpRkPt4.png">](https://i.imgur.com/GpRkPt4.png)
+
+### Create Record Set
+[<img src="https://i.imgur.com/rPkZ53a.png">](https://i.imgur.com/rPkZ53a.png)
+
+#### Create Record Set
+* Name
+* Type
+  * A - IPv4
+  * CNAME - Canonical name
+  * AAAA - IPv6
+  * TXT - Text
+  * PTR - Pointer
+  * SRV - Service locator
+  * SPF - Sender Policy Framework
+  * NAPTR - Name Authority Pointer
+  * CAA - Certification Authority Authorization
+  * NS
+  * SOA - Sart of authority
+* Value
+  * IPv4 Public, LBA, ELB, CloudFront distribution, hosting my website, and so on
+* Routing Policy
+  * Simple
+  * Weighted 
+  * Latency
+  * Failover
+  * Geolocation
+  * Multivalue Answer
+  
+[<img src="https://i.imgur.com/Cy0Z1gO.png">](https://i.imgur.com/Cy0Z1gO.png)
+[<img src="https://i.imgur.com/bEGiry4.png">](https://i.imgur.com/bEGiry4.png)
