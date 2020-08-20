@@ -80,6 +80,11 @@
       
 [<img src="https://i.imgur.com/WXMHmvn.png">](https://i.imgur.com/WXMHmvn.png)
 [<img src="https://i.imgur.com/A2pP9xK.png">](https://i.imgur.com/A2pP9xK.png)
-
+   * Acronym
+    * NLP - Natural language processing 
+    * AI - Artificial intelligence
+    * ML - Machine Learning
     * Features
       * Detectiong & Classification
+
+[<img src="https://i.imgur.com/RzX1vpm.png">](https://i.imgur.com/RzX1vpm.png)
