@@ -67,3 +67,12 @@
 [<img src="https://i.imgur.com/A5kbSFS.png">](https://i.imgur.com/A5kbSFS.png)
 
 [<img src="https://i.imgur.com/LIKzDQ3.png">](https://i.imgur.com/LIKzDQ3.png)
+
+#### Goal
+* demo: localhost/test
+	* Upload image file
+		* Out put
+			* S3 Upload Complete 
+			* Simple Notification to gmail
+         
+<img src="https://i.imgur.com/nWQXsZb.png">](https://i.imgur.com/nWQXsZb.png)
