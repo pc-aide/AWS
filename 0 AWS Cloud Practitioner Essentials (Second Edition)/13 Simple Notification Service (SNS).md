@@ -1,5 +1,8 @@
 # Simple Notification Service (SNS)
 
+## Video
+* [Introduction to Amazon Simple Notification Service (SNS)](https://www.aws.training/Details/Video?id=15881)
+
 ## Errors
 ### New Event(S3)
 * Unable to validate the following destination configurations. Permissions on
