@@ -93,3 +93,4 @@
 [<img src="https://i.imgur.com/bEGiry4.png">](https://i.imgur.com/bEGiry4.png)
 
 * It doesn't work because i didn't pay for this domain (domain register)
+* No record found (DNS lookup) - no paid no gain ;-)
