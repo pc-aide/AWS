@@ -88,3 +88,7 @@
       * Detectiong & Classification
 
 [<img src="https://i.imgur.com/RzX1vpm.png">](https://i.imgur.com/RzX1vpm.png)
+
+      * Protection of Data
+      
+[<img src="https://i.imgur.com/ZOtZab5.png">](https://i.imgur.com/ZOtZab5.png)
