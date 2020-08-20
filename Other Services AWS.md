@@ -61,5 +61,6 @@
       * View insights
       * Take action
       
-[img src="https://i.imgur.com/HwQ82bP.png">](https://i.imgur.com/HwQ82bP.png)
+[<img src="https://i.imgur.com/HwQ82bP.png">](https://i.imgur.com/HwQ82bP.png)
+[<img src="https://i.imgur.com/l5Mj60o.png">](https://i.imgur.com/l5Mj60o.png)
         
