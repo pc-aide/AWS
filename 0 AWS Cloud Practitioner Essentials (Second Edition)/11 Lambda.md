@@ -75,4 +75,4 @@
 			* S3 Upload Complete 
 			* Simple Notification to gmail
          
-<img src="https://i.imgur.com/nWQXsZb.png">](https://i.imgur.com/nWQXsZb.png)
+[<img src="https://i.imgur.com/nWQXsZb.png">](https://i.imgur.com/nWQXsZb.png)
