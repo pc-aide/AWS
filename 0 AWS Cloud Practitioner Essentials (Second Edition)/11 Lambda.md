@@ -76,3 +76,7 @@
 			* Simple Notification to gmail
          
 [<img src="https://i.imgur.com/nWQXsZb.png">](https://i.imgur.com/nWQXsZb.png)
+
+* OutPut
+
+[<img src="https://i.imgur.com/iv2QUrj.png">](https://i.imgur.com/iv2QUrj.png)
