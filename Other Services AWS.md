@@ -92,3 +92,11 @@
      * Protection of Data
       
 [<img src="https://i.imgur.com/ZOtZab5.png">](https://i.imgur.com/ZOtZab5.png)
+
+  * Data Exposure
+    * Common cause
+      * A lack of understanding of key security controls provided by Amazon S3
+      * Simple human error
+      * A lack of knowledge as tot the sensitivity of the data being stored on S3
+      
+[<img src="https://i.imgur.com/vFZfvsk.png">](https://i.imgur.com/vFZfvsk.png)
