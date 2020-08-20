@@ -40,6 +40,7 @@
 
 [<img src="https://i.imgur.com/gNElgo2.png">](https://i.imgur.com/gNElgo2.png)
 
-2) Ipv4 Public (httpd)
+2) Ipv4 Public
+* WebSrv - httpd
 
 [<img src="https://i.imgur.com/hlD6nS1.png">](https://i.imgur.com/hlD6nS1.png)
