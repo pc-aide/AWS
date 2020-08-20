@@ -1,12 +1,11 @@
 # Route 53
 
+## Acronym
+* DNS - Domain Name System
+* NS - Name Simulator
+
 ## Ports
 * DNS : 53
 
-##
-
-You have an application composed of individual services.
-You need to route a request to a service based on the
-content of the request. Which service should you use?
-
-Elastic Load Balacing
+## Waht is Route 53?
+[<img src="https://i.imgur.com/ogkv9c0.png">](https://i.imgur.com/ogkv9c0.png)
