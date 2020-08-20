@@ -46,4 +46,4 @@
     * Good config (✓)
     * Bad config (x)
 
-[<img src="https://i.imgur.com/uNrwNOL.png">](https://i.imgur.com/uNrwNOL.png)
+[<img src="https://i.imgur.com/BIXbIgv.png">](https://i.imgur.com/BIXbIgv.png)
