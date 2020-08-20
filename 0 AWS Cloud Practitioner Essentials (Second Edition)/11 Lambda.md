@@ -8,6 +8,7 @@
 
 ## Acronym
 * IoT - Internet of Things
+* SNS - Simple Notification Service
 
 ## Terminology
 * Runtime
@@ -82,6 +83,6 @@
 [<img src="https://i.imgur.com/iv2QUrj.png">](https://i.imgur.com/iv2QUrj.png)
 [<img src="https://i.imgur.com/vybnSNS.png">](https://i.imgur.com/vybnSNS.png)
 
-* Gmail:
+* Gmail\New Email from SNS:
 
 [<img src="https://i.imgur.com/y8k8jSK.png">](https://i.imgur.com/y8k8jSK.png)
