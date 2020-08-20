@@ -36,6 +36,6 @@
    * Each additional budget **day costs $0.02**
 
 6) [Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
-  * Acronyme
-    * ECS - Elastic Container Service
-  * Highly secure, reliable, & scalable way to run containers 
+    * Acronyme
+      * ECS - Elastic Container Service
+    * Highly secure, reliable, & scalable way to run containers 
