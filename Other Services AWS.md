@@ -259,6 +259,9 @@
     cost-effective to analyze all of your data across your data warehouse and data lake.
   * Acronym
     * SQL - Simple Query Language
+    * OLAP - On-line Analytical Processing
+
+[<img src="https://i.imgur.com/PrMdN2M.png">](https://i.imgur.com/PrMdN2M.png)
 
   * Price :
 [<img src="https://i.imgur.com/Hu4UkcC.png">](https://i.imgur.com/Hu4UkcC.png)
@@ -270,3 +273,5 @@
   * Benefits & features :
   
 [<img src="https://i.imgur.com/VpBKCDO.png">](https://i.imgur.com/VpBKCDO.png)
+
+  
