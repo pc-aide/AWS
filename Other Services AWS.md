@@ -107,7 +107,7 @@
   * If Desjardins were in Europe, their penalty would be ~ $ 200 million instead of ~ $ 50 million
 
 11) [**Cost-effective instance** (EC2) pricing model](https://aws.amazon.com/ec2/pricing/)
-  * Type Of Instances
+  * EC2 Pricing Models
     * Reserved
     * Dedicated
     * On-demand
