@@ -136,3 +136,5 @@
 12) [AWS Batch](https://docs.aws.amazon.com/batch/)
 
 [<img src="https://i.imgur.com/TSouyLs.png">](https://i.imgur.com/TSouyLs.png)
+[<img src="https://i.imgur.com/VvNUoiv.png">](https://i.imgur.com/VvNUoiv.png)
+[<img src="https://i.imgur.com/tiCMwOd.png">](https://i.imgur.com/tiCMwOd.png)
