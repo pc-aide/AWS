@@ -227,6 +227,9 @@
 [<img src="https://i.imgur.com/sIYxN10.png">](https://i.imgur.com/sIYxN10.png)
 
 15) [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+  * AWS Console :
+
+[<img src="https://i.imgur.com/wFeO4Jp.png">](https://i.imgur.com/wFeO4Jp.png)
 
   * Benefits :
 
