@@ -111,7 +111,7 @@
     * Reserved
     * Dedicated
     * On-Demand
-    * Scheduled Reserved
+    * [Scheduled Reserved](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-scheduled-instances.html)
 
 * Other examples
   * On-Demand
