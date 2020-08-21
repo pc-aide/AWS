@@ -366,3 +366,47 @@
     & you can use them to protect data in your own applications that use AWS. 
   * Acronym
     * KMS - Key Management Service
+    * CMK - Customer Master Key
+  * AWS Console\KMS :
+  
+[<img src="https://i.imgur.com/WSLiNxH.png">](https://i.imgur.com/WSLiNxH.png)
+
+  * Encryption Flow : 
+  
+[<img src="https://i.imgur.com/S6UV6ER.png">](https://i.imgur.com/S6UV6ER.png)
+
+  * Client Side Encryption :
+  
+[<img src="https://i.imgur.com/edtF1wQ.png">](https://i.imgur.com/edtF1wQ.png)
+
+  * Server Side Encryption :
+  
+[<img src="https://i.imgur.com/bdWgG7c.png">](https://i.imgur.com/bdWgG7c.png)
+
+  * Managing Key Yourselves () :
+  
+[<img src="https://i.imgur.com/fxM0z7Z.png">](https://i.imgur.com/fxM0z7Z.png)
+
+  * Envelope Encryption : 
+  
+[<img src="https://i.imgur.com/58T4q9a.png">](https://i.imgur.com/58T4q9a.png)
+
+  * Features :
+    * Fully Managed
+    * Centralized Key Management
+    * Integration with AWS Services
+    * Built in Auditing
+    * Secure & Compliant
+    
+  * Flash back (Encryption Flow) :
+
+[<img src="https://i.imgur.com/RDQEAGR.png">](https://i.imgur.com/RDQEAGR.png)
+[<img src="https://i.imgur.com/f1xHDFU.png">](https://i.imgur.com/f1xHDFU.png)
+
+  * Compare : AWS Managed CMK <> Customer Managed CMK :
+    * AWS managed keys (alias : prefix -> AWS/...
+      * E.g.: aws/cloud9
+  
+[<img src="https://i.imgur.com/mEH4Hbr.png">](https://i.imgur.com/mEH4Hbr.png)
+
+  * Demo\AWS Console\kms\
