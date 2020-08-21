@@ -169,3 +169,5 @@
     * Features
       * 80 TB and 50 TB models are available in US Regions; 50 TB model available in all other AWS Regions. 
       * Enforced encryption protects your data at rest and in physical transit.
+
+14) [AWS VPN](https://aws.amazon.com/vpn/)
