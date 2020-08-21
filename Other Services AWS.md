@@ -359,3 +359,7 @@
   * Analysis (real-time) :
   
 [<img src="https://i.imgur.com/CHzNRd7.png">](https://i.imgur.com/CHzNRd7.png)
+
+18) [AWS KMS](https://docs.aws.amazon.com/kms/)
+  * Acronym
+    * KMS - Key Management Service
