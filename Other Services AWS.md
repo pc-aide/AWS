@@ -171,5 +171,6 @@
       * Enforced encryption protects your data at rest and in physical transit.
 [<img src="https://i.imgur.com/FqXIV55.png">](https://i.imgur.com/FqXIV55.png)
 [<img src="https://i.imgur.com/foRw6Wy.png">](https://i.imgur.com/foRw6Wy.png)
+[<img src="https://i.imgur.com/nnibqTy.png">](https://i.imgur.com/nnibqTy.png)
 
 14) [AWS VPN](https://aws.amazon.com/vpn/)
