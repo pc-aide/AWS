@@ -248,4 +248,4 @@
     * Expensive for writes
     * Cheap for reads
     
-[<img src="https://i.imgur.com/wEoAVDA.png">](https://i.imgur.com/wEoAVDA.png)
+[<img src="https://i.imgur.com/z69Mn1v.png">](https://i.imgur.com/z69Mn1v.png)
