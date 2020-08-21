@@ -110,7 +110,7 @@
   * EC2 Pricing Models
     * Reserved
     * Dedicated
-    * On-demand
+    * On-Demand
     * Scheduled Reserved
 
 * Other examples
