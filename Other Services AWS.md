@@ -451,3 +451,12 @@
 [<img src="https://i.imgur.com/hQL0hzZ.png">](https://i.imgur.com/hQL0hzZ.png)
 [<img src="https://i.imgur.com/bfjjDLm.png">](https://i.imgur.com/bfjjDLm.png)
 [<img src="https://i.imgur.com/0TxBCPx.png">](https://i.imgur.com/0TxBCPx.png)
+
+  * Role Based Access (Team A & Team B) : 
+  
+[<img src="https://i.imgur.com/j5mvoPc.png">](https://i.imgur.com/j5mvoPc.png)
+
+19) [AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/)
+  * AWS Secrets Manager helps you protect access to your applications, services,
+    and IT resources. You can easily rotate, manage, and retrieve database
+    credentials, API keys, and other secrets throughout their lifecycle.
