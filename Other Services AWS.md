@@ -112,6 +112,8 @@
     * Dedicated
     * On-Demand
     * [Scheduled Reserved](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-scheduled-instances.html)
+    
+[<img src="https://i.imgur.com/A1qOvB8.png">](https://i.imgur.com/A1qOvB8.png)
 
 * Other examples
   * On-Demand
