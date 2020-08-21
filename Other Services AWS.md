@@ -106,8 +106,22 @@
 [<img src="https://i.imgur.com/2p2nRcp.png">](https://i.imgur.com/2p2nRcp.png)
   * If Desjardins were in Europe, their penalty would be ~ $ 200 million instead of ~ $ 50 million
 
-11) Cost-effective instance pricing model
+11) [Cost-effective instance pricing model](https://aws.amazon.com/ec2/pricing/)
   * Reserved
   * Dedicated
   * On-demand
   * Scheduled Reserved
+
+* Other examples
+  * On-Demand
+    * An Instance for 1h
+  * Dedicated
+    * High security (no share everyone)
+      * they are costlier
+  * On Spot
+    * It is like bidding
+        * E.g: Range price: bid for $300 for the share
+          if the price raise, so i'm not taking the share right
+  * Reserved
+    * It's like renting a aprtment on a leasse
+      * long period (same price)
