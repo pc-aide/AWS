@@ -231,6 +231,13 @@
 
 [<img src="https://i.imgur.com/wFeO4Jp.png">](https://i.imgur.com/wFeO4Jp.png)
 
+  * Keys words :
+  
+[<img src="https://i.imgur.com/jhUhdsI.png">](https://i.imgur.com/jhUhdsI.png)
+
   * Benefits :
 
 [<img src="https://i.imgur.com/4Jvr0I8.png">](https://i.imgur.com/4Jvr0I8.png)
+[<img src="https://i.imgur.com/XMbnYaA.png">](https://i.imgur.com/XMbnYaA.png)
+
+  * 2 Different read consistency types :
