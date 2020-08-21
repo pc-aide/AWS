@@ -249,3 +249,7 @@
     * Cheap for reads
     
 [<img src="https://i.imgur.com/z69Mn1v.png">](https://i.imgur.com/z69Mn1v.png)
+
+  * Case Stydy : Duolingo
+  
+[<img src="https://i.imgur.com/MnjXNnW.png">](https://i.imgur.com/MnjXNnW.png)
