@@ -253,3 +253,20 @@
   * Case Stydy : Duolingo
   
 [<img src="https://i.imgur.com/MnjXNnW.png">](https://i.imgur.com/MnjXNnW.png)
+
+16) [Amazon Redshift](https://docs.aws.amazon.com/redshift/)
+  * Amazon Redshift is a fast, scalable **data warehouse** that makes it simple and
+    cost-effective to analyze all of your data across your data warehouse and data lake.
+  * Acronym
+    * SQL - Simple Query Language
+
+  * Price :
+[<img src="https://i.imgur.com/Hu4UkcC.png">](https://i.imgur.com/Hu4UkcC.png)
+
+  * SQL, ETL, BI :
+  
+[<img src="https://i.imgur.com/nWq9EvK.png">](https://i.imgur.com/nWq9EvK.png)
+
+  * Benefits & features :
+  
+[<img src="https://i.imgur.com/VpBKCDO.png">](https://i.imgur.com/VpBKCDO.png)
