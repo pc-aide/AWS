@@ -126,3 +126,5 @@
   * Reserved
     * It's like renting a aprtment on a leasse
       * long period (same price)
+
+[<img src="https://i.imgur.com/G8UyGDC.png">](https://i.imgur.com/G8UyGDC.png)
