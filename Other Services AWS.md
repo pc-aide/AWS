@@ -196,3 +196,16 @@
   * Create customer Gateway :
   
 [<img src="https://i.imgur.com/XDB1T0r.png">](https://i.imgur.com/XDB1T0r.png)
+
+  * Create Virtual Private Gateways :
+  
+[<img src="https://i.imgur.com/G8KGYvv.png">](https://i.imgur.com/G8KGYvv.png)
+
+  * Attach to VPC : 
+  
+[<img src="https://i.imgur.com/8LF1XWT.png">](https://i.imgur.com/8LF1XWT.png)
+[<img src="https://i.imgur.com/ncF34oG.png">](https://i.imgur.com/ncF34oG.png)
+
+  * Create VPN Connection (last step) :
+  
+[<img src="https://i.imgur.com/qIuWSbH.png">](https://i.imgur.com/qIuWSbH.png)
