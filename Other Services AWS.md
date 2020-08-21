@@ -153,3 +153,7 @@
   * linked Queue1 to Queue2
   
 [<img src="https://i.imgur.com/XrSj96C.png">](https://i.imgur.com/XrSj96C.png)
+
+13) [AWS Snowball](https://aws.amazon.com/snowball/)
+
+[<img src="https://i.imgur.com/5W5wphv.png">](https://i.imgur.com/5W5wphv.png)
