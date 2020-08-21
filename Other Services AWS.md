@@ -185,3 +185,5 @@
 [<img src="https://i.imgur.com/aZMSBZM.png">](https://i.imgur.com/aZMSBZM.png)
 
 14) [AWS VPN](https://aws.amazon.com/vpn/)
+
+[<img src="https://i.imgur.com/iTLx6PK.png">](https://i.imgur.com/iTLx6PK.png)
