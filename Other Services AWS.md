@@ -245,5 +245,7 @@
 [<img src="https://i.imgur.com/pBK7L7s.png">](https://i.imgur.com/pBK7L7s.png)
 
   * Provisioned Throughput Capacity :
-  
-[<img src="https://i.imgur.com/ODp1nNB.png">](https://i.imgur.com/ODp1nNB.png)
+    * Expensive for writes
+    * Cheap for reads
+    
+[<img src="https://i.imgur.com/wEoAVDA.png">](https://i.imgur.com/wEoAVDA.png)
