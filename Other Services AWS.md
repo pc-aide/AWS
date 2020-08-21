@@ -155,5 +155,9 @@
 [<img src="https://i.imgur.com/XrSj96C.png">](https://i.imgur.com/XrSj96C.png)
 
 13) [AWS Snowball](https://aws.amazon.com/snowball/)
+    * [What Is an AWS Snowball Device?](https://docs.aws.amazon.com/snowball/latest/ug/whatissnowball.html)
+    * The AWS Snowball service uses physical storage devices to transfer large amounts
+      of data between Amazon Simple Storage Service (Amazon S3) and your onsite data
+      storage location at faster-than-internet speeds
 
 [<img src="https://i.imgur.com/5W5wphv.png">](https://i.imgur.com/5W5wphv.png)
