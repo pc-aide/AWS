@@ -243,3 +243,7 @@
   * 2 Different read consistency types :
 
 [<img src="https://i.imgur.com/pBK7L7s.png">](https://i.imgur.com/pBK7L7s.png)
+
+  * Provisioned Throughput Capacity :
+  
+[<img src="https://i.imgur.com/ODp1nNB.png">](https://i.imgur.com/ODp1nNB.png)
