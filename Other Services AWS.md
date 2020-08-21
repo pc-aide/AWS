@@ -130,3 +130,4 @@
       * long period (same price)
 
 [<img src="https://i.imgur.com/G8UyGDC.png">](https://i.imgur.com/G8UyGDC.png)
+[<img src="https://i.imgur.com/Fdf0n9d.png">](https://i.imgur.com/Fdf0n9d.png)
