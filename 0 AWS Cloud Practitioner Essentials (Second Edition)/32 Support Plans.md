@@ -4,6 +4,9 @@
 * [Compare AWS Support Plans](https://aws.amazon.com/premiumsupport/plans)
 * [AWS Infrastructure Event Management](https://aws.amazon.com/premiumsupport/programs/iem/)
 
+## Video
+* [AWS Enterprise Support - What Value Our Customers Have Experienced](https://www.youtube.com/watch?v=uFV_rukctP4)
+
 ## Acronym
 * TAM - Technical Account Manager
 
