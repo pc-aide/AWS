@@ -225,3 +225,9 @@
   * Tunnel Details : 
   
 [<img src="https://i.imgur.com/sIYxN10.png">](https://i.imgur.com/sIYxN10.png)
+
+15) [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+
+  * Benefits :
+
+[<img src="https://i.imgur.com/4Jvr0I8.png">](https://i.imgur.com/4Jvr0I8.png)
