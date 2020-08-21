@@ -209,3 +209,19 @@
   * Create VPN Connection (last step) :
   
 [<img src="https://i.imgur.com/qIuWSbH.png">](https://i.imgur.com/qIuWSbH.png)
+
+  * Download Configuration : 
+  
+[<img src="https://i.imgur.com/yB7ofKw.png">](https://i.imgur.com/yB7ofKw.png)
+
+  * E.g file :
+  
+[<img src="https://i.imgur.com/TzWMRfp.png">](https://i.imgur.com/TzWMRfp.png)
+  
+* pre-shared-key (for admin) :
+
+[<img src="https://i.imgur.com/y396jmh.png">](https://i.imgur.com/y396jmh.png)
+
+  * Tunnel Details : 
+  
+[<img src="https://i.imgur.com/sIYxN10.png">](https://i.imgur.com/sIYxN10.png)
