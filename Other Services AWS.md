@@ -257,6 +257,10 @@
 16) [Amazon Redshift](https://docs.aws.amazon.com/redshift/)
   * Amazon Redshift is a fast, scalable **data warehouse** that makes it simple and
     cost-effective to analyze all of your data across your data warehouse and data lake.
+  * Terminology:
+    * Data Warehouse
+      * A data warehose is a **subject-oriented, integrated, time-variant & non-volatile**
+        collection of data in support of organisation's decision-making process
   * Acronym
     * SQL - Simple Query Language
     * OLAP - On-line Analytical Processing
@@ -277,3 +281,11 @@
 * Nodes : 
 
 [<img src="https://i.imgur.com/zz35LEw.png">](https://i.imgur.com/zz35LEw.png)
+
+  * Limitations : 
+  
+[<img src="https://i.imgur.com/7lsYtdI.png">](https://i.imgur.com/7lsYtdI.png)
+
+  * Costs :
+  
+[<img src="https://i.imgur.com/JnaTpzO.png">](https://i.imgur.com/JnaTpzO.png)
