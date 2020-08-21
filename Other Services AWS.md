@@ -327,3 +327,35 @@
   * Costs :
   
 [<img src="https://i.imgur.com/JnaTpzO.png">](https://i.imgur.com/JnaTpzO.png)
+
+17) [Amazon ElasticSearch Service](https://docs.aws.amazon.com/elasticsearch-service/)
+  * Amazon Elasticsearch Service (Amazon ES) is a managed service that makes it easy to deploy,
+    operate, and scale Elasticsearch, a popular **open-source search and analytics engine**. Amazon
+    ES also offers security options, high availability, data durability, and direct access to
+    the Elasticsearch API. 
+  * Acronym
+    * Amazon ES - Amazon Elasticsearch Service
+    
+  * Machine-generated data is growing
+  
+[<img src="https://i.imgur.com/emsHB7e.png">](https://i.imgur.com/emsHB7e.png)
+
+  * Open soucrce choice to harness this valuable data :
+  
+[<img src="https://i.imgur.com/F49sROx.png">](https://i.imgur.com/F49sROx.png)
+
+  * Rub/Nodes.js/JavaScript/PHP/Python/Java :
+  
+[<img src="https://i.imgur.com/rzbl7AU.png">](https://i.imgur.com/rzbl7AU.png)
+  
+  * Get started in minutes :
+  
+[<img src="https://i.imgur.com/2WTrpRY.png">](https://i.imgur.com/2WTrpRY.png)
+
+  * Pay as you go :
+  
+[<img src="https://i.imgur.com/kB9GHR7.png">](https://i.imgur.com/kB9GHR7.png)
+
+  * Analysis (real-time) :
+  
+[<img src="https://i.imgur.com/CHzNRd7.png">](https://i.imgur.com/CHzNRd7.png)
