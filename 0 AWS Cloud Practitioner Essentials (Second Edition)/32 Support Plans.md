@@ -29,3 +29,6 @@
   * Business Support
   * Enterprise Support
   
+## How It Works
+
+[<img src="https://i.imgur.com/a2N9M16.png">](https://i.imgur.com/a2N9M16.png)
