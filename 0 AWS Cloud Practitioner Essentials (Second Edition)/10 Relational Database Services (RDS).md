@@ -46,7 +46,7 @@
 [<img src="https://i.imgur.com/551POyH.png">](https://i.imgur.com/551POyH.png)
 
 ## High Availability with Multi-AZ
-[<img src="https://i.imgur.com/OAtTHHv.png">](https://i.imgur.com/OAtTHHv.png)
+[<img src="https://i.imgur.com/7e8nPbx.png">](https://i.imgur.com/7e8nPbx.png)
 * Normal
 
 [<img src="https://i.imgur.com/pya3L3k.png">](https://i.imgur.com/pya3L3k.png)
