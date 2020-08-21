@@ -106,7 +106,7 @@
 [<img src="https://i.imgur.com/2p2nRcp.png">](https://i.imgur.com/2p2nRcp.png)
   * If Desjardins were in Europe, their penalty would be ~ $ 200 million instead of ~ $ 50 million
 
-11) [Cost-effective instance pricing model](https://aws.amazon.com/ec2/pricing/)
+11) [Cost-effective instance (EC2) pricing model](https://aws.amazon.com/ec2/pricing/)
   * Reserved
   * Dedicated
   * On-demand
