@@ -189,7 +189,10 @@
 [<img src="https://i.imgur.com/iTLx6PK.png">](https://i.imgur.com/iTLx6PK.png)
 
   * Steps
-    * Create VPC (available - no used)
+    * Create VPC (available - no used) :
     
 [<img src="https://i.imgur.com/z4s0z5r.png">](https://i.imgur.com/z4s0z5r.png)
     
+  * Create customer Gateway :
+  
+[<img src="https://i.imgur.com/XDB1T0r.png">](https://i.imgur.com/XDB1T0r.png)
