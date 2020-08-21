@@ -241,3 +241,5 @@
 [<img src="https://i.imgur.com/XMbnYaA.png">](https://i.imgur.com/XMbnYaA.png)
 
   * 2 Different read consistency types :
+
+[<img src="https://i.imgur.com/pBK7L7s.png">](https://i.imgur.com/pBK7L7s.png)
