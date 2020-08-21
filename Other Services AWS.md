@@ -159,5 +159,9 @@
     * The AWS Snowball service uses physical storage devices to transfer large amounts
       of data between Amazon Simple Storage Service (Amazon S3) and your onsite data
       storage location at faster-than-internet speeds
+    * Snowball is intended for transferring large amounts of data. If you want to
+      transfer less than 10 TB of data between your on-premises data centers and
+      Amazon S3, Snowball might not be your most economical choice.
+
 
 [<img src="https://i.imgur.com/5W5wphv.png">](https://i.imgur.com/5W5wphv.png)
