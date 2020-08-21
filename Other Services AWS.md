@@ -408,5 +408,46 @@
       * E.g.: aws/cloud9
   
 [<img src="https://i.imgur.com/mEH4Hbr.png">](https://i.imgur.com/mEH4Hbr.png)
+[<img src="https://i.imgur.com/JwSJKOz.png">](https://i.imgur.com/JwSJKOz.png)
+[<img src="https://i.imgur.com/VfMOJGG.png">](https://i.imgur.com/VfMOJGG.png)
 
-  * Demo\AWS Console\kms\
+  * Demo\AWS Console\kms\Customer managed keys\create key :
+
+[<img src="https://i.imgur.com/toMo1XD.png">](https://i.imgur.com/toMo1XD.png)
+
+  * Define key administrative permissions (IAM) :
+  
+[<img src="https://i.imgur.com/bFtKqiR.png">](https://i.imgur.com/bFtKqiR.png)
+[<img src="https://i.imgur.com/9bFvCTV.png">](https://i.imgur.com/9bFvCTV.png)
+
+  * This account (IAM with AWS KMS API) :
+  
+[<img src="https://i.imgur.com/Ia5JwAQ.png">](https://i.imgur.com/Ia5JwAQ.png)
+
+  * Review & edit key policy (code) : 
+  
+[<img src="https://i.imgur.com/daQET19.png">](https://i.imgur.com/daQET19.png)
+[<img src="https://i.imgur.com/g7AjhgL.png">](https://i.imgur.com/g7AjhgL.png)
+
+  * To apply to S3 :
+  
+[<img src="https://i.imgur.com/X2bqgj1.png">](https://i.imgur.com/X2bqgj1.png)
+
+  * Upload a file :
+  
+[<img src="https://i.imgur.com/o0P07Yy.png">](https://i.imgur.com/o0P07Yy.png)
+
+  * Set properties\Encryption: none :
+  
+[<img src="https://i.imgur.com/dLcG2G6.png">](https://i.imgur.com/dLcG2G6.png)
+
+  * Test if an other user can to acces this file :
+  
+[<img src="https://i.imgur.com/6me4rpb.png">](https://i.imgur.com/6me4rpb.png)
+[<img src="https://i.imgur.com/4cdPSwW.png">](https://i.imgur.com/4cdPSwW.png)
+
+  * Lets to use AWS KMS\properties\... :
+  
+[<img src="https://i.imgur.com/hQL0hzZ.png">](https://i.imgur.com/hQL0hzZ.png)
+[<img src="https://i.imgur.com/bfjjDLm.png">](https://i.imgur.com/bfjjDLm.png)
+[<img src="https://i.imgur.com/0TxBCPx.png">](https://i.imgur.com/0TxBCPx.png)
