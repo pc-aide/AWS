@@ -5,6 +5,7 @@
 * OS - Operating System
 * DB - Database
 * VPC - Virtual Private Cloud
+* prd - production
 
 ## Doc
 * [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/)
@@ -90,3 +91,33 @@
 [<img src="https://i.imgur.com/mz0JUUN.png">](https://i.imgur.com/mz0JUUN.png)
 
 ## RDS for Oracle
+### E.g
+1) Clinet Oracle SQ Developer: Start page : 
+
+[<img src="https://i.imgur.com/5pATC0V.png">](https://i.imgur.com/5pATC0V.png)
+
+2) AWS Console RDS\Create Instance : 
+
+[<img src="https://i.imgur.com/PFDZkTX.png">](https://i.imgur.com/PFDZkTX.png)
+
+3) Select Engine\Oracle :
+
+[<img src="https://i.imgur.com/AVhJieq.png">](https://i.imgur.com/AVhJieq.png)
+
+4) Do you pla to use this DB for prd purposes? :
+
+[<img src="https://i.imgur.com/H26FW6A.png">](https://i.imgur.com/H26FW6A.png)
+
+5) Config adv settings :
+
+[<img src="https://i.imgur.com/5keLAcS.png">](https://i.imgur.com/5keLAcS.png)
+[<img src="https://i.imgur.com/ZqLj5nx.png">](https://i.imgur.com/ZqLj5nx.png)
+[<img src="https://i.imgur.com/lnSr9Y2.png">](https://i.imgur.com/lnSr9Y2.png)
+
+6) DB Instance (creating...) : 
+
+[<img src="https://i.imgur.com/u92z2Hx.png">](https://i.imgur.com/u92z2Hx.png)
+
+7) Security group\Inbound default port :
+
+[<img src="https://i.imgur.com/iHjmGHl.png">](https://i.imgur.com/iHjmGHl.png)
