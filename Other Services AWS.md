@@ -361,5 +361,8 @@
 [<img src="https://i.imgur.com/CHzNRd7.png">](https://i.imgur.com/CHzNRd7.png)
 
 18) [AWS KMS](https://docs.aws.amazon.com/kms/)
+  * AWS Key Management Service (KMS) is an encryption and key management service
+    scaled for the cloud. KMS keys & functionality are used by other AWS services,
+    & you can use them to protect data in your own applications that use AWS. 
   * Acronym
     * KMS - Key Management Service
