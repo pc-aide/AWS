@@ -49,7 +49,7 @@
 [<img src="https://i.imgur.com/OAtTHHv.png">](https://i.imgur.com/OAtTHHv.png)
 * Normal
 
-[<img src="https://i.imgur.com/wql0Wmc.png">](https://i.imgur.com/wql0Wmc.png)
+[<img src="https://i.imgur.com/pya3L3k.png">](https://i.imgur.com/pya3L3k.png)
 * If fail
     * Using rDS/DNS endpoint, you don't need to change anything in your application code
       to use the standy copy for failover
