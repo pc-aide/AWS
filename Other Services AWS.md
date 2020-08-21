@@ -256,7 +256,7 @@
 
 16) [Amazon Redshift](https://docs.aws.amazon.com/redshift/)
   * Amazon Redshift is a fast, scalable **data warehouse** that makes it simple and
-    cost-effective to analyze all of your data across your data warehouse and data lake.
+    cost-effective to analyze all of your data across your data warehouse and **data lake**.
   * Terminology:
     * Data Warehouse
       * A data warehose is a **subject-oriented, integrated, time-variant & non-volatile**
@@ -266,6 +266,44 @@
     * OLAP - On-line Analytical Processing
 
 [<img src="https://i.imgur.com/PrMdN2M.png">](https://i.imgur.com/PrMdN2M.png)
+
+  * Arhitecture of traditional Data Warehouse :
+
+[<img src="https://i.imgur.com/Kk1zoH2.png">](https://i.imgur.com/Kk1zoH2.png)
+
+  * Disadvantages of traditional Data Warehouse :
+  
+[<img src="https://i.imgur.com/kksDepd.png">](https://i.imgur.com/kksDepd.png)
+
+  * Key Concepts :
+  
+[<img src="https://i.imgur.com/cm9aqW7.png">](https://i.imgur.com/cm9aqW7.png) 
+
+  * Whys Use Amazon Redshift 
+    * Easy to set-up, deploy & manage
+    
+[<img src="https://i.imgur.com/7G92cK5.png">](https://i.imgur.com/7G92cK5.png)
+
+  * Scale quickly to meet you needs :
+  
+[<img src="https://i.imgur.com/oyxPYX8.png">](https://i.imgur.com/oyxPYX8.png)
+
+  * 10x better & faster performance (classic data warehouse) :
+  
+[<img src="https://i.imgur.com/kZRxpZi.png">](https://i.imgur.com/kZRxpZi.png)
+[<img src="https://i.imgur.com/AXeKwyJ.png">](https://i.imgur.com/AXeKwyJ.png)
+
+  * Cost - Effective :
+  
+[<img src="https://i.imgur.com/LNqtnZE.png">](https://i.imgur.com/LNqtnZE.png)
+
+  * Allows to query from data lake :
+  
+[<img src="https://i.imgur.com/LuOrpeW.png">](https://i.imgur.com/LuOrpeW.png)
+
+  * Data is secure in Redshift :
+  
+[<img src="https://i.imgur.com/dG4oFbE.png">](https://i.imgur.com/dG4oFbE.png)
 
   * Price :
 [<img src="https://i.imgur.com/Hu4UkcC.png">](https://i.imgur.com/Hu4UkcC.png)
