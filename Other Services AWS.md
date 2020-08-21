@@ -166,6 +166,6 @@
 [<img src="https://i.imgur.com/5W5wphv.png">](https://i.imgur.com/5W5wphv.png)
 
 
-   * Features
-    * 80 TB and 50 TB models are available in US Regions; 50 TB model available in all other AWS Regions. 
-    * Enforced encryption protects your data at rest and in physical transit.
+    * Features
+      * 80 TB and 50 TB models are available in US Regions; 50 TB model available in all other AWS Regions. 
+      * Enforced encryption protects your data at rest and in physical transit.
