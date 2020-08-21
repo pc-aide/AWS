@@ -121,3 +121,13 @@
 7) Security group\Inbound default port :
 
 [<img src="https://i.imgur.com/iHjmGHl.png">](https://i.imgur.com/iHjmGHl.png)
+
+
+8) Backing-up :
+
+[<img src="https://i.imgur.com/wIUxcEd.png">](https://i.imgur.com/wIUxcEd.png)
+
+9) Connections (Client) : 
+
+[<img src="https://i.imgur.com/wsFffjf.png">](https://i.imgur.com/wsFffjf.png)
+[<img src="https://i.imgur.com/rfOn23o.png">](https://i.imgur.com/rfOn23o.png)
