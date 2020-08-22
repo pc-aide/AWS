@@ -73,3 +73,7 @@
    * Process & deliver streaming data with data delivery stream
 3) Kinesis Data Analytics
    * Analyze streaming data with data analytics application
+
+## Pricing
+### US East (Ohio)
+[<img src="https://i.imgur.com/hrMX1Fg.png">](https://i.imgur.com/hrMX1Fg.png)
