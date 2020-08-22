@@ -1,7 +1,7 @@
 # Amazon Athena
 
 ## Doc
-* [Amazon Athena Documentation](https://docs.aws.amazon.com/athena/]
+* [Amazon Athena Documentation](https://docs.aws.amazon.com/athena/)
 
 ## Intro
 * Amazon Athena is an interactive **query* service that makes it easy to analyze data
