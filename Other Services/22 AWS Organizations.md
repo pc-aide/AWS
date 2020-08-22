@@ -23,6 +23,14 @@
 
 [<img src="https://i.imgur.com/SZZh26m.png">](https://i.imgur.com/SZZh26m.png)
 
+* AWS Organization (2 organization type) :
+
+[<img src="https://i.imgur.com/LKEV2qD.png">](https://i.imgur.com/LKEV2qD.png)
+
+* Manage cost centrally :
+
+[<img src="https://i.imgur.com/ZHpkRsG.png">](https://i.imgur.com/ZHpkRsG.png)
+
 ## AWS Console
 1) Create organization : 
 
@@ -67,3 +75,4 @@
 [<img src="https://i.imgur.com/ODifKqY.png">](https://i.imgur.com/ODifKqY.png)
 
 ## Demo 01
+1) Create organization :
