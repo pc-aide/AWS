@@ -2,10 +2,15 @@
 
 ## Acronym
 * ETL - Extract, Transform, Load
+* SQL - Simple Query Language
+* ANSI - American National Standards Institute
 
 ## Doc
 * [Amazon Athena Documentation](https://docs.aws.amazon.com/athena/)
 * [What is Amazon Athena?](https://docs.aws.amazon.com/athena/latest/ug/what-is.html)
+
+## Logo
+[<img src="https://i.imgur.com/SC62uXN.png">](https://i.imgur.com/SC62uXN.png)
 
 ## Intro
 * Query Data in S3 using SQL
@@ -24,6 +29,15 @@
 ## What is Athena & key Benefits
 * Serverless interactive query tool
 * Its not an ETL tool
+
+## How Athena Works
+* Load data in S3 -> Define the schema -> Query
+* Built on Top of Apache Presto
+* Works with AWS Glue (Hive like meta store)
+* ANSI SQL Compliant
+* Popular formats (CSV, JSON, Parquet, AVro, ORC)
+
+## Optimise Cost & Common Workloads
 
 ## How ETL Works
 [<img src="https://i.imgur.com/hAfdiLu.png">](https://i.imgur.com/hAfdiLu.png)
