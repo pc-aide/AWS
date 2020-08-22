@@ -15,7 +15,7 @@
 
 [<img src="https://i.imgur.com/mDQUQow.png">](https://i.imgur.com/mDQUQow.png)
 
-2) 2 Options
+2) Two Options :
  * Enable all features
  * Enable only consolidated billing
  
