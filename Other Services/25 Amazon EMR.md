@@ -7,6 +7,9 @@
 * [Amazon EMR](https://aws.amazon.com/emr/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)\
 * [Amazon EMR Documentation](https://docs.aws.amazon.com/emr/index.html)
 
+## Logo
+[<img src="https://i.imgur.com/jjfgLjk.png">](https://i.imgur.com/jjfgLjk.png)
+
 ## Intro
 * Managed Hadoop Framework
 * Amazon EMR is a managed cluster platform that simplifies running big data frameworks,
