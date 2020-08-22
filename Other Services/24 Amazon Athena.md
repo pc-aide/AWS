@@ -42,3 +42,6 @@
 
 ## How ETL Works
 [<img src="https://i.imgur.com/hAfdiLu.png">](https://i.imgur.com/hAfdiLu.png)
+
+## Redhisft + EMR + Athena
+[<img src="https://i.imgur.com/UJtxPUz.png">](https://i.imgur.com/UJtxPUz.png)
