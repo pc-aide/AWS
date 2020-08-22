@@ -14,3 +14,27 @@
 ## [AWS Total Cost of Ownership (TCO) Calculator](http://awstcocalculator.com/)
 [<img src="https://i.imgur.com/FkdZnyX.png">](https://i.imgur.com/FkdZnyX.png)
 [<img src="https://i.imgur.com/HVeiq4P.png">](https://i.imgur.com/HVeiq4P.png)
+
+
+## Demo
+### 01
+* Servers :
+
+[<img src="https://i.imgur.com/I5UoMUf.png">](https://i.imgur.com/I5UoMUf.png)
+
+* Storage : 
+
+[<img src="https://i.imgur.com/8IKI7h2.png">](https://i.imgur.com/8IKI7h2.png)
+
+* Calculate TCO 
+  * 3 Years Cost Breakdown :
+  
+[<img src="https://i.imgur.com/uM2NlQY.png">](https://i.imgur.com/uM2NlQY.png)
+
+* Environment Details :
+
+[<img src="https://i.imgur.com/dx91XuX.png">](https://i.imgur.com/dx91XuX.png)
+
+* Cost Breakdown :
+
+[<img src="https://i.imgur.com/pcrMJtb.png">](https://i.imgur.com/pcrMJtb.png)
