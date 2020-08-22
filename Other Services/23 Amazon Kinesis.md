@@ -60,3 +60,8 @@
 
 * to get started just creat a **new stream** & point from the AWS Console
   or SDKs
+
+## Who use Kinesis?
+* Netflix
+
+[<img src="https://i.imgur.com/rmQej3K.png">](https://i.imgur.com/rmQej3K.png)
