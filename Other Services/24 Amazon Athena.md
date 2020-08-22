@@ -53,3 +53,10 @@
 * Pay per query
 * No 'data storage' cost, except S3
 * $0.05/10 GB or $5.00/1TB of data scanned
+
+## Limitations & Best Practices
+* Queries are asynchronous, best effort execution
+* Large queries longer & are more expensive
+* Performance limitations for complex queries
+* Not suitable for latency sensitive applications
+* Powerfull when combined with data ingestion services like Kinesis Firehose
