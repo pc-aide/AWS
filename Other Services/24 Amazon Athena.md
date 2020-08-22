@@ -29,6 +29,7 @@
 ## What is Athena & key Benefits
 * Serverless interactive query tool
 * Its not an ETL tool
+* Pay per Query ($ = Scanned data volume)
 
 ## How Athena Works
 * Load data in S3 -> Define the schema -> Query
