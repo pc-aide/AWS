@@ -10,3 +10,7 @@
 [<img src="https://i.imgur.com/2Iwjvdl.png">](https://i.imgur.com/2Iwjvdl.png)
 
 [<img src="https://i.imgur.com/itXbnVb.png">](https://i.imgur.com/itXbnVb.png)
+
+## [AWS Total Cost of Ownership (TCO) Calculator](http://awstcocalculator.com/)
+[<img src="https://i.imgur.com/FkdZnyX.png">](https://i.imgur.com/FkdZnyX.png)
+[<img src="https://i.imgur.com/HVeiq4P.png">](https://i.imgur.com/HVeiq4P.png)
