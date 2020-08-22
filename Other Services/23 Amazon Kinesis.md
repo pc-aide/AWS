@@ -70,6 +70,6 @@
 1) Kinesis Data Streams
    * Collect streaming data with a data stream
 2) Kinesis Data Firehose
-  * Process & deliver streaming data with data delivery stream
+   * Process & deliver streaming data with data delivery stream
 3) Kinesis Data Analytics
    * Analyze streaming data with data analytics application
