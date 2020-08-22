@@ -16,6 +16,20 @@
 
 [<img src="https://i.imgur.com/S85nGwj.png">](https://i.imgur.com/S85nGwj.png)
 
-* Cost Explorer :
+* Explore Costs :
 
-[<img src="https://i.imgur.com/xNmx6Aa.png">](https://i.imgur.com/xNmx6Aa.png)
+[<img src="https://i.imgur.com/QiSlcA8.png">](https://i.imgur.com/QiSlcA8.png)
+[<img src="https://i.imgur.com/uuD03F2.png">](https://i.imgur.com/uuD03F2.pngg)
+
+* Group by: **Service** :
+
+[<img src="https://i.imgur.com/vsqjpvq.png">](https://i.imgur.com/vsqjpvq.png)
+
+* EC2-Other & S3 :
+
+[<img src="https://i.imgur.com/YxMhwzK.png">](https://i.imgur.com/YxMhwzK.png)
+
+* Filters\Service\S3 :
+
+[<img src="https://i.imgur.com/ccpggpv.png">](https://i.imgur.com/ccpggpv.png)
+
