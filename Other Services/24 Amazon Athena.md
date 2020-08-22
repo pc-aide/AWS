@@ -39,6 +39,8 @@
 * ANSI SQL Compliant
 * Popular formats (CSV, JSON, Parquet, AVro, ORC)
 
+[<img src="https://i.imgur.com/f19v6LX.png">](https://i.imgur.com/f19v6LX.png)
+
 ## Optimise Cost & Common Workloads
 
 ## How ETL Works
