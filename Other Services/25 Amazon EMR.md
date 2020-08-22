@@ -1,4 +1,4 @@
-# Amazzon EMR
+# Amazon EMR
 
 ## Acronym
 * EMR - Elastic MapedReduce
