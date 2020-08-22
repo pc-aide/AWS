@@ -1,5 +1,8 @@
 # Amazon Athena
 
+## Acronym
+* ETL - Extract, Transform, Load
+
 ## Doc
 * [Amazon Athena Documentation](https://docs.aws.amazon.com/athena/)
 * [What is Amazon Athena?](https://docs.aws.amazon.com/athena/latest/ug/what-is.html)
@@ -17,3 +20,10 @@
 3) Query data
 
 [<img src="https://i.imgur.com/TnZnNJW.png">](https://i.imgur.com/TnZnNJW.png)
+
+## What is Athena & key Benefits
+* Serverless interactive query tool
+* Its not an ETL tool
+
+## How ETL Works
+[<img src="https://i.imgur.com/hAfdiLu.png">](https://i.imgur.com/hAfdiLu.png)
