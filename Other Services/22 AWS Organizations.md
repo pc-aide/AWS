@@ -2,6 +2,8 @@
 
 ## Acronym
 * OU - Organization Unit
+* MFA - Multiple-Factor Authentication
+* O/P - OutPut
 
 ## Doc
 * [AWS Organizations Documentations](https://docs.aws.amazon.com/organizations/)
@@ -75,4 +77,58 @@
 [<img src="https://i.imgur.com/ODifKqY.png">](https://i.imgur.com/ODifKqY.png)
 
 ## Demo 01
+### First step
 1) Create organization :
+
+[<img src="https://i.imgur.com/F1BuPy4.png">](https://i.imgur.com/F1BuPy4.png)
+
+ * Dashboad :
+ 
+[<img src="https://i.imgur.com/5gYZBnc.png">](https://i.imgur.com/5gYZBnc.png)
+
+2) Add account :
+
+[<img src="https://i.imgur.com/VEvfP1m.png">](https://i.imgur.com/VEvfP1m.png)
+[<img src="https://i.imgur.com/K8d4BsA.png">](https://i.imgur.com/K8d4BsA.png)
+
+3) Email (invitation) : 
+
+[<img src="https://i.imgur.com/NZ9WNvb.png">](https://i.imgur.com/NZ9WNvb.png)
+
+4) Member Account (MFA) :
+
+[<img src="https://i.imgur.com/0vuEceE.png">](https://i.imgur.com/0vuEceE.png)
+
+5) Inviations (Accept|Decline) : 
+
+[<img src="https://i.imgur.com/P2kvz7l.png">](https://i.imgur.com/P2kvz7l.png)
+[<img src="https://i.imgur.com/g5cUkuw.png">](https://i.imgur.com/g5cUkuw.png)
+[<img src="https://i.imgur.com/ysCpZR4.png">](https://i.imgur.com/ysCpZR4.png)
+
+6) Masster Account :
+
+[<img src="https://i.imgur.com/dIYvt5d.png">](https://i.imgur.com/dIYvt5d.png)
+
+### Second step
+* Tree View : 
+
+[<img src="https://i.imgur.com/gWqMvid.png">](https://i.imgur.com/gWqMvid.png)
+
+1) New OU :
+
+[<img src="https://i.imgur.com/SbRXkim.png">](https://i.imgur.com/SbRXkim.png)
+[<img src="https://i.imgur.com/ts57J9Z.png">](https://i.imgur.com/ts57J9Z.png)
+[<img src="https://i.imgur.com/7X9ujDh.png">](https://i.imgur.com/7X9ujDh.png)
+
+2) Move Master Account in Production :
+
+[<img src="https://i.imgur.com/UNVXlpI.png">](https://i.imgur.com/UNVXlpI.png)
+
+3) Move CA-Demo in Test : 
+
+[<img src="https://i.imgur.com/HvgCUmH.png">](https://i.imgur.com/HvgCUmH.png)
+
+4) O/P : 
+
+[<img src="https://i.imgur.com/v78ek7F.png">](https://i.imgur.com/v78ek7F.png)
+[<img src="https://i.imgur.com/nrGAsP7.png">](https://i.imgur.com/nrGAsP7.png)
