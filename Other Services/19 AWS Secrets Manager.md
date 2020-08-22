@@ -74,3 +74,13 @@
 
 [<img src="https://i.imgur.com/tT9S0UW.png">](https://i.imgur.com/tT9S0UW.png)
 [<img src="https://i.imgur.com/MU4fQNX.png">](https://i.imgur.com/MU4fQNX.png)
+
+## Power Point
+### 03
+#### Uses cases
+* Use secret within application :
+
+[<img src="https://i.imgur.com/7KSbR6Y.png">](https://i.imgur.com/7KSbR6Y.png)
+
+#### Retrieve Secret
+[<img src="https://i.imgur.com/rDvWDK9.png">](https://i.imgur.com/rDvWDK9.png)
