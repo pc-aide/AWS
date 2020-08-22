@@ -19,6 +19,9 @@
   
 [<img src="https://i.imgur.com/dT1SpVC.png">](https://i.imgur.com/dT1SpVC.png)
 
+## How It Works
+[<img src="https://i.imgur.com/9j052vB.png">](https://i.imgur.com/9j052vB.png)
+
 ## Keeping Track of your AWS Resources
 * [<img src="https://i.imgur.com/JTAwMrx.png">](https://i.imgur.com/JTAwMrx.png)
   * Complex
