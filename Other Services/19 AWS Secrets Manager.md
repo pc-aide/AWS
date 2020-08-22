@@ -52,3 +52,25 @@
 
 2) Store a new secret :
 
+[<img src="https://i.imgur.com/DHqTlOI.png">](https://i.imgur.com/DHqTlOI.png)
+
+3) Secret name & description :
+
+[<img src="https://i.imgur.com/iVHiFIy.png">](https://i.imgur.com/iVHiFIy.png)
+
+4) Config automatic rotation (optional) :
+
+[<img src="https://i.imgur.com/tqh7mn7.png">](https://i.imgur.com/tqh7mn7.png)
+
+5) Review :
+
+[<img src="https://i.imgur.com/NRBMWpi.png">](https://i.imgur.com/NRBMWpi.png)
+
+6) Sample code
+
+[<img src="https://i.imgur.com/HiV913j.png">](https://i.imgur.com/HiV913j.png)
+
+7) Test\aws cli :
+
+[<img src="https://i.imgur.com/tT9S0UW.png">](https://i.imgur.com/tT9S0UW.png)
+[<img src="https://i.imgur.com/MU4fQNX.png">](https://i.imgur.com/MU4fQNX.png)
