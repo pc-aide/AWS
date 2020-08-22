@@ -39,3 +39,16 @@
 
 #### Key features
 [<img src="https://i.imgur.com/a7OhgED.png">](https://i.imgur.com/a7OhgED.png)
+[<img src="https://i.imgur.com/cJkf96H.png">](https://i.imgur.com/cJkf96H.png)
+
+## Demo 01
+### Store & retrive SSH key
+[<img src="https://i.imgur.com/d5UdQDD.png">](https://i.imgur.com/d5UdQDD.png)
+
+1) AWS Console\Service\Secret Manager :
+
+[<img src="https://i.imgur.com/QJeLsW9.png">](https://i.imgur.com/QJeLsW9.png)
+[<img src="https://i.imgur.com/vTJJpSB.png">](https://i.imgur.com/vTJJpSB.png)
+
+2) Store a new secret :
+
