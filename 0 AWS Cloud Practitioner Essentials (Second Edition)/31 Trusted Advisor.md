@@ -2,7 +2,7 @@
 
 ## Doc
 * [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
-* []()
+* [AWS Organizations Documentation](https://docs.aws.amazon.com/organizations/)
 
 ## Acronym
 * ARN - Amazon Resource Name 
