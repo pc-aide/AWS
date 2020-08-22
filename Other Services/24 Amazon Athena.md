@@ -48,3 +48,8 @@
 
 ## Redhisft + EMR + Athena
 [<img src="https://i.imgur.com/UJtxPUz.png">](https://i.imgur.com/UJtxPUz.png)
+
+## Pricing
+* Pay per query
+* No 'data storage' cost, except S3
+* $0.05/10 GB or $5.00/1TB of data scanned
