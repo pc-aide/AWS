@@ -1,7 +1,23 @@
 # Trusted Advisor
 
+## Doc
+* [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
+* []()
+
 ## Acronym
 * ARN - Amazon Resource Name 
+
+## Intro 
+* AWS Trusted Advisor is an online resource to help you reduce cost, increase performance,
+  and improve security by optimizing your AWS environment. AWS Trusted Advisor provides
+  real-time guidance to help you provision your resources following AWS best practices.
+  To help you maximize utilization of Reserved Instances, AWS Trusted Advisor checks your
+  Amazon EC2 computing-consumption history and calculates an optimal number of Partial Upfront
+  Reserved Instances. Recommendations are based on the previous calendar month's hour-by-hour
+  usage aggregated across all consolidated billing accounts. Note that Trusted Advisor does
+  not provide size-flexible Reserved Instance recommendations. 
+  
+[<img src="https://i.imgur.com/dT1SpVC.png">](https://i.imgur.com/dT1SpVC.png)
 
 ## Keeping Track of your AWS Resources
 * [<img src="https://i.imgur.com/JTAwMrx.png">](https://i.imgur.com/JTAwMrx.png)
