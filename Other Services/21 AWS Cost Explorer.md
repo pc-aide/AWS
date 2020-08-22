@@ -33,3 +33,15 @@
 
 [<img src="https://i.imgur.com/ccpggpv.png">](https://i.imgur.com/ccpggpv.png)
 
+
+* Request/get (http methods) :
+
+[<img src="https://i.imgur.com/tZYQgxb.png">](https://i.imgur.com/tZYQgxb.png)
+
+* AWS Console\billing : 
+
+[<img src="https://i.imgur.com/fkpPFcO.png">](https://i.imgur.com/fkpPFcO.png)
+
+* AWS Console\billing\by usage :
+
+[<img src="https://i.imgur.com/ikej4Fj.png">](https://i.imgur.com/ikej4Fj.png)
