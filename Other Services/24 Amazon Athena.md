@@ -4,6 +4,7 @@
 * ETL - Extract, Transform, Load
 * SQL - Simple Query Language
 * ANSI - American National Standards Institute
+* EMR - Elastic MapReduce
 
 ## Doc
 * [Amazon Athena Documentation](https://docs.aws.amazon.com/athena/)
