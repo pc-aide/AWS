@@ -1,5 +1,8 @@
 # AWS Organizations
 
+## Acronym
+* OU - Organization Unit
+
 ## Doc
 * [AWS Organizations Documentations](https://docs.aws.amazon.com/organizations/)
 * [What is AWS Organizations?](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html?icmpid=docs_orgs_console)
@@ -9,6 +12,16 @@
   **multiple AWS accounts into an organization** that you create and centrally manage.
   With AWS Organizations, you can create member accounts and invite existing accounts
   to join your organization. You can organize those accounts and manage them as a group. 
+
+## Power Point
+### 01
+* OU :
+
+[<img src="https://i.imgur.com/edivSjg.png">](https://i.imgur.com/edivSjg.png)
+
+* Logic :
+
+[<img src="https://i.imgur.com/SZZh26m.png">](https://i.imgur.com/SZZh26m.png)
 
 ## AWS Console
 1) Create organization : 
@@ -52,3 +65,5 @@
 * Lambda + Attach :
 
 [<img src="https://i.imgur.com/ODifKqY.png">](https://i.imgur.com/ODifKqY.png)
+
+## Demo 01
