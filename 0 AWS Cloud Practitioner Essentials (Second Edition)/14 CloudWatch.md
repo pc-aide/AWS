@@ -110,6 +110,16 @@
     
 [<img src="https://i.imgur.com/AKzip2j.png">](https://i.imgur.com/AKzip2j.png)
 
+### Dashboards
+* Customizable home pages in the CloudWatch console to monitor your resources
+  in a single view
+    * Even those resources that are spread across different regions
+* Create customized view of the metrics & alarms for your AWS resources
+  * Each dashboard can display multiple metrics, & can be accessorized with
+    text & imgages
+* Create dashboards by using the console, that AWS CLI, or by using the
+  **PutDashboard** API
+
 ## awscli
 ### CloudWatch Agent 
 #### Windows
