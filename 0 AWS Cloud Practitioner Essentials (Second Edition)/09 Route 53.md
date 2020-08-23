@@ -111,3 +111,7 @@
 * Multiple routing algorithms
 * Both IPv4 & IPv6
 * Integrated with other AWS cloud service
+
+## Pendig requests
+* How long do domains take to register
+* it took less than 2 hours for the registration to be completed on my fresh new AWS account (never registered any domain)
