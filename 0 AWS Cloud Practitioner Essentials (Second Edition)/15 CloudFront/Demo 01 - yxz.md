@@ -7,8 +7,8 @@
 
 ## My application
 * Summary
-1) Each request GET (http methods) - Seattle
+1) Each request GET (http methods) - Seattle (84.17.41.25)
 2) High latency 301 ms
-3) IPv4 : Singapore 
+3) IPv4 : Singapore (13.250.54.7)
 
 [<img src="https://i.imgur.com/YxWY2MA.png">](https://i.imgur.com/YxWY2MA.png)
