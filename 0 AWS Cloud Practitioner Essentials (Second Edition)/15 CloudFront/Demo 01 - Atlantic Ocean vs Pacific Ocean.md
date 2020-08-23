@@ -31,3 +31,5 @@
   * Deployed :
   
 [<img src="https://i.imgur.com/HqhLpY3.png">](https://i.imgur.com/HqhLpY3.png)
+
+4) We need a domain up (ns lookup) ...
