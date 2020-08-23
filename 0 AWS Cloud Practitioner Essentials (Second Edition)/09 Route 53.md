@@ -115,3 +115,7 @@
 ## Pendig requests
 * How long do domains take to register
 * it took less than 2 hours for the registration to be completed on my fresh new AWS account (never registered any domain)
+* Domain Name: sampleapplication.co.uk
+* Timestamp: 	August 23, 2020 **17:52** UTC-4
+
+[<img src="https://i.imgur.com/tGSV5cm.png">](https://i.imgur.com/tGSV5cm.png)
