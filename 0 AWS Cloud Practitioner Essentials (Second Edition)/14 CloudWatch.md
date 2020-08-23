@@ -9,6 +9,9 @@
 ## Intro
 * Monitor Resources & Applications
 
+## AWS Console
+[<img src="https://i.imgur.com/BMDgDyd.png">](https://i.imgur.com/BMDgDyd.png)
+
 ## PowerPoint
 ### 01
 
