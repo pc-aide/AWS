@@ -14,3 +14,8 @@
 	* $0.10 per registered resource per month
 * Lookup requests 
 	* $1.00 per million HTTP API calls
+
+## AWS Global Infrastructure
+1) Regions : 24 units :
+
+[<img src="https://i.imgur.com/BEp6M7D.png">](https://i.imgur.com/BEp6M7D.png)
