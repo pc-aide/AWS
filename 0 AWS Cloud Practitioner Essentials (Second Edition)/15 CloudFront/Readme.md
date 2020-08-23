@@ -3,10 +3,12 @@
 ## Acronym
 * CDN - Content Delivery Network
 * AZ - Availability Zones
+* EL - Edge Locations
 
 ## Doc
 * [AWS Cloud Map Documentation](https://docs.aws.amazon.com/cloud-map/index.html)
 * [Amazon CloudFront Infrastructure](https://aws.amazon.com/cloudfront/features/)
+* [Regions and Availability Zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
 
 ## Intro
 * Define user-friendly names for your cloud resources so that your applications can quickly and dynamically discover them.
