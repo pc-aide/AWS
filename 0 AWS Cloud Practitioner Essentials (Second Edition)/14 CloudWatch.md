@@ -86,3 +86,9 @@
     CloudWatch Events
     
 [<img src="https://i.imgur.com/LAFVaUf.png">](https://i.imgur.com/LAFVaUf.png)
+
+### Logs
+* Monitor & troubleshoot systems & applications using existing log files
+  * Monitor logs for specific phrases, values, or patterns
+* Retrieve the associated log data from CloudWatch Logs
+* Includes an installable agent for Ubuntu, Amazon Linux, & Windows at no additional charges
