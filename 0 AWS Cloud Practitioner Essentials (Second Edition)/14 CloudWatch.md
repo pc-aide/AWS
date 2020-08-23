@@ -108,7 +108,7 @@
   * Logs can be streamed in real time to data-processing solutions
     like Amazon Kinesis Streams or AWS Lambda
     
-[<img src="https://i.imgur.com/rMnOaqn.png">](https://i.imgur.com/rMnOaqn.png)
+[<img src="https://i.imgur.com/AKzip2j.png">](https://i.imgur.com/AKzip2j.png)
 
 ## awscli
 ### CloudWatch Agent 
