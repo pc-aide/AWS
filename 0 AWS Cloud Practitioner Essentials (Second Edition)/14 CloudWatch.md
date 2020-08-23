@@ -34,3 +34,10 @@
   detailed analysis of potential security or availability risks.
 * Take a snapshot of an Amazon EBS volume on a schedule.
 * Log S3 Object Level Operations Using CloudWatch Events
+
+## Components
+* Metrics
+* Alarms
+* Events
+* Logs
+* Dashboards
