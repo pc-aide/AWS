@@ -122,3 +122,6 @@
   * stopWatch: ~12 min
 
 [<img src="https://i.imgur.com/tGSV5cm.png">](https://i.imgur.com/tGSV5cm.png)
+
+## Registered domains
+[<img src="https://i.imgur.com/40ElDZP.png">](https://i.imgur.com/40ElDZP.png)
