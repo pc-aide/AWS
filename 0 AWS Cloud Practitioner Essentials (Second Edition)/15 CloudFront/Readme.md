@@ -1,9 +1,11 @@
 # CloudFront
 
 ## Acronym
+* API - Application Programming Interface
 * CDN - Content Delivery Network
 * AZ - Availability Zones
 * EL - Edge Locations
+* DDoS - Distribute Denial of Service
 
 ## Doc
 * [AWS Cloud Map Documentation](https://docs.aws.amazon.com/cloud-map/index.html)
@@ -46,3 +48,11 @@
 * High Performance
 * Cost Effective
 * Easy to use
+
+## Use cases
+* Static Asset Caching
+* Live & On-Demand Video Streaming
+* Security & DDoS Protection
+* Dynamic & Customized Content
+* API Acceleration
+* Software Distribution
