@@ -2,6 +2,7 @@
 
 ## Acronym
 * CDN - Content Delivery Network
+* AZ - Availability Zones
 
 ## Doc
 * [AWS Cloud Map Documentation](https://docs.aws.amazon.com/cloud-map/index.html)
@@ -19,3 +20,10 @@
 1) Regions : 24 units :
 
 [<img src="https://i.imgur.com/BEp6M7D.png">](https://i.imgur.com/BEp6M7D.png)
+
+2) Availability Zones : 77 units :
+	* Min 2 AZ per region
+	* N. Virgina (6 AZ)
+
+[<img src="https://i.imgur.com/q7tgFzQ.png">](https://i.imgur.com/q7tgFzQ.png)
+[<img src="https://i.imgur.com/Gq3RK2A.png">](https://i.imgur.com/Gq3RK2A.png)
