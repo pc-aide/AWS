@@ -20,12 +20,7 @@
    * Benefits & features
       * Get architectural guidance
       * Enable consistent governance
-      * Continuously improuve architectures
-      
-3) [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html?icmpid=docs_cloudtrail_console)
-   * Track User Activity & API Usage
-
-[<img src="https://i.imgur.com/TEEbN9F.png">](https://i.imgur.com/TEEbN9F.png)
+      * Continuously improuve architectures    
 
 4) [AWS Cost Explorer](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-what-is.html)
    * Visualize & Explore Your AWS Costs & Usage
