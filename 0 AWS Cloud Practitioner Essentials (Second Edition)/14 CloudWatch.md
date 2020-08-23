@@ -1,5 +1,8 @@
 # CloudWatch
 
+## Acronym
+* SNS - Simple Notification Service
+
 ## Doc
 * [Amazon CloudWatch Documentation](https://docs.aws.amazon.com/cloudwatch/)
 
@@ -15,4 +18,5 @@
 ## Features
 [<img src="https://i.imgur.com/1vZKemZ.png">](https://i.imgur.com/1vZKemZ.png)
 
-
+## Architecture
+[<img src="https://i.imgur.com/bVdy0va.png">](https://i.imgur.com/bVdy0va.png)
