@@ -23,6 +23,11 @@
 
 [<img src="https://i.imgur.com/VNWO9xH.png">](https://i.imgur.com/VNWO9xH.png)
 
-3) Cloud Distributions :
+3) Cloud Distributions 
 
-[<img src="https://i.imgur.com/iCI26Cj.png">](https://i.imgur.com/iCI26Cj.png)
+  * In progress : 
+[<img src="https://i.imgur.com/jtduxxN.png">](https://i.imgur.com/jtduxxN.png)
+
+  * Deployed :
+  
+[<img src="https://i.imgur.com/HqhLpY3.png">](https://i.imgur.com/HqhLpY3.png)
