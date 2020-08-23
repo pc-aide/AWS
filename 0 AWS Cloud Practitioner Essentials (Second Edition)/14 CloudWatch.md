@@ -6,13 +6,13 @@
 ## Icon
 [<img src="https://i.imgur.com/ubByLIQ.png">](https://i.imgur.com/ubByLIQ.png)
 
-## Intro
+## What is Amazon CloudWatch?
 * Monitor Resources & Applications
 
 ## AWS Console
 [<img src="https://i.imgur.com/BMDgDyd.png">](https://i.imgur.com/BMDgDyd.png)
 
-## PowerPoint
-### 01
+## Features
+[<img src="https://i.imgur.com/1vZKemZ.png">](https://i.imgur.com/1vZKemZ.png)
 
 
