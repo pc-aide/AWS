@@ -1,4 +1,4 @@
-# Demo 01 - yxz
+# Demo 01 - Atlantic Ocean vs Pacific Ocean
 
 ## Goal
 * Used CloudFront to accelerate (my application) that by **caching**
