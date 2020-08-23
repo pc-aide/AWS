@@ -6,6 +6,7 @@
 
 ## Doc
 * [AWS Cloud Map Documentation](https://docs.aws.amazon.com/cloud-map/index.html)
+* [Amazon CloudFront Infrastructure](https://aws.amazon.com/cloudfront/features/)
 
 ## Intro
 * Define user-friendly names for your cloud resources so that your applications can quickly and dynamically discover them.
@@ -27,3 +28,11 @@
 
 [<img src="https://i.imgur.com/q7tgFzQ.png">](https://i.imgur.com/q7tgFzQ.png)
 [<img src="https://i.imgur.com/Gq3RK2A.png">](https://i.imgur.com/Gq3RK2A.png)
+
+3) Edge locations : 205 units :
+
+[<img src="https://i.imgur.com/LN6d261.png">](https://i.imgur.com/LN6d261.png)
+
+4) REgional Edge Caches : 12 units :
+
+[<img src="https://i.imgur.com/MaAG6co.png">](https://i.imgur.com/MaAG6co.png)
