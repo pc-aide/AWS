@@ -3,6 +3,7 @@
 ## Acronym
 * SNS - Simple Notification Service
 * EC2 - Elastic Compute Cloud
+* IAM - Identity & Access Management
 * API - Application Programming Interface
 * EBS - Elastic Block Store
 * S3 - Simple Storage Service
@@ -51,3 +52,37 @@
   * Such as Amazon EC2, Amazon EBS volumes, & Amazon RDS DB instances.
 * Publish your own application metrics
 * Load all the metrics in your account for search, graphing, & alarms
+
+### Alarms
+* Watches a single metric
+* Performs one or more actions
+  * Based on the value of the metric relative to a threshold over a
+    number of time periods
+* The action can be :
+  * An Amazon EC2 action
+  * An Auto Scaling action
+  * A notification sent to an Amazon SNS topic
+* Invokes actions for sustained state changes only
+
+#### Examples
+* Amazon EC2 -> if CPU utilisation is > 60% for 5 minutes...
+* Amazon RDS -> if number of simultaneous connection is > 10 for one minute...
+* Elastic Load Balancing -> if number of healthy hosts is < 5 for 10 minutes...
+
+## Metrics, Alarms & Actions
+[<img src="https://i.imgur.com/eArSE7v.png">](https://i.imgur.com/eArSE7v.png)
+
+### Events
+* Near real-time stream of system events that describe changes in AWS resources
+* Use simple rules to match events & route them to one or more target functions
+  or streams
+* Aware of operational changes as they occur
+* Respond to these operational changes & takes corrective action as necessary
+* Schedule automated actions that self-trigger at certain times using Cron
+  or rate expressions
+  
+  #### Events : Example
+  * How to Detect & Automatically Revoke Unintended IAM Access with Amazon
+    CloudWatch Events
+    
+[<img src="https://i.imgur.com/LAFVaUf.png">](https://i.imgur.com/LAFVaUf.png)
