@@ -33,6 +33,6 @@
 
 [<img src="https://i.imgur.com/LN6d261.png">](https://i.imgur.com/LN6d261.png)
 
-4) REgional Edge Caches : 12 units :
+4) Regional Edge Caches : 12 units :
 
 [<img src="https://i.imgur.com/MaAG6co.png">](https://i.imgur.com/MaAG6co.png)
