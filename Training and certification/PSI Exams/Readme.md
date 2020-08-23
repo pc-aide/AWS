@@ -1,6 +1,7 @@
 # PSI Exams
 
 ## Acronym
+* psi - Proctoring System Check
 
 ## Online Exam
 * AWS Certified Cloud Practitioner - Practice 
