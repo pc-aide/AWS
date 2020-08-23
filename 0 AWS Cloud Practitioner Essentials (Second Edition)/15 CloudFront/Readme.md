@@ -38,3 +38,11 @@
 4) Regional Edge Caches : 12 units :
 
 [<img src="https://i.imgur.com/MaAG6co.png">](https://i.imgur.com/MaAG6co.png)
+
+## Amazon CloudFront Overview
+* Global, Growing Network
+* Secure Content at the Edge
+* Deep Integration with Key AWS Service
+* High Performance
+* Cost Effective
+* Easy to use
