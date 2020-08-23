@@ -94,6 +94,22 @@
 * Retrieve the associated log data from CloudWatch Logs
 * Includes an installable agent for Ubuntu, Amazon Linux, & Windows at no additional charges
 
+#### Logs Features
+* Monitor Logs from Amazon EC2 Instances in Real-time
+* Monitor AWS CloudTrail Logged Events
+* Archive Log Data 
+
+#### Store & Monitor Application Log Files
+* Your mettrics can be stored durably in CloudWatch as CloudWatch logs
+  * Admins & other parties can review CloudWatch logs directly in the
+    AWS Management Console
+  * Logs can be stored in Amazon S3, to be accessed by other services
+    or another user
+  * Logs can be streamed in real time to data-processing solutions
+    like Amazon Kinesis Streams or AWS Lambda
+    
+[<img src="https://i.imgur.com/rMnOaqn.png">](https://i.imgur.com/rMnOaqn.png)
+
 ## awscli
 ### CloudWatch Agent 
 #### Windows
