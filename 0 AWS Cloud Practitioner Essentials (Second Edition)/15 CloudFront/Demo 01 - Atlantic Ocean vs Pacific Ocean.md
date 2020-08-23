@@ -12,3 +12,17 @@
 3) IPv4 : Singapore (13.250.54.7)
 
 [<img src="https://i.imgur.com/YxWY2MA.png">](https://i.imgur.com/YxWY2MA.png)
+
+
+## Solution
+1) Create a new CloudFront distribution : 
+
+[<img src="https://i.imgur.com/gYV1mia.png">](https://i.imgur.com/gYV1mia.png)
+
+2) Web :
+
+[<img src="https://i.imgur.com/VNWO9xH.png">](https://i.imgur.com/VNWO9xH.png)
+
+3) Cloud Distributions :
+
+[<img src="https://i.imgur.com/iCI26Cj.png">](https://i.imgur.com/iCI26Cj.png)
