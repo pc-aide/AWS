@@ -31,4 +31,4 @@
   * HTTP Port
   * HTTPs Port
   
-[<img src="https://i.imgur.com/rT7kLYh.png">](https://i.imgur.com/rT7kLYh.png)
+[<img src="https://i.imgur.com/ANI5iRm.png">](https://i.imgur.com/ANI5iRm.png)
