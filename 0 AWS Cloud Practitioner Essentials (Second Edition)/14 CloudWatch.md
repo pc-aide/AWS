@@ -1,6 +1,7 @@
 # CloudWatch
 
 ## Acronym
+* awscli - AWS Command Line Interface
 * SNS - Simple Notification Service
 * EC2 - Elastic Compute Cloud
 * IAM - Identity & Access Management
@@ -92,3 +93,7 @@
   * Monitor logs for specific phrases, values, or patterns
 * Retrieve the associated log data from CloudWatch Logs
 * Includes an installable agent for Ubuntu, Amazon Linux, & Windows at no additional charges
+
+## awscli
+### CloudWatch Agent 
+#### Windows
