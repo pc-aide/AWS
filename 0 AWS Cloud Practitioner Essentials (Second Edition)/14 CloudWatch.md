@@ -6,6 +6,7 @@
 * API - Application Programming Interface
 * EBS - Elastic Block Store
 * S3 - Simple Storage Service
+* RDS - Relational database service
 
 ## Doc
 * [Amazon CloudWatch Documentation](https://docs.aws.amazon.com/cloudwatch/)
@@ -41,3 +42,12 @@
 * Events
 * Logs
 * Dashboards
+
+### Metrics
+* Data about the performance of the systems
+* Represents in a time-ordered set of data points that are published
+  to CloudWatch
+* By default, several services provide free metrics for resources.
+  * Such as Amazon EC2, Amazon EBS volumes, & Amazon RDS DB instances.
+* Publish your own application metrics
+* Load all the metrics in your account for search, graphing, & alarms
