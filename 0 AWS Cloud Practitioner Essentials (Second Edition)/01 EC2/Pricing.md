@@ -1,0 +1,4 @@
+# Pricing
+
+## Doc
+* [Amazon EC2 pricing](https://aws.amazon.com/ec2/pricing/)
