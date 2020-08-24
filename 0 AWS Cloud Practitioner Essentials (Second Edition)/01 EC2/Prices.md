@@ -8,6 +8,8 @@
 
 ## Defined Duration for
 ### Windows 
-|Family|Type   |vCPUs|RAM|
-|------|------_|-----|---|
-|gp    |t2.icro|1    |1  |
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
