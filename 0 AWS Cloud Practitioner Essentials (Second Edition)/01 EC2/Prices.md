@@ -11,8 +11,8 @@
 
 ## Defined Duration for
 ### Windows 
-| Family   |      Type     |  vCPUs |
-|----------|:-------------:|-------:|
-|   gp     |  t2.micro     |    1   |
+| Family   |      Type     | vCPUs |  RAM |
+|----------|:-------------:|:-----:|-----:|
+|   gp     |  t2.micro     |   1    |  1   |
 
     
