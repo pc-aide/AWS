@@ -14,7 +14,7 @@
   * E.g.: hotmail, Gmail (send or receive Email)
 
 ## Service Models
-[<img src="https://i.imgur.com/ulWySR5.png">](https://i.imgur.com/ulWySR5.png)
+[<img src="https://i.imgur.com/LOZ1yC0.png">](https://i.imgur.com/LOZ1yC0.png)
 
 
 ## Deployment Models
