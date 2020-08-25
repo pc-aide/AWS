@@ -8,6 +8,4 @@
 
 ## Virtual servers
 ### Windows
-|price $/m|
-|test|
 [<img src="https://i.imgur.com/8f7legZ.png">](https://i.imgur.com/8f7legZ.png)
