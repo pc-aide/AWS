@@ -4,5 +4,5 @@
 * [Amazon S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
 
 ## S3 Storage Classes
-|**Storage Classe**|**Durability**|**Availability**|**Availability Zones**|**Stora pricing us-east (per GB/m)|
-|------------------|:------------:|:--------------:|:--------------------:|:--------------------------------:|
+|Storage Classe|Durability|Availability|Availability Zones|Stora pricing us-east (per GB/m)|
+|------------------|:------------:|:--------------:|:--------------------:|--------------------------------:|
