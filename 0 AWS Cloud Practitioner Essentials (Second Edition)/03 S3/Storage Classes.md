@@ -6,7 +6,7 @@
 ## S3 Storage Classes
 * 6 Storage classes :
 
-| Storage Class            |      Durbility      |  Availability Zones |Pricing (us-east per GB/m|
+| Storage Class            |      Durbility      |  Availability Zones |Pricing (us-east per GB/month)|
 |----------                |:-------------:      |:------:|----:|
 | Standard                 |  left-aligned       | $1600 |:------:|----:|
 | Standard_IA              |    centered         |   $12 |:------:|----:|
