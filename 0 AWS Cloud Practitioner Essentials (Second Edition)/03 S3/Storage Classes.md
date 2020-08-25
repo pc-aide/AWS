@@ -1,5 +1,8 @@
 # Storage Classes
 
+## Acronym
+* IA - Infrequent Access
+
 ## Doc
 * [Amazon S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
 
