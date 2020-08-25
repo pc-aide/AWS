@@ -5,6 +5,7 @@
 
 ## S3 Storage Classes
 * 6 Storage classes :
+
 | Storage Classes   |      Durability      |  Availability |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
