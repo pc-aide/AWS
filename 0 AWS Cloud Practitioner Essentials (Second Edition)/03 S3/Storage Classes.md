@@ -27,6 +27,6 @@
 ## Upload
 ### Storage Class
 #### Standard
-[<img src="https://i.imgur.com/QsO4Co0.png">](https://i.imgur.com/QsO4Co0.png)
+[<img src="https://i.imgur.com/XdLFNH6.png">](https://i.imgur.com/XdLFNH6.png)
 [<img src="https://i.imgur.com/0gAc9Vl.png">](https://i.imgur.com/0gAc9Vl.png)
 
