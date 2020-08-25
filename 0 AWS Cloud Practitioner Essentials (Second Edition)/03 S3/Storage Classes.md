@@ -4,13 +4,12 @@
 * [Amazon S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
 
 ## S3 Storage Classes
-* 6 Storage classes :
-  1) Standard (default)
-  2) Standard_IA
-  3) Intelligent_tiering
-  4) OneZone_IA
-  5) Glacier
-  6) Reduced_redundancy (RRS)
+1) Standard (default)
+2) Standard_IA
+3) Intelligent_tiering
+4) OneZone_IA
+5) Glacier
+6) Reduced_redundancy (RRS)
 
 ## Table
 | Storage Class            |      Durbility      |  Availability Zones |Pricing (us-east per GB/month)|
