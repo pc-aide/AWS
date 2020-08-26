@@ -1,5 +1,9 @@
 # Virtual Private Cloud 
 
+## Terminology
+* VPC Perring
+ * communication private between only 2 VPCs
+
 ## Acronym
 * VPC - Virtual Private Cloud
 * HA - High Availability
