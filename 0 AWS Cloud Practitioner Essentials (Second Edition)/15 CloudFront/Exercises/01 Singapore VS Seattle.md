@@ -37,11 +37,15 @@
 
 [<img src="https://i.imgur.com/ZdPtvBA.png">](https://i.imgur.com/ZdPtvBA.png)
 
-## Godaddy
-[<img src="https://i.imgur.com/b5KTm1P.png">](https://i.imgur.com/b5KTm1P.png)
-
 
 ## nslookup
+### Godaddy (working)
+#### Browser
+[<img src="https://i.imgur.com/b5KTm1P.png">](https://i.imgur.com/b5KTm1P.png)
+
+### DNS Management
+[<img src="https://i.imgur.com/5XAyALN.png">](https://i.imgur.com/5XAyALN.png)
+
 ````Bash
 nslookup simpleapptest.online
 ````
@@ -52,3 +56,4 @@ nslookup simpleapptest.online
 * Name:	simpleapptest.online
 * Address: 13.212.39.228
 
+### Registered domains (AWS) no working
