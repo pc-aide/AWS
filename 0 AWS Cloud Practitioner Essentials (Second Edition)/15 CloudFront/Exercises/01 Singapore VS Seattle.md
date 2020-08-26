@@ -39,3 +39,16 @@
 
 ## Godaddy
 [<img src="https://i.imgur.com/b5KTm1P.png">](https://i.imgur.com/b5KTm1P.png)
+
+
+## nslookup
+````Bash
+nslookup simpleapptest.online
+````
+* Server:		127.0.0.53
+* Address:	127.0.0.53#53
+
+* Non-authoritative answer:
+* Name:	simpleapptest.online
+* Address: 13.212.39.228
+
