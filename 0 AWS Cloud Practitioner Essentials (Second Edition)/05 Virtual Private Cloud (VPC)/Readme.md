@@ -2,7 +2,7 @@
 
 ## Terminology
 * VPC Perring
- * communication private between only 2 VPCs
+  * Communication private between only 2 VPCs
 
 ## Acronym
 * VPC - Virtual Private Cloud
