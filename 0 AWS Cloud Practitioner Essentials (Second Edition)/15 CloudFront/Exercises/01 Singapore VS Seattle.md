@@ -57,3 +57,10 @@ nslookup simpleapptest.online
 * Address: 13.212.39.228
 
 ### Registered domains (AWS) no working
+````Bash
+nslookup sampleapplication.co.uk
+````
+* Server:		127.0.0.53
+* Address:	127.0.0.53#53
+
+** server can't find sampleapplication.co.uk: SERVFAIL
