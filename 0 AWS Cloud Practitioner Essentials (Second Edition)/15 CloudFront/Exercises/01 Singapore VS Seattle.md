@@ -64,3 +64,6 @@ nslookup sampleapplication.co.uk
 * Address:	127.0.0.53#53
 
 ** server can't find sampleapplication.co.uk: SERVFAIL
+
+#### Hosted zones
+[<img src="https://i.imgur.com/2MAFlFl.png">](https://i.imgur.com/2MAFlFl.png)
