@@ -84,36 +84,36 @@
    * D. Because there are logical limits to the ability of AWS resources to scale upward
 
 13) Is it always possible to request service limit increases from AWS?
-   * A. Yes. All service limits can be increased.
-   * B. No. A limit can never be increased.
-   * C. Service limits are defaults. They can be increased or decreased on demand.
-   * D. No. Some service limits are hard
+      * A. Yes. All service limits can be increased.
+      * B. No. A limit can never be increased.
+      * C. Service limits are defaults. They can be increased or decreased on demand.
+      * D. No. Some service limits are hard
 
 14) Which is the best place to get a quick summary of this month’s spend for your account?
-   * A. Budgets
-   * B. Cost Explorer
-   * C. Cost and usage reports
-   * D. Billing & Cost Management Dashboard
+      * A. Budgets
+      * B. Cost Explorer
+      * C. Cost and usage reports
+      * D. Billing & Cost Management Dashboard
 
 15) What is the main goal for creating a Usage budget type (in AWS Budgets)?
-   * A. To correlate usage per unit cost to understand your account cost efficiency
-   * B. To track the status of any active reserved instances on your account
-   * C. To track particular categories of resource consumption
-   * D. To monitor costs being incurred against your account
+      * A. To correlate usage per unit cost to understand your account cost efficiency
+      * B. To track the status of any active reserved instances on your account
+      * C. To track particular categories of resource consumption
+      * D. To monitor costs being incurred against your account
 
 16) Which of the following is not a setting you can configure in a Cost budget?
-   * A. Period (monthly, quarterly, etc.)
-   * B. Instance type
-   * C. Start and stop dates
-   * D. Owner (username of resource owner)
+      * A. Period (monthly, quarterly, etc.)
+      * B. Instance type
+      * C. Start and stop dates
+      * D. Owner (username of resource owner)
 
 17) What is the main difference between the goals of Cost Explorer and of cost and usage
     reports?
-   * A. Cost Explorer displays visualizations of high-level historical and current account costs,
-        while cost and usage reports generate granular usage reports in CSV format
-   * B. Cost and usage reports display visualizations of high-level historical and current
-        account costs, while Cost Explorer generates granular usage reports in CSV format\
-   * C. 
+      * A. Cost Explorer displays visualizations of high-level historical and current account costs,
+           while cost and usage reports generate granular usage reports in CSV format
+      * B. Cost and usage reports display visualizations of high-level historical and current
+           account costs, while Cost Explorer generates granular usage reports in CSV format\
+      * C. 
 
 18)
 
