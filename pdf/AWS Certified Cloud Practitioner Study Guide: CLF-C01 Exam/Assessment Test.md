@@ -9,6 +9,7 @@
        accounts
 
 
+
 2) Which of the following best describes the cloud service model known as infrastructure as a
    service (IaaS)?
   * A. End user access to software applications delivered over the internet
@@ -19,6 +20,7 @@
        and networking resources
   * D. Abstracted interfaces built to manage clusters of containerized workloads
   
+
 
 3) How does AWS ensure that no single customer consumes an unsustainable proportion of
    available resources?
