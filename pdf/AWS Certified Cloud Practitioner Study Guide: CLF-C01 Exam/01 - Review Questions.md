@@ -62,9 +62,9 @@
    * D. Platforms that allow developers to run their code over short periods on cloud servers
    
 10) Which of the following best describes scalability?
-   * A. The ability of an application to automatically add preconfigured compute resources to
-        meet increasing demand
-   * B. The ability of an application to increase or decrease compute resources to match
-        changing demand
-   * C. The ability to more densely pack virtualized resources onto a single physical server
-   * D. The ability to bill resource usage using a pay-per-user model
+      * A. The ability of an application to automatically add preconfigured compute resources to
+           meet increasing demand
+      * B. The ability of an application to increase or decrease compute resources to match
+           changing demand
+      * C. The ability to more densely pack virtualized resources onto a single physical server
+      * D. The ability to bill resource usage using a pay-per-user model
