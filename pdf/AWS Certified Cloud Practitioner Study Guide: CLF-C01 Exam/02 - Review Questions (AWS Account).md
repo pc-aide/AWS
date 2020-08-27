@@ -70,18 +70,18 @@
       * D. Number of servers
 
 11) Which of the following AWS documentation URLs points to the page containing an up-todate list of service limits?
-   * A. https://docs.aws.amazon.com/general/latest/gr/limits.html
-   * B. https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html
-   * C. https://aws.amazon.com/general/latest/gr/aws_service_limits.html
-   * D. https://docs.aws.amazon.com/latest/gr/aws_service_limits.html
+      * A. https://docs.aws.amazon.com/general/latest/gr/limits.html
+      * B. https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html
+      * C. https://aws.amazon.com/general/latest/gr/aws_service_limits.html
+      * D. https://docs.aws.amazon.com/latest/gr/aws_service_limits.html
 
 12) Which of the following best describes one possible reason for AWS service limits?
-   * A. To prevent individual customers from accidentally launching a crippling level of
-        resource consumption
-   * B. To more equally distribute available resources between customers from different
-        regions
-   * C. To allow customers to more gradually increase their deployments
-   * D. Because there are logical limits to the ability of AWS resources to scale upward
+      * A. To prevent individual customers from accidentally launching a crippling level of
+           resource consumption
+      * B. To more equally distribute available resources between customers from different
+           regions
+      * C. To allow customers to more gradually increase their deployments
+      * D. Because there are logical limits to the ability of AWS resources to scale upward
 
 13) Is it always possible to request service limit increases from AWS?
       * A. Yes. All service limits can be increased.
