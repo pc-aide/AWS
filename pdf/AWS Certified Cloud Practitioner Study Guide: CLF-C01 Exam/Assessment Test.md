@@ -42,7 +42,7 @@
    * A. Enterprise.
    * B. Business and Enterprise.
    * C. Developer and Basic.
-   * All plans get this level of support.
+   * D. All plans get this level of support.
    
 6) AWS customers get full access to the AWS Trusted Advisor best practice checks when they
    subscribe to which support plan(s)?
