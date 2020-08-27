@@ -88,11 +88,11 @@
     * D. Access keys
     
 12) Which of these is the primary benefit from using resource tags with your AWS assets?
-   * A. Tags enable the use of remote administration operations via the AWS CLI.
-   * B. Tags make it easier to identify and administrate running resources in a busy AWS
-        account.
-   * C. Tags enhance data security throughout your account.
-   * D. Some AWS services won’t work without the use of resource tags.
+     * A. Tags enable the use of remote administration operations via the AWS CLI.
+     * B. Tags make it easier to identify and administrate running resources in a busy AWS
+          account.
+     * C. Tags enhance data security throughout your account.
+     * D. Some AWS services won’t work without the use of resource tags.
    
 13) What defines the base operating system and software stack that will be available for a new
     Elastic Compute Cloud (EC2) instance when it launches?
