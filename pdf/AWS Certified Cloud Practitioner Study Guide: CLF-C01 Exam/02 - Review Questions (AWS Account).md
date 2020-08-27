@@ -67,7 +67,7 @@
    Calculator?
    * A. The tax implications of a cloud deployment
    * B. Labor costs of an on-premises deployment
-   * C. Networking costs of an on-premises deployme
+   * C. Networking costs of an on-premises deployment
    * D. Electricity costs of an on-premises deployment
 * [Answer]()
 
