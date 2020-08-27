@@ -8,6 +8,7 @@
     * C. The ability to segment physical resources into multiple virtual partitions
     * D. The ability to reduce production costs by spreading capital expenses across many
          accounts
+* [Anwser](https://i.imgur.com/QhriACG.png)
 
 2) Which of the following best describes the cloud service model known as infrastructure as a
    service (IaaS)?
