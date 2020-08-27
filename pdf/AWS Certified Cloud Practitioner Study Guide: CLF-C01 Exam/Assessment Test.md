@@ -3,10 +3,10 @@
 ## Questions
 1) Which of the following describes the cloud design priciple of scalability?
    * A. The ability to route incoming client reuqest between multiple application servers
-  * B. The ability to route incoming client requests between multiple application servers
-  * C. The ability to segment physical resources into multiple virtual partitions
-  * D. The ability to reduce production costs by spreading capital expenses across many
-       accounts
+    * B. The ability to route incoming client requests between multiple application servers
+    * C. The ability to segment physical resources into multiple virtual partitions
+    * D. The ability to reduce production costs by spreading capital expenses across many
+         accounts
 
 2) Which of the following best describes the cloud service model known as infrastructure as a
    service (IaaS)?
