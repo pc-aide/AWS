@@ -8,7 +8,7 @@
     * C. The ability to segment physical resources into multiple virtual partitions
     * D. The ability to reduce production costs by spreading capital expenses across many
          accounts
-* [Anwser](https://i.imgur.com/QhriACG.png)
+* [Answer](https://i.imgur.com/QhriACG.png)
 
 2) Which of the following best describes the cloud service model known as infrastructure as a
    service (IaaS)?
@@ -19,6 +19,7 @@
     * C. Customer rental of the use of measured units of a provider’s physical compute, storage,
          and networking resources
     * D. Abstracted interfaces built to manage clusters of containerized workloads
+* [Answer](https://i.imgur.com/KrrJBby.png)
   
 3) How does AWS ensure that no single customer consumes an unsustainable proportion of
    available resources?
@@ -29,6 +30,7 @@
    * C. AWS imposes hard default limits on the use of its service resources.
    * D. AWS imposes default limits on the use of its services by Basic account holders;
         Premium account holders face no limits.
+* [Answer](https://i.imgur.com/JtVGVn9.png)
 
 4) The AWS Free Tier is designed to give new account holders the opportunity to get to know
    how their services work without necessarily costing any money. How does it work?
@@ -37,6 +39,7 @@
    * B. You get full free access to a few core AWS services for one month.
    * C. You get low-cost access to many core AWS services for three months.
    * D. You get free lightweight access to many core AWS services for a full 12 months.
+* [Answer](https://i.imgur.com/I4z9RxN.png)
 
 5) AWS customers receive “production system down” support within one hour when they
    subscribe to which support plan(s)?
@@ -44,6 +47,7 @@
    * B. Business and Enterprise.
    * C. Developer and Basic.
    * D. All plans get this level of support.
+* [Answer](https://i.imgur.com/SdLk5Pn.png)
    
 6) AWS customers get full access to the AWS Trusted Advisor best practice checks when they
    subscribe to which support plan(s)?
@@ -51,6 +55,7 @@
    * B. Basic and Business.
    * C. Business and Enterprise.
    * D. Developer, Business, and Enterprise.
+* [Answer](https://i.imgur.com/XQrTgWP.png)
    
 7) The AWS Shared Responsibility Model illustrates how AWS itself (as opposed to its
    customers) is responsible for which aspects of the cloud environment?
@@ -58,6 +63,7 @@
    * B. The underlying integrity and security of AWS physical resources
    * C. Data and configurations added by customers
    * D. The operating systems run on EC2 instances
+* [Answer](https://i.imgur.com/NVeLuln.png)
    
 8) Which of these is a designation for two or more AWS data centers within a single
    geographic area?
@@ -65,6 +71,7 @@
    * B. Region
    * C. Network subnet
    * D. Geo-unit
+* [Answer](https://i.imgur.com/dbJtVuc.png)
    
 9) How, using security best practices, should your organization’s team members access your
    AWS account resources?
@@ -74,6 +81,7 @@
    * C. Through the use of specially created users, groups, and roles, each given the fewest
         permissions necessary.
    * D. Ideally, resource access should occur only through the use of access keys
+* [Answer](https://i.imgur.com/O8aXFXl.png)
    
 10) Which of the following describes a methodology that protects your organization’s data
     when it’s on-site locally, in transit to AWS, and stored on AWS?
@@ -81,6 +89,7 @@
     * B. Server-side encryption
     * C. Cryptographic transformation
     * D. Encryption at rest
+* [Answer](https://i.imgur.com/EgroeV7.png)
     
 11) What authentication method will you use to access your AWS resources remotely through
     the AWS Command Line Interface (CLI)?
@@ -88,6 +97,7 @@
     * B. Multifactor authentication
     * C. SSH key pairs
     * D. Access keys
+* [Answer](https://i.imgur.com/uQ4Lalb.png)
     
 12) Which of these is the primary benefit from using resource tags with your AWS assets?
      * A. Tags enable the use of remote administration operations via the AWS CLI.
@@ -95,6 +105,7 @@
           account.
      * C. Tags enhance data security throughout your account.
      * D. Some AWS services won’t work without the use of resource tags.
+* [Answer](https://i.imgur.com/L9v1Cae.png)
    
 13) What defines the base operating system and software stack that will be available for a new
     Elastic Compute Cloud (EC2) instance when it launches?
@@ -102,6 +113,7 @@
     * B. The instance type you select.
     * C. The Amazon Machine Image (AMI) you select
     * D. You don’t need to define the base OS—you can install that once the instance launches.
+* [Answer](https://i.imgur.com/KOnUiqJ.png)
     
 14) Which of the following AWS compute services offers an administration experience that
     most closely resembles the way you would run physical servers in your own local data
@@ -110,6 +122,7 @@
     * B. Elastic Container Service (ECS)
     * C. Elastic Compute Cloud (EC2)
     * D. Lambda
+* [Answer](https://i.imgur.com/MkVqTo1.png)
     
 15) Which of the following AWS object storage services offers the lowest ongoing charges, but
     at the cost of some convenience?
@@ -117,6 +130,7 @@
     * B. Storage Gateway
     * C. Simple Storage Service (S3)
     * D. Elastic Block Store (EBS)
+* [Answer](https://i.imgur.com/wzzm5Zr.png)
     
 16) Which of the following AWS storage services can make the most practical sense for
     petabyte-sized archives that currently exist in your local data center?
@@ -124,6 +138,7 @@
     * B. Saving to a Simple Storage Service (S3) bucket
     * C. Saving to an Elastic Block Store (EBS) volume
     * D. Saving to an AWS Snowball device
+* [Answer](https://i.imgur.com/UuToQTN.png)
     
 17) Which of the following will provide the most reliable and scalable relational database
     experience on AWS?
@@ -131,12 +146,14 @@
     * B. Running a database on an EC2 instance
     * C. DynamoDB
     * D. Redshift
+* [Answer](https://i.imgur.com/PsLYZk7.png)
     
 18) What’s the best and simplest way to increase reliability of an RDS database instance?
     * A. Increase the available IOPS
     * B. Choose the Aurora database engine when you configure your instance.
     * C. Enable Multi-AZ.
     * D. Duplicate the database in a second AWS Region.
+* [Answer](https://i.imgur.com/exYhMfr.png)
     
 19) How does AWS describe an isolated networking environment into which you can launch
     compute resources while closely controlling network access?
@@ -144,12 +161,14 @@
     * B. Virtual private cloud (VPC)
     * C. Availability Zone
     * D. Internet gateway
+* [Answer](https://i.imgur.com/nwcWX79.png)
     
 20) What service does AWS use to provide a content delivery network (CDN) for its customers?
     * A. VPC peering
     * B. Internet gateway
     * C. Route 53
     * D. CloudFront
+* [Answer](https://i.imgur.com/74aSpuh.png)
     
 21) What is Amazon’s Git-compliant version control service for integrating your source code
     with AWS resources?
@@ -157,6 +176,7 @@
     * B. CodeBuild
     * C. CodeDeploy
     * D. Cloud9
+* [Answer](https://i.imgur.com/iPoM59g.png)
     
 22) Which AWS service allows you to build a script-like template representing complex resource
     stacks that can be used to launch precisely defined environments involving the full range of
@@ -165,18 +185,21 @@
     * B. EC2
     * C. CodeDeploy
     * D. CloudFormation
+* [Answer](https://i.imgur.com/X6D2Xw5.png)
     
 23) What is Amazon Athena?
     * A. A service that permits queries against data stored in Amazon S3
     * B. A service that permits processing and analyzing of real-time video and data streams
     * C. A NoSQL database engine
     * D. A Greece-based Amazon Direct Connect service partner
+* [Answer](https://i.imgur.com/cbAaufB.png)
     
 24) What is Amazon Kinesis?
     * A. A service that permits queries against data stored in Amazon S3
     * B. A service that permits processing and analyzing of real-time video and data streams
     * C. A NoSQL database engine
     * D. A Greece-based Amazon Direct Connect service partner
+* [Answer](https://i.imgur.com/vfuNNUy.png)
     
 25) What is Amazon Cognito?
     * A. A service that can manage authentication and authorization for your public-facing
@@ -185,3 +208,4 @@
          AWS resources
     * C. A service that permits processing and analyzing of real-time video and data streams
     * D. A relational database engine
+* [Answer](https://i.imgur.com/ayKaGjA.png)
