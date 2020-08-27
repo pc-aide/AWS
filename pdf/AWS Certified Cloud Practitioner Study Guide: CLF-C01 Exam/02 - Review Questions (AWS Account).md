@@ -64,10 +64,10 @@
 
 10) Which of the following AWS Total Cost of Ownership Calculator parameters is likely to
     have the greatest impact on cost?
-   * A. Currency
-   * B. AWS Region
-   * C. Guest OS
-   * D. Number of servers
+      * A. Currency
+      * B. AWS Region
+      * C. Guest OS
+      * D. Number of servers
 
 11) Which of the following AWS documentation URLs points to the page containing an up-todate list of service limits?
    * A. https://docs.aws.amazon.com/general/latest/gr/limits.html
