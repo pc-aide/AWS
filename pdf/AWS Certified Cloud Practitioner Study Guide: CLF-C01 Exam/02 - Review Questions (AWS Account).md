@@ -11,7 +11,7 @@
 2) You want to experiment with deploying a web server on an EC2 instance. Which two of
    the following resources can you include to make that work while remaining within the Free
    Tier? (Select TWO.)
-    * A. A 5 GB bucket on S
+    * A. A 5 GB bucket on S3
     * B. A t2.micro instance type EC2 instance
     * C. A 30 GB solid-state Elastic Block Store (EBS) drive
     * D. Two 20 GB solid-state Elastic Block Store (EBS) drives
