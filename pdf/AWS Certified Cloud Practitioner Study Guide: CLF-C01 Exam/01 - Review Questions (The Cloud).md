@@ -78,3 +78,20 @@
       * C. The ability to more densely pack virtualized resources onto a single physical server
       * D. The ability to bill resource usage using a pay-per-user model
 * [Answer]()
+
+11) Which of the following best describes elasticity?
+      * A. The ability to more densely pack virtualized resources onto a single physical server
+      * B. The ability to bill resource usage using a pay-per-user model
+      * C. The ability of an application to increase or decrease compute resources to match
+           changing demand
+      * D. The ability of an application to automatically add preconfigured compute resources to
+           meet increasing demand
+* [Answer]()
+
+12) Which of the following characteristics most help AWS provide such scalable services?
+    (Select TWO.)
+      * A. The enormous number of servers it operates
+      * B. The value of its capitalized assets
+      * C. Its geographic reach
+      * D. Its highly automated infrastructure administration systems
+* [Answer]()
