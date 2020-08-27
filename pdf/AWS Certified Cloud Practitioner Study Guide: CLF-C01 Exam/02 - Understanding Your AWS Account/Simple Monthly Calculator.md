@@ -23,3 +23,5 @@
       * Availability Zone
       * Purchase Option
       * Billing Entity
+
+[<img src="https://i.imgur.com/ctPLhW6.png">](https://i.imgur.com/ctPLhW6.png)
