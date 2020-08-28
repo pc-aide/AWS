@@ -7,7 +7,7 @@
    * B. Massive economies of scale
    * C. Informal security restrictions
    * D. Fully independent development without parameters
-* [Answer]()
+* [Answer](https://i.imgur.com/enzsJn8.png)
 
 2) Which service sends notifications or automatically makes changes to
    the resources being monitored based on rules you established?
@@ -15,7 +15,7 @@
    * B. Amazon EC2
    * C. Amazon Auroa
    * D. Amazon CloudWatch
-* [Answer]()
+* [Answer](https://i.imgur.com/VXWI5Xs.png)
 
 3) Which of the following options describes the most common AWS billing
    model?
@@ -23,14 +23,15 @@
    * B. Pay as you go
    * C. Pay in advance
    * D. Daily billing
-* [Answer]()
+* [Answer](https://i.imgur.com/ZCTSLs6.png)
 
 4) Which of the following tasks is the customer's responsability when
    creating Amazon VPC security groups?
    * A. Ensuring that the security groups are linked to Amazon EC2
    * B. Choosing the level of physical security for the network
-   * D. Selecting an appropriate load balancing strategy for the network routers
-* [Answer]()
+   * C. Selecting an appropriate load balancing strategy for the network routers
+   * D. Adding rules regarding inbound traffic to the security group
+* [Answer](https://i.imgur.com/Z1TIzIi.png)
 
 5) Which AWS service enables you to repeatedly and predictably provision
    resources to power your applications?
@@ -38,7 +39,7 @@
    * B. AWS CloudTrail
    * C. AWS CloudFormation
    * D. AWS Cloud Map
-* [Answer]()
+* [Answer](https://i.imgur.com/Q9O7LZE.png)
 
 6) What is Amazon Route 53?
    * A. A highly available and scalable Domain Name System (DNS) web service
@@ -47,7 +48,7 @@
         AWS and your data center, office, or colocation environment
    * D. A fast and flexible nonrelational database service for all applications 
         that neeed consistent, single-digit millisecond latency at any scale
-* [Answer]()
+* [Answer](https://i.imgur.com/Ydz68sR.png)
 
 7) Which of the following is a est practice for adding an additional layer of
    security when loggin into the AWS Management Console?
@@ -55,7 +56,7 @@
    * B. Multi-factor authentication (MFA)
    * C. Secondary user name
    * D. Root access permissions
-* [Answer]()
+* [Answer](https://i.imgur.com/0KW9NvX.png)
 
 8) Which method would you use to access AWS services through an easy-to-use 
    graphical interface?
@@ -63,7 +64,7 @@
    * B. Software Development Kits (AWS SDKs)
    * C. AWS Management Console
    * D. AWS Command Line Interface (AWS CLI)
-* [Answer]()
+* [Answer](https://i.imgur.com/2qt42sx.png)
 
 9) Which of the following use cases is appropriate for Amazon CloudFront? (Select **Three**.)
    * A. Security and encryption
@@ -72,7 +73,7 @@
    * D. Database backups
    * E. Schema generation
    * F. Live on-demand video streaming
-* [Answer]()
+* [Answer](https://i.imgur.com/AFK84nr.png)
 
 10) You have been tasked with distributing a newsletter that will be pushed out to
     administrators by email. Which of the following is the best solution?
@@ -82,7 +83,7 @@
      * C. Create a messaging queue in Amazon CloudFront
      * D. Store the nesletters in an Amazon Simple Storage Service (Amazon S3) bucket and
           distribute them with AWS CloudTrail
-* [Answer]()
+* [Answer](https://i.imgur.com/Pte1a80.png)
 
 11) Which AWS service is a managed DDoS protection service that safeguards applications 
     running on AWS?
@@ -90,7 +91,7 @@
      * B. AWS Shield
      * C. Amazon Inspector
      * D. AWS Identity and Access Management
-* [Answer]()
+* [Answer](https://i.imgur.com/s9cJG1Z.png)
 
 12) You have an application composed of individual services and you need to route a request
     to a service based on the content of the request. What type of load balancer should you use?
@@ -98,14 +99,14 @@
      * B. Classic Load Balancer
      * C. VPN Load Balancer
      * D. Application Load Balancer
-* [Answer]()
+* [Answer](https://i.imgur.com/9kvYzRX.png)
 
 13) How is storage typically priced on AWS Cloud?
      * A. Charged per hour or second
      * B. Charged per GB
      * C. Charged by speed of transfer
      * D. Charged by instance type
-* [Answer]()
+* [Answer](https://i.imgur.com/GwElNdV.png)
 
 14) Which of the following defines the AWS Command Line Interface (AWS CLI)?
      * A. A rich graphical interface to a majority of the features offered by AWS.
@@ -113,7 +114,7 @@
      * C. A suite of utilities that can be launched from a command program in Linux,
           macOS, or Windows
      * D. Packages that enable access to AWS in a variety of programming languages
-* [Answer]()
+* [Answer](https://i.imgur.com/ksjbcO3.png)
 
 15) A company has 70 employees divided into 10 departments. The IT administrator
     wants to customize each department's access to AWS. Which of the following
@@ -122,14 +123,14 @@
      * B. Create an IAM role for each department, and assign IAM users to the roles
      * C. Create a temporary role for each employee, and revise their access as needed
      * D. Make each employee an AWS account root user
-* [Answer]()
+* [Answer](https://i.imgur.com/bSsPegm.png)
 
 16) Which of the following examples best demonstrates the agility that cloud compting offers?
      * A. Spin up servers in minutes, and shut down servers when you don't need them
      * B. Quickly deploy multi-factor authentication (MFA) to multiple data centers
      * C. Protect your data by centralizing your applications in one Availability Zone
      * D. Increase network throughput with AWS Direct Connect (DX) nodes
-* [Answer]()
+* [Answer](https://i.imgur.com/wSMeK6Q.png)
 
 17) Which component of the AWS global infrastructure supports the caching of content for
     faster access?
@@ -137,7 +138,7 @@
      * B. Edge locations
      * C. AWS Direct Connect locations
      * D. Availabilty Zones
-* [Answer]()
+* [Answer](https://i.imgur.com/jyrrtDi.png)
 
 18) Which of the following services provides you with data and actionable insights to monitor
     your applications, understand and respond to system-wide performance changes, optimize resource 
@@ -146,7 +147,7 @@
      * B. AWS CloudFormation
      * C. Amazon CloudWatch
      * D. AWS CloudTrail
-* [Answer]()
+* [Answer](https://i.imgur.com/4gA6o0s.png)
 
 19) Your company is developing a critical application, and the security of the application is one
     of the top priorities. Which of the following AWS services will provide recommendations for security
@@ -155,7 +156,7 @@
      * B. Amazon Aurora
      * C. AWS Trusted Advisor
      * D. Amazon CloudWatch
-* [Answer]()
+* [Answer](https://i.imgur.com/lp9c8tN.png)
 
 20) Which of the following AWS services has no additional charge associated with its use? (The resources
     provisioned within the service may incur costs.)
@@ -163,7 +164,7 @@
      * B. AWS Identity and Access Managment (IAM)
      * C. Amazon Simple Storage Service (Amazon S3)
      * D. Amazon Elastic Compute Cloud (Amazon EC2)
-* [Answer]()
+* [Answer](https://i.imgur.com/WuMhADC.png)
 
 21) Which of the following AWS concepts refers to "Established best practices developed through lessons
     learned by working with customers"?
@@ -171,7 +172,7 @@
      * B. Reference architecture
      * C. Well-Architected Framework
      * D. AWS Trusted Advisor
-* [Answer]()
+* [Answer](https://i.imgur.com/nzBheQs.png)
 
 22) Users of your services are reporting latency. With on-premises architecture you would notify your
     Administrator to launch another server to balance the load. How can this be automated using AWS?
@@ -179,14 +180,14 @@
      * B. Create six Amazon EC2 instances in different Availability Zones
      * C. Enable an Amazon CloudWatch alarm to trigger a scaling policy
      * D. Create a new template using AWS CloudFormation
-* [Answer]()
+* [Answer](https://i.imgur.com/Y0eeOjr.png)
 
 23) Which category of services includes Amazon S3?
      * A. Storage
      * B. Computing
      * C. Migration
      * D. Security
-* [Answer]()
+* [Answer](https://i.imgur.com/EH5FbQJ.png)
 
 24) Which of the following instance types provides you with a significant discount compared ot 
     On-Demand Instance pricing
@@ -194,7 +195,7 @@
      * B. Amazon EC2 Dedicated Instances
      * C. Amazon EC2 Instant instances
      * D. Amazon EC2 Reserved Instances
-* [Answer]()
+* [Answer](https://i.imgur.com/erxoTTM.png)
 
 25) Which of the pillars of the Well-Architected Framework is defined as the ability to run and
     monitor systems to deliver business value and to continually improve supporting processes and
@@ -203,39 +204,39 @@
      * B. Performance efficiency
      * C. Operational excellence
      * D. Reliability
-* [Answer]()
+* [Answer](https://i.imgur.com/3ESHhXa.png)
 
 26) Who is responsible for security of the cloud according to the shared responsibility model?
      * A. AWS
      * B. IAM roles
      * C. AWS Support
      * D. Customer
-* [Answer]()
+* [Answer](https://i.imgur.com/3a3UlYH.png)
 
 27) Which parts of the AWS infrastructure support increased resilience?
      * A. Multiple Regions distributed globally
      * B. Multiple edge locations within a Region
      * C. Multiple AWS Direct Connect (DX) gateways within a data center
      * D. Multiple Availability Zones within a Region
-* [Answer]()
+* [Answer](https://i.imgur.com/qDk2BFr.png)
 
 28) Which of the following is a responsibility of the customer according to the shared responsibility model?
      * A. Physical security of the facilities in which the services operate
      * B. Availability of third-party audit reports
      * C. Protection of the gloval infrastructure
      * D. AWS Identity and Access Management (IAM)
-* [Answer]()
+* [Answer](https://i.imgur.com/7czNZui.png)
 
 29) What is Elastic Load Balancing?
      * A. Automatically slowing traffic to decrease latency
      * B. Automatically distributing traffic across multiple targets
      * C. Automatically stopping traffic when targets are overloaded
      * D. Automatically monitoring traffic to ensure that costs are kept beneath a specified threshold
-* [Answer]()
+* [Answer](https://i.imgur.com/z4jJOvB.png)
   
 30) Which service provides persistent block storage volumes for use with Amazon EC2 instances?
      * A. Amazon S3
      * B. Amazon EFS
      * C. Amazon EBS
      * D. Amazon DynamoDB
-* [Answer]()
+* [Answer](https://i.imgur.com/EbfBYgi.png)
