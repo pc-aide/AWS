@@ -14,20 +14,20 @@
   During these early stages of the process, individual developers are running into frustrating
   conflicts and configuration problems that are highly specific to your situation. Which of the
   following plans will provide the best blend of support and cost savings?
-  * A. Basic
-  * B. Developer
-  * C. Business
-  * D. Enterprise
+     * A. Basic
+     * B. Developer
+     * C. Business
+     * D. Enterprise
 * [Answer]()
 
 3) Your corporate website was offline last week for more than two hours—which caused
   serious consequences, including the early retirement of your CTO. Your engineers have
   been having a lot of trouble tracking down the source of the outage and admit that they
   need outside help. Which of the following will most likely meet that need?
-  * A. Basic
-  * B. Developer
-  * C. Business
-  * D. Enterprise
+     * A. Basic
+     * B. Developer
+     * C. Business
+     * D. Enterprise
 * [Answer]()
 
 4) For which of the following will AWS provide direct 24/7 support to all users—even those
@@ -39,10 +39,10 @@
 * [Answer]()
 
 5) The primary purpose of an AWS technical account manager is to:
-  * A. Provide 24/7 customer service for your AWS account
-  * B. Provide deployment guidance and advocacy for Enterprise Support customers
-  * C. Provide deployment guidance and advocacy for Business Support customers
-  * D. Provide strategic cost estimates for Enterprise Support customers
+     * A. Provide 24/7 customer service for your AWS account
+     * B. Provide deployment guidance and advocacy for Enterprise Support customers
+     * C. Provide deployment guidance and advocacy for Business Support customers
+     * D. Provide strategic cost estimates for Enterprise Support customers
 * [Answer]()
 
 6) Your Linux-based EC2 instance requires a patch to a Linux kernel module. The problem
@@ -113,69 +113,70 @@
 12) Which of the following documentation sites are most likely to contain code snippets for you
     to cut and (after making sure you understand exactly what they’ll do) paste into your AWS
     operations? (Select TWO.)
-   * A. https://aws.amazon.com/premiumsupport/knowledge-center
-   * B. https://aws.amazon.com/premiumsupport/compare-plans
-   * C. https://docs.aws.amazon.com
-   * D. https://aws.amazon.com/professional-services
+      * A. https://aws.amazon.com/premiumsupport/knowledge-center
+      * B. https://aws.amazon.com/premiumsupport/compare-plans
+      * C. https://docs.aws.amazon.com
+      * D. https://aws.amazon.com/professional-services
 * [Answer]()
 
 13) What is the primary function of the content linked from the Knowledge Center?
-  * A. To introduce new users to the functionality of the core AWS services
-  * B. To explain how AWS deployments can be more efficient and secure than on-premises
-  * C. To provide a public forum where AWS users can ask their technical questions
-  * D. To present solutions to commonly encountered technical problems using AWS
-       infrastructure
+     * A. To introduce new users to the functionality of the core AWS services
+     * B. To explain how AWS deployments can be more efficient and secure than on-premises
+     * C. To provide a public forum where AWS users can ask their technical questions
+     * D. To present solutions to commonly encountered technical problems using AWS
+          infrastructure
 * [Answer]()
 
 14) On which of the following sites are you most likely to find information about encrypting
     your AWS resources?
-  * A. https://aws.amazon.com/premiumsupport/knowledge-center
-  * B. https://aws.amazon.com/security/security-resources
-  * C. https://docs.aws.amazon.com/
-  * D. https://aws.amazon.com/security/encryption
+     * A. https://aws.amazon.com/premiumsupport/knowledge-center
+     * B. https://aws.amazon.com/security/security-resources
+     * C. https://docs.aws.amazon.com/
+     * D. https://aws.amazon.com/security/encryption
 * [Answer]()
 
 15) When using AWS documentation pages, what is the best way to be sure the information
     you’re reading is up-to-date?
-  * A. The page URL will include the word latest.
-  * B. The page URL will include the version number (i.e., 3.2)
-  * C. The page will have the word Current at the top right.
-  * D. There is no easy way to tell
+     * A. The page URL will include the word latest.
+     * B. The page URL will include the version number (i.e., 3.2)
+     * C. The page will have the word Current at the top right.
+     * D. There is no easy way to tell
 * [Answer]()
 
 16) Which of the following is not a Trusted Advisor category?
-  * A. Performance
-  * B. Service Limits
-  * C. Replication
-  * D. Fault Tolerance
+     * A. Performance
+     * B. Service Limits
+     * C. Replication
+     * D. Fault Tolerance
+* [Answer]()
 
 17) “Data volumes that aren’t properly backed up” is an example of which of these Trusted
     Advisor categories?
-  * A. Fault Tolerance
-  * B. Performance
-  * C. Security
-  * D. Cost Optimization
+     * A. Fault Tolerance
+     * B. Performance
+     * C. Security
+     * D. Cost Optimization
 * [Answer]()
 
 18) Instances that are running (mostly) idle should be identified by which of these Trusted
     Advisor categories?
-  * A. Performance
-  * B. Cost Optimization
-  * C. Service Limits
-  * D. Replication
+     * A. Performance
+     * B. Cost Optimization
+     * C. Service Limits
+     * D. Replication
 * [Answer]()
 
 19) Within the context of Trusted Advisor, what is a false positive?
-  * A. An alert for a service state that was actually intentional
-  * B. A green OK icon for a service state that is failed or failing
-  * C. A single status icon indicating that your account is completely compliant
-  * D. Textual indication of a failed state
+     * A. An alert for a service state that was actually intentional
+     * B. A green OK icon for a service state that is failed or failing
+     * C. A single status icon indicating that your account is completely compliant
+     * D. Textual indication of a failed state
 * [Answer]()
 
 20) Which of the following Trusted Advisor alerts is available only for accounts on the Business
 or Enterprise Support plan? (Select TWO.)
-  * A. MFA on Root Account
-  * B. Load Balancer Optimization
-  * C. Service Limits
-  * D. IAM Access Key Rotation
+     * A. MFA on Root Account
+     * B. Load Balancer Optimization
+     * C. Service Limits
+     * D. IAM Access Key Rotation
 * [Answer]()
