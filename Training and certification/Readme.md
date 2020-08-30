@@ -11,9 +11,14 @@
     * AWS Certified Cloud Practitioner Practice | Time 90m | ΣQuestions: 65 | $100 USD
 
 ### Table
-| Exam Name | Exam Code|
-|-----------|:--------:|
-|test       |test      |
+| Exam Name                                                 | Exam Code | Price (USD) | Time (min) | ∑Questions |
+| --------------------------------------------------------- | --------- | ----------- | ---------- | ---------- |
+| AWS Certified Cloud Practitioner                          | CLF-C01   | 100         | 90         | 65         |
+| AWS Certified Cloud Practitioner Practice                 | CLF-P01   | 20          | 30         | 20         |
+| AWS Solutions Architect - Associate Practice              | SAA-P02   | ?           | ?          | ?          |
+| AWS Certified Solutions Architect - Professional Practice | SAP-P01   | ?           | ?          | ?          |
+| AWS Certified Solutions Architect - Professional          | SAP-01    | ?           | ?          | ?          |
+|
 
 [<img src="https://i.imgur.com/leqzowR.png">](https://i.imgur.com/leqzowR.png)
 
