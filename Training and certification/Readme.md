@@ -9,7 +9,11 @@
     
 2) AWS Certification
     * AWS Certified Cloud Practitioner Practice | Time 90m | ΣQuestions: 65 | $100 USD
-      
+
+### Table
+| Exam Name | Exam Code|
+|-----------|:--------:|
+|test       |test      |
 
 [<img src="https://i.imgur.com/leqzowR.png">](https://i.imgur.com/leqzowR.png)
 
