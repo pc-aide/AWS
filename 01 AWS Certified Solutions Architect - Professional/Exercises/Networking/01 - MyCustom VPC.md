@@ -34,3 +34,11 @@
   * CIDR: 10.10.2.0/24
   
 [<img src="https://i.imgur.com/GfNeU1l.png">](https://i.imgur.com/GfNeU1l.png)
+
+## Internet Gateway
+* Create Internet Gateway
+	* Name: MyIGW
+    * Attach to VPC: MyCustomVPC
+    
+[<img src="https://i.imgur.com/HQ2WWRG.png">](https://i.imgur.com/HQ2WWRG.png)
+[<img src="https://i.imgur.com/B7itH7k.png">](https://i.imgur.com/B7itH7k.png)
