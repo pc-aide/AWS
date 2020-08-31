@@ -146,3 +146,7 @@
 	* File and Printer Sharing (Echo Request - ICMPv4-in) - for your 2 VMs
 
 [<img src="https://i.imgur.com/6Op2glB.png">](https://i.imgur.com/6Op2glB.png)
+
+* Ping yes :
+
+[<img src="http://pix.toile-libre.org/upload/original/1598910639.png">](http://pix.toile-libre.org/upload/original/1598910639.png)
