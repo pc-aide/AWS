@@ -112,6 +112,6 @@
 
 ## IMCPv4 (ping)
 * ping 
-	Host:
+	* Hosts:
 		* EC2W19-01
 		* EC2W19-02
