@@ -125,4 +125,4 @@
 	* EC2W19-01(10.0.1.79)
 	* EC2W19-02(10.0.2.47)
 	
-[<img src="http://pix.toile-libre.org/upload/original/1598899488.png">](http://pix.toile-libre.org/upload/original/1598899488.png)
+[<img src="http://pix.toile-libre.org/upload/original/1598900487.png">](http://pix.toile-libre.org/upload/original/1598900487.png)
