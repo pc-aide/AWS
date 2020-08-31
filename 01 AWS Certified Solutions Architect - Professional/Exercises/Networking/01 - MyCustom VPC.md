@@ -13,3 +13,24 @@
   * Tenancy: default
     
 [<img src="https://i.imgur.com/dHyIXR6.png">](https://i.imgur.com/dHyIXR6.png)
+
+## Subnets
+### 01-Subnet
+* Create Subnet
+  * Name: PublicSubnet
+  * VPC: MyCustomVPC
+  * AZ: ca-central-1a
+  * CIDR: 10.10.1.0/24
+  * Auto-assign IPs: CheckBox IPv4
+  
+[<img src="https://i.imgur.com/FFQSnLW.png">](https://i.imgur.com/FFQSnLW.png)
+[<img src="https://i.imgur.com/8LabVrt.png">](https://i.imgur.com/8LabVrt.png)
+
+### 02-subnet
+* Create subnet
+  * Name: PrivateSubnet
+  * VPC: MyCustomVPC
+  * AZ: ca-central-1b
+  * CIDR: 10.10.2.0/24
+  
+[<img src="https://i.imgur.com/GfNeU1l.png">](https://i.imgur.com/GfNeU1l.png)
