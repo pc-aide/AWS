@@ -3,6 +3,9 @@
 ## SRC
 * https://youtu.be/VGAT5C8qIUY
 
+## Acronym
+* SG - Security Group
+
 ## Topology
 [<img src="https://i.imgur.com/1QuInkj.png">](https://i.imgur.com/1QuInkj.png)
 
@@ -126,3 +129,12 @@
 	* EC2W19-02(10.0.2.47)
 	
 [<img src="http://pix.toile-libre.org/upload/original/1598900487.png">](http://pix.toile-libre.org/upload/original/1598900487.png)
+
+* Security Group
+	* Create SG
+    	* Name: ICMPv4-IN-MyCostomVPC
+        * Type: Custom ICMP Rule - IPv4
+        * Protocol: Echo Request 
+        * Source: 10.0.0/16
+	
+[<img src="https://i.imgur.com/fkgNm8S.png">](https://i.imgur.com/fkgNm8S.png)
