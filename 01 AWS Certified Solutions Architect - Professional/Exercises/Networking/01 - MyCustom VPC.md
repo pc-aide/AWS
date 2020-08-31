@@ -109,3 +109,9 @@
 	* admin
 	
 [<img src="https://i.imgur.com/DXBnpyW.png">](https://i.imgur.com/DXBnpyW.png)	
+
+## IMCPv4 (ping)
+* ping 
+	Host:
+		* EC2W19-01
+		* EC2W19-02
