@@ -83,3 +83,19 @@
 [<img src="https://i.imgur.com/37XGH9l.png">](https://i.imgur.com/37XGH9l.png)
 [<img src="https://i.imgur.com/Kadmk5T.png">](https://i.imgur.com/Kadmk5T.png)
 [<img src="https://i.imgur.com/Os4OjUL.png">](https://i.imgur.com/Os4OjUL.png)
+
+### EC2W19-02
+* Launch Instance
+	* Microsoft Windows server 2019 Base
+    	* cfg Instance
+        	* Network: MyCustomVPC
+            * Subnet: PrivateSubnet
+            * Auto-assign Public IP: Disable
+    	* cfg Security group
+        	* RDP-IN-Private
+            	* Type: RDP
+                * Protocole: TCP
+                * Port: 3389
+                * Source: 10.0.0.0/16
+            
+[<img src="https://i.imgur.com/QG8iTy7.png">](https://i.imgur.com/QG8iTy7.png)
