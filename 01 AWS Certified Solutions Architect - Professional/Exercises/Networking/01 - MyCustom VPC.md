@@ -102,3 +102,10 @@
 [<img src="https://i.imgur.com/qBJYNja.png">](https://i.imgur.com/qBJYNja.png)
 [<img src="https://i.imgur.com/2PWF3ZB.png">](https://i.imgur.com/2PWF3ZB.png)
 [<img src="https://i.imgur.com/CusSS2T.png">](https://i.imgur.com/CusSS2T.png)
+
+## Multiple session
+* Users: 
+	* administrator
+	* admin
+	
+[<img src="https://i.imgur.com/DXBnpyW.png">](https://i.imgur.com/DXBnpyW.png)	
