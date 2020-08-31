@@ -132,12 +132,15 @@
 
 * Security Group
 	* Create SG
-    	* Name: ICMPv4-IN-MyCostomVPC
-        * Type: Custom ICMP Rule - IPv4
-        * Protocol: Echo Request 
-        * Source: 10.0.0/16
+		* Name: ICMPv4-IN-MyCostomVPC
+		* Type: Custom ICMP Rule - IPv4
+		* Protocol: Echo Request 
+		* Source: 10.0.0/16
+	* Attach 2x EC2
+
 	
 [<img src="https://i.imgur.com/fkgNm8S.png">](https://i.imgur.com/fkgNm8S.png)
+[<img src="https://i.imgur.com/csJDvLa.png">](https://i.imgur.com/csJDvLa.png)
 
 * wf.msc
 	* File and Printer Sharing (Echo Request - ICMPv4-in) - for your 2 VMs
