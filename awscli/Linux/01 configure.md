@@ -1,4 +1,4 @@
-# configure
+# 01 Configure
 
 ## Acronym
 * IAM - Identity & Access Management
