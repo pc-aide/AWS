@@ -43,3 +43,16 @@
 [<img src="https://i.imgur.com/HQ2WWRG.png">](https://i.imgur.com/HQ2WWRG.png)
 
 [<img src="https://i.imgur.com/B7itH7k.png">](https://i.imgur.com/B7itH7k.png)
+
+## Route Tables
+* Create Route Table
+	* Name: MyRoute
+    * VPC: MyCustomVPC
+    * Edit Routes
+    	* 0.0.0.0/0 | MyIGW
+    * Edit subnet associations:
+    	* CheckBox SubnetPublic
+	
+[<img src="https://i.imgur.com/IVFy9vP.png">](https://i.imgur.com/IVFy9vP.png)
+[<img src="https://i.imgur.com/nXN9XWO.png">](https://i.imgur.com/nXN9XWO.png)
+[<img src="https://i.imgur.com/NCowhgs.png">](https://i.imgur.com/NCowhgs.png)
