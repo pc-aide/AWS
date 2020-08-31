@@ -1,4 +1,4 @@
-# Install
+# 00 Install
 
 ## Acronym
 * AMI - Amazon Machine Image
