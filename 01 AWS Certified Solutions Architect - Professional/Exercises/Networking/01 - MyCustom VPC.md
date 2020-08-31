@@ -115,3 +115,5 @@
 	* Hosts:
 		* EC2W19-01
 		* EC2W19-02
+
+[<img src="https://pix.toile-libre.org/upload/original/1598899488.png">](https://pix.toile-libre.org/upload/original/1598899488.png)
