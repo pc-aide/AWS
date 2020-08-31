@@ -103,7 +103,7 @@
 [<img src="https://i.imgur.com/2PWF3ZB.png">](https://i.imgur.com/2PWF3ZB.png)
 [<img src="https://i.imgur.com/CusSS2T.png">](https://i.imgur.com/CusSS2T.png)
 
-## Multiple session
+## Multiple sessions
 * Users: 
 	* administrator
 	* admin
