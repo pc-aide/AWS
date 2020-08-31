@@ -8,8 +8,8 @@
 
 ## VPC
 * Create VPC
- 	Name: MyCustomVPC
-    CIDR: 10.10.0.0/16
-    Tenancy: default
+ 	* Name: MyCustomVPC
+  * CIDR: 10.10.0.0/16
+  * Tenancy: default
     
 [<img src="https://i.imgur.com/dHyIXR6.png">](https://i.imgur.com/dHyIXR6.png)
