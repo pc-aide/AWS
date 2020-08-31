@@ -111,11 +111,13 @@
 [<img src="https://i.imgur.com/DXBnpyW.png">](https://i.imgur.com/DXBnpyW.png)	
 
 ## IMCPv4 (ping)
-* ping 
-	* Hosts:
-		* EC2W19-01
-		* EC2W19-02
+# ping 
+* Hosts:
+	* EC2W19-01
+	* EC2W19-02
 
 [<img src="https://pix.toile-libre.org/upload/original/1598899488.png">](https://pix.toile-libre.org/upload/original/1598899488.png)
 [<img src="https://i.imgur.com/PgIWVVH.png">](https://i.imgur.com/PgIWVVH.png)
 [<img src="https://i.imgur.com/cOKBMhI.png">](https://i.imgur.com/cOKBMhI.png)
+
+	
