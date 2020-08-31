@@ -138,3 +138,6 @@
         * Source: 10.0.0/16
 	
 [<img src="https://i.imgur.com/fkgNm8S.png">](https://i.imgur.com/fkgNm8S.png)
+
+* wf.msc
+	* File and Printer Sharing (Echo Request - ICMPv4-in) - for your 2 VMs
