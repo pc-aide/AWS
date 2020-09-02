@@ -39,5 +39,13 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 
 [<img src="https://i.imgur.com/BCLtgNC.png">](https://i.imgur.com/BCLtgNC.png)
 
+* pending ... :
+
+[<img src="https://i.imgur.com/eaUhSp1.png">](https://i.imgur.com/eaUhSp1.png)
+
+* Test 
+ * same thing without do do again for new EC2
+ 
+[<img src="https://i.imgur.com/MOIZ1QV.png">](https://i.imgur.com/MOIZ1QV.png)
 
 ### Windows
