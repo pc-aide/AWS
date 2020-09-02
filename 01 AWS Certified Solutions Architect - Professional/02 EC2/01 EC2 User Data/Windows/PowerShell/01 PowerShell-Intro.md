@@ -34,10 +34,16 @@ New-Item $file -ItemType file
 ### Demo-02
 ````Powershell
 <PowerShell>
-	#Hostname: EC2W19-01
-	Rename-computer EC2W19-01
+ #Hostname: EC2W19-01
+ Rename-computer EC2W19-01
     
-	#Reboot
-    	Restart-Computer
+ #TimeZone UTC-5
+ tzutil /s "eastern standard time"
+    
+ #Allow-IN-Echo-Rquest
+  Set-NetFirewallRule -Name "FPS-ICMP4-ERQ-In" -Enabled True
+    
+  #Reboot
+  Restart-Computer
 </PowerShell>
 ````
