@@ -21,3 +21,7 @@
  * Name | EIP-01
  
  [<img src="https://i.imgur.com/6QhLYi4.png">](https://i.imgur.com/6QhLYi4.png)
+
+### Release addreses
+
+[<img src="https://i.imgur.com/htZSKFz.png">](https://i.imgur.com/htZSKFz.png)
