@@ -69,6 +69,7 @@ echo %DATE% %TIME% >> %SystemRoot%\Temp\test.log
 * Demo-01:
 
 ## Syntax for batch scripts
+* Specify a batch script using the **script tag** (as html). Separate the commands using line breaks. For example:
 ### Persist
 * By default, the user data scripts are executed one time when you launch the instance.
   To execute the user data scripts every time you reboot or start the instance,
