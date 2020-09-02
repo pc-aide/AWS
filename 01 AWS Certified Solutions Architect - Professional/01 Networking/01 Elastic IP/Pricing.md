@@ -1,7 +1,7 @@
 # Pricing
 
 ## Doc
-* [on-demand](https://aws.amazon.com/ec2/pricing/on-demand/)
+* [On-Demand](https://aws.amazon.com/ec2/pricing/on-demand/)
 
 ## Table
 |Region|Price ($/hour) |ΣInstance|
