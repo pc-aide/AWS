@@ -20,7 +20,12 @@ New-Item $file -ItemType file
 [<img src="https://i.imgur.com/O3axQSO.png">](https://i.imgur.com/O3axQSO.png)
 
 * CheckUp on EC2:
+  * $file
 
 [<img src="https://i.imgur.com/8vuoEBY.png">](https://i.imgur.com/8vuoEBY.png)
+
+* UserScrip.ps1:
+
+[<img src="https://i.imgur.com/uS3fOLZ.png">](https://i.imgur.com/uS3fOLZ.png)
 
 ### Demo-02
