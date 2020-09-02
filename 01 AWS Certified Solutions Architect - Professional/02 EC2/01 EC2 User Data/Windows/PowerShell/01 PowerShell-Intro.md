@@ -37,7 +37,7 @@ New-Item $file -ItemType file
 	#Hostname: EC2W19-01
 	Rename-computer EC2W19-01
     
-    #Reboot
-    Restart-Computer
+	#Reboot
+    	Restart-Computer
 </PowerShell>
 ````
