@@ -15,14 +15,7 @@
 * Linux
   * The EC2 User Data Script runs with the root user
 * Windows
-  * Same thing but syntax different
-  
-## Syntax for batch scripts
-* Specify a batch script using the **script tag** (as html). Separate the commands using line breaks. For example:
-### Persist
-* By default, the user data scripts are executed one time when you launch the instance.
-  To execute the user data scripts every time you reboot or start the instance,
-  add **\<persist\>true\</persist\>** to the user data.
+  * Same thing but syntax different 
 
 ## Examples
 ### Linux
@@ -57,22 +50,3 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
  * same thing without do do again for new EC2
  
 [<img src="https://i.imgur.com/MOIZ1QV.png">](https://i.imgur.com/MOIZ1QV.png)
-
-### Windows
-#### Batch
-* Demo-01:
-
-````batch
-<script>
-echo Current date and time >> %SystemRoot%\Temp\test.log
-echo %DATE% %TIME% >> %SystemRoot%\Temp\test.log
-</script>
-````
-[<img src="https://i.imgur.com/5QdUup3.png">](https://i.imgur.com/5QdUup3.png)
-[<img src="https://i.imgur.com/otG8DvD.png">](https://i.imgur.com/otG8DvD.png)
-[<img src="https://i.imgur.com/9JjJN60.png">](https://i.imgur.com/9JjJN60.png)
-
-#### PowerShell
-* Demo-01:
-
-
