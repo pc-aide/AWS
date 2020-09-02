@@ -34,6 +34,10 @@ systemctl start httpd
 systemctl enable httpd
 echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 ````
+
+* AWS Console new instalnce launch:
+
 [<img src="https://i.imgur.com/BCLtgNC.png">](https://i.imgur.com/BCLtgNC.png)
+
 
 ### Windows
