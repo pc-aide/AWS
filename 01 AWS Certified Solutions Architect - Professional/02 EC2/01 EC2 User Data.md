@@ -62,5 +62,7 @@ echo %DATE% %TIME% >> %SystemRoot%\Temp\test.log
 </script>
 ````
 [<img src="https://i.imgur.com/5QdUup3.png">](https://i.imgur.com/5QdUup3.png)
+[<img src="https://i.imgur.com/otG8DvD.png">](https://i.imgur.com/otG8DvD.png)
 
 #### PowerShell
+* Demo-01:
