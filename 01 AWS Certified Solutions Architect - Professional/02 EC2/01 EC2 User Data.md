@@ -72,4 +72,4 @@ echo %DATE% %TIME% >> %SystemRoot%\Temp\test.log
 ### Persist
 * By default, the user data scripts are executed one time when you launch the instance.
   To execute the user data scripts every time you reboot or start the instance,
-  add **<persist>true</persist>** to the user data.
+  add **\<persist\>true\</persist\>** to the user data.
