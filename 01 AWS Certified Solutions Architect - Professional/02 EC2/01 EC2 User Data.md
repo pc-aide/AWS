@@ -52,3 +52,10 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 [<img src="https://i.imgur.com/MOIZ1QV.png">](https://i.imgur.com/MOIZ1QV.png)
 
 ### Windows
+#### Batch
+````batch
+<script>
+echo Current date and time >> %SystemRoot%\Temp\test.log
+echo %DATE% %TIME% >> %SystemRoot%\Temp\test.log
+</script>
+````
