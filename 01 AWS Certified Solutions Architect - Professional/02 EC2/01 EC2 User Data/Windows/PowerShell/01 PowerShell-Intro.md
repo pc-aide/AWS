@@ -19,4 +19,8 @@ New-Item $file -ItemType file
 
 [<img src="https://i.imgur.com/O3axQSO.png">](https://i.imgur.com/O3axQSO.png)
 
+* CheckUp on EC2:
+
+[<img src="https://i.imgur.com/8vuoEBY.png">](https://i.imgur.com/8vuoEBY.png)
+
 ### Demo-02
