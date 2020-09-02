@@ -45,7 +45,7 @@ New-Item $file -ItemType file
  #TimeZone UTC-5
  tzutil /s "eastern standard time"
     
- #Allow-IN-Echo-Rquest
+ #Allow-IN-Echo-Request
   Set-NetFirewallRule -Name "FPS-ICMP4-ERQ-In" -Enabled True
     
   #Reboot
