@@ -22,8 +22,3 @@ echo %DATE% %TIME% >> %SystemRoot%\Temp\test.log
 [<img src="https://i.imgur.com/5QdUup3.png">](https://i.imgur.com/5QdUup3.png)
 [<img src="https://i.imgur.com/otG8DvD.png">](https://i.imgur.com/otG8DvD.png)
 [<img src="https://i.imgur.com/9JjJN60.png">](https://i.imgur.com/9JjJN60.png)
-
-
-
-### Powershell
-### Syntax
