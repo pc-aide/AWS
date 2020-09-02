@@ -18,7 +18,21 @@
 ### Linux
 * Bootstrapping :
 ````bash
-yum -y
+#!/bin/bash
+
+#################################################
+## USE THIS FILE IF YOU LAUCHED AMAZON LINUX 2 ##
+#################################################
+
+#Get admin priviledges
+sudo -s
+
+# Install httpd (Linux 2 version)
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "Hello World from $(hostname -f)" > /var/www/htlm/index.html
 ````
 
 ### Windows
