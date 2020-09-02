@@ -32,3 +32,12 @@ New-Item $file -ItemType file
 [<img src="https://i.imgur.com/uS3fOLZ.png">](https://i.imgur.com/uS3fOLZ.png)
 
 ### Demo-02
+````Powershell
+<PowerShell>
+	#Hostname: EC2W19-01
+	Rename-computer EC2W19-01
+    
+    #Reboot
+    Restart-Computer
+</PowerShell>
+````
