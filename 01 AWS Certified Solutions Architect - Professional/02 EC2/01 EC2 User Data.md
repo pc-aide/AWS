@@ -6,7 +6,7 @@
 ## Intro
 * It is possible to bootstrap our instance using an **EC2 User data** script
 * **bootstrapping** means lauching commands when a machine starts
-* That script is **only run once** at the instance **first start** & never run again
+* That script is **only run once** at the instance **first start** (default)
 * EC2 user data is used to automate boot tasks such as:
   * Installing updates
   * Installing software
@@ -67,3 +67,9 @@ echo %DATE% %TIME% >> %SystemRoot%\Temp\test.log
 
 #### PowerShell
 * Demo-01:
+
+## Syntax for batch scripts
+### Persist
+* By default, the user data scripts are executed one time when you launch the instance.
+  To execute the user data scripts every time you reboot or start the instance,
+  add **<persist>true</persist>** to the user data.
