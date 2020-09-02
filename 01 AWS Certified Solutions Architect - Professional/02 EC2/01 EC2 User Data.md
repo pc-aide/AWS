@@ -16,7 +16,9 @@
 
 ## Examples
 ### Linux
+* Bootstrapping :
 ````bash
 yum -y
+````
 
 ### Windows
