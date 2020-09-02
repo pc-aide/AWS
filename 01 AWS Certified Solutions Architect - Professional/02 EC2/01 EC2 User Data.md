@@ -61,5 +61,6 @@ echo Current date and time >> %SystemRoot%\Temp\test.log
 echo %DATE% %TIME% >> %SystemRoot%\Temp\test.log
 </script>
 ````
+[<img src="https://i.imgur.com/5QdUup3.png">](https://i.imgur.com/5QdUup3.png)
 
 #### PowerShell
