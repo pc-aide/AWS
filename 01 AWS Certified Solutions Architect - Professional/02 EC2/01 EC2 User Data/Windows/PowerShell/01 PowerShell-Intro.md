@@ -55,3 +55,9 @@ New-Item $file -ItemType file
 * User Data:
 
 [<img src="https://i.imgur.com/IqJv08N.png">](https://i.imgur.com/IqJv08N.png)
+
+* Pending & get password key (4min):
+[<img src="https://i.imgur.com/G1dVpac.png">](https://i.imgur.com/G1dVpac.png)
+[<img src="https://i.imgur.com/XdtcQHv.png">](https://i.imgur.com/XdtcQHv.png)
+
+* Test... :
