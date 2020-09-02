@@ -1,5 +1,8 @@
 # EC2 User Data
 
+## Doc
+* [ec2-windows-user-data](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ec2-windows-user-data.html)
+
 ## Intro
 * It is possible to bootstrap our instance using an **EC2 User data** script
 * **bootstrapping** means lauching commands when a machine starts
