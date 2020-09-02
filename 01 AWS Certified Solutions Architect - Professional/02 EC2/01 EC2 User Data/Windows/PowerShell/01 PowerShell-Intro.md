@@ -16,10 +16,6 @@ New-Item $file -ItemType file
 <persist>true</persist>
 ````
 
-
-## Syntax
-* 
-
 ## User data
 ### Demo-01
 ````PowerShell
