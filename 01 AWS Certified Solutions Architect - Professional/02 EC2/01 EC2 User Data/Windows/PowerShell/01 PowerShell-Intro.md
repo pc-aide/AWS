@@ -34,6 +34,11 @@ New-Item $file -ItemType file
 ### Demo-02
 ````Powershell
 <PowerShell>
+ <#
+ --------------------------------
+  Tested on MS Windows SRV 19 Base
+ --------------------------------
+ #>
  #Hostname: EC2W19-01
  Rename-computer EC2W19-01
     
