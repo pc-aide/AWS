@@ -12,12 +12,12 @@
  
  a)
  
-   * Reserved Instance: log workloads
-   * Up to 75% discount compared to On-demand
-   * Pay upfront for what you use with long term commitment
-   * Reservation period can be 1 to 3 years
-   * Reserve a specific instance type
-   * Recommended for steady state usage applications (think database)
+     * Reserved Instance: log workloads
+     * Up to 75% discount compared to On-demand
+     * Pay upfront for what you use with long term commitment
+     * Reservation period can be 1 to 3 years
+     * Reserve a specific instance type
+     * Recommended for steady state usage applications (think database)
   
   b)
   
