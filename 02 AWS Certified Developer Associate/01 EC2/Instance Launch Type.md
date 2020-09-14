@@ -10,7 +10,7 @@
   
 2) Reserved (min 1 year)
  
- a)
+ I)
    * Reserved Instance: log workloads
    * Up to 75% discount compared to On-demand
    * Pay upfront for what you use with long term commitment
@@ -18,9 +18,9 @@
    * Reserve a specific instance type
    * Recommended for steady state usage applications (think database)
   
-  b)
-  * Convertible Reserved Intances: long workloads with flexible instances
-  * Scheduled Reserved Instance: e.g.: every Thursday between 3 & 6 pm
+  II)
+    * Convertible Reserved Intances: long workloads with flexible instances
+    * Scheduled Reserved Instance: e.g.: every Thursday between 3 & 6 pm
   
   
 3) Sport Instances: short workloads, for cheap, can lose instances (less reliable)
