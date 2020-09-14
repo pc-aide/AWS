@@ -7,6 +7,10 @@
   * Downloading common file from the internet
   * etc
 
+## Doc
+* [Windows](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ec2-windows-user-data.html)
+* [Linux](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html)
+
 ## Linux
 * Need run with the root use (sudo rights)
 * Script:
@@ -44,7 +48,7 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 ## Windows
 * On Windows we are using tag (like html)
 * Don't need specific administrator (run as admin), just put your code into tag
-* For batch: <batch> your code here</batch>
+* For batch: <script> your code here</script>
 * For PowerShell: <PowerShell>...codes...</PowerShell>
 
 ### Batch
