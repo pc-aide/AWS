@@ -34,7 +34,7 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 * Demo
  * User data:
  
-[<img src=https://i.imgur.com/hr7ZUFj.png">](https://i.imgur.com/hr7ZUFj.png)
+[<img src="https://i.imgur.com/hr7ZUFj.png">](https://i.imgur.com/hr7ZUFj.png)
 
 
 ## Windows
