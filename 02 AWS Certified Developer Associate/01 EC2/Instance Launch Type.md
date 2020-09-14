@@ -9,6 +9,7 @@
    * Recommended for short-term & interrupted workloads, where you can't predict how the application will behave
   
 2) Reserved (min 1 year)
+ 
  a)
    * Reserved Instance: log workloads
    * Up to 75% discount compared to On-demand
