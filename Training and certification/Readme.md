@@ -13,7 +13,7 @@
 | AWS Solutions Architect - Associate Practice              | SAA-P02   | ?           | ?          | ?          |
 | AWS Certified Solutions Architect - Professional Practice | SAP-P01   | ?           | ?          | ?          |
 | AWS Certified Solutions Architect - Professional          | SAP-01    | ?           | ?          | ?          |
-|
+| AWS Certified Developer Associate                         |           | ?           | ?          | ?          |
 
 [<img src="https://i.imgur.com/leqzowR.png">](https://i.imgur.com/leqzowR.png)
 
