@@ -7,3 +7,4 @@
 | 2 | EBS     | Elastic Block store   | |
 | 3 | ELB     | Elastic Load Balancing| |
 | 4 | ASG     | Auto-Scaling group    | |
+| 5 | AMI     | Amazon Machine Image  | Windows2019, Ubutnu18.04, CentOS7, etc |
