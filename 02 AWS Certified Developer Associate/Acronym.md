@@ -9,3 +9,4 @@
 | 3 | ELB     | Elastic Load Balancing| |
 | 4 | ASG     | Auto-Scaling group    | |
 | 5 | AMI     | Amazon Machine Image  | Windows2019, Ubutnu18.04, CentOS7, WordPress, vSRX, F5-Big, etc |
+| t | IAM     | Identity & Access Management| Users, groups, Roles, Policies |
