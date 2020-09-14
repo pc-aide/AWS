@@ -42,6 +42,10 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 [<img src="https://i.imgur.com/nO7XV6F.png">](https://i.imgur.com/nO7XV6F.png)
 
 ## Windows
+* On Windows we are using tag (like html)
+* Don't need specific administrator (run as admin), just put your code into tag
+* For batch: <batch> your code here</batch>
+* For PowerShell: <PowerShell>...codes...</PowerShell>
 
 ### Batch
 
