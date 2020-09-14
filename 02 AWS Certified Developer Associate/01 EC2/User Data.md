@@ -23,6 +23,9 @@ sudo su
 # Hostname
 hostnamectl set-hostname EC2Ama-01
 
+# TimeZone
+timedatectl set-timezone america/toronto
+
 # Install httpd
 yum update -y
 yum install -y httpd
@@ -35,7 +38,7 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
  * User data:
  
 [<img src="https://i.imgur.com/hr7ZUFj.png">](https://i.imgur.com/hr7ZUFj.png)
-
+[<img src="https://i.imgur.com/8Bbwm0t.png">](https://i.imgur.com/8Bbwm0t.png)
 
 ## Windows
 
