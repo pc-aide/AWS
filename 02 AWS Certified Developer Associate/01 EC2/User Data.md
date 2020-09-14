@@ -39,6 +39,7 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
  
 [<img src="https://i.imgur.com/hr7ZUFj.png">](https://i.imgur.com/hr7ZUFj.png)
 [<img src="https://i.imgur.com/8Bbwm0t.png">](https://i.imgur.com/8Bbwm0t.png)
+[<img src="https://i.imgur.com/nO7XV6F.png">](https://i.imgur.com/nO7XV6F.png)
 
 ## Windows
 
