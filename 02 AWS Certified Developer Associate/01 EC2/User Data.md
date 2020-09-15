@@ -28,7 +28,7 @@ sudo su
 hostnamectl set-hostname EC2Ama-01
 
 # TimeZone
-timedatectl set-timezone america/toronto
+timedatectl set-timezone America/Toronto
 
 # Install httpd
 yum update -y
