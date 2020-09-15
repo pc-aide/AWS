@@ -29,3 +29,7 @@
 5) We see my new ENI:
 
 [<img src="https://i.imgur.com/MZRhUKb.png">](https://i.imgur.com/MZRhUKb.png)
+
+* For Windows:
+
+[<img src="https://i.imgur.com/J6buarq.png">](https://i.imgur.com/J6buarq.png)
