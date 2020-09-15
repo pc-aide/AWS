@@ -102,3 +102,17 @@ ex.: m4.large - us-east-1 :
 | Reserved **Scheduled** Instance (recurring schedule on 12 months term)     | $0.090 - $0.095 (5%-10% off)    |
 | Dedicated Host                                                             | On-demand price                 |
 | Dedicated Host Reservation                                                 | Up to 70% off                   |
+
+## Scheduled Instance
+* Supported Regions
+    * US East (N. Virginia)
+    * EU (Ireland)
+    * US West (Oregon)
+    
+* Recurring :
+    * Daily
+    * Week
+    * Monthly
+    
+[<img src="https://i.imgur.com/ZBpR5YA.png">](https://i.imgur.com/ZBpR5YA.png)
+[<img src="https://i.imgur.com/Sru7VWe.png">](https://i.imgur.com/Sru7VWe.png)
