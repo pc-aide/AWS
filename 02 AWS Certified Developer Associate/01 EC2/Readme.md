@@ -6,6 +6,7 @@
 ## Doc
 * [instance-types](https://aws.amazon.com/ec2/instance-types/)
 * [ec2instances](https://www.ec2instances.info/)
+* [new-t2-unlimited-going-beyond-the-burst-with-high-performance](https://aws.amazon.com/blogs/aws/new-t2-unlimited-going-beyond-the-burst-with-high-performance/)
 
 ## Security Group
 ### Traffic
@@ -51,3 +52,8 @@
 | t2.large      | 60            | 2     | 36                             | 864                              | 2     | 60% (of 200% max)\*                         |
 | t2.xlarge     | 120           | 4     | 54                             | 1296                             | 4     | 90% (of 400% max)\*                         |
 | t2.2xlarge    | 240           | 8     | 81                             | 1944                             | 8     | 135% (of 800% max)\*                        |
+
+## t2 Unlimited
+* Now 2017: It's possible to have an "unlimited burst credit balance"
+* You pay extra money if you go over your credit balance, but you don't lose in performance
+* Overall, it's a new offering, so be carefull, costs could go high if you're not monitoring the health of your instances
