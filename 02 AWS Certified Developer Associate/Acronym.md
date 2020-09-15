@@ -11,3 +11,4 @@
 | 5 | AMI     | Amazon Machine Image  | Windows2019, Ubutnu18.04, CentOS7, WordPress, vSRX, F5-Big, etc |
 | 6 | IAM     | Identity & Access Management| Users, groups, Roles, Policies |
 | 7 | BYOL    | Bring Your Own License | 
+| 8 | ENI     | Elastic Network Interface |
