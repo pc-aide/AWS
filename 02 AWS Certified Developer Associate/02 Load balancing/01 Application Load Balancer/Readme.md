@@ -74,6 +74,6 @@
 [<img src="https://i.imgur.com/7cxusue.png">](https://i.imgur.com/7cxusue.png)
 
 ### Goal
-* Redirect on port 80 -> port 443
+* Redirect on port 80 -> port 443 for our ALB
 
 [<img src="https://i.imgur.com/0YRAYYV.png">](https://i.imgur.com/0YRAYYV.png)
