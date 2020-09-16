@@ -77,6 +77,7 @@
 [<img src="https://i.imgur.com/XFdswSt.png">](https://i.imgur.com/XFdswSt.png)
 [<img src="https://i.imgur.com/mJZdEL7.png">](https://i.imgur.com/mJZdEL7.png)
 
-* 3x EC2 for only one DNS name :
+* 3x EC2 (2x AZ) for only one DNS name :
 
 [<img src="https://i.imgur.com/jZ9zNRv.png">](https://i.imgur.com/jZ9zNRv.png)
+[<img src="https://i.imgur.com/aZMriLA.png">](https://i.imgur.com/aZMriLA.png)
