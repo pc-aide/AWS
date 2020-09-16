@@ -68,3 +68,7 @@
 * active :
 
 [<img src="https://i.imgur.com/KjyNAfM.png">](https://i.imgur.com/KjyNAfM.png)
+
+* DNS Name (test):
+
+[<img src="https://i.imgur.com/7cxusue.png">](https://i.imgur.com/7cxusue.png)
