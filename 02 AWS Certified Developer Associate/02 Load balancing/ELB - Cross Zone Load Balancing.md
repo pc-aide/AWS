@@ -2,9 +2,10 @@
 
 ## Acronym
 * ELB - Elastic Load Balancer
-* CLB - Classic Load Balancing
+* CLB - Classic Load Balancer
 * LB - Load Balancer
 * AZ - Availability zone
+* NLB - Network Load Balancer
 
 ## Doc
 * [cfg cross-zone LB for your CLB](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-disable-crosszone-lb.html?icmpid=docs_elb_console)
@@ -21,7 +22,7 @@
 ## Cross Zone LB
 ### CLB
 * Default: Disabled - udemy said that (we my new [CLB it's checkbox automatic)](https://i.imgur.com/mYDrn8F.png)
-* 
+* No charges for inter AZ data if enabled
 
 #### Demo
 * 2x EC2 & one DNS
@@ -29,4 +30,11 @@
 [<img src="https://i.imgur.com/HZOEJ7E.png">](https://i.imgur.com/HZOEJ7E.png)
 
 ### ALB
-* Default: 
+* Default: Always on (can't be disabled - no option)
+* No charges for inter AZ data
+
+### NLB
+* Disabled by default
+
+#### Demo
+[<img src="https://i.imgur.com/jrOBK1t.png">](https://i.imgur.com/jrOBK1t.png)
