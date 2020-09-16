@@ -50,6 +50,7 @@
 
 ## nslookup
 [<img src="https://i.imgur.com/0nNfXYh.png">](https://i.imgur.com/0nNfXYh.png)
+[<img src="https://i.imgur.com/hl0y3mO.png">](https://i.imgur.com/hl0y3mO.png)
 
 ## Topology
 [<img src="https://i.imgur.com/iPVfsYD.png">](https://i.imgur.com/iPVfsYD.png)
