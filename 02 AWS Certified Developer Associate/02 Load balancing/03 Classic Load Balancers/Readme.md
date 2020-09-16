@@ -7,6 +7,7 @@
 * CLB - Classic Load Balancer
 * VH - Virtual Host
 * SG - Security Group
+* AZ - Availability Zone
 
 ## Overview
 * Support TCP (Layer 4), HTTP & HTTPS (Layer 7)
@@ -68,3 +69,14 @@
 * so we change SG for EC2 (to protect) :
 
 [<img src="https://i.imgur.com/jAeJq6k.png">](https://i.imgur.com/jAeJq6k.png)
+
+* Overview on 3 different EC2 with 3 AZ separated
+* Warning t2.micro not available in AZ-1d, so only 2x AZ
+
+[<img src="https://i.imgur.com/4jqeZmk.png">](https://i.imgur.com/4jqeZmk.png)
+[<img src="https://i.imgur.com/XFdswSt.png">](https://i.imgur.com/XFdswSt.png)
+[<img src="https://i.imgur.com/mJZdEL7.png">](https://i.imgur.com/mJZdEL7.png)
+
+* 3x EC2 for only one DNS name :
+
+[<img src="https://i.imgur.com/jZ9zNRv.png">](https://i.imgur.com/jZ9zNRv.png)
