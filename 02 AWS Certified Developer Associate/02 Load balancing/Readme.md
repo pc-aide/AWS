@@ -118,4 +118,4 @@
 * Same logic for User2 (logo Windows) = ec2ama-01 even after F5
    * if the user2 on ec2ama-02, so just delete the sessionID (cookies)
    
-[<img src="https://i.imgur.com/5VJh3hM.png">](https://i.imgur.com/5VJh3hM.png)
+[<img src="https://i.imgur.com/S9vL5lc.png">](https://i.imgur.com/S9vL5lc.png)
