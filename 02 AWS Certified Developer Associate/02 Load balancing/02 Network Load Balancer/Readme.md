@@ -3,6 +3,7 @@
 ## Acronym
 * NLB - Network Load Balancer
 * SG - Security Group
+* VH - Virtual Host
 * ALB - Application Load Balancer
 * AZ - Availability Zone
 * EIP - Elastic IP
@@ -67,5 +68,6 @@
 
 ### Timing
 * ALB vs NLB
+     * Same EC2 for my VH
 
 [<img src="https://i.imgur.com/htvU51S.png">](https://i.imgur.com/htvU51S.png)
