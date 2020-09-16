@@ -60,3 +60,7 @@
 [<img src="https://i.imgur.com/Qjy5gK7.png">](https://i.imgur.com/Qjy5gK7.png)
 [<img src="https://i.imgur.com/3wOH2zU.png">](https://i.imgur.com/3wOH2zU.png)
 [<img src="https://i.imgur.com/vMyHcQG.png">](https://i.imgur.com/vMyHcQG.png)
+
+## New ALB
+* Waiting for **provisioning** ...
+[<img src="https://i.imgur.com/YwdfQS3.png">](https://i.imgur.com/YwdfQS3.png)
