@@ -5,6 +5,7 @@
 
 ## Acronym
 * CLB - Classic Load Balancer
+* VH - Virtual Host
 
 ## Overview
 * Support TCP (Layer 4), HTTP & HTTPS (Layer 7)
@@ -15,3 +16,6 @@
 [<img src="https://i.imgur.com/3p9BafJ.png">](https://i.imgur.com/3p9BafJ.png)
 
 ## Create an new CLB
+* 2x VH on Port 80,443 :
+
+[<img src="https://i.imgur.com/D5bhGdD.png">]()
