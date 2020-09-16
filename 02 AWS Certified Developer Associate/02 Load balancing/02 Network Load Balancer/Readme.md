@@ -34,6 +34,11 @@
 [<img src="https://i.imgur.com/B029E2k.png">](https://i.imgur.com/B029E2k.png)
 [<img src="https://i.imgur.com/MvR8z6P.png">](https://i.imgur.com/MvR8z6P.png)
 
+### Error
+* I created my TG first, & when i want to creat a new LB (ALB), it can't see my TG
+
+[<img src="https://i.imgur.com/UzoD3dl.png">](https://i.imgur.com/UzoD3dl.png)
+
 ## Security Group
 * E.g
    * SGName: HTTP-IN-Any
