@@ -29,12 +29,15 @@
 * In comparison, we'd need multiple CLB per application
 * Fixed hostname (xxx.region.elb.amazonaws.com)
       * SimpleAppTestALB-593251739.ca-central-1.elb.amazonaws.com
-* A new ALB nedd at least **two subnets** must be specified
+* A new ALB need at least **two subnets** must be specified
 
 [<img src="https://i.imgur.com/Qa9jnkT.png">](https://i.imgur.com/Qa9jnkT.png)
 
 * The application servers don't see the IP of the client directly
       * The true IP of the client is inserted in the header **X-Forearded-for**
+      * We can also get Port (X-Forwarded-Port) & proto (X-Forwarded-Proto)
+      
+[<img src="https://i.imgur.com/O3ioKoB.png">](https://i.imgur.com/O3ioKoB.png)
 
 [<img src="https://i.imgur.com/xZYlTb2.png">](https://i.imgur.com/xZYlTb2.png)
 
