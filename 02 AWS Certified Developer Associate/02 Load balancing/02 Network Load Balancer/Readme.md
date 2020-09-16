@@ -21,6 +21,20 @@
 * Not included in the AWS free tier
 * At least one subnet must be specified (new NLB)
 
+## Provising
+* ~ 1min before to active
+
+[<img src="https://i.imgur.com/YrFr032.png">](https://i.imgur.com/YrFr032.png)
+[<img src="https://i.imgur.com/XDCGT5r.png">](https://i.imgur.com/XDCGT5r.png)
+
+## Target Group
+* If **unhealthy** check your SG for your instance
+
+[<img src="https://i.imgur.com/B029E2k.png">](https://i.imgur.com/B029E2k.png)
+
+## nslookup
+[<img src="https://i.imgur.com/0nNfXYh.png">](https://i.imgur.com/0nNfXYh.png)
+
 ## Topology
 [<img src="https://i.imgur.com/iPVfsYD.png">](https://i.imgur.com/iPVfsYD.png)
 
