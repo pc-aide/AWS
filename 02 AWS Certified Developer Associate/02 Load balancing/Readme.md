@@ -5,6 +5,8 @@
 ## Acronym
 * LB - Load Balancer
 * HA - High Availability
+* CLB - Classic Load Balancer
+* ALB - Application Load Balancer
 
 ## What is ?
 * Load balancers are servers that forward internet traffic to multiple servers (EC2 Instances) downstream
@@ -65,3 +67,22 @@
 ## LB Security Groups
 
 [<img src="https://i.imgur.com/3V6zgOR.png">](https://i.imgur.com/3V6zgOR.png)
+
+## LB Stickiness
+* It's possible to implement stickiness so that the same client is always redirected to the same instance behind a LB
+* This work for CLB & ALB
+* The "cookie" used for stickiness has an expiration data you control
+* Use case: make sure the user doesn't lose his session data
+* Enabling stickiness may bring imbalance to the load over the backend EC2 instances
+
+### Tolopoly
+[<img src="https://i.imgur.com/PxojDpb.png">](https://i.imgur.com/PxojDpb.png)
+
+### Demo
+* 2x EC2
+
+[<img src="https://i.imgur.com/0A1LMyF.png">](https://i.imgur.com/0A1LMyF.png)
+
+* SG: 
+
+[<img src="https://i.imgur.com/oF0kTzV.png">](https://i.imgur.com/oF0kTzV.png)
