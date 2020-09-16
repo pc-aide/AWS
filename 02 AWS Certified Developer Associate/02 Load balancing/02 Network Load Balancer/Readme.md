@@ -26,3 +26,8 @@
 
     
 ## Test latency (ALB vs NLB)
+* New code (more complex) for our index.html on port 80
+* NLB - respond (GET) 96.32 ms
+* ALB - respond (GET) 120.44 ms
+
+[<img src="https://i.imgur.com/OSAidHX.png">](https://i.imgur.com/OSAidHX.png)
