@@ -6,6 +6,7 @@
 ## Acronym
 * ALB - Application Load Balancer
 * ECS - Elastic Container Service
+* XFF - X-Forwarded-For
 
 ## Terminology
 * Model ISO ( with 7 layers)
