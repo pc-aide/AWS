@@ -2,6 +2,7 @@
 
 ## Acronym
 * NLB - Network Load Balancer
+* SG - Security Group
 * ALB - Application Load Balancer
 * AZ - Availability Zone
 * EIP - Elastic IP
@@ -31,6 +32,7 @@
 * If **unhealthy** check your SG for your instance
 
 [<img src="https://i.imgur.com/B029E2k.png">](https://i.imgur.com/B029E2k.png)
+[<img src="https://i.imgur.com/MvR8z6P.png">](https://i.imgur.com/MvR8z6P.png)
 
 ## nslookup
 [<img src="https://i.imgur.com/0nNfXYh.png">](https://i.imgur.com/0nNfXYh.png)
