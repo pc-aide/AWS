@@ -33,6 +33,12 @@
 * Default: Always on (can't be disabled - no option)
 * No charges for inter AZ data
 
+#### Demo
+* 2x EC2 | 2x AZ
+
+[<img src="https://i.imgur.com/KnajrfC.png">](https://i.imgur.com/KnajrfC.png)
+[<img src="https://i.imgur.com/d7yorW4.png">](https://i.imgur.com/d7yorW4.png)
+
 ### NLB
 * Disabled by default
 
