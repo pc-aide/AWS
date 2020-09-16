@@ -34,6 +34,15 @@
 [<img src="https://i.imgur.com/B029E2k.png">](https://i.imgur.com/B029E2k.png)
 [<img src="https://i.imgur.com/MvR8z6P.png">](https://i.imgur.com/MvR8z6P.png)
 
+## Security Group
+* E.g:
+      * SGName: HTTP-IN-Any
+      * Port: 80
+      * Protocol: tcp
+      * SRC: 0.0.0.0/0
+      
+[<img src="https://i.imgur.com/ISBGffs.png">](https://i.imgur.com/ISBGffs.png)
+
 ## nslookup
 [<img src="https://i.imgur.com/0nNfXYh.png">](https://i.imgur.com/0nNfXYh.png)
 
