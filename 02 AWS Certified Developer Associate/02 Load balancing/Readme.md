@@ -86,3 +86,36 @@
 * SG: 
 
 [<img src="https://i.imgur.com/oF0kTzV.png">](https://i.imgur.com/oF0kTzV.png)
+
+* Target Group:
+   * If some issue with unhealthy, so check SG & apache reload for example
+   
+[<img src="https://i.imgur.com/4ftYCk2.png">](https://i.imgur.com/4ftYCk2.png)
+
+* 2x users different
+   * scenario 01
+      * User1 -> EC2ama-02
+      * User2 -> EC2ama-01
+
+[<img src="https://i.imgur.com/L5ZZ6Hr.png">](https://i.imgur.com/L5ZZ6Hr.png)
+
+* If  the user1 refresh page, so it will get EC2ama-01
+
+[<img src="https://i.imgur.com/WkXPHmv.png">](https://i.imgur.com/WkXPHmv.png)
+
+* Stickiness: Disabled
+
+[<img src="https://i.imgur.com/ZaAA1Qh.png">](https://i.imgur.com/ZaAA1Qh.png)
+
+* Stickiness: Enable (for 120) sec
+
+[<img src="https://i.imgur.com/121DU4N.png">](https://i.imgur.com/121DU4N.png)
+
+* Now user1 (logo cat) = ec2ama-02 even after F5
+
+[<img src="https://i.imgur.com/XpzC5BX.png">](https://i.imgur.com/XpzC5BX.png)
+
+* Same logic for User2 (logo Windows) = ec2ama-01 even after F5
+   * if the user2 on ec2ama-02, so just delete the sessionID (cookies)
+   
+[<img src="https://i.imgur.com/5VJh3hM.png">](https://i.imgur.com/5VJh3hM.png)
