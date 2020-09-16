@@ -64,3 +64,8 @@
 [<img src="https://i.imgur.com/OSAidHX.png">](https://i.imgur.com/OSAidHX.png)
 [<img src="https://i.imgur.com/KEs1kpQ.png">](https://i.imgur.com/KEs1kpQ.png)
 [<img src="https://i.imgur.com/NzXDTF0.png">](https://i.imgur.com/NzXDTF0.png)
+
+### Timing
+* ALB vs NLB
+
+[<img src="https://i.imgur.com/htvU51S.png">](https://i.imgur.com/htvU51S.png)
