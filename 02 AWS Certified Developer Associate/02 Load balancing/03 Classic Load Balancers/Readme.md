@@ -65,6 +65,6 @@
 [<img src="https://i.imgur.com/WNiM5Bg.png">](https://i.imgur.com/WNiM5Bg.png)
 
 * We don't want someone bypass our LB with only ipv4, so in SG we put LB-HTTP-IN
-* so we change SG for EC2 :
+* so we change SG for EC2 (to protect) :
 
-[<img src="https://i.imgur.com/Ziel8vL.png">](https://i.imgur.com/Ziel8vL.png)
+[<img src="https://i.imgur.com/jAeJq6k.png">](https://i.imgur.com/jAeJq6k.png)
