@@ -7,6 +7,12 @@
 * AZ - Availability zone
 * NLB - Network Load Balancer
 
+## Terminology
+* TCP - level 4 (transport)
+* HTTP - level 7 (application)
+
+[<img src="https://i.imgur.com/o6gzlj2.png">](https://i.imgur.com/o6gzlj2.png)
+
 ## Doc
 * [cfg cross-zone LB for your CLB](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-disable-crosszone-lb.html?icmpid=docs_elb_console)
 * [What is a CLB?](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-disable-crosszone-lb.html?icmpid=docs_elb_console)
@@ -44,3 +50,21 @@
 
 #### Demo
 [<img src="https://i.imgur.com/jrOBK1t.png">](https://i.imgur.com/jrOBK1t.png)
+
+* Target Group, only one AZ "healthy", the other "unused"
+
+[<img scr="https://i.imgur.com/GXNhf2N.png">](https://i.imgur.com/GXNhf2N.png)
+
+* Don't forget to put another subnet (AZ)
+
+[<img src="https://i.imgur.com/Vl94QSa.png">](https://i.imgur.com/Vl94QSa.png)
+
+* Wainting for health :
+
+[<img src="https://i.imgur.com/JDUKBVl.png">](https://i.imgur.com/JDUKBVl.png)
+[<img src="https://i.imgur.com/SpFZKE9.png">](https://i.imgur.com/SpFZKE9.png)
+
+* even after 10x F5, userX still on ec2ama-01 - never on ec2ama-02
+* Why versus othr LB ?
+
+[<img src="https://i.imgur.com/iR2XW1l.png">](https://i.imgur.com/iR2XW1l.png)
