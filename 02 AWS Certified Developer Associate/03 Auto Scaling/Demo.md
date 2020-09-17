@@ -121,3 +121,14 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 
 [<img src="https://i.imgur.com/JWgdwhK.png">](https://i.imgur.com/JWgdwhK.png)
 [<img src="https://i.imgur.com/XZRQEyb.png">](https://i.imgur.com/XZRQEyb.png)
+[<img src="https://i.imgur.com/ce0pPI2.png">](https://i.imgur.com/ce0pPI2.png)
+[<img src="https://i.imgur.com/YVSbpBa.png">](https://i.imgur.com/YVSbpBa.png0)
+[<img src="https://i.imgur.com/cGMbuv1.png">](https://i.imgur.com/cGMbuv1.png)
+
+* One instance & CPU low:
+
+[<img src="https://i.imgur.com/NwlA35L.png">](https://i.imgur.com/NwlA35L.png)
+
+* test ping -f
+
+[<img src="https://i.imgur.com/L30NEmA.png">](https://i.imgur.com/L30NEmA.png)
