@@ -20,10 +20,10 @@
 * ALB cfg:
     * AZ: 3 times
     * SG: LB-HTTP-IN-Any
-    * Healthy (3 instances - TG) : empty - ASG taking this step...
-    * Browser: ok
+    * TG (listener) - **empty** - it's ASG will take this stepp..
+    * Browser: 503
     
 [<img src="https://i.imgur.com/hXuDE3m.png">](https://i.imgur.com/hXuDE3m.png)
 [<img src="https://i.imgur.com/o86mhZX.png">](https://i.imgur.com/o86mhZX.png)
-[<img src="https://i.imgur.com/zypiLa8.png">](https://i.imgur.com/zypiLa8.png)
-[<img src="https://i.imgur.com/OmJm0MP.png">](https://i.imgur.com/OmJm0MP.png)
+[<img src="https://i.imgur.com/cHW2X33.png">](https://i.imgur.com/cHW2X33.png)
+[<img src="https://i.imgur.com/S1toodM.png">](https://i.imgur.com/S1toodM.png)
