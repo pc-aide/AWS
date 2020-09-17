@@ -16,3 +16,4 @@
 | 10 | TLS | Transport Layer Security | 
 | 11 | ACM | AWS Certificate Manager | 
 | 12 | SNI | Server Name Indication |
+| 13 | ALPN | Application-Layer Protocol Negotiation | ALPN Policy |
