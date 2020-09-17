@@ -14,3 +14,4 @@
 | 8 | ENI     | Elastic Network Interfaces |
 | 9 | SSL     | Secure Sockets Layers |
 | 10 | TLS | Transport Layer Security | 
+| 11 | ACM | AWS Certificate Manager | 
