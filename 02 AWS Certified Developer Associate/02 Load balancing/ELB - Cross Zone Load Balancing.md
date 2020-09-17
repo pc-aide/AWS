@@ -56,6 +56,8 @@
 
 ### NLB
 * Disabled by default
+* provisioning - it take ~1min 30sec
+* You pay charges ($) for inter AZ data if enabled
 
 #### Demo
 [<img src="https://i.imgur.com/jrOBK1t.png">](https://i.imgur.com/jrOBK1t.png)
