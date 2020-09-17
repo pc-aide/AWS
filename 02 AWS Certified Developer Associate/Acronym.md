@@ -12,3 +12,5 @@
 | 6 | IAM     | Identity & Access Management| Users, groups, Roles, Policies |
 | 7 | BYOL    | Bring Your Own License | 
 | 8 | ENI     | Elastic Network Interfaces |
+| 9 | SSL     | Secure Sockets Layers |
+| 10 | TLS | Transport Layer Security | 
