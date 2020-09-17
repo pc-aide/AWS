@@ -10,6 +10,8 @@
 ## Terminology
 * TCP - level 4 (transport)
 * HTTP - level 7 (application)
+* 304 Not Modified
+    * The HTTP 304 Not Modified client redirection response code indicates that there is no need to retransmit the requested resources
 
 [<img src="https://i.imgur.com/o6gzlj2.png">](https://i.imgur.com/o6gzlj2.png)
 
@@ -35,6 +37,9 @@
 
 [<img src="https://i.imgur.com/HZOEJ7E.png">](https://i.imgur.com/HZOEJ7E.png)
 
+#### Monitoring
+[<img src="https://i.imgur.com/LVRRoRd.png">](https://i.imgur.com/LVRRoRd.png)
+
 ### ALB
 * Default: Always on (can't be disabled - no option)
 * No charges for inter AZ data
@@ -44,6 +49,9 @@
 
 [<img src="https://i.imgur.com/KnajrfC.png">](https://i.imgur.com/KnajrfC.png)
 [<img src="https://i.imgur.com/d7yorW4.png">](https://i.imgur.com/d7yorW4.png)
+
+#### Monitoring
+[<img src="https://i.imgur.com/128G39F.png">](https://i.imgur.com/128G39F.png)
 
 ### NLB
 * Disabled by default
@@ -68,3 +76,20 @@
 * Why versus othr LB ?
 
 [<img src="https://i.imgur.com/iR2XW1l.png">](https://i.imgur.com/iR2XW1l.png)
+
+* If i clear browsing data, so now i'm on the second instance 02
+
+[<img src="https://i.imgur.com/5VMiRo6.png">](https://i.imgur.com/5VMiRo6.png)
+
+* the time + algorithm LB !?
+
+[<img src="https://i.imgur.com/nxOjFVz.png">](https://i.imgur.com/nxOjFVz.png)
+[<img src="https://i.imgur.com/6eTKhuo.png">](https://i.imgur.com/6eTKhuo.png)
+
+* Enabled Cross Zone :
+
+[<img src="https://i.imgur.com/qLu9MYF.png">](https://i.imgur.com/qLu9MYF.png)
+[<img src="https://i.imgur.com/k6rPSuU.png">](https://i.imgur.com/k6rPSuU.png)
+
+#### Monitoring
+[<img src="https://i.imgur.com/Ew6nJI4.png">](https://i.imgur.com/Ew6nJI4.png)
