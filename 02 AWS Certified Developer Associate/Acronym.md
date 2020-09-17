@@ -17,3 +17,4 @@
 | 11 | ACM | AWS Certificate Manager | 
 | 12 | SNI | Server Name Indication |
 | 13 | ALPN | Application-Layer Protocol Negotiation | ALPN Policy |
+| 14 | ASG | Auto Scaling Group |
