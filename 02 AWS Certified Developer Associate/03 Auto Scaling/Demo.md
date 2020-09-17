@@ -132,3 +132,19 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 * test ping -f
 
 [<img src="https://i.imgur.com/L30NEmA.png">](https://i.imgur.com/L30NEmA.png)
+
+* if i update my desired capacity from 1 to 2:
+
+[<img src="https://i.imgur.com/5N8ICuA.png">](https://i.imgur.com/5N8ICuA.png)
+
+* New instance template (created): 
+
+[<img src="https://i.imgur.com/RKgpWWw.png">](https://i.imgur.com/RKgpWWw.png)
+
+* Automatic Registered targets:
+
+[<img src="https://i.imgur.com/rhAI7vV.png">](https://i.imgur.com/rhAI7vV.png)
+
+* Browser:
+
+[<img src="https://i.imgur.com/lsBF27b.png">](https://i.imgur.com/lsBF27b.png)
