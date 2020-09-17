@@ -14,6 +14,7 @@
     * The HTTP 304 Not Modified client redirection response code indicates that there is no need to retransmit the requested resources
 
 [<img src="https://i.imgur.com/o6gzlj2.png">](https://i.imgur.com/o6gzlj2.png)
+[<img src="https://i.imgur.com/S71C8dG.png">](https://i.imgur.com/S71C8dG.png)
 
 ## Doc
 * [cfg cross-zone LB for your CLB](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-disable-crosszone-lb.html?icmpid=docs_elb_console)
