@@ -148,3 +148,25 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 * Browser:
 
 [<img src="https://i.imgur.com/lsBF27b.png">](https://i.imgur.com/lsBF27b.png)
+
+* if i want now only 1 Disired capacity :
+
+[<img src="https://i.imgur.com/V3eLxZW.png">](https://i.imgur.com/V3eLxZW.png)
+
+* TG, it'll draining an instance :
+
+[<img src="https://i.imgur.com/MNf1qrr.png">](https://i.imgur.com/MNf1qrr.png)
+[<img src="https://i.imgur.com/au5rLnt.png">](https://i.imgur.com/au5rLnt.png)
+
+* after ~30sec, now my EC2-02 (AZ-1a) terminated:
+
+[<img src="https://i.imgur.com/Qvl1Ep0.png">](https://i.imgur.com/Qvl1Ep0.png)
+
+* Activity (ASG):
+
+[<img src="https://i.imgur.com/jScMclj.png">](https://i.imgur.com/jScMclj.png)
+
+* Now "0" it's min & desired capacity:
+
+[<img src="https://i.imgur.com/G34v61I.png">](https://i.imgur.com/G34v61I.png)
+[<img src="https://pasteboard.co/JrxyGXP.png">(https://pasteboard.co/JrxyGXP.png)
