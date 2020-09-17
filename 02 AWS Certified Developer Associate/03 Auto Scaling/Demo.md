@@ -169,4 +169,4 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
 * Now "0" it's min & desired capacity:
 
 [<img src="https://i.imgur.com/G34v61I.png">](https://i.imgur.com/G34v61I.png)
-[<img src="https://pasteboard.co/JrxyGXP.png">](https://pasteboard.co/JrxyGXP.png)
+[<img src="https://i.imgur.com/mpfuwKN.png">](https://i.imgur.com/mpfuwKN.png)
