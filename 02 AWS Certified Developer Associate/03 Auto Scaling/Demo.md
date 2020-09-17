@@ -20,7 +20,7 @@
 * ALB cfg:
     * AZ: 3 times
     * SG: LB-HTTP-IN-Any
-    * Healthy (3 instances - TG) : ok
+    * Healthy (3 instances - TG) : empty - ASG taking this step...
     * Browser: ok
     
 [<img src="https://i.imgur.com/hXuDE3m.png">](https://i.imgur.com/hXuDE3m.png)
