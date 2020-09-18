@@ -13,7 +13,7 @@
 ## Volume Type
 
 ### GP2
-<span style="color:blue">some *This is Blue italic.* text</span>
+RED APPLE (&#x1F34E;): 🍎
 * Recommended for most workloads
 * System boot volumes
 * Virtual desktops
