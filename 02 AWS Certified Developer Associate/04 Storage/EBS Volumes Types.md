@@ -13,7 +13,7 @@
 ## Volume Type
 
 ### GP2
-In his beard lived three <span style="color:green">cardinals</span>
+<span style="color:red"> *some emphasized markdown text*</span>
 * Recommended for most workloads
 * System boot volumes
 * Virtual desktops
