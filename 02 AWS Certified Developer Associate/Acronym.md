@@ -19,4 +19,5 @@
 | 13 | ALPN | Application-Layer Protocol Negotiation | ALPN Policy |
 | 14 | ASG | Auto Scaling Group |
 | 15 | GP2 SSD | General purpose SSD| Create new EBS volume |
-| 16 | EFS | Elastic File System | e.g SMB, CIFS, etc |
+| 16 | EFS | Elastic File System | e.g: SMB, CIFS, etc |
+| 17 | NFS | Network File System | e.g: CIFS |
