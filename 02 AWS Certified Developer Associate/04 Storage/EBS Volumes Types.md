@@ -78,3 +78,31 @@
 [<img src="https://i.imgur.com/MGR4DsE.png">](https://i.imgur.com/MGR4DsE.png)
 [<img src="https://i.imgur.com/Ear0jX0.png">](https://i.imgur.com/Ear0jX0.png)
 [<img src="https://i.imgur.com/aoU7Lu7.png">](https://i.imgur.com/aoU7Lu7.png)
+---
+
+### SC1
+* Throughput-orientes storage for large volumes of data that is infrequently accessed
+* Scenarios where the lowest storage cost is important
+* Cannot be a boot volume
+* Size
+  * Min 500 GB & max 16 TB
+* Max IOPS is 250
+* Max throughput of 250 MiB/s - can burst
+
+[<img src="https://i.imgur.com/JEj6nF2.png">](https://i.imgur.com/JEj6nF2.png)
+[<img src="https://i.imgur.com/OXGPW34.png">](https://i.imgur.com/OXGPW34.png)
+
+---
+
+## Summary
+* GP2: General Purpose Volumes (cheap)
+  * 3 IOPS / GiB, min 100 IOPS, burst to 3000 IOPS, max 16000 IOPS
+  * 1 GiB - 16 TiB, + 1 TB =+ 3000 IOPS
+* IO1: Provisioned IOPS (expensive)
+  * Min 100 IOPS, Max 64000 IOPS (Nitro) or 32000 (other)
+  * 4 GiB - 16 TiB. Size of volumes & IOPS are independent
+* ST1: Throughput Optimized HDD
+  * 500 GiB - 16 TiB, 500 MiB/s throughput
+* SC1: Cold HDD, Infrequently accessed data
+  * 250 GiB - 16 TiB, 250 MiB/s throughput
+  
