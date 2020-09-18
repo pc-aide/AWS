@@ -30,6 +30,8 @@
 
 [<img src="https://i.imgur.com/YP1AmOa.png">](https://i.imgur.com/YP1AmOa.png)
 
+----------------
+
 ### IO1
 * Critical business applications that require sustained IOPS performance, or more than 16 000 IOPS per volume (gp2 limit)
 * Large database workloads, such as:
