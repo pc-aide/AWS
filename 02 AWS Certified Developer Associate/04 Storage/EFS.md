@@ -13,6 +13,7 @@
 * [What Is Amazon Elastic File System?](https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html)
 * [Mounting EFS file systems](https://docs.aws.amazon.com/efs/latest/ug/mounting-fs.html#mounting-fs-mount-cmd)
 * [Walkthrough: Create and Mount a File System On-Premises with AWS Direct Connect and VPN](https://docs.aws.amazon.com/efs/latest/ug/efs-onpremises.html)
+* [Creating or deleting mount targets in a VPC](https://docs.aws.amazon.com/efs/latest/ug/manage-fs-access-create-delete-mount-targets.html)
 
 ## Introduction
 * Mnaged NFS that can be mounted on many EC2
