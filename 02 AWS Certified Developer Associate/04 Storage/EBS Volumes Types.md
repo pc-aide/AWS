@@ -12,8 +12,8 @@
 
 ## Volume Type
 
-### <span style="color:red">GP2</span>
-<span style="color:red">cardinals</span>
+### GP2
+In his beard lived three <span style="color:red">cardinals</span>.
 * Recommended for most workloads
 * System boot volumes
 * Virtual desktops
