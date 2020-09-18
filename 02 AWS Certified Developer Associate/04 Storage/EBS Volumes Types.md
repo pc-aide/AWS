@@ -12,7 +12,7 @@
 
 ## Volume Type
 
-### GP2
+### <span style="color:red">GP2</span>
 * Recommended for most workloads
 * System boot volumes
 * Virtual desktops
@@ -60,3 +60,7 @@
 [<img src="https://i.imgur.com/znbCD94.png">](https://i.imgur.com/znbCD94.png)
 [<img src="https://i.imgur.com/2VZ7vv6.png">](https://i.imgur.com/2VZ7vv6.png)
 [<img src="https://i.imgur.com/6I2PLGn.png">](https://i.imgur.com/6I2PLGn.png)
+
+----------------
+
+##
