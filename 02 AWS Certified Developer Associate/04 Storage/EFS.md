@@ -11,6 +11,8 @@
 
 ## Doc
 * [What Is Amazon Elastic File System?](https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html)
+* [Mounting EFS file systems](https://docs.aws.amazon.com/efs/latest/ug/mounting-fs.html#mounting-fs-mount-cmd)
+* [Walkthrough: Create and Mount a File System On-Premises with AWS Direct Connect and VPN](https://docs.aws.amazon.com/efs/latest/ug/efs-onpremises.html)
 
 ## Introduction
 * Mnaged NFS that can be mounted on many EC2
