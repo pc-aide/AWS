@@ -1,6 +1,7 @@
 # 04 Storage
 
 ## Doc
+* [Making an Amazon EBS volume available for use on Linux](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html)
 
 ## Acronym
 * EBS - Elastic Block store
