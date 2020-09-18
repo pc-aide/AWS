@@ -1,8 +1,14 @@
 # EBS Volumes Types
 
+----------------
+
 ## Doc
 
+----------------
+
 ## Acronym
+
+----------------
 
 ## Volume Type
 
