@@ -23,3 +23,4 @@
 | 17 | NFS | Network File System | e.g: CIFS |
 | 18 | AZ  | Availability Zone | ca-central-1a, us-west-1d, etc |
 | 19 | KMS | Key Management Service | 
+| 20 | API | Application Program Interface | 
