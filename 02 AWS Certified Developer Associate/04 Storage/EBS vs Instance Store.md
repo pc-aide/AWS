@@ -1,6 +1,7 @@
 # EBS vs Instance Store.md
 
 ## Doc
+* [Storage](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Storage.html?icmpid=docs_ec2_console)
 
 ## Acronym
 
@@ -24,8 +25,17 @@
 * Cannot be increased in size
 * Risk of data loss if hardware fails
 
+---
+
 ## Table
 [<img src="https://i.imgur.com/csZhyWa.png">](https://i.imgur.com/csZhyWa.png)
 
+---
+
 ## Demo
 * Launch new instance\\<ami-xyz\>\
+
+[<img src="https://i.imgur.com/OEioEpQ.png">](https://i.imgur.com/OEioEpQ.png)
+[<img src="https://i.imgur.com/Go0OJqa.png">](https://i.imgur.com/Go0OJqa.png)
+[<img src="https://i.imgur.com/qdHlqTj.png">](https://i.imgur.com/qdHlqTj.png)
+[<img src="https://i.imgur.com/vKvZ3oV.png">](https://i.imgur.com/vKvZ3oV.png)
