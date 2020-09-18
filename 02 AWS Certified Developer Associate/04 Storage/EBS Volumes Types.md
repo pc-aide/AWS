@@ -13,7 +13,7 @@
 ## Volume Type
 
 ### GP2
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
+<span style="color:blue">some *This is Blue italic.* text</span>
 * Recommended for most workloads
 * System boot volumes
 * Virtual desktops
