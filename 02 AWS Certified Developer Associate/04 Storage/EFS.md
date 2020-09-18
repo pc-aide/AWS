@@ -43,3 +43,10 @@
 * Storage Tiers (lifecycle managment feature - move file after N days)
     * Standard: for frequently accessed files
     * Infrequent access (EFS-IA): cost to retrieve files, lower price to store
+---
+
+## On-Premise
+* Used AWS VPN if we want used EFS on your ubuntu for example
+
+* Error, i don't used an AWS VPN, so I can't mounted this EFS-01 on my On-Premise (dammit you AWS)
+[<img src="https://i.imgur.com/p35wXLt.png">](https://i.imgur.com/p35wXLt.png)
