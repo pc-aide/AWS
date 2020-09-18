@@ -3,6 +3,8 @@
 ----------------
 
 ## Doc
+* [Instances built on the Nitro System](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html?icmpid=docs_ec2_console#ec2-nitro-instances)
+* [Amazon EBS volume types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html?icmpid=docs_ec2_console)
 
 ----------------
 
@@ -13,7 +15,6 @@
 ## Volume Type
 
 ### GP2
-RED APPLE (&#x1F34E;): 🍎
 * Recommended for most workloads
 * System boot volumes
 * Virtual desktops
@@ -64,4 +65,16 @@ RED APPLE (&#x1F34E;): 🍎
 
 ----------------
 
-##
+### ST1
+* Streaming workloads requiring consistent, fast throughput at a low price
+* Big data, Data warehouse, Log processing
+* Apache Kafka
+* Cannot be a boot volume
+* Size 
+  * Min 500 GB & max 16 TB
+* Max IOPS is 500
+* Max throughput of 500 MiB/s - can burst
+
+[<img src="https://i.imgur.com/MGR4DsE.png">](https://i.imgur.com/MGR4DsE.png)
+[<img src="https://i.imgur.com/Ear0jX0.png">](https://i.imgur.com/Ear0jX0.png)
+[<img src="https://i.imgur.com/aoU7Lu7.png">](https://i.imgur.com/aoU7Lu7.png)
