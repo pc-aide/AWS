@@ -21,7 +21,7 @@
     * Physical disk attached to the physical server where your EC2 is
 * Very High IOPS (because physical)
 * Disks up to 7.5 TiB (can change over time), stripped to reach 30 TiB (can change over time...)
-* Bloc Storage (just like EBS)
+* Block Storage (just like EBS)
 * Cannot be increased in size
 * Risk of data loss if hardware fails
 
