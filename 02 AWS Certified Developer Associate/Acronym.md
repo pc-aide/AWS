@@ -18,3 +18,4 @@
 | 12 | SNI | Server Name Indication |
 | 13 | ALPN | Application-Layer Protocol Negotiation | ALPN Policy |
 | 14 | ASG | Auto Scaling Group |
+| 15 | GP2 SSD | General purpose SSD| create new EBS volume |
