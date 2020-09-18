@@ -1,4 +1,4 @@
-# Quiz 3 - Fundamentals 2
+# Quiz 03 - Fundamentals 2
 
 ## Questions
 1) Load Balancers provide a 
