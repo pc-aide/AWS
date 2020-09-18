@@ -24,3 +24,4 @@
 | 18 | AZ  | Availability Zone | ca-central-1a, us-west-1d, etc |
 | 19 | KMS | Key Management Service | 
 | 20 | API | Application Program Interface | 
+| 21 | DS  | Disaster Recovery |
