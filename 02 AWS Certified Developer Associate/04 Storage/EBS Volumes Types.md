@@ -13,7 +13,7 @@
 ## Volume Type
 
 ### GP2
-<span style="color:red"> *some emphasized markdown text*</span>
+Some Markdown text with <span style="color:blue">some *blue* text</span>.
 * Recommended for most workloads
 * System boot volumes
 * Virtual desktops
