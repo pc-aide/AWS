@@ -25,3 +25,4 @@
 | 19 | KMS | Key Management Service | 
 | 20 | API | Application Program Interface | 
 | 21 | DS  | Disaster Recovery |
+| 22 | RDS | Relational database service | RDS {MySQL, Oracle, Aurora, PostgreSQL, Microsoft SQL Server, MariaDB} |
