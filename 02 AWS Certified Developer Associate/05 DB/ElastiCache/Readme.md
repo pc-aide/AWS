@@ -3,8 +3,11 @@
 ## Acronym
 * RDS - Relational database service
 * AZ - Availability Zone
+* HA - High Availability
+* AOF - Append Only Files
 
 ## Doc
+* [Append Only Files (AOF) in ElastiCache for Redis](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/RedisAOF.html)
 
 ## Introduction
 * The same way RDS is to get managed Relational DBs...
@@ -40,4 +43,17 @@
 ---
 
 ## Redis vs Memcached
-*
+* REDIS
+    * Multi AZ with Auto-Failover
+    * Read Replicas to scale reads & have HA
+    * Data Durability using AOF persistence
+    * Backup & restore features
+    
+* MEMCACHED
+    * Multi-node for partitioning of data (sharding)
+    * **Non persistent**
+    * No backup & resotre 
+    * Multi-threaded architecture
+
+### Topology
+[<img src="https://i.imgur.com/JTCJ6PZ.png">](https://i.imgur.com/JTCJ6PZ.png)
