@@ -1,4 +1,4 @@
-# Amazon Aurora
+# Aurora
 
 ## Acronym
 * DB - database
