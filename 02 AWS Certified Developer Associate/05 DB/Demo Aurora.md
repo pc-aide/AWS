@@ -59,3 +59,15 @@
 [<img src="https://i.imgur.com/l344DD1.png">](https://i.imgur.com/l344DD1.png)
 
 * When done for overview - juste delete our Aurora (because $$$)
+
+[<img src="https://i.imgur.com/Fejm7IX.png">](https://i.imgur.com/Fejm7IX.png)
+
+* idem for Reader:
+
+[<img src="https://i.imgur.com/JTRuArz.png">](https://i.imgur.com/JTRuArz.png)
+
+* everything will be gone automatic (you can check for 100% sure):
+
+[<img src="https://i.imgur.com/o0Pq2Hk.png">](https://i.imgur.com/o0Pq2Hk.png)
+[<img src="https://i.imgur.com/qc30ihV.png">](https://i.imgur.com/qc30ihV.png)
+[<img src="https://i.imgur.com/5oC3Drl.png">](https://i.imgur.com/5oC3Drl.png)
