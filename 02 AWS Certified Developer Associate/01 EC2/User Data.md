@@ -35,7 +35,7 @@ yum update -y
 yum install -y httpd
 systemctl start httpd
 systemctl enable httpd
-echo "Hello World from $(hostname -f)" > /var/www/html/index.html
+echo "Hello World from <p style=color:red>$(hostname -f)</p>" > /var/www/html/index.html
 # Which AZ for EC2
 EC2_AZ=$(curl -s http://169.254.169.254/latest/meta-data/placement/availability-zone)
 echo "<p>In AZ:</p>" >> /var/www/html/index.html
