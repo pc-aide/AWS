@@ -40,6 +40,9 @@ echo "Hello World from <p style=color:red>$(hostname -f)</p>" > /var/www/html/in
 EC2_AZ=$(curl -s http://169.254.169.254/latest/meta-data/placement/availability-zone)
 echo "<p>In AZ:</p>" >> /var/www/html/index.html
 echo "<p style=color:green>In $EC2_AZ</p>" >> /var/www/html/index.html
+
+# Reload httpd
+systemctl reload httpd
 ````
 
 * Demo
