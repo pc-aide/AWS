@@ -20,8 +20,15 @@
 * Regions: ca & us
 * SG: (for demo - it's not best practice - we want only LB managed traffic - see later)
 
+### Route 53
+* Type: A - IPv4
+* value: 
+  * IP_Canada
+  * IP_US
 
-* Broswer:
+[<img src="https://i.imgur.com/bS1ic69.png">](https://i.imgur.com/bS1ic69.png)
+
+### Broswer:
 
 [<img src="https://i.imgur.com/71jKdIS.png">](https://i.imgur.com/71jKdIS.png)
 [<img src="https://i.imgur.com/NCpqmVk.png">](https://i.imgur.com/NCpqmVk.png)
