@@ -82,3 +82,7 @@
 
 [<img src="https://i.imgur.com/pB0AdEG.png">](https://i.imgur.com/pB0AdEG.png)
 [<img src="https://i.imgur.com/UhLBQtD.png">](https://i.imgur.com/UhLBQtD.png)
+
+* Is it the best practice for our Rout 53 cfg with & our goal (cross regions + only one Domain Name for the browser) !? :
+
+[<img src="https://i.imgur.com/uNEXXIp.png">](https://i.imgur.com/uNEXXIp.png)
