@@ -20,6 +20,8 @@
 * Regions: ca & us
 * SG: (for demo - it's not best practice - we want only LB managed traffic - see later)
 
+[<img src="https://i.imgur.com/n3yJ0nN.png">](https://i.imgur.com/n3yJ0nN.png)
+
 ### Route 53
 * Type: A - IPv4
 * value: 
@@ -32,3 +34,7 @@
 
 [<img src="https://i.imgur.com/71jKdIS.png">](https://i.imgur.com/71jKdIS.png)
 [<img src="https://i.imgur.com/NCpqmVk.png">](https://i.imgur.com/NCpqmVk.png)
+
+* we dont' want this (check SG+ Route 53) :
+
+[<img src="https://i.imgur.com/INK3uf7.png">](https://i.imgur.com/INK3uf7.png)
