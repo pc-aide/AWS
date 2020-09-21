@@ -74,7 +74,8 @@
 * yes can in record : A - alternative ip: ca-us vs 2x ca & 2x us
 
 [<img src="https://i.imgur.com/L1uzHSu.png">](https://i.imgur.com/L1uzHSu.png)
-[<img src="https://i.imgur.com/NQzD8bD.png">](https://i.imgur.com/NQzD8bD.png)`
+[<img src="https://i.imgur.com/NQzD8bD.png">](https://i.imgur.com/NQzD8bD.png)
+[<img src="https://i.imgur.com/Jm4cUCY.png">](https://i.imgur.com/Jm4cUCY.png)
 
 * Much secure - can't passed directly by the IPs:
 
