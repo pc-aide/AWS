@@ -43,7 +43,15 @@
 [<img src="https://i.imgur.com/7EBvGR3.png">](https://i.imgur.com/7EBvGR3.png)
 [<img src="https://i.imgur.com/agfuhQR.png">](https://i.imgur.com/agfuhQR.png)
 
-#### Solution
+#### Cue
 * Good SG (managed only LB - idem for 2x EC2-{ca,us}):
 
 [<img src="https://i.imgur.com/3KS0LUj.png">](https://i.imgur.com/3KS0LUj.png)
+
+* Route 53\record A - we can put many ip but no dns name for example
+
+[<img src="https://i.imgur.com/HczD934.png">](https://i.imgur.com/HczD934.png)
+
+* we want one Domain Name with multiple IPs:
+[<img src="https://i.imgur.com/mVfelfb.png">](https://i.imgur.com/mVfelfb.png)
+
