@@ -35,6 +35,6 @@
 [<img src="https://i.imgur.com/FZtNAMV.png">](https://i.imgur.com/FZtNAMV.png)
 [<img src="https://i.imgur.com/b16c0Ad.png">](https://i.imgur.com/b16c0Ad.png)
 
-* Test: Browser
+* Test: Browser:
 
 [<img src="https://i.imgur.com/JX3QQH0.png">](https://i.imgur.com/JX3QQH0.png)
