@@ -4,6 +4,7 @@
 
 ## Acronym
 * LB - Load Balancing)
+* ALB - Application Load Balancing
 
 ## Introduction
 * AWS Resources (LB, CloudFront...) expose an AWS hostname:
@@ -16,3 +17,24 @@
           * <ins>Works for Root domain & non root domain (aka mydomain.com)
           * Free of charge
           * Native health check
+
+---
+   
+## Demo CNAME & LB
+* Create a ALB
+* Check if healthy
+
+[<img src="https://i.imgur.com/nbKOHLA.png">](https://i.imgur.com/nbKOHLA.png)
+[<img src="https://i.imgur.com/4pa2Gui.png">](https://i.imgur.com/4pa2Gui.png)
+
+* Route 53\ record:
+   * CNAME
+      * Name: lb.\<rootDomain\>.com
+      * value: DNS.Name
+      
+[<img src="https://i.imgur.com/FZtNAMV.png">](https://i.imgur.com/FZtNAMV.png)
+[<img src="https://i.imgur.com/b16c0Ad.png">](https://i.imgur.com/b16c0Ad.png)
+
+* Test: Browser
+
+[<img src="https://i.imgur.com/JX3QQH0.png">](https://i.imgur.com/JX3QQH0.png)
