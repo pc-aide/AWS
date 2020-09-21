@@ -53,5 +53,29 @@
 [<img src="https://i.imgur.com/HczD934.png">](https://i.imgur.com/HczD934.png)
 
 * we want one Domain Name with multiple IPs:
+
 [<img src="https://i.imgur.com/mVfelfb.png">](https://i.imgur.com/mVfelfb.png)
 
+* If we try for example record ip each LB Regions (DNS Name) 
+* we can take Root domain - for the demo :
+
+[<img src="https://i.imgur.com/pF24Qd3.png">](https://i.imgur.com/pF24Qd3.png)
+[<img src="https://i.imgur.com/cR6yCOP.png">](https://i.imgur.com/cR6yCOP.png)
+[<img src="https://i.imgur.com/743kYlz.png">](https://i.imgur.com/743kYlz.png)
+
+* Firsrt problem - we need wait 300 TTL twice (1st & 2nd ip : ca-cetnral before to get us-east):
+
+[<img src="https://i.imgur.com/WAJZc0A.png">](https://i.imgur.com/WAJZc0A.png)
+
+* wait 300 * 2 (TTL) - or cheating we cache browser or flush dns:
+
+[<img src="https://i.imgur.com/sTKEccm.png">](https://i.imgur.com/sTKEccm.png)
+
+* yes can in record : A - alternative ip: ca-us vs 2x ca & 2x us
+
+[<img src="https://i.imgur.com/L1uzHSu.png">](https://i.imgur.com/L1uzHSu.png)
+[<img src="https://i.imgur.com/NQzD8bD.png">](https://i.imgur.com/NQzD8bD.png)`
+
+* Much secure - can't passed directly by the IPs:
+
+[<img src="https://i.imgur.com/pB0AdEG.png">](https://i.imgur.com/pB0AdEG.png)
