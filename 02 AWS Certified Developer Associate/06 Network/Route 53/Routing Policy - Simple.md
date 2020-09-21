@@ -11,3 +11,6 @@
 
 ### Diagram
 [<img src="https://i.imgur.com/oFN7v6a.png">](https://i.imgur.com/oFN7v6a.png)
+
+### Demo Cross Region
+* Regions: ca & us
