@@ -38,3 +38,9 @@
 * Test: Browser:
 
 [<img src="https://i.imgur.com/JX3QQH0.png">](https://i.imgur.com/JX3QQH0.png)
+
+---
+
+## Used Alias
+[<img src="https://i.imgur.com/4l9k0Yb.png">](https://i.imgur.com/4l9k0Yb.png)
+[<img src="https://i.imgur.com/NweeURK.png">](https://i.imgur.com/NweeURK.png)
