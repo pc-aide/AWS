@@ -38,3 +38,12 @@
 * we dont' want this (check SG+ Route 53) :
 
 [<img src="https://i.imgur.com/INK3uf7.png">](https://i.imgur.com/INK3uf7.png)
+
+### Info
+[<img src="https://i.imgur.com/7EBvGR3.png">](https://i.imgur.com/7EBvGR3.png)
+[<img src="https://i.imgur.com/agfuhQR.png">](https://i.imgur.com/agfuhQR.png)
+
+#### Solution
+* Good SG (managed only LB - idem for 2x EC2-{ca,us}):
+
+[<img src="https://i.imgur.com/3KS0LUj.png">](https://i.imgur.com/3KS0LUj.png)
