@@ -58,6 +58,7 @@
 
 * If we try for example record ip each LB Regions (DNS Name) 
 * we can take Root domain - for the demo :
+* If possible that the IPs change but not DNS Name for our LBs !?
 
 [<img src="https://i.imgur.com/pF24Qd3.png">](https://i.imgur.com/pF24Qd3.png)
 [<img src="https://i.imgur.com/cR6yCOP.png">](https://i.imgur.com/cR6yCOP.png)
