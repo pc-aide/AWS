@@ -5,7 +5,7 @@
 ## Acronym
 
 ## Cons
-* if you delete everthing into hosted zone of own registered domain (buy from AWS) - it's not very quick to rebuil for new IP/LB, etc
+* if you delete your hosted zone (ex. domain1.com) of own registered domain (buy from AWS) - it's not very quick to rebuild for new IP/LB, for hosted zone
 
 * hosted zones:
 * 172800 (TTL) / 60 = 2880 min = 48 h = **2 j**
@@ -17,6 +17,7 @@
 * nslookup servFail
 
 [<img src="https://i.imgur.com/1htmGvB.png">](https://i.imgur.com/1htmGvB.png)
+[<img src="https://i.imgur.com/8Kpnx0S.png">](https://i.imgur.com/8Kpnx0S.png)
 
 * Browser:
 
