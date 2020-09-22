@@ -39,3 +39,7 @@
 * <aybe too high my latency (124ms) for Fr !?
 
 [<img src="https://i.imgur.com/icxwVn8.png">](https://i.imgur.com/icxwVn8.png)
+
+* Srv from Paris:
+
+[<img src="https://i.imgur.com/IROrNYF.png">](https://i.imgur.com/IROrNYF.png)
