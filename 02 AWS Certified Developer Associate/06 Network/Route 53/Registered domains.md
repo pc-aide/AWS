@@ -15,6 +15,27 @@
 [<img src="https://i.imgur.com/FYi8NVP.png">](https://i.imgur.com/FYi8NVP.png)
 [<img src="https://i.imgur.com/1RwyI3q.png">](https://i.imgur.com/1RwyI3q.png)
 
+### nslookup
+[<img src="https://i.imgur.com/GOq5J1J.png">](https://i.imgur.com/GOq5J1J.png)
+
+* after 15min with email as confirmation:
+
+[<img src="https://i.imgur.com/DPnYF86.png">](https://i.imgur.com/DPnYF86.png)
+
+### Create record set
+* ALB (alias)
+
+[<img src="https://i.imgur.com/eIG73V4.png">](https://i.imgur.com/eIG73V4.png)
+
+* nslookup:
+
+[<img src="https://i.imgur.com/EIght0z.png">](https://i.imgur.com/EIght0z.png)
+
+* Browser:
+
+[<img src="https://i.imgur.com/DOiFzYk.png">](https://i.imgur.com/DOiFzYk.png)
+
+
 ## Cons
 * if you delete your hosted zone (ex. domain1.com) of own registered domain (buy from AWS) - it's not very quick to rebuild for new IP/LB, for hosted zone
 
@@ -41,5 +62,4 @@
 
 * versus from other domain register - quick respond if change IP
   * Godaddy
-  
   
