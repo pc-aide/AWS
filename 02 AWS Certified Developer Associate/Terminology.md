@@ -9,4 +9,5 @@
 | 4 | User Data | bootstraping | script for instance when it launchs first time for example (TimeZone: UTC - > EDT) |
 | 5 | X-Forwarded-For | | |
 | 6 | X-Forwarded-Proto | | |
-| 7 | SNI | Server Name Indication |||
+| 7 | SNI | Server Name Indication | | |
+| 8 | VPC Flow Logs | | |
