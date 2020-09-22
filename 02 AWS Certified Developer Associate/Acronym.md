@@ -29,4 +29,4 @@
 | 23 | TTL | Time-to-live | ping -t 5 rds.ca (default ttl: 60 Linux) - so ttl=1 so you'll never exit your ISP before to reach the target |
 | 24 | TDE | Transparent Data Encryption | |
 | 25 | NACL | Nework Access Control List | |
-| 26 | NAT | Network Address Translation | e.x. 192.168.1.10:80 -> 192.168.1.1:6037
+| 26 | NAT | Network Address Translation | e.x. 192.168.1.10:80 (client to ask to srv) -> 192.168.1.1:6037 (router to talked srv) |
