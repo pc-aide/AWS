@@ -39,7 +39,7 @@ systemctl enable httpd
 # Index.html
 echo "<h1>This is a test</h1>" > /var/www/html/index.html
 echo "Hostname: " >> /var/www/html/index.html
-echo "Hostname: <p style=color:red>$(hostname -f)</p>" >> /var/www/html/index.html
+echo "<p style=color:red>$(hostname -f)</p>" >> /var/www/html/index.html
 
 # Which AZ for EC2
 EC2_AZ=$(curl -s http://169.254.169.254/latest/meta-data/placement/availability-zone)
