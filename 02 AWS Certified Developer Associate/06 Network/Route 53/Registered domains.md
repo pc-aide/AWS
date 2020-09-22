@@ -10,6 +10,7 @@
 * hosted zones:
 * 172800 (TTL) / 60 = 2880 min = 48 h = **2 j**
 * we pay each item record in a hosted zone
+* idem if we try with alias (A) - nothing
 
 [<img src="https://i.imgur.com/5b6D2hm.png">](https://i.imgur.com/5b6D2hm.png)
 [<img src="https://i.imgur.com/5luoVq7.png">](https://i.imgur.com/5luoVq7.png)
