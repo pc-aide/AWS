@@ -1,4 +1,4 @@
-# Quiz 5 - Aurora-ElastiCache
+# Quiz 05 - Aurora-ElastiCache
 
 ## Questions
 1) My company would like to have a MySQL database that is going to be available even in case of a disaster in the AWS Cloud. I should setup 
