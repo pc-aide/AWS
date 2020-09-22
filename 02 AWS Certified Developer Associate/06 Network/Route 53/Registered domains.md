@@ -8,7 +8,8 @@
 * if you delete everthing into hosted zone of own registered domain (buy from AWS) - it's not very quick to rebuil for new IP/LB, etc
 
 * hosted zones:
-* 172800 (TTL) / 60 = 2880 min = 48 h = 2 j
+* 172800 (TTL) / 60 = 2880 min = 48 h = **2 j**
+* we pay each item record in a hosted zone
 
 [<img src="https://i.imgur.com/ZekZMKQ.png">](https://i.imgur.com/ZekZMKQ.png)
 [<img src="https://i.imgur.com/5luoVq7.png">](https://i.imgur.com/5luoVq7.png)
