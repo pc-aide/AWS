@@ -18,7 +18,7 @@
 * Hosted zones
     * Root Domain: testwebaws.com - buy from AWS
     
-[<img src="">]()
+[<img src="https://i.imgur.com/U6Iuwcu.png">](https://i.imgur.com/U6Iuwcu.png)
 
 * Create Record Set:
   * Name: failover
@@ -37,3 +37,20 @@
 [<img src="https://i.imgur.com/35CMvYv.png">](https://i.imgur.com/35CMvYv.png)
 
 * Browser:
+
+[<img src="https://i.imgur.com/fwKrhk4.png">](https://i.imgur.com/fwKrhk4.png)
+
+
+* Test - stop my primary failover:
+
+[<img src="https://i.imgur.com/NAsUNki.png">](https://i.imgur.com/NAsUNki.png)
+
+* Health Check:
+
+[<img src="https://i.imgur.com/trhzeiZ.png">](https://i.imgur.com/trhzeiZ.png)
+[<img src="https://i.imgur.com/m4kUm9s.png">](https://i.imgur.com/m4kUm9s.png)
+[<img src="https://i.imgur.com/1FWaLUv.png">](https://i.imgur.com/1FWaLUv.png)
+
+* Browser:
+
+[<img src="https://i.imgur.com/NwiQkbI.png">](https://i.imgur.com/NwiQkbI.png)
