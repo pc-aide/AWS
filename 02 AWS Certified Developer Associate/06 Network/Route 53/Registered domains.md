@@ -13,6 +13,7 @@
 * idem if we try with alias (A) - nothing
 
 [<img src="https://i.imgur.com/5b6D2hm.png">](https://i.imgur.com/5b6D2hm.png)
+[<img src="https://i.imgur.com/3qMzlxl.png">](https://i.imgur.com/3qMzlxl.png)
 [<img src="https://i.imgur.com/5luoVq7.png">](https://i.imgur.com/5luoVq7.png)
 
 * nslookup servFail
@@ -24,6 +25,8 @@
 
 [<img src="https://i.imgur.com/6t4rpjN.png">](https://i.imgur.com/6t4rpjN.png)
 [<img src="https://i.imgur.com/XuP9gWM.png">](https://i.imgur.com/XuP9gWM.png)
+[<img src="https://i.imgur.com/b4msRCO.png">](https://i.imgur.com/b4msRCO.png)
+
 
 * versus from other domain register - quick respond if change IP
   * Godaddy
