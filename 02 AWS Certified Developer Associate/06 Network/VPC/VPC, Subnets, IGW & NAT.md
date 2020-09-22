@@ -29,5 +29,7 @@
 ## IGW & NAT gateways
 * **Internet Gaeways** helps our VPC instances connect with the internet
 * Public Subnets have a route to the IGW
+* **NAT Gateways** (AWS-managed) & **NAT Instances** (self-managed) allow your instances in your **Private Subnets** to access the internet while remaining private
 
 ### Topology
+[<img src="https://i.imgur.com/jjgmmzP.png">](https://i.imgur.com/jjgmmzP.png)
