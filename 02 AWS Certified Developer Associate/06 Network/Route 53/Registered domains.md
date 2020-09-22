@@ -4,6 +4,17 @@
 
 ## Acronym
 
+## Registered domains
+* about 15min before it's ready to used
+
+[<img src="https://i.imgur.com/t9z2lon.png">](https://i.imgur.com/t9z2lon.png)
+
+### Hosted zone
+* it will create automatic in your hosted zone
+
+[<img src="https://i.imgur.com/FYi8NVP.png">](https://i.imgur.com/FYi8NVP.png)
+[<img src="https://i.imgur.com/1RwyI3q.png">](https://i.imgur.com/1RwyI3q.png)
+
 ## Cons
 * if you delete your hosted zone (ex. domain1.com) of own registered domain (buy from AWS) - it's not very quick to rebuild for new IP/LB, for hosted zone
 
