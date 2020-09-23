@@ -30,3 +30,4 @@
 | 24 | TDE | Transparent Data Encryption | |
 | 25 | NACL | Nework Access Control List | |
 | 26 | NAT | Network Address Translation | e.x. 192.168.1.10:80 (client to ask to srv) -> 192.168.1.1:6037 (router to talked ISP) -> 11.22.33.44:6037 (ISP) who talked to srv to get answer | 
+| 27 | DX | Direct Connect | |
