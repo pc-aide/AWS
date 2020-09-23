@@ -1,6 +1,7 @@
 # Registered domains
 
 ## Doc
+* [I changed DNS settings, but they haven't taken effect](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/troubleshooting-new-dns-settings-not-in-effect.html#troubleshooting-new-dns-settings-not-in-effect-recent-dns-transfer)
 
 ## Acronym
 
