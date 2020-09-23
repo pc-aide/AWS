@@ -11,3 +11,4 @@
 | 6 | X-Forwarded-Proto | | |
 | 7 | SNI | Server Name Indication | | |
 | 8 | VPC Flow Logs | | |
+| 9 | CloudTrail | | |
