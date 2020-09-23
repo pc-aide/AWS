@@ -33,3 +33,4 @@
 | 27 | DX | Direct Connect | |
 | 28 | IGW | Internet Gateway | at the VPC level, provide Internet Access |
 | 29 | SSE | Server Side Encryption | SSE-S3, SSE-KMS, SSE-C |
+| 30 | ACL | Access Control List | {Object, Bucket} ACL |
