@@ -7,4 +7,4 @@
 ## Intro
 * Your Bucket web hosting:
 
-[<img src="https://pasteboard.co/JsBx8Y2.png">](https://pasteboard.co/JsBx8Y2.png)
+[<img src="https://i.ibb.co/BNLG7Yh/image.png">](https://i.ibb.co/BNLG7Yh/image.png)
