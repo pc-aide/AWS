@@ -35,3 +35,4 @@
 | 29 | SSE | Server Side Encryption | SSE-S3, SSE-KMS, SSE-C |
 | 30 | ACL | Access Control List | {Object, Bucket} ACL |
 | 31 | ARN | Amazon Resource Name | e.g: arn:aws:s3:::s3-ca-website |
+| 32 | CORS | Cross-Origin Resource Sharing | |
