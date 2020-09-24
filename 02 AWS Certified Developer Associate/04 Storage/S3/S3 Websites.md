@@ -2,6 +2,9 @@
 
 ## Acronym
 
+## URLs
+* [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html)
+
 ## Doc
 
 ## Intro
@@ -60,3 +63,48 @@
 
 [<img src="https://i.imgur.com/Ve6OqIZ.png">](https://i.imgur.com/Ve6OqIZ.png)
 
+## Browser
+* error - 403 Forbidden
+
+[<img src="https://i.imgur.com/0WGD6Jv.png">](https://i.imgur.com/0WGD6Jv.png)
+
+### Solution
+* Step 01: Block pubic access -> off -> on
+
+[<img src="https://i.imgur.com/ZPI5OMM.png">](https://i.imgur.com/ZPI5OMM.png)
+[<img src="https://i.imgur.com/jqMEWhY.png">](https://i.imgur.com/jqMEWhY.png)
+[<img src="https://i.imgur.com/TwFM4zs.png">](https://i.imgur.com/TwFM4zs.png)
+
+* Step 02: Bluck policy:
+* Go to AWS Policy Generator
+
+* type: S3
+* Effect: Allow
+* Principal: *
+* Actions: GetObject
+* ARN: arn:aws:s3:::s3-ca-website/*
+* Add statement
+* Generator policy
+````json
+{
+  "Id": "Policy1600971218935",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1600971198847",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::s3-ca-website/*",
+      "Principal": "*"
+    }
+  ]
+}
+````
+
+[<img src="https://i.imgur.com/7FQaRSA.png">](https://i.imgur.com/7FQaRSA.png)
+[<img src="https://i.imgur.com/9H34xVG.png">](https://i.imgur.com/9H34xVG.png)
+[<img src="https://i.imgur.com/jfxbaHj.png">](https://i.imgur.com/jfxbaHj.png)
+[<img src="https://i.imgur.com/X6TonSf.png">](https://i.imgur.com/X6TonSf.png)
+[<img src="https://i.imgur.com/ozgALOF.png">](https://i.imgur.com/ozgALOF.png)
