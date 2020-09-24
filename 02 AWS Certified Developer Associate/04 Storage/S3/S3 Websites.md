@@ -16,7 +16,9 @@
 
 ## Demo
 * upload this 2x files
-````index.html
+	* index.html
+	* error.html
+````html
 <html>
   <head>
     <title>This is a test</title>
@@ -44,7 +46,7 @@
 </html>
 ````
 
-````error.html
+````html
 <h1> Error page - we got an error</h1>
 ````
 
@@ -57,3 +59,4 @@
 * Endpoint : URL website from our bucket
 
 [<img src="https://i.imgur.com/Ve6OqIZ.png">](https://i.imgur.com/Ve6OqIZ.png)
+
