@@ -1,8 +1,9 @@
-# Create Policy
+# Create Policy (IAM)
 
 ## Doc
 
 ## Acronym
+* IAM - Identity & access management
 
 ## Intro
 * IAM\Policies\Create policy
