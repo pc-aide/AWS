@@ -28,7 +28,7 @@ aws ec2 run-instances help
   --key-name EC2Ama-ca-central \
   --security-group-ids sg-\<id\> \
   --user-data file://my_script.txt \
-  --tag-specifications 'ResourceType=instance,Tags=[{Key=name,Value=EC2Ama-01}]'
+  --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=EC2Ama-01}]'
   --profile \<UserName\>
 ````
 [<img src="https://i.imgur.com/83JPLwq.png">](https://i.imgur.com/83JPLwq.png)
