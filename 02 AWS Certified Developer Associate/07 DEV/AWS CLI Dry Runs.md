@@ -11,3 +11,14 @@
 * Some AWS CLI commands (not all) contain a **--dry-run** options to simulate API calls
 
 ### Demo
+````bash
+aws ec2 run-instances help
+````
+[<img src="https://i.imgur.com/ICKGmgP.png">](https://i.imgur.com/ICKGmgP.png)
+
+````bash
+aws ec2 run-instances --dry-run --image-id ami-020caff809d5a5307 --instance-type t2.micro
+````
+[<img src="https://i.imgur.com/shhd4w5.png">](https://i.imgur.com/shhd4w5.png)
+[<img src="https://i.imgur.com/ppXqI50.png">](https://i.imgur.com/ppXqI50.png)
+[<img src="https://i.imgur.com/au3lwIT.png">](https://i.imgur.com/au3lwIT.png)
