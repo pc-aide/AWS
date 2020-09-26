@@ -44,3 +44,17 @@ aws configure list
 ````bash
 aws configure --profile \<String\>
 ````
+
+#### mfa (session temporary)
+````bash
+aws configure --profile mfa
+````
+
+[<img src="https://i.imgur.com/X49fVAJ.png">](https://i.imgur.com/X49fVAJ.png)
+
+````bash
+# add this line for mfa
+aws_session_token = ...
+````
+
+[<img src="https://i.imgur.com/YBrYQJL.png">](https://i.imgur.com/YBrYQJL.png)
