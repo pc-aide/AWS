@@ -41,5 +41,5 @@ aws configure list
 
 ### profile
 ````bash
-aws configure --profile \<UserName\>
+aws configure --profile \<String\>
 ````
