@@ -46,6 +46,8 @@ aws configure --profile \<String\>
 ````
 
 #### mfa (session temporary)
+* prereq (token temp)
+      * sts get-session-token
 ````bash
 aws configure --profile mfa
 ````
