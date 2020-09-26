@@ -3,6 +3,7 @@
 ## swith
 * list
 * profile
+    * Multiple account AWS CLI
 
 ## Acronym
 * IAM - Identity & access management
