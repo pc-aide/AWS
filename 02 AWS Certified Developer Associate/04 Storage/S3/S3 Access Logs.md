@@ -4,6 +4,7 @@
 
 ## Doc
 * [Amazon S3 Server Access Log Format](https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html)
+* [put-bucket-logging](https://docs.aws.amazon.com/cli/latest/reference/s3api/put-bucket-logging.html)
 
 ## Intro
 * For audit purpose, you may want to log all access to S3 buckets
