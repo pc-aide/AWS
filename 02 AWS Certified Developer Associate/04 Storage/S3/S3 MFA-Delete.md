@@ -15,4 +15,12 @@
 * You won't need MFA for
     * enabling versioning
     * listing deleted versions
-* Only the bucket owner (rrot account) can enabled/disable MFA-Delete
+* Only the bucket owner (root account) can enabled/disable MFA-Delete
+* MFA-Delete currently can only be **enabled** using the **CLI**
+````bash
+#Switch: Enabled & Disabled - First Disabled MFADelete
+# Enabled MFADelet
+aws s3api put-bucket-versioning --bucket mybucket --versioning-configuration Status=Enabled,MFADelete=Enabled --mfa "arn-of-mfa-device mfa-code" --profile root
+# Disabled MFADelete
+aws s3api put-bucket-versioning --bucket mybucket --versioning-configuration Status=Enabled,MFADelete=Disabled --mfa "arn-of-mfa-device mfa-code" --profile root
+````
