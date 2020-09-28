@@ -98,3 +98,16 @@ aws s3 rm s3://demo-01-origin/beach.jpeg
 [<img src="https://i.imgur.com/uFmEpRX.png">](https://i.imgur.com/uFmEpRX.png)
 [<img src="https://i.imgur.com/WjqHAtZ.png">](https://i.imgur.com/WjqHAtZ.png)
 [<img src="https://i.imgur.com/ZHQStne.png">](https://i.imgur.com/ZHQStne.png)
+
+
+* AWS Console
+
+      * origin
+      
+[<img src="https://i.imgur.com/tbcIPk2.png">](https://i.imgur.com/tbcIPk2.png)
+[<img src="https://i.imgur.com/OkQTwLM.png">](https://i.imgur.com/OkQTwLM.png)
+
+      * replica
+      
+[<img src="https://i.imgur.com/gPJ3qB9.png">](https://i.imgur.com/gPJ3qB9.png)
+[<img src="https://i.imgur.com/np8QKjo.png">](https://i.imgur.com/np8QKjo.png)
