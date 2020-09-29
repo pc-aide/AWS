@@ -38,3 +38,4 @@
 | 32 | CORS | Cross-Origin Resource Sharing | |
 | 33 | ECS | Elastic Container Service | |
 | 34 | WORM | Write Once Read Many | a WORM model |
+| 35 | CDN | Content Delivery Network | CloudFront |
