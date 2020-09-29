@@ -107,3 +107,9 @@ aws s3 cp cat.jpg s3://demo-01-storage-class
 aws s3api list-objects --bucket demo-01-storage-class | grep 'Key\|StorageClass'
 ````
 [<img src="https://i.imgur.com/ZJTzTTL.png">](https://i.imgur.com/ZJTzTTL.png)
+
+* Move our file to S3 std-IA, glacier (tests):
+
+[<img src="https://i.imgur.com/7r10T3E.png">](https://i.imgur.com/7r10T3E.png)
+[<img src="https://i.imgur.com/rijyLcG.png">](https://i.imgur.com/rijyLcG.png)
+[<img src="https://i.imgur.com/Q0xIHid.png">](https://i.imgur.com/Q0xIHid.png)
