@@ -39,3 +39,4 @@
 | 33 | ECS | Elastic Container Service | |
 | 34 | WORM | Write Once Read Many | a WORM model |
 | 35 | CDN | Content Delivery Network | CloudFront |
+| 36 | OAI | Origin Access Identity | |
