@@ -37,3 +37,4 @@
 | 31 | ARN | Amazon Resource Name | e.g: arn:aws:s3:::s3-ca-website |
 | 32 | CORS | Cross-Origin Resource Sharing | |
 | 33 | ECS | Elastic Container Service | |
+| 34 | WORM | Write Once Read Many | a WORM model |
