@@ -41,3 +41,4 @@
 | 35 | CDN | Content Delivery Network | CloudFront |
 | 36 | OAI | Origin Access Identity | |
 | 37 | ECR | Elastic Container Registry | |
+| 38 | EKS | Elastic Kubernetes Service | |
