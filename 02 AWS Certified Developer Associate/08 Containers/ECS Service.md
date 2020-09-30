@@ -1,11 +1,13 @@
 # ECS Service
 
 ## Doc
+* [Amazon ECS troubleshooting](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/troubleshooting.html)
 
 ## Acronym
 * ECS - Elastic Container Service
 * ALB - Application Load Balancer
 * NLB - Network Load Balancer
+* ASG - Auto-Scaling Group
 
 ## Intro
 * ECS Services help define **how many tasks should run** & how they should be run
@@ -72,3 +74,37 @@
 * Browser:
 
 [<img src="https://i.imgur.com/2hI7PiV.png">](https://i.imgur.com/2hI7PiV.png)
+
+* Docker:
+````bash
+docker ps
+````
+[<img src="https://i.imgur.com/3WuPo5h.png">](https://i.imgur.com/3WuPo5h.png)
+
+* If you test scaling up (add another service):
+* Cluster\service\update:
+
+[<img src="https://i.imgur.com/aMAnQxp.png">](https://i.imgur.com/aMAnQxp.png)
+[<img src="https://i.imgur.com/SKrstK0.png">](https://i.imgur.com/SKrstK0.png)
+[<img src="https://i.imgur.com/M7uvDzJ.png">](https://i.imgur.com/M7uvDzJ.png)
+
+* Events (httpd-serve was unable to place a task...):
+
+[<img src="https://i.imgur.com/ITiWkEj.png">](https://i.imgur.com/ITiWkEj.png)
+
+* Task Definitions\httpd\json:
+* to map the container port to the host port 8080:
+* we can only have **one task** per ECS instance
+
+[<img src="https://i.imgur.com/9Qx2a55.png">](https://i.imgur.com/9Qx2a55.png)
+
+* ASG\ECS\Group size: disired capacity & max capacity to 2:
+* Cluster\ECS instance\
+
+[<img src="https://i.imgur.com/iSqs66x.png">](https://i.imgur.com/iSqs66x.png)
+[<img src="https://i.imgur.com/cpQmHmM.png">](https://i.imgur.com/cpQmHmM.png)
+
+* ASG\Instance management:
+* 2x AZs differents:
+
+[<img src="https://i.imgur.com/8gIuTlI.png">](https://i.imgur.com/8gIuTlI.png)
