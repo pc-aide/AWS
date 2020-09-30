@@ -5,6 +5,7 @@
 * AMI - Amzon machine image
 * HA - High Available
 * SG: Security Group
+* ASG: Auto-Scaling Group
 
 ## Doc
 
@@ -59,6 +60,40 @@ You are giving permission to Elastic Container Service to create and use ecsInst
 [<img src="https://i.imgur.com/zJOA0Za.png">](https://i.imgur.com/zJOA0Za.png)
 
 * IAM (new one automatic) role:
+* **ecsInstanceRole**
 
 [<Img src="https://i.imgur.com/gs5jQHW.png">](https://i.imgur.com/gs5jQHW.png)
 [<img src="https://i.imgur.com/OYr8Fve.png">](https://i.imgur.com/OYr8Fve.png)
+
+* Cluster:
+
+[<img src="https://i.imgur.com/20nRbxH.png">](https://i.imgur.com/20nRbxH.png)
+
+* EC2 (cluster):
+
+[<img src="https://i.imgur.com/TxuJg8v.png">](https://i.imgur.com/TxuJg8v.png)
+
+* ASG (cluster): 
+
+[<img src="https://i.imgur.com/XqD8M1A.png">](https://i.imgur.com/XqD8M1A.png)
+
+* Overview Cluster:
+
+[<img src="https://i.imgur.com/75dDwD9.png">](https://i.imgur.com/75dDwD9.png)
+
+* User data (launch configuration):
+
+[<img src="https://i.imgur.com/5d4la42.png">](https://i.imgur.com/5d4la42.png)
+
+* SSH:
+
+[<img src="https://i.imgur.com/tfCrNrB.png">](https://i.imgur.com/tfCrNrB.png)
+
+* docker ps:
+   * ps: process
+
+[<img src="https://i.imgur.com/4onz1Rd.png">](https://i.imgur.com/4onz1Rd.png)
+
+* docker logs \<ContainerID\>:
+
+[<img src="https://i.imgur.com/bIOkq71.png">](https://i.imgur.com/bIOkq71.png)
