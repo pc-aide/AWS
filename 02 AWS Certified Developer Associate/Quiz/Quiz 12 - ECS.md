@@ -42,20 +42,20 @@
 * [Answer](https://i.imgur.com/Lggjk3C.png)
 7) Which commands must be used to pull an image from ECR? (CLI v1)
     * ````bash
-      dokcer login -u $AWS_ACCESS_KEY_ID -p $AWS_SECRET_ACCESS_KEY $ECR_URL
+      docker login -u $AWS_ACCESS_KEY_ID -p $AWS_SECRET_ACCESS_KEY $ECR_URL
       docker pull $ECR_IMAGE_URL
       ````
     * ````bash
-      dokcer login -u $AWS_USERNAME -p $AWS_PASSWORD $ECR_URL
-      dokcer pull $ECR_IMAGE_URL
+      docker login -u $AWS_USERNAME -p $AWS_PASSWORD $ECR_URL
+      docker pull $ECR_IMAGE_URL
       ````
     * ````bash
       $(aws ecr get-login --no-include-email)
-      dokcer pull $ECR_IMAGE_URL
+      docker pull $ECR_IMAGE_URL
       ````
     * ````bash
-      dokcer build -t $ECR_URL .
-      dokcer pull $ECR_IMAGE_URL
+      docker build -t $ECR_URL .
+      docker pull $ECR_IMAGE_URL
       ````
 * [Answer](https://i.imgur.com/j28usOb.png)
 8) You would like to run 4 ECS services on your ECS cluster, which need access to various services. What is the best practice?
