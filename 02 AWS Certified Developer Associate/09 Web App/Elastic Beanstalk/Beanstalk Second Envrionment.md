@@ -53,6 +53,6 @@
 [<img src="https://i.imgur.com/SZ6XLTh.png">](https://i.imgur.com/SZ6XLTh.png)
 
 * Default web server
-      * nginx
+     * nginx
       
 [<img src="https://i.imgur.com/G9N2TzW.png">](https://i.imgur.com/G9N2TzW.png)
