@@ -51,3 +51,8 @@
 [<img src="https://i.imgur.com/q2T1vM4.png">](https://i.imgur.com/q2T1vM4.png)
 [<img src="https://i.imgur.com/dh0HSJI.png">](https://i.imgur.com/dh0HSJI.png)
 [<img src="https://i.imgur.com/SZ6XLTh.png">](https://i.imgur.com/SZ6XLTh.png)
+
+* Default web server
+      * nginx
+      
+[<img src="https://i.imgur.com/G9N2TzW.png">](https://i.imgur.com/G9N2TzW.png)
