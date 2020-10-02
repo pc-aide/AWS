@@ -86,7 +86,7 @@
 * The new envrionment (green) can be balidated indepently & roll back if issues
 * Route 53 can be setup using weighted policies to redirect a little bit of traffic to the stage envrionment
 * Using Beanstalk, "swap URLs" when done with the envrionment test
-* It's manual step to do
+* It's manual as steps to do
 
 ### Diagram
 [<img src="https://i.imgur.com/dbowPyM.png">](https://i.imgur.com/dbowPyM.png)
@@ -95,3 +95,11 @@
 
 ## Summary from AWS Doc
 ### Deployment methods
+| Method                        | Impact of Failed Deployment                                                                             | Deploy<br>Time | Zero<br>Downtime | No DNS<br>change | Rollback<br>Process        | Code<br>Deployed to        |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------- | -------------- | ---------------- | ---------------- | -------------------------- | -------------------------- |
+| All at once                   | Downtime                                                                                                | ⏰              | ✗                | ✔                | Manual Redeploy            | Existing instances         |
+| Rolling                       | Single batch out of service; any successful batches prior to failure<br>running new application version | ⏰⏰ †           | ✔                | ✔                | Manual Redeploy            | Existing instances         |
+| Rolling with additional batch | Minimal if firt batch fails, otherwise, simalir to **Rolling**                                              | ⏰⏰⏰ †          | ✔                | ✔                | Manual Redeploy            | New & existing<br>instance |
+| Immutable                     | Minimal                                                                                                 | ⏰⏰⏰⏰           | ✔                | ✔                | Terminate New<br>Instances | New instances              |
+| Blue/green                    | Minimal                                                                                                 | ⏰⏰⏰⏰           | ✔                | ✗                | Swap URL                   | New instances              |
+
