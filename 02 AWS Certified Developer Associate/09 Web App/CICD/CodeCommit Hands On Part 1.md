@@ -1,6 +1,7 @@
 # CodeCommit Hands On Part 1
 
 ## Acronym
+* SNS - Simple Notification Service
 
 ## Doc
 
@@ -135,3 +136,37 @@
 [<img src="https://i.imgur.com/NdUE5lx.png">](https://i.imgur.com/NdUE5lx.png)
 [<img src="https://i.imgur.com/9EsBTmE.png">](https://i.imgur.com/9EsBTmE.png)
 [<img src="https://i.imgur.com/LTja4t0.png">](https://i.imgur.com/LTja4t0.png)
+
+* Branches:
+
+[<img src="https://i.imgur.com/qFNWH7G.png">](https://i.imgur.com/qFNWH7G.png)
+
+* Settings:
+
+[<img src="https://i.imgur.com/UgqqW4K.png">](https://i.imgur.com/UgqqW4K.png)
+
+* Notification ruls:
+
+[<img src="https://i.imgur.com/cgkeQcK.png">](https://i.imgur.com/cgkeQcK.png)
+
+* Create notification rule:
+      * Notifacation name: Demo-Notification-Rule
+      * Events Trigger: Select all
+      * Create target:
+         * Target type: SNS topic
+         * Topic name: CodeCommit-Lab
+* Summit
+
+[<img src="https://i.imgur.com/NvdtApm.png">](https://i.imgur.com/NvdtApm.png)
+[<img src="https://i.imgur.com/C3sb0Qo.png">](https://i.imgur.com/C3sb0Qo.png)
+[<img src="https://i.imgur.com/OrDMVRN.png">](https://i.imgur.com/OrDMVRN.png)
+
+* Create trigger (Source\Settings\Trigger):
+   * Trigger name: Demo-trigger
+   * Events: Push to existing branch
+   * Branch names: master
+   * Service details\Amazon SNS
+   * SNS topic: CodeCommit-Lab
+   
+[<img src="https://i.imgur.com/pXlXEnR.png">](https://i.imgur.com/pXlXEnR.png)
+[<img src="https://i.imgur.com/M8oiIZd.png">](https://i.imgur.com/M8oiIZd.png)
