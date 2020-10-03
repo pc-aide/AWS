@@ -42,3 +42,4 @@
 | 36 | OAI | Origin Access Identity | |
 | 37 | ECR | Elastic Container Registry | |
 | 38 | EKS | Elastic Kubernetes Service | |
+| 39 | EB  | Elastic Beanstalk | |
