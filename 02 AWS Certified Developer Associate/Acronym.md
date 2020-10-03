@@ -45,3 +45,4 @@
 | 39 | EB  | Elastic Beanstalk | |
 | 40 | SQS | Simple Queue Service | |
 | 41 | CI/CD | Continuous Integration, Continuous Delivery | |
+| 42 | SNS | Simple Notification Service | |
