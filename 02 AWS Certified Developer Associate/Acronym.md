@@ -43,3 +43,4 @@
 | 37 | ECR | Elastic Container Registry | |
 | 38 | EKS | Elastic Kubernetes Service | |
 | 39 | EB  | Elastic Beanstalk | |
+| 40 | SQS | Simple Queue Service | |
