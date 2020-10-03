@@ -44,3 +44,4 @@
 | 38 | EKS | Elastic Kubernetes Service | |
 | 39 | EB  | Elastic Beanstalk | |
 | 40 | SQS | Simple Queue Service | |
+| 41 | CI/CD | Continuous Integration, Continuous Delivery | |
