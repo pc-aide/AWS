@@ -7,6 +7,7 @@
 * SNS - Simple Notification Service
 
 ## Doc
+* [Test and debug locally with the AWS CodeBuild agent](https://docs.aws.amazon.com/codebuild/latest/userguide/use-codebuild-agent.html)
 
 ## Diagram
 [<img src="https://i.imgur.com/cN8peqE.png">](https://i.imgur.com/cN8peqE.png)
@@ -68,4 +69,16 @@
     * Plantext variables
     * Secure secrets: use SSM Parameter store
 * Phases (specify commands to run):
-    * 
+    * Install: install dependencies you may need for your build
+    * Pre build: final commands to execute before build 
+    * **Build: actual build commands**
+    * Post build: finishing touches (zip output for example)
+* Artifacts: What to upload to S3 (encrypted with KMS)
+* Cache: Files to cache (usually dependencies) to S3 for future build speedup
+
+---
+
+## CodeBuild Local Build
+* In case of need of deep troubleshooting beyond logs...
+* You can run CodeBuild locally on your desktop (after installing Docker)
+* For this, leverage the CodeBuild Agent
