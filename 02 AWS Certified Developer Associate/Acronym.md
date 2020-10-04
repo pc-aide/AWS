@@ -46,4 +46,4 @@
 | 40 | SQS | Simple Queue Service | |
 | 41 | CI/CD | Continuous Integration, Continuous Delivery | |
 | 42 | SNS | Simple Notification Service | |
-| 43 | SSM | AWS Systems Manager Agent | SSM Agent | Software can installed on EC@ or on-premise |
+| 43 | SSM | AWS Systems Manager Agent | SSM Agent | Software can installed on EC2 or on-premise |
