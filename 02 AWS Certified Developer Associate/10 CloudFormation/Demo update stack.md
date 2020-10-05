@@ -102,3 +102,7 @@ Resources:
 
 [<img src="https://i.imgur.com/eDcS4tq.png">](https://i.imgur.com/eDcS4tq.png)
 [<img src="https://i.imgur.com/49BRDE3.png">](https://i.imgur.com/49BRDE3.png)
+
+* Events:
+
+[<img src="https://i.imgur.com/abZwvqu.png">](https://i.imgur.com/abZwvqu.png)
