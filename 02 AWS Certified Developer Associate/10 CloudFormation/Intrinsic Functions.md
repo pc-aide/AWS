@@ -124,5 +124,14 @@ Resources:
 
 ---
 
-## Function **Fn::Sub**
-* 
+## Function Fn::Sub
+* ** Fn::Sub**, or **!Sub** as a shorthand, is used to substitute variables from a text. It's very handy function
+   that will allow you to fully customize your templates
+* For example, you can combine **Fn::Sub** with References or AWS Pseudo variables
+* **String** must contain **${VariableName}** & will substitute them
+* example.yml:
+````yml
+!Sub
+    - String
+    - { Var1Name: Var1Value, Var2Name, Var2Value }
+````
