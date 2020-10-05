@@ -135,3 +135,22 @@ Resources:
     - String
     - { Var1Name: Var1Value, Var2Name, Var2Value }
 ````
+````yml
+!Sub String
+````
+
+---
+
+## Condition Functions
+example.yml:
+````yaml
+Conditions:
+    CreateProResources: !Equals [ !Ref EnvType, prod ]
+````
+* The logical ID is for you to choose. It's how you name condition
+* The intrisinc function (logical) can be any of the following:
+      * Fn::And
+      * Fn::Equals
+      * Fn::If
+      * Fn::Not
+      * Fn:: Or
