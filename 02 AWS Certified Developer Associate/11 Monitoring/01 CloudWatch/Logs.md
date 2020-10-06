@@ -39,7 +39,3 @@
 
 [<img src="https://i.imgur.com/9Z9ecvm.png">](https://i.imgur.com/9Z9ecvm.png)
 
-* Correction\Edit
-    * Metric\ApplicationELB\
-    
-[<img src="https://i.imgur.com/EPenL9A.png">](https://i.imgur.com/EPenL9A.png)
