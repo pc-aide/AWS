@@ -90,3 +90,9 @@
 
 [<img src="https://i.imgur.com/gJgcuEP.png">](https://i.imgur.com/gJgcuEP.png)
 [<img src="https://i.imgur.com/Pwk8EO3.png">](https://i.imgur.com/Pwk8EO3.png)
+
+
+* HEAD again
+      * curl -I beanstalk-test.com/teston_CW_log_stream_.html
+      
+[<img src="https://i.imgur.com/TYRPVs9.png">](https://i.imgur.com/TYRPVs9.png)
