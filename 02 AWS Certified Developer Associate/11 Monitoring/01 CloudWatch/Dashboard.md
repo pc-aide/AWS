@@ -60,3 +60,16 @@
     * Metric\ApplicationELB\
     
 [<img src="https://i.imgur.com/EPenL9A.png">](https://i.imgur.com/EPenL9A.png)
+
+* INSUFFICIENT (data):
+
+[<img src="https://i.imgur.com/tflQ0wv.png">](https://i.imgur.com/tflQ0wv.png)
+[<img src="https://i.imgur.com/38coMGs.png">](https://i.imgur.com/38coMGs.png)
+
+* Dashboard empty (afte ~1h):
+
+[<img src="https://i.imgur.com/V4zYwgV.png">](https://i.imgur.com/V4zYwgV.png)
+
+* New metric\ActiveConnectionCount:
+
+[<img src="https://i.imgur.com/c3S8G9K.png">](https://i.imgur.com/c3S8G9K.png)
