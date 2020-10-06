@@ -73,3 +73,19 @@
 * create an alarm on custom metric
 
 [<img src="https://i.imgur.com/jYwk6HQ.png">](https://i.imgur.com/jYwk6HQ.png)
+
+---
+
+## Curl
+* curl -I
+      * rds.ca - 301 Moved Permanently
+         * telnet rds.ca/kldsjfl.htlm 80 - equl 401
+      * beanstalk-test.com - alyways 200 OK
+
+
+[<img src="https://i.imgur.com/htV4TQo.png">](https://i.imgur.com/htV4TQo.png)
+[<img src="https://i.imgur.com/TdlNN8a.png">](https://i.imgur.com/TdlNN8a.png)
+
+* HEAD:
+
+[<img src="https://i.imgur.com/gJgcuEP.png">](https://i.imgur.com/gJgcuEP.png)
