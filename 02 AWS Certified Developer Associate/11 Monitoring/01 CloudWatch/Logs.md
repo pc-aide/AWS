@@ -40,7 +40,7 @@
 [<img src="https://i.imgur.com/9Z9ecvm.png">](https://i.imgur.com/9Z9ecvm.png)
 
 * View log groups:
-      * /aws/codebuild/Build-Project-Demo:
+     * /aws/codebuild/Build-Project-Demo:
 
 [<img src="https://i.imgur.com/o2oDbDl.png">](https://i.imgur.com/o2oDbDl.png)
 [<img src="https://i.imgur.com/nEajchA.png">](https://i.imgur.com/nEajchA.png)
