@@ -49,3 +49,4 @@
 | 43 | SSM | AWS Systems Manager Agent | SSM Agent | Software can installed on EC2 or on-premise |
 | 44 | CF  | CloudFormation | | 
 | 45 | CW  | CloudWatch | | 
+| 46 | SLA | Service-Level Agreement | |
