@@ -50,3 +50,4 @@
 | 44 | CF  | CloudFormation | | 
 | 45 | CW  | CloudWatch | | 
 | 46 | SLA | Service-Level Agreement | |
+| 47 | CMK | Customer Master key | ex: SQS\Encryption: CMK alias |
