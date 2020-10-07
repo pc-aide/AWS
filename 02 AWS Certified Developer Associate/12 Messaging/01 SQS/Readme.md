@@ -3,6 +3,10 @@
 ## Acronym
 * SQS - Simple Queue Service
 * Std - Standard
+* RDS - Relational Database Service
+* DB - Database
+* ASG - Auto-Scaling Group
+* IAM - Identity & Access Management
 
 ## Doc
 
@@ -40,3 +44,44 @@
 ---
 
 ## SQS - Consuming Messages
+* Consumers (running on EC2 instances, servers, or AWS Lambda)...
+* Poll SQS for messagers (receive up to 10 messages at a time)
+* Process the messages (example: insert the message into an RDS db)
+* Delete the messages using the DeleteMessage API
+
+### Diagram
+[<img src="https://i.imgur.com/YS40SHO.png">](https://i.imgur.com/YS40SHO.png)
+
+---
+
+## SQS - Multiple EC2 Instances Consumers
+* Consumers receive & process messages in parallel
+* At least once delivery
+* Best-effort message ordering
+* Consumers delete messages after processing them
+* We can scale consumers horizontally to improve throughput of processing
+
+### Diagram
+[<img src="https://i.imgur.com/kUctK9G.png">](https://i.imgur.com/kUctK9G.png)
+
+---
+
+## SQS with ASG
+[<img src="https://i.imgur.com/Noa2GMO.png">](https://i.imgur.com/Noa2GMO.png)
+
+---
+
+## SQS to decouple between application tiers 
+[<img src="https://i.imgur.com/aXzvsN9.png">](https://i.imgur.com/aXzvsN9.png)
+
+---
+
+## SQS - Security
+* Encryption:
+      * In-flight encryption using HTTPS API
+      * At-rest encryption using KMS keys
+      * Client-side encryption if the client wants to perform encryption/decryption itself
+* **Access Controls**: IAM policies to regulate access to the SQS API
+* **SQS Access Policies** (similar to S3 bucket policies)
+      * Useful for corss-account access to SQS queues
+      * Useful for allowing other service (SNS, S3...) to write to an SQS queue
