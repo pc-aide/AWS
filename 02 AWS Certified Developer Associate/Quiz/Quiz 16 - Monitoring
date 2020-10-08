@@ -1,4 +1,4 @@
-# Quiz 16 Monitoring
+# Quiz 16 - Monitoring
 
 ## Questions
 1) We'd like to have CloudWatch Metrics for EC2 at a 1 minute rate. What should we do?
