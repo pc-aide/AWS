@@ -52,3 +52,4 @@
 | 46 | SLA | Service-Level Agreement | |
 | 47 | CMK | Customer Master key | ex: SQS\Encryption: CMK alias |
 | 48 | DLQ | Dead Letter Queue | |
+| 49 | FIFO | First In First Out (ordering of messages in the queue) | | 
