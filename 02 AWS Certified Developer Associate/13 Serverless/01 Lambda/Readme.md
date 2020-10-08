@@ -32,7 +32,7 @@
 ## Benefits
 * Easy Pricing:
     * Pay per request & compute time
-    * Free tier of 1 Millions Lambda request & 400k GBs of compute time 
+    * Free tier of 1 Million Lambda request & 400k GBs of compute time 
 * Integrated with the whole AWS suite of services
 * Integrated with many programming languages
 * Easy monitoring through CloudWatch
@@ -85,4 +85,12 @@
 ---
 
 ## Example: Lambda Pricing
-* 
+* Pay per **calls:**
+      * First 1 Million requests are free
+      * 0.20$ per 1 million requets thereafter ($0. 000 000 2 per request)
+* Pay per **duraton:** (in increment of 100ms)
+      * 400k GB-seconds of compute time per month if FREE
+      * == 400k seconds if function is 1GB RAM
+      * == 3.2 Millions seconds if function is 128 MB RAM
+      * After that $1.00 for 600k GB-seconds
+* It is usually <ins>very cheap</ins> to run Lambda so it's <ins>very popular</ins>
