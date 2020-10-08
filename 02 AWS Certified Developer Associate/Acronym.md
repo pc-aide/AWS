@@ -55,3 +55,4 @@
 | 49 | FIFO | First In First Out (ordering of messages in the queue) | | 
 | 50 | Pub/Sub | Publish subscribe | SNS |
 | 51 | KCL | Kinesis Client Library | |
+| 52 | ETL | Extract, Transform, Load | Big data |
