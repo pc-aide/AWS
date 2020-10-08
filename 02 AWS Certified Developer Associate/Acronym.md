@@ -54,3 +54,4 @@
 | 48 | DLQ | Dead Letter Queue | |
 | 49 | FIFO | First In First Out (ordering of messages in the queue) | | 
 | 50 | Pub/Sub | Publish subscribe | SNS |
+| 51 | KCL | Kinesis Client Library | |
