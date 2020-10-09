@@ -103,6 +103,6 @@ aws lambda invoke --function-name Demo-Lambda \
 [<img src="https://i.imgur.com/9eVerWw.png">](https://i.imgur.com/9eVerWw.png)
 
 * view in CW\log group\recent\log streams
-* failed 3 times with same ID
+* failed 3 times with same ID (RequestID)
 
 [<img src="https://i.imgur.com/KVRh0kL.png">](https://i.imgur.com/KVRh0kL.png)
