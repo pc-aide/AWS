@@ -49,3 +49,6 @@
 [<img src="https://i.imgur.com/0zaSm48.png">](https://i.imgur.com/0zaSm48.png)
 
 * Lambda\Permissions\Role name:
+
+[<img src="https://i.imgur.com/F4XqMsU.png">](https://i.imgur.com/F4XqMsU.png)
+[<img src="https://i.imgur.com/H8uj6iX.png">](https://i.imgur.com/H8uj6iX.png)
