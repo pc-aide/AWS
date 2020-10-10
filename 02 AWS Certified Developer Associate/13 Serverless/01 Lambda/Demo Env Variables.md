@@ -68,7 +68,9 @@ def lambda_handler(event, context):
 ````
 
 * test new code
+      * result: "dev"
+         * if we change the value for e.g. prod so the return will return this
+           value: "prod"
 
 [<img src="https://i.imgur.com/aRkoduw.png">](https://i.imgur.com/aRkoduw.png)
-
-* 
+[<img src="https://i.imgur.com/MriYDLI.png">](https://i.imgur.com/MriYDLI.png)
