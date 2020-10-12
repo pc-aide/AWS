@@ -2,6 +2,9 @@
 
 ## Switch
 * aws s3 help
+* mb - make bucket
+    * no upper case
+* rb - remove bucket
 
 ## Examples
 ### 00 list all buckets
@@ -22,4 +25,10 @@ aws s3 cp <file> s3://<bucketName>
 ````
 [<img src="https://i.imgur.com/E3UKkmy.png">](https://i.imgur.com/E3UKkmy.png)
 
-### 03 encryption file
+### 03 create bucket
+````bash
+aws s3 mb s3://demo-cloudformation-lambda --region us-east-1
+````
+[<img src="https://i.imgur.com/Yov5ZO9.png">](https://i.imgur.com/Yov5ZO9.png)
+
+### 0x encryption file
