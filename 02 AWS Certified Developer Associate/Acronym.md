@@ -58,4 +58,4 @@
 | 52 | ETL | Extract, Transform, Load | Big data |
 | 53 | FaaS | Function as a Service | ex.: Lambda |
 | 54 | SAM | Serverless Application Model | ex: SAM framework |
-| 55 | RDBMS | Relational Database Management System | ex: Oracle, MySQL, Postgre, etc | 
+| 55 | RDBMS | Relational Database Management System | ex: Oracle, MySQL, PostgreSQL, etc | 
