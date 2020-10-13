@@ -72,3 +72,11 @@
 
 ## Scan
 * **Scan** the entire table & then filter out data (inefficient)
+* Returns up to 1 MB of data - use pagination to keep on reading
+* Consumes a lot of RCU
+* Limit impact using Limit or reduce the size of the result & pause
+* For faster performance, use **parallel scans**
+      * Multiple instances scan mutiple partitions at the same time
+      * Increase the throughput & RCU consumed
+      * Limit the impact of parallel scans just like you would for Scans
+* Can use a **ProjectionExpression + FilterExpression** (no change to RCU)
