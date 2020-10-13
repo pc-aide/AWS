@@ -57,3 +57,4 @@
 | 51 | KCL | Kinesis Client Library | |
 | 52 | ETL | Extract, Transform, Load | Big data |
 | 53 | FaaS | Function as a Service | ex.: Lambda |
+| 54 | SAM | Serverless Application Model | ex: SAM framework |
