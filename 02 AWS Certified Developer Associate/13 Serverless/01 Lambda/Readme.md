@@ -5,9 +5,11 @@
 * ECS - Elastic Container Service
 * SQS - Simple Queue Service
 * SNS - Simple Notification Service
+* CW - CloudWatch
 
 ## Doc
 * [AWS Lambda Pricing](https://aws.amazon.com/lambda/pricing/)
+* [Using AWS Lambda with Amazon CW Events](https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents.html)
 
 ## Intro
 * EC2
