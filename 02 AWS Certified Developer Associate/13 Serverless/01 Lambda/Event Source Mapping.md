@@ -72,7 +72,7 @@
 
 ## Event Mapper Scaling
 * Kinesis Data Streams & DynamoDB Streams:
-    * One Lmabda invocation per stream shard
+    * One Lambda invocation per stream shard
     * If you suse parallelization, up to 10 batches processed per shard simultaneously
 * SQS std:
     * Lambda adds 60 more instances per minute to scale up
