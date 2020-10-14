@@ -61,3 +61,4 @@
 | 55 | RDBMS | Relational Database Management System | ex: Oracle, MySQL, PostgreSQL, etc | 
 | 56 | RCU & WCU | Read Capacity Units & Write Capacity Units | DynamoDB |
 | 57 | LSI | Local Secondary Index | DynamoDB - LSI | 
+| 58 | GSI | Global Secondary Index | DynamoDB - GSI |
