@@ -8,7 +8,7 @@
 ## Doc
 
 ## Example: Building a Serverless API
-[<img src="https://i.imgur.com/gmRWOAP.png'>](https://i.imgur.com/gmRWOAP.png)
+[<img src="https://i.imgur.com/gmRWOAP.png">](https://i.imgur.com/gmRWOAP.png)
 
 ---
 
