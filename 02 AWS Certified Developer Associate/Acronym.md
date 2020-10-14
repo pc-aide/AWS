@@ -63,3 +63,4 @@
 | 57 | LSI | Local Secondary Index | DynamoDB - LSI | 
 | 58 | GSI | Global Secondary Index | DynamoDB - GSI |
 | 59 | DAX | DynamoDB Accelerator | |
+| 60 | EMR | Elastic MapReduce | AWS EMR (Managed Hadoop Framework) | 
