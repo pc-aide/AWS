@@ -52,7 +52,7 @@
 * **Example 1**: 10 strongly consistent reads per seconds of 4 KB each
     * how many RCU?
     * 10 RCU ! (10*(4 KB/4KB)) = 10 RCU
-* Example 2**: 16 eventually consistent reads per seconds of 12 KB each
+* **Example 2**: 16 eventually consistent reads per seconds of 12 KB each
     * how many RCU?
     * (16/2)*(12/4) = 24 RCU !? - (16/2 because it's eventually consistent
 * **Example 3**: 10 strongly consistent reads per seconds of 6 KB each
