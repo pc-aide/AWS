@@ -65,3 +65,4 @@
 | 59 | DAX | DynamoDB Accelerator | |
 | 60 | EMR | Elastic MapReduce | AWS EMR (Managed Hadoop Framework) | 
 | 61 | DMS | Database Migration Service | Amazon DMS | 
+| 62 | CRUD | Create/Read/Update/Delete | CRUD operations (DynamoDB) | 
