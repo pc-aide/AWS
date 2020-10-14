@@ -62,3 +62,4 @@
 | 56 | RCU & WCU | Read Capacity Units & Write Capacity Units | DynamoDB |
 | 57 | LSI | Local Secondary Index | DynamoDB - LSI | 
 | 58 | GSI | Global Secondary Index | DynamoDB - GSI |
+| 59 | DAX | DynamoDB Accelerator | |
