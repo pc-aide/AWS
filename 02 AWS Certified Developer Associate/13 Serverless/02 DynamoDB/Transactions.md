@@ -30,4 +30,4 @@
 | Tx_12345       | 1561483349       | Acct_45         | Acct_21         | 45    |
 | Tx_23456       | 1562503085       | Acct_21         | Acct_45         | 100   |
 
-* A transaction is a write to **both table**, or none
+* A transaction is a <ins>write</ins> to **both table**, or none
