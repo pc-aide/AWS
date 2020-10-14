@@ -68,7 +68,7 @@
     * By capacity: (TOTAL RCU / 3000) + (TOTAL WCU / 1000)
     * By size: Total / 10GB
     * Total partitions = CEILING(MAX(Capacity,Size))
-* **WCU & RcU are spread evely between partitions**
+* **WCU & RCU are spread evely between partitions**
 
 ---
 
