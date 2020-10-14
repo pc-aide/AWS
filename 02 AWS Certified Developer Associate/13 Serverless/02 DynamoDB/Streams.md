@@ -75,4 +75,57 @@
     * filter policies: DynamoDB
       * AWSLambdaDynamoDBExecutionRole
       
-[<img src="https://i.imgur.com/YHwgoGK.png>](https://i.imgur.com/YHwgoGK.png)
+[<img src="https://i.imgur.com/YHwgoGK.png">](https://i.imgur.com/YHwgoGK.png)
+[<img src="https://i.imgur.com/LJpcEaU.png">](https://i.imgur.com/LJpcEaU.png)
+[<img src="https://i.imgur.com/F4DfiEb.png">](https://i.imgur.com/F4DfiEb.png)
+
+* Lambda\add trigger
+      * trigger: DynamoDB
+      * DynamoDM table: UserGames
+      * Starting position: trim horizon
+* add
+
+[<img src="https://i.imgur.com/UhpkLlS.png">](https://i.imgur.com/UhpkLlS.png)
+[<img src="https://i.imgur.com/3rw92E6.png">](https://i.imgur.com/3rw92E6.png)
+
+* DynamoDB\userGames\Trigger
+
+[<img src="https://i.imgur.com/ksNlBEq.png">](https://i.imgur.com/ksNlBEq.png)
+
+* USerGames\Duplicate our first item:
+````item
+game_id Number: 2345
+game_ts String: 2020-05-09T03:04:05z
+user_id String: sfdfsdf
+````
+
+[<img src="https://i.imgur.com/4ubxRYl.png">](https://i.imgur.com/4ubxRYl.png)
+
+* Edit this item (game_id : 2345):
+      * juste change the game_ts - next day for example
+      
+      
+[<img src="https://i.imgur.com/uE4G3QE.png">](https://i.imgur.com/uE4G3QE.png)
+
+* delete: game_id: 1234
+
+[<img src="https://i.imgur.com/6Be88N1.png">](https://i.imgur.com/6Be88N1.png)
+
+* trigger\refresh
+
+[<img src="https://i.imgur.com/TIkdscR.png">](https://i.imgur.com/TIkdscR.png)
+[<img src="https://i.imgur.com/HUEITWY.png">](https://i.imgur.com/HUEITWY.png)
+
+* CW\Log stream\ 
+      * INSERT
+      * DynamoDB Record
+      * Modify
+      * Remove
+      
+[<img src="https://i.imgur.com/zfq9dC0.png">](https://i.imgur.com/zfq9dC0.png)
+[<img src="https://i.imgur.com/gFXEQhq.png">](https://i.imgur.com/gFXEQhq.png)
+[<img src="https://i.imgur.com/OL5zoyn.png">](https://i.imgur.com/OL5zoyn.png)
+
+* juste disabled our trigger (lambda) for no $$$
+
+[<img src="https://i.imgur.com/rTJwcvj.png">](https://i.imgur.com/rTJwcvj.png)
