@@ -7,7 +7,7 @@
 | 2 | x.509 certificate | | |
 | 3 | ALPN Policy | | |
 | 4 | User Data | bootstraping | script for instance when it launchs first time for example (TimeZone: UTC - > EDT) |
-| 5 | X-Forwarded-For | | log stream (CloudWatch log) | 
+| 5 | X-Forwarded-For | | log stream (CloudWatch log)[`X-forwarded-for`](#X-Forwarded-for) | 
 | 6 | X-Forwarded-Proto | | |
 | 7 | SNI | Server Name Indication | | |
 | 8 | VPC Flow Logs | | |
