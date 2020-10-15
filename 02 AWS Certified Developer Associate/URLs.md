@@ -11,3 +11,9 @@
 | 6 | [Sample apps (Beanstalk)](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/RelatedResources.html) | ex.: Node.js |
 | 7 | [Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html?) | ex: https://calculator.s3.amazonaws.com/index.html?key=cloudformation/c3686d8c-397a-40f7-9bc5-c9394748d5c0 |
 | 8 | [epoch time](https://www.epochconverter.com/) | DynamoDB with expire_on |
+| 9 | [Insomnia Core](https://insomnia.rest/download/core/?&ref=) | plan usage $$$ (API Gateway) [`Insomnia Core`](#InsomniaCore) |
+
+---
+
+## InsomniaCore
+[<img src="https://i.imgur.com/rlu5SAj.png">](https://i.imgur.com/rlu5SAj.png)
