@@ -112,3 +112,32 @@ def lambda_handler(event, context):
 
 [<img src="https://i.imgur.com/YFq2PIP.png">](https://i.imgur.com/YFq2PIP.png)
 [<img src="https://i.imgur.com/T96SwL3.png">](https://i.imgur.com/T96SwL3.png)
+
+* /houses/<create method>
+   * GET
+   * Integration type: Lambda function 
+      * create new function
+         * Function name: Lambda-APIGW-Proxy-Houses-GET
+         * Runtime: python
+         * Take same precedent code lambda:
+````python
+import json
+
+def lambda_handler(event, context):
+    body = "Test from house!"
+    statusCode = 200
+    return {
+        "statusCode": statusCode,
+        "body": json.dumps(body),
+        "headers":{
+            "Content-Type": "application/json"
+        }
+    }
+````
+
+* /houses - GET - Setup (API Gateway)
+      * Integration type: Lambda 
+      * CheckBox: Use Lambda proxy integration
+      * Lambda function: Lambda-APIGW-Proxy-House-GET
+      
+[<img src="https://i.imgur.com/6nH7Nzo.png">](https://i.imgur.com/6nH7Nzo.png)
