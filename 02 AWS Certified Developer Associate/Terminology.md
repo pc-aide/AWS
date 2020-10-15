@@ -12,3 +12,6 @@
 | 7 | SNI | Server Name Indication | | |
 | 8 | VPC Flow Logs | | |
 | 9 | Base64Encoded | | ex: isBase64Encoded: false or true |
+
+## E.g
+### X-Forwarded-for
