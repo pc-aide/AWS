@@ -159,6 +159,6 @@
 [<img src="https://i.imgur.com/z4rKhNY.png">](https://i.imgur.com/z4rKhNY.png)
 
 * After couple hours:
-      * **16** request make between Oct1, 2020 & Oct 15, 2020 (UTC):
+      * **16** requests make between Oct1, 2020 & Oct 15, 2020 (UTC):
 
 [<img src="https://i.imgur.com/Tm9BV3V.png">](https://i.imgur.com/Tm9BV3V.png)
