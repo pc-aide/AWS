@@ -141,3 +141,34 @@ def lambda_handler(event, context):
       * Lambda function: Lambda-APIGW-Proxy-House-GET
       
 [<img src="https://i.imgur.com/6nH7Nzo.png">](https://i.imgur.com/6nH7Nzo.png)
+[<img src="https://i.imgur.com/LwIjr6V.png">](https://i.imgur.com/LwIjr6V.png)
+
+* Test
+   * Test
+   
+[<img src="https://i.imgur.com/4vvskch.png">](https://i.imgur.com/4vvskch.png)
+[<img src="https://i.imgur.com/qocvAs9.png">](https://i.imgur.com/qocvAs9.png)
+
+* Actions\**Deploy API**
+      * Deployment stage: new stage
+      * Stage name: dev
+* Deploy
+
+[<img src="https://i.imgur.com/VBj96BD.png">](https://i.imgur.com/VBj96BD.png)
+[<img src="https://i.imgur.com/pACCafD.png">](https://i.imgur.com/pACCafD.png)
+[<img src="https://i.imgur.com/lDNFx1a.png">](https://i.imgur.com/lDNFx1a.png)
+
+* Invoke URL
+* Browser
+   * item for /houses
+   * something wrong in path (head)
+
+[<img src="https://i.imgur.com/00sXI9U.png">](https://i.imgur.com/00sXI9U.png)
+[<img src="https://i.imgur.com/cgwkllO.png">](https://i.imgur.com/cgwkllO.png)
+[<img src="https://i.imgur.com/v0Hbvu7.png">](https://i.imgur.com/v0Hbvu7.png)
+
+
+* Lambda-APIGW-Proxy (CW logs\log stream)
+      * X-Forwarded-for
+      
+[<img src="https://i.imgur.com/vLxjbic.png">](https://i.imgur.com/vLxjbic.png)
