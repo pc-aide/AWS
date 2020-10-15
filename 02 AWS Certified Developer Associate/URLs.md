@@ -16,4 +16,4 @@
 ---
 
 ## InsomniaCore
-[<img src="https://i.imgur.com/rlu5SAj.png">](https://i.imgur.com/rlu5SAj.png)
+[<img src="https://i.imgur.com/aige3Mz.png">](https://i.imgur.com/aige3Mz.png)
