@@ -1,0 +1,18 @@
+# Canary Deployments
+
+## Doc
+
+## Acronym
+
+## Terminology
+* Canary = often term used for dev/test before the prod e.g. chrome-canary
+
+## Intro
+* Possibility to enable canary deployments for any stage (usually prod)
+* Choose the % of traffic the canary channel receives
+* Metrics & Logs are separate (for better monitoring)
+* Possibility to overrride stage variables for canary
+* This is **blue/green deployment** with Lambda & API Gateway
+
+### Diagram
+[<img src="https://i.imgur.com/n4Vr30s.png">](https://i.imgur.com/n4Vr30s.png)
