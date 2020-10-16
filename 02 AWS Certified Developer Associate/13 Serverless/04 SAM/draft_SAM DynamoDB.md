@@ -98,3 +98,4 @@ aws cloudformation deploy \
 --template-file gen/template-generated.yaml \
 --stack-name demo-sam --capabilities CAPABILITY_IAM
 ````
+[<img src="https://i.imgur.com/sxZkBUI.png">](https://i.imgur.com/sxZkBUI.png)
