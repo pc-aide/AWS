@@ -33,6 +33,23 @@ Resources:
       Timeout: 3
 ````
 
+### 02 Deploy
+````bash
+aws cloudformation deploy \
+--template-file gen/template-generate.yaml \
+--stack-name test-sam
+````
+[<img src="https://i.imgur.com/IWND6mu.png">](https://i.imgur.com/IWND6mu.png)
+
+* failed -> changeSet
+    * CAPABILITY_IAM
+* add the **capability flag**:
+````bash
+aws cloudformation deploy \
+--template-file gen/template-generate.yaml \
+--stack-name test-sam --capabilities CAPABILITY_IAM
+````
+
 ### app.py
 ````python
 import json
