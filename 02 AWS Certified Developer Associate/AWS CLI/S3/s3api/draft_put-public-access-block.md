@@ -9,7 +9,7 @@
 # Boolean flag (cfg)
 aws s3api put-public-access-block \
 --bucket demo-cors-apigw \
---public-access-block-configuration  BlockPublicAcls=true,IgnorePublicAcls=true,BlockPublicPolicy=true,RestrictPublicBuckets=true
+--public-access-block-configuration  BlockPublicAcls=false,IgnorePublicAcls=false,BlockPublicPolicy=false,RestrictPublicBuckets=false
 ````
 [<img src="https://i.imgur.com/a5e1tFz.png">](https://i.imgur.com/a5e1tFz.png)
 ````bash
@@ -19,3 +19,5 @@ aws s3api get-public-access-block \
 --bukcet demo-cors-apigw
 ````
 [<img src="https://i.imgur.com/iFhMifU.png">](https://i.imgur.com/iFhMifU.png)
+
+* test with Browser
