@@ -69,3 +69,57 @@
 
 ### Diagram
 [<img src="https://i.imgur.com/NkRuwPE.png">](https://i.imgur.com/NkRuwPE.png)
+
+---
+
+## Security - Summary
+* IAM:
+    * Great for users/roles already within your AWS account, **+ resource policy** for cross account
+    * Handle authentication + authorization
+    * Leverages Signature v4
+* Customer Authorizer:
+    * Great for 3<sup>rd</sup party tokens
+    * Very flexible in terms of what IAM policy is returned
+    * handle Authentication verification + Authrorization in the lambda function
+    * Pay per lambda invocation, results are cached
+* Cognitor User Pool:
+    * You manage your own user pool (can be backed by Facebook, Google login etc...)
+    * No need to write any custom code
+    * Must implement authorization in the backend
+  
+---
+
+## Console
+* API Gateway\Resources
+    * GET\Method request
+  
+[<img src="https://i.imgur.com/dSbtwrG.png">](https://i.imgur.com/dSbtwrG.png)
+[<img src="https://i.imgur.com/zEJR3Jr.png">](https://i.imgur.com/zEJR3Jr.png)
+
+* Authorization:
+  * none
+  * AWS_IAM -> Resource Policy
+  
+[<img src="https://i.imgur.com/UDyyijx.png">](https://i.imgur.com/UDyyijx.png)
+[<img src="https://i.imgur.com/OTWLoLO.png">](https://i.imgur.com/OTWLoLO.png)
+
+* Resource Policy
+    * template (AWS Account Whitelist)
+      * Remplace: otherAWSAccountID
+    
+[<img src="https://i.imgur.com/IJWJsIg.png">](https://i.imgur.com/IJWJsIg.png)
+
+* Resource Policy
+    * IP Range Blacklist
+    
+[<img src="https://i.imgur.com/jVAIDD1.png">](https://i.imgur.com/jVAIDD1.png)
+
+* Resouce Policy
+    * Source VPC Whitelist
+    
+[<img src="https://i.imgur.com/M2TmeGn.png">](https://i.imgur.com/M2TmeGn.png)
+
+* Authorizers
+    * Createe New Authorizer
+    
+[<img src="https://i.imgur.com/8oCxbSN.png">](https://i.imgur.com/8oCxbSN.png)
