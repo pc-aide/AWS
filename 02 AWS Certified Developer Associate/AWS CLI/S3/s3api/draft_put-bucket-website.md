@@ -4,7 +4,7 @@
 * aws s3api put-bucket-website help
 
 ## Examples
-### 01 Eanbled Website
+### 01 Enabled Website
 ````bash
 aws s3api put-bucket-website \
 --bucket bucketName \
