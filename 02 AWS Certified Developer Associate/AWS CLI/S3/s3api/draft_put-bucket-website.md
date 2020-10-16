@@ -14,5 +14,5 @@ aws s3api put-bucket-website \
 ````bash
 aws s3api get-bucket-website \
 --bucket demo-cors-apigw
-```
+````
 [<img src="https://i.imgur.com/ZO31wNl.png">](https://i.imgur.com/ZO31wNl.png)
