@@ -70,3 +70,4 @@
 | 64 | VTL | Velocity Template Language | API Gateway - use VTL: for loop, if etc |
 | 65 | REST | REpresentative State Transfer | |
 | 66 | CUP | Cognito User Pools | |
+| 67 | JWT | JSON Web Token | CUP |
