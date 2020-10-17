@@ -1,8 +1,19 @@
 # SAM
 
+## Doc
+* [SAM CLI Install](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-linux.html)
+
 ## Prereq
-    1. SAM CLI
-    2. 
+    1. Homebrew
+    2. SAM CLI
+
+````bash
+#Verify that Homebrew is installed
+brew --version
+
+# SAM CLI
+sam --version
+````
 
 ## Switch
 
