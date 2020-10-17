@@ -99,3 +99,16 @@
     
 [<img src="https://i.imgur.com/QmZ7Owd.png">](https://i.imgur.com/QmZ7Owd.png)
 [<img src="https://i.imgur.com/rpNgOV9.png">](https://i.imgur.com/rpNgOV9.png)
+
+* Federation (login with Facebook or Google)
+      * Identity providers
+      
+[<img src="https://i.imgur.com/j60CZg4.png">](https://i.imgur.com/j60CZg4.png)
+[<img src="https://i.imgur.com/Ku3uptD.png">](https://i.imgur.com/Ku3uptD.png)
+
+* Triggers (workflow)
+      * react something:
+      * ex:
+         * lambda invoked for new user or delete user
+
+[<img src="https://i.imgur.com/NasWMRl.png">](https://i.imgur.com/NasWMRl.png)
