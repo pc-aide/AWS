@@ -69,3 +69,4 @@
 | 63 | WAF | Web Application Firewall | ex: API Gateway\<stage>\WAF |
 | 64 | VTL | Velocity Template Language | API Gateway - use VTL: for loop, if etc |
 | 65 | REST | REpresentative State Transfer | |
+| 66 | CUP | Cognito User Pools | |
