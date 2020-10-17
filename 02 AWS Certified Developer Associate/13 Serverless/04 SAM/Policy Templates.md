@@ -5,6 +5,8 @@
 
 ## Acronym
 * SAM - Serverless Applicaion Model
+* SQS - Simple Queue Service
+* CRUD - Create, Read, Update, Delete (Crud operations)
 
 ## Intro
 * list of templates to apply permissions to your Lambda Functions
@@ -88,3 +90,20 @@
 | 73 | EcsRunTaskPolicy                               | Gives permission to start a new task for a task definition.                                                                       |
 | 74 | EFSWriteAccessPolicy                           | Gives permission to mount an Amazon EFS file system with write access.                                                            |
 
+* Important examples:
+      * **S3ReadPolicy**: Gives read only permissions to objects in S3
+      * **SQSPollerPolicy**: Allows to poll an SQS queue
+      * **DynamoDBCrudPolicy**: CRUD = create, read, update, delete
+      * Example.yaml:
+````yaml
+MyFunction:
+  Type: 'AWS::Serverless::Function'
+  Properties:
+    CodeUri: ${codeuri}
+    Handler: hello.handler
+    Runtime: python2.7
+    Policies:
+      - SQSPollerPolicy:
+          QueueName:
+            !GetAtt MyQueue.QueueName
+````
