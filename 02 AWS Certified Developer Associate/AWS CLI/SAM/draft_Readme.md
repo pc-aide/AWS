@@ -15,7 +15,10 @@ brew --version
 sam --version
 ````
 
-## Switch
+## Switchs
+* sam build - Fetch dependencies & create local deployment artifacts
+* sam package - Pakcge & upload to S3, generate CF template
+* sam deploy - Deploy to CloudFormation
 
 ## Examples
 ### 01 Init - create project
