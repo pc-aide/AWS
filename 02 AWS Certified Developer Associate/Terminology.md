@@ -13,6 +13,7 @@
 | 8 | VPC Flow Logs | | |
 | 9 | Base64Encoded | | ex: isBase64Encoded: false or true |
 | 10 | SOAP | SOAP API are XML based, whereas REST API are JSON based | pending... |
+| 11 | Decode base64 | |
 
 ## E.g
 ### X-Forwarded-for
