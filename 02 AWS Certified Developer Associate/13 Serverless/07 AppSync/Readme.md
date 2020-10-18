@@ -5,4 +5,4 @@
 ## Doc
 
 ## Intro
-* ** AppSync** is a managed service that uses **GraphQL**
+* **AppSync** is a managed service that uses **GraphQL**
