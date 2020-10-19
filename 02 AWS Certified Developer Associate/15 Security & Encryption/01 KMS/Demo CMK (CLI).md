@@ -68,6 +68,10 @@ SuperSecretPassword
 [<img src="https://i.imgur.com/rmnWZqX.png">](https://i.imgur.com/rmnWZqX.png)
 
 * CLI
+      * Windows
+         * certutil -decode <fileEncrypted.base64> <fileEncrypted>
+         * certutil -decode <fileDecrypted.base64> <fileDecrypted.txt>
+      
 ````bash
 aws kms encrypt --key-id alias/Demo-KMS \
 --plaintext fileb://ExampleSecretFile.txt \
