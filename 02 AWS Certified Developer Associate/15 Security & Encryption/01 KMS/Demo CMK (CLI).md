@@ -68,7 +68,7 @@ SuperSecretPassword
 [<img src="https://i.imgur.com/rmnWZqX.png">](https://i.imgur.com/rmnWZqX.png)
 
 * CLI
-      * Windows
+     * Windows
 ````powershell
 # Encrypted
 certutil -decode <fileEncrypted.base64> <fileEncrypted>
