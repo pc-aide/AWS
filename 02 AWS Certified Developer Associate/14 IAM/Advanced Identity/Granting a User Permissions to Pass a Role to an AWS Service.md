@@ -45,7 +45,7 @@
 ---
 
 ## Can a role be passed to any services?
-* **No**: Roles can only be passed to what their <ins>trust</ins> allows 
+* **No**: Roles can only be passed to what their <ins>trus</ins> allows 
 * A **trust policy** for the role that allows the service to assume the role
 ````json
 {
