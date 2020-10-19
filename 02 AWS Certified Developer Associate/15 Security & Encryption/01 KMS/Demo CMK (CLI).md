@@ -69,8 +69,8 @@ SuperSecretPassword
 
 * CLI
       * Windows
-         * certutil -decode <fileEncrypted.base64> <fileEncrypted>
-         * certutil -decode <fileDecrypted.base64> <fileDecrypted.txt>
+            * certutil -decode <fileEncrypted.base64> <fileEncrypted>
+            * certutil -decode <fileDecrypted.base64> <fileDecrypted.txt>
       
 ````bash
 aws kms encrypt --key-id alias/Demo-KMS \
