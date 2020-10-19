@@ -13,6 +13,7 @@
 | 8 | [epoch time](https://www.epochconverter.com/) | DynamoDB with expire_on |
 | 9 | [Insomnia Core](https://insomnia.rest/download/core/?&ref=) | plan usage $$$ (API Gateway) [`Insomnia Core`](#InsomniaCore) |
 | 10 | [Encryption SDK CLI](https://docs.aws.amazon.com/encryption-sdk/latest/developer-guide/crypto-cli.html) | |
+| 11 | [serverless-app-examples](https://github.com/amazon-archives/serverless-app-examples/tree/master/python) | sample-app-python (SAM) |
 
 ---
 
