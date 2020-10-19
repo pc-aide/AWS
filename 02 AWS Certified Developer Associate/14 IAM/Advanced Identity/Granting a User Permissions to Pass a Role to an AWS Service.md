@@ -5,6 +5,7 @@
 ## Acronym
 * IAM - Identity & Access Management
 * ECS - Elastic Container Serivice
+* STS - Security Token Service
 
 ## Intro
 * To configure many AWS services, you must **pass* an IAM role to the service (this happens
@@ -50,7 +51,25 @@
 {
   "Version": "2012-10-17",
   "Statement": {
-    "Sid": "TrusPolicyStatementThatAllowsEC2ServiceToAssumeTheAttacheRole"<
+    "Sid": "TrusPolicyStatementThatAllowsEC2ServiceToAssumeTheAttacheRole",
+    "Effect": "Allow",
+    "Principal": {
+      "Service": "ec2.amazonaws.com"
+    },
+    "Action": "sts:AssumeRole"
   }
 }
 ````
+
+---
+
+## Console
+* IAM\Roles\**Trusted entities**
+
+[<img src="https://i.imgur.com/rMlrDOk.png">](https://i.imgur.com/rMlrDOk.png)
+
+* Example\**AWSCodePipelineServic...**
+    * show policy
+
+[<img src="https://i.imgur.com/WAbF30M.png">](https://i.imgur.com/WAbF30M.png)
+[<img src="https://i.imgur.com/ZL3YyWH.png">](https://i.imgur.com/ZL3YyWH.png)
