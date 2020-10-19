@@ -73,3 +73,4 @@
 | 67 | JWT | JSON Web Token | CUP |
 | 68 | STS | Security Token Service | Get temp creds (STS) |
 | 69 | CIP | Cognito Identity Pools | |
+| 70 | MITM | Man In The Middle attack | |
