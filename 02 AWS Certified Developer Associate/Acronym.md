@@ -75,4 +75,4 @@
 | 69 | CIP | Cognito Identity Pools | |
 | 70 | MITM | Man In The Middle attack | |
 | 71 | DEK | Data Encryption Key (Envelope Encryption) | DEK (big file: ex: 10 MB) |
-| 72 | SSE-C | SSE-Customer | own encryption keys |
+| 72 | SSE-C | SSE-Customer | own encryption keys (S3) |
