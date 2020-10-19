@@ -37,7 +37,7 @@
 * Key policy\Key administrators
     * empty (default)
     
-[<img src=https://i.imgur.com/9d33f55.png">](https://i.imgur.com/9d33f55.png)
+[<img src="https://i.imgur.com/9d33f55.png">](https://i.imgur.com/9d33f55.png)
 
 * key usage permissions: empty (default)
     
