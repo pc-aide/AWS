@@ -1,10 +1,10 @@
 # Demo Stages Configurations
 
 ## Doc
-* WAF - Web Application Firwall
-* CW - CloudWatch
 
 ## Acronym
+* WAF - Web Application Firwall
+* CW - CloudWatch
 
 ## Intro
 * API Gateway\Stages
