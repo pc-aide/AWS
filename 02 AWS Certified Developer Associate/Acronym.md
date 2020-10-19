@@ -74,4 +74,4 @@
 | 68 | STS | Security Token Service | Get temp creds (STS) |
 | 69 | CIP | Cognito Identity Pools | |
 | 70 | MITM | Man In The Middle attack | |
-| 71 | DEK | Data Encryption Key (Envelope Encryption) | DEK (file big: ex: 10 MB) |
+| 71 | DEK | Data Encryption Key (Envelope Encryption) | DEK (big file: ex: 10 MB) |
