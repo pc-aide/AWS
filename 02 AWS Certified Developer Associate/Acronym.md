@@ -76,3 +76,4 @@
 | 70 | MITM | Man In The Middle attack | |
 | 71 | DEK | Data Encryption Key (Envelope Encryption) | DEK (big file: ex: 10 MB) |
 | 72 | SSE-C | SSE-Customer | own encryption keys (S3) |
+| 73 | SES | Simple Email Service | |
