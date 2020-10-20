@@ -77,4 +77,5 @@
 | 71 | DEK | Data Encryption Key (Envelope Encryption) | DEK (big file: ex: 10 MB) |
 | 72 | SSE-C | SSE-Customer | own encryption keys (S3) |
 | 73 | SES | Simple Email Service | |
-| 74 | OLTP | OnLine  Transaction Processing | RDS |
+| 74 | OLTP | OnLine Transaction Processing | RDS |
+| 75 | OLAP | OnLine Analytic Processing | Redshift |
