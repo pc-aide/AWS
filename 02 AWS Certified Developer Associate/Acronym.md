@@ -14,7 +14,7 @@
 | 8 | ENI     | Elastic Network Interfaces | VPC endpoint |
 | 9 | SSL     | Secure Sockets Layers |
 | 10 | TLS | Transport Layer Security | 
-| 11 | ACM | AWS Certificate Manager | 
+| 11 | ACM | AWS Certificate Manager | ex: ACM for ALB (HTTPS) |
 | 12 | SNI | Server Name Indication |
 | 13 | ALPN | Application-Layer Protocol Negotiation | ALPN Policy |
 | 14 | ASG | Auto Scaling Group |
