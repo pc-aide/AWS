@@ -29,3 +29,8 @@
     * Blue/Green Deployments on AWS 
 
 [<img src="https://i.imgur.com/fIGDzEY.png">](https://i.imgur.com/fIGDzEY.png)
+
+---
+
+## FAQ
+* [Lambda](https://aws.amazon.com/lambda/faqs/)
