@@ -71,7 +71,7 @@
     * B. IAM trust policy
     * C. MS gran token
     * D. AWS credentials file
-13. A new developer has joined your small team. You would loke to help you team member set up a development computer for access to the team account quickly & securely. How do your proceed?
+13. A new developer has joined your small team. You would like to help you team member set up a development computer for access to the team account quickly & securely. How do your proceed?
     * A. Generate an access key based on your IAM user, & share it with your tem member.
     * B. Create a new directory with AWS Directory Service, & assign permissions in the AWS KMS
     * C. Create an IAM user, add it to an IAM group that has the appropriate permissions, & generate a long-term access key
