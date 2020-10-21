@@ -82,7 +82,7 @@
     * C. Install the AWS SDK for .NET on your Windows Server, & leave your existing application unchanged
     * D. Implement a proxy service that accepts your API requests, & translate them to Python
 15. You are a Virginia-based company, & you have been asked to implement a custom application exclusively for customers in Australia. This application has no dependencies on any of your existing applications. What is a method your use to keep the customer latency to this new application low?
-    * A. Set up an AWS DX between your on-premises environment & US East (N Virginia), & host he application form your own data center in Virginia
+    * A. Set up an AWS DX between your on-premises environment & US East (N Virginia), & host he application from your own data center in Virginia
     * B. Create all resources for this application in the Asia Pacific (Sydney) Region, & manage them from your current account
     * C. Deploy the application to the US East (N Virginia) Region, & select Amazon EC2 instances with enhanced networking
     * D. It does not matter which region you select, because all resources are automatically replicated globally
