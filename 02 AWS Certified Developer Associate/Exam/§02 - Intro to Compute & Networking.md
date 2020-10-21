@@ -121,8 +121,7 @@ same instance?
     * C. A route to an internet gateway
     * D. A route to a NAT gateway or NAT instance
     * E. A route to an Amazon VPC endpoint
-16. What type of route must exist in the associated route table for a subnet to be a private sub-
-net that allows outbound internet access?
+16. What type of route must exist in the associated route table for a subnet to be a private subnet that allows outbound internet access?
     * A. A route to a VPN gateway
     * B. Only the local route is required.
     * C. A route to an internet gateway
