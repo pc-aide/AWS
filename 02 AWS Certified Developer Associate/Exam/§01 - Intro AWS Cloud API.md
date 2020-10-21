@@ -76,7 +76,7 @@
     * B. Create a new directory with AWS Directory Service, & assign permissions in the AWS KMS
     * C. Create an IAM user, add it to an IAM group that has the appropriate permissions, & generate a long-term access key
     * D. Create a new IAM role for this team member, assign permissions to the role, & generate a long-term access key
-14. You have been working with the Amazon Polly service in your application by using the Python SDK for Linux. You are bulding a second application in C#, & you would loke to run that application on a separate Windows Server with .NET. How can you proceed?
+14. You have been working with the Amazon Polly service in your application by using the Python SDK for Linux. You are building a second application in C#, & you would loke to run that application on a separate Windows Server with .NET. How can you proceed?
     * A. Migrate all your code for all applications to C#, & modify your account to a Windows account
     * B. Go to the Amazon Polly service, & change the supported languages to include .NET.
     * C. Install the AWS SDK for .NET on your Windows Server, & leave your existing application unchanged
