@@ -80,4 +80,4 @@
 | 74 | OLTP | OnLine Transaction Processing | RDS |
 | 75 | OLAP | OnLine Analytic Processing | Redshift |
 | 76 | SAML | Security Assertion Markup Language | |
-| 77 | FPGAs | Field-Programmable Gate Arrays | |
+| 77 | FPGAs | Field-Programmable Gate Arrays | ex-instance: FPGA Developer AMI|
