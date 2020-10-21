@@ -22,9 +22,6 @@
 ### USE THIS FILE IF LANCHED AMAZON LINUX 2 ###
 ###############################################
 
-# Priviledges
-sudo su
-
 # Hostname
 hostnamectl set-hostname EC2Ama-01
 
