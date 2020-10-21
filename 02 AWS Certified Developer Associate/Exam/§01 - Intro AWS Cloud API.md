@@ -80,7 +80,7 @@
     * A. Migrate all your code for all applications to C#, & modify your account to a Windows account
     * B. Go to the Amazon Polly service, & change the supported languages to include .NET.
     * C. Install the AWS SDK for .NET on your Windows Server, & leave your existing application unchanged
-    * D. Implement aproxy service that accepts your API requests, & translate them to Python
+    * D. Implement a proxy service that accepts your API requests, & translate them to Python
 15. You are a Virginia-based company, & you have been asked to implement a custom application exclusively for customers in Australia. This application has no dependencies on any of your existing applications. What is a method your use to keep the customer latency to this new application low?
     * A. Set up an AWS DX between your on-premises environment & US East (N Virginia), & host he application form your own data center in Virginia
     * B. Create all resources for this application in the Asia Pacific (Sydney) Region, & manage them from your current account
