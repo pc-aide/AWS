@@ -14,6 +14,7 @@
 ## Linux
 * Need run with the root use (sudo rights)
 * Script:
+  * no realy need sudo su - bad teacher !? ;-)
 ````Bash
 #!/bin/bash
 
