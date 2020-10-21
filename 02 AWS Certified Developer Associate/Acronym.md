@@ -81,3 +81,4 @@
 | 75 | OLAP | OnLine Analytic Processing | Redshift |
 | 76 | SAML | Security Assertion Markup Language | |
 | 77 | FPGAs | Field-Programmable Gate Arrays | ex-instance: FPGA Developer AMI|
+| 78 | IMDS | Instance MetaData Service | curl 169.254.16.254/latest/meta-data/ |
