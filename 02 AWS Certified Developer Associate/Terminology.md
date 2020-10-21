@@ -14,6 +14,7 @@
 | 9 | Base64Encoded | | ex: isBase64Encoded: false or true |
 | 10 | SOAP | SOAP API are XML based, whereas REST API are JSON based | pending... |
 | 11 | base64 Decode | Binary file | CMK |
+| 12 | instance profile | IAM role attach to an EC2 | |
 
 ## E.g
 ### X-Forwarded-for
