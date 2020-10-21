@@ -26,7 +26,7 @@
     * B. Attach the DynamoDBFullAccess managed policy to the IAM role used by the team member
     * C. Delete the table & recreate it. Permissions are set when the DynamoDB table is created
     * D. Create a new user within DynamoDB, & assign table permissions
-6. You created a Moviess DynamoDB table in the AWS Managment Console, but when you try to list your DynamoDB tables by using the Java SDK, you do not see this table. Why?
+6. You created a Movies DynamoDB table in the AWS Managment Console, but when you try to list your DynamoDB tables by using the Java SDK, you do not see this table. Why?
     * A. DynamoDB table created in the AWS Managment Console are not accessible form the API
     * B. Your SDK may be listing your resources from a different AWS Region in which the table does not exist
     * C. The security group applied to the Movies table is keeping it hidden
