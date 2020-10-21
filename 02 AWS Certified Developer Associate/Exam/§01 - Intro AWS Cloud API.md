@@ -86,4 +86,5 @@
     * B. Create all resources for this application in the Asia Pacific (Sydney) Region, & manage them from your current account
     * C. Deploy the application to the US East (N Virginia) Region, & select Amazon EC2 instances with enhanced networking
     * D. It does not matter which region you select, because all resources are automatically replicated globally
-* [Answers]()
+* [Answers](https://i.imgur.com/oXGJ7nS.png)
+* Score: 14/15 = 93.3%
