@@ -40,7 +40,7 @@ with open("helloworld.mp3","wb") as file:
 aws polly describe-voices \
 --output table
 ````
-[img src="https://i.imgur.com/KjtYtTi.png">](https://i.imgur.com/KjtYtTi.png)
+[<img src="https://i.imgur.com/KjtYtTi.png">](https://i.imgur.com/KjtYtTi.png)
 
 ---
 
