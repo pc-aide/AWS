@@ -34,7 +34,7 @@
 7. You make an API request to describe voices offered by Amazon Polly by using the AWS CLI, & you receive the following error message: https://polly.us-east-1a.amazonaws.com/v1/voices 
 
 What ent wrong?
-   * A. Your API credentials have been rejected
+    * A. Your API credentials have been rejected
    * B. You have incorrectly configured the AWS Region for your API call
    * C. Amazon Polly does not offer a feature to describe the list of available voices
    * D. Amazon Polly is not accessible from the AWS CLI because it's only in the AWS SDK
