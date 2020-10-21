@@ -15,7 +15,7 @@
     * A. Create an IAM user, assign permissions by adding the user to an IAM group which IAM policies attached, & generate an access key for programmatic access
     * B. Sign in with your email & password, & visit My Security Credentials to generate an access key
     * C. Generate logn-term credentials for a built-in IAM role
-    * D. Use yourexisting user name & password by configuring local environment variables
+    * D. Use your existing user name & password by configuring local environment variables
 4. You have a large number of employee, & each employee already has an identity in an external directory. How might you manage AWS API credeintlas for each employee so that they can interact with AWS for short-term session?
     * A. Create an IAM user & credentials fro each member of your organization
     * B. Share a single password through a file stored in an encrypted Amazon S3 bucket
