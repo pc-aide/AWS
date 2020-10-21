@@ -69,7 +69,7 @@
 12. The principals who have access to assume an IAM role are defined in which document?
     * A. IAM access policy
     * B. IAM trust policy
-    * C. MS gran token
+    * C. MS grant token
     * D. AWS credentials file
 13. A new developer has joined your small team. You would like to help you team member set up a development computer for access to the team account quickly & securely. How do your proceed?
     * A. Generate an access key based on your IAM user, & share it with your tem member.
