@@ -1,5 +1,5 @@
 # polly
-* 
+* to synthesize speech from text
 
 ## Prereq
 1. pip install boto3 --upgrade --user
@@ -36,11 +36,18 @@ with open("helloworld.mp3","wb") as file:
 ---
 
 ## list 
-aws polly describe-voices
+````bash
+aws polly describe-voices \
+--output table
+````
+[img src="https://i.imgur.com/KjtYtTi.png">](https://i.imgur.com/KjtYtTi.png)
 
 ---
 
 ## Available voices (O/P: text,json,table)
+````bash
 aws polly describe-voices \
 --language en-US \
---ouput table
+--output table
+````
+[<img src="https://i.imgur.com/Qd8TUO8.png">](https://i.imgur.com/Qd8TUO8.png)
