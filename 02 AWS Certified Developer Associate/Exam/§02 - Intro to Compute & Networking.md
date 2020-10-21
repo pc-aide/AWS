@@ -35,8 +35,7 @@ explicitly deny inbound web requests from the internet.
     * D. Modify the inbound security group rules for the instance to allow only inbound
 requests from your web servers
 5. You have launched an Amazon Elastic Compute Cloud (Amazon EC2) instance and loaded
-your application code on it. You have now discovered that the instance is missing applica-
-tions on which your code depends. How can you resolve this issue?
+your application code on it. You have now discovered that the instance is missing applications on which your code depends. How can you resolve this issue?
     * A. Modify the instance profile to include the software dependencies.
     * B. Create an AWS Identity and Access Management (IAM) user, and sign in to the
 instance to install the dependencies
