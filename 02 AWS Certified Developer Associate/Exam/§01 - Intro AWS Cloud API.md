@@ -65,7 +65,7 @@
     * A. Define a custom IAM policy that lists each DynamoDB table. Revoke the access key, & issue a new access key for TableAuditor when tables are created.
     * B. Create an IAM user & attach one custom IAM policy per AWS Region that has DynamoDB tables.
     * C. Add the TableAuditor user to the IAM role DynamoDBReadOnlyAccess
-    * D. Attach the AWS managed IAM policy AmaonDynamoDBReadOnlyAccess to the TableAuditor user
+    * D. Attach the AWS managed IAM policy AmazonDynamoDBReadOnlyAccess to the TableAuditor user
 12. The principals who have access to assume an IAM role are defined in which document?
     * A. IAM access policy
     * B. IAM trust policy
