@@ -17,7 +17,7 @@
     * C. Generate logn-term credentials for a built-in IAM role
     * D. Use your existing user name & password by configuring local environment variables
 4. You have a large number of employee, & each employee already has an identity in an external directory. How might you manage AWS API credentials for each employee so that they can interact with AWS for short-term session?
-    * A. Create an IAM user & credentials fro each member of your organization
+    * A. Create an IAM user & credentials for each member of your organization
     * B. Share a single password through a file stored in an encrypted Amazon S3 bucket
     * C. Define a set of IAM roles, & establish a trust relationship between your directory & AWS
     * D. Cofigure the AWS Key Management Service (AWS KMS) to store credentials for each user
