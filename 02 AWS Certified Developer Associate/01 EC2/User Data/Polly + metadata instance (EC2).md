@@ -4,6 +4,14 @@
 1. IAM Role: PollyAccess
 2. AMI : Amazon Linix 2
 
+---
+
+## Polly
+* language-code: 
+    * fr-CA
+
+---
+
 ## bootstrap
 ````bash
 #!/bin/bash
