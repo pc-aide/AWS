@@ -29,3 +29,11 @@ aws s3 ls
 ````bash
 aws configure --profile dev
 ````
+
+---
+
+## get region
+````bash
+aws configure get region
+````
+[<img src="https://i.imgur.com/nD6GH8h.png">](https://i.imgur.com/nD6GH8h.png)
