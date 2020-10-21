@@ -1,33 +1,39 @@
 # §01 - Intro AWS Cloud API
 
 ## Questins
-1.
-* [Answer]()
-2.
-* [Answer]()
+1. Which of the following is typically used to sign API calls to AWS service?
+    A. CMK
+    B. AWS access key
+    C. IAM user name & pwd
+    D. Account number
+2. When you make API calls to AWS services, for most services those requests are directed at a specific endpoint that corresponds to which of the following?
+    A. AWS facility
+    B. AWS AZ
+    C. AWS Region
+    D. AWS edge location
 3.
-* [Answer]()
+
 4.
-* [Answer]()
+
 5.
-* [Answer]()
+
 6.
-* [Answer]()
+
 7.
-* [Answer]()
+
 8.
-* [Answer]()
+
 9.
-* [Answer]()
+
 10.
-* [Answer]()
+
 11.
-* [Answer]()
+
 12.
-* [Answer]()
+
 13.
-* [Answer]()
+
 14.
-* [Answer]()
+
 15.
-* [Answer]()
+*[Answers]()
