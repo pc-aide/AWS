@@ -79,3 +79,4 @@
 | 73 | SES | Simple Email Service | |
 | 74 | OLTP | OnLine Transaction Processing | RDS |
 | 75 | OLAP | OnLine Analytic Processing | Redshift |
+| 76 | SAML | Security Assertion Markup Language | |
