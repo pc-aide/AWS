@@ -2,6 +2,7 @@
 
 ## Prereq
 1. IAM Role: PollyAccess
+2. AMI : Amazon Linix 2
 
 ## bootstrap
 ````bash
