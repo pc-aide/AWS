@@ -49,7 +49,7 @@ What ent wrong?
    }
 }
 ````
-   * A. The policy grants full acces to read to objects in the Amazon S3 bucket
+    * A. The policy grants full acces to read to objects in the Amazon S3 bucket
    * B. The policy grants the bolder the permission to list the content of the Amazon S3 bucket called example_bucket
    * C. Nothing. The policy was valid only until October 17,212 (2012-10-17), & is now expired
    * D. The policy grants the user access to list hte content of all Amazon S3 buckets within the current account
