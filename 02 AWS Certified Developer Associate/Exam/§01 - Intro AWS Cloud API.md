@@ -21,7 +21,7 @@
     * B. Share a single password through a file stored in an encrypted Amazon S3 bucket
     * C. Define a set of IAM roles, & establish a trust relationship between your directory & AWS
     * D. Cofigure the AWS Key Management Service (AWS KMS) to store credentials for each user
-5. You have a tema member who needs access to write records to an existing Amazon DynamoDB table within your account. How might you grant write permission to this specific table & only this table?
+5. You have a team member who needs access to write records to an existing Amazon DynamoDB table within your account. How might you grant write permission to this specific table & only this table?
     * A. Write a custom IAM policy that specifies the table as the resource, & attach that policy to the IAM user for the team member
     * B. Attach the DynamoDBFullAccess managed policy to the IAM role used by the team member
     * C. Delete the table & recreate it. Permissions are set when the DynamoDB table is created
