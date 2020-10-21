@@ -53,7 +53,7 @@
    * D. The policy grants the user access to list hte content of all Amazon S3 buckets within the current account
 9.  When an IAM user makes an API call, that user's long-term credentials are valid in which context?
     * A. Only in the AWS Region in which their identity resides
-    * B. Only inthe AZ in which their idenity resides
+    * B. Only in the AZ in which their idenity resides
     * C. Only in the edge location in which their idenity resides
     * D. Across multiple AWS Regions
 10. When you use identity federation to assume a role, where are the credentials you use to make AWS API calls generated?
