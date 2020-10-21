@@ -170,4 +170,5 @@ instances? (**Select TWO**.)
     * C. Securing physical access to the host machine
     * D. Managing the sign-in accounts and credentials on the guest operating system
     * E. Maintaining the software that runs on the underlying host machine
-* [Answer]()
+* [Answer](https://i.imgur.com/OkKZvvk.png)
+* Score: 19/22 ≈ 86%
