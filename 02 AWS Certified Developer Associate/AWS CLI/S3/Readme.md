@@ -31,7 +31,7 @@ aws s3 mb s3://demo-cloudformation-lambda --region us-east-1
 ````
 [<img src="https://i.imgur.com/Yov5ZO9.png">](https://i.imgur.com/Yov5ZO9.png)
 
-### 04 remote a bucket no empty
+### 04 remove a bucket no empty
 ````bash
 aws s3 rb s3://demo-01-athena --force
 ````
