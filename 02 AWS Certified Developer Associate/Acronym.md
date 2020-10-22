@@ -83,3 +83,6 @@
 | 77 | FPGAs | Field-Programmable Gate Arrays | ex-instance: FPGA Developer AMI|
 | 78 | IMDS | Instance MetaData Service | curl 169.254.169.254/latest/meta-data/ |
 | 79 | BLOB | Binary Large OBject data | |
+| 80 | DAS | Direct-Attached Storeage | used for block storage |
+| 81 | SAN | Storage Area Network | used for block storage |
+ 
