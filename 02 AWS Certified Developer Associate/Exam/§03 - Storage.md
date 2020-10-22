@@ -38,8 +38,7 @@ interface (API).
     * B. Must be immediately available when needed
     * C. Is available after a three- to five-hour restore period
     * D. Is frequently erased within 30 days
-6. You have valuable media files hosted on AWS and want them to be served only to authen-
-ticated users of your web application. You are concerned that your content could be stolen
+6. You have valuable media files hosted on AWS and want them to be served only to authenticated users of your web application. You are concerned that your content could be stolen
 and distributed for free. How can you protect your content?
     * A. Use static web hosting.
     * B. Generate presigned URLs for content in the web application.
