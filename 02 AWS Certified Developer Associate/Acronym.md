@@ -85,4 +85,4 @@
 | 79 | BLOB | Binary Large OBject data | |
 | 80 | DAS | Direct-Attached Storeage | used for block storage |
 | 81 | SAN | Storage Area Network | used for block storage |
- 
+| 82 | CID | Confidentiality, Integrity, Availability | CID Model | 
