@@ -9,8 +9,9 @@ REGION='ca-central-1'
 # Only in lower case
 BUCKET_NAME='demo-01-athena'
 
-# Create bucket
+# Create an S3 client
 s3_client = boto3.client('s3', region_name=REGION)
+# Create bucket
 response = s3_client.create_bucket(
   # Attributes bucket
   Bucket=BUCKET_NAME,
