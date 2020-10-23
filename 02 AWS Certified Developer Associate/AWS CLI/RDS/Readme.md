@@ -5,7 +5,7 @@
 
 ## File
 1. ~/.my.cnf
-   a. mysql --print-defaults
+  a. mysql --print-defaults
 ````bash
 [client]
 user=
