@@ -26,4 +26,4 @@
 [<img src="https://i.imgur.com/UxLK09k.png">](https://i.imgur.com/UxLK09k.png)
 
 ## Super Center
-[<img src="https://i.imgur.com/HnkF8u6.png">](https://i.imgur.com/HnkF8u6.png)
+[<img src="https://i.imgur.com/CtmZgWU.png">](https://i.imgur.com/CtmZgWU.png)
