@@ -14,3 +14,4 @@ aws rds create-db-instance-read-replica \
 ````
 [<img src="https://i.imgur.com/qbPUJbt.png">](https://i.imgur.com/qbPUJbt.png)
 [<img src="https://i.imgur.com/2LWd1J6.png">](https://i.imgur.com/2LWd1J6.png)
+[<img src="https://i.imgur.com/MFRS4g3.png">](https://i.imgur.com/MFRS4g3.png)
