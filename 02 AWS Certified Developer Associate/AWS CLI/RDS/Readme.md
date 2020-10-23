@@ -3,7 +3,10 @@
 ## Acronym
 * SG - Security Group
 
-## Swithc
+## Doc
+* 
+
+## Switchs
 * aws rds create-db-instance help
 
 ## Examples
@@ -65,7 +68,17 @@ aws rds modify-db-instance \
 [<img src="https://i.imgur.com/WDmqGz8.png">](https://i.imgur.com/WDmqGz8.png)
 
 * after  modifying (~8 min):
-* 
 
 [<img src="https://i.imgur.com/kjowRS9.png">](https://i.imgur.com/kjowRS9.png)
 [<img src="https://i.imgur.com/HaGN134.png">](https://i.imgur.com/HaGN134.png)
+
+
+### 03 Scalling up (storage)
+````bash
+## Ratio: storage vs iops:
+# Size(gp2) = 1..33 -> 100 IOPS
+# Size(gp2) = 34 -> 102 IPS
+# io1 -> ratio 50:1
+````
+
+[<img src="https://i.imgur.com/U1S0w7p.png">](https://i.imgur.com/U1S0w7p.png)
