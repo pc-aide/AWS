@@ -29,3 +29,14 @@ aws rds create-db-instance \
 * Replication:
 
 [<img src="https://i.imgur.com/2RE6Vfr.png">](https://i.imgur.com/2RE6Vfr.png)
+
+### 02 - Modify maintenance
+````bash
+# check up between your maintanance & backup - no overlap (example)
+aws rds modify-db-instance \
+--db-instance-identifier demo-rds-db \
+--preferred-maintenance-window Sat:08:00-Sat:08:30
+````
+[<img src="https://i.imgur.com/eD6JU0o.png">](https://i.imgur.com/eD6JU0o.png)
+[<img src="https://i.imgur.com/703cxLR.png">](https://i.imgur.com/703cxLR.png)
+[<img src="https://i.imgur.com/1WtA7mR.png">](https://i.imgur.com/1WtA7mR.png)
