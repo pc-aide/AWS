@@ -3,8 +3,17 @@
 ## Acronym
 * SG - Security Group
 
-## Doc
-* 
+## File
+1. ~/.my.cnf
+  2. mysql --print-defaults
+````bash
+[client]
+user=
+password=
+host=
+````
+[<img src="https://i.imgur.com/YO2mzUT.png">](https://i.imgur.com/YO2mzUT.png)
+
 
 ## Switchs
 * aws rds create-db-instance help
