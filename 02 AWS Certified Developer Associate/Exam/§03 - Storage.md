@@ -151,4 +151,4 @@ You will be sending company data to Amazon S3. Which Amazon Simple Storage Servi
     * D. Data is automatically backed up on tape and restored if needed.
 * [Answers](https://i.imgur.com/VEzgMMW.png)
       * [With explications](https://i.imgur.com/NduvJeA.png)
-* Score: 13/21 ≈ 61%
+* 22-10-2020 | Score: 13/21 ≈ 61%
