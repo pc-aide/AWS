@@ -14,8 +14,13 @@
 | 9 | [Insomnia Core](https://insomnia.rest/download/core/?&ref=) | plan usage $$$ (API Gateway) [`Insomnia Core`](#InsomniaCore) |
 | 10 | [Encryption SDK CLI](https://docs.aws.amazon.com/encryption-sdk/latest/developer-guide/crypto-cli.html) | |
 | 11 | [serverless-app-examples](https://github.com/amazon-archives/serverless-app-examples/tree/master/python) | sample-app-python (SAM) |
+| 12 | [Service Health Dashboard](https://status.aws.amazon.com/) | [`Serivice Health Dashboard`](#ServiceHealthDashboard) |
 
 ---
 
 ## InsomniaCore
 [<img src="https://i.imgur.com/aige3Mz.png">](https://i.imgur.com/aige3Mz.png)
+
+## ServiceHealthDashboard
+[<img src="https://i.imgur.com/xp4FZbZ.png">](https://i.imgur.com/xp4FZbZ.png)
+[<img src="https://i.imgur.com/QaC3IaL.png">](https://i.imgur.com/QaC3IaL.png)
