@@ -8,6 +8,11 @@
 
 [<img src="https://i.imgur.com/l8s35Rc.png">](https://i.imgur.com/l8s35Rc.png)
 
+### Bucket
+* limit 100 buckets per account
+
+[<img src="https://i.imgur.com/rbAskBs.png">](https://i.imgur.com/rbAskBs.png)
+
 ### Lambda
 * ex:
     * increase quotas
