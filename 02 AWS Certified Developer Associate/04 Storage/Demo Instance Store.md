@@ -19,3 +19,5 @@
 
 * Instance type
     * Diks: only with ephemeral - no EBS
+
+[<img src="https://i.imgur.com/GZkHiOo.png">](https://i.imgur.com/GZkHiOo.png)
