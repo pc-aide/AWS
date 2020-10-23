@@ -19,3 +19,8 @@
 * Pending service quota requests
 
 [<img src="https://i.imgur.com/6A8w1gc.png">](https://i.imgur.com/6A8w1gc.png)
+
+
+* Support Center case number
+
+[<img src="https://i.imgur.com/UxLK09k.png">](https://i.imgur.com/UxLK09k.png)
