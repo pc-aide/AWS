@@ -15,3 +15,4 @@ aws rds create-db-instance \
 ````
 [<img src="https://i.imgur.com/ttRABeR.png">](https://i.imgur.com/ttRABeR.png)
 [<img src="https://i.imgur.com/On2xQdJ.png">](https://i.imgur.com/On2xQdJ.png)
+[<img src="https://i.imgur.com/Kaz69EI.png">](https://i.imgur.com/Kaz69EI.png)
