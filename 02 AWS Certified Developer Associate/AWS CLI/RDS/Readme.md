@@ -61,8 +61,11 @@ aws rds modify-db-instance \
 [<img src="https://i.imgur.com/0766vMJ.png">](https://i.imgur.com/0766vMJ.png)
 
 * if you choose to long time for maintenance 
-* we can't just wait nothing to do
 
 [<img src="https://i.imgur.com/WDmqGz8.png">](https://i.imgur.com/WDmqGz8.png)
 
-* after modifying:
+* after  modifying (~8 min):
+* 
+
+[<img src="https://i.imgur.com/kjowRS9.png">](https://i.imgur.com/kjowRS9.png)
+[<img src="https://i.imgur.com/HaGN134.png">](https://i.imgur.com/HaGN134.png)
