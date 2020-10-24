@@ -46,7 +46,7 @@
 ---
 
 ## RCU
-* One RCU represents one strongly consisten read per second, or two eventually consistent read 
+* One RCU represents one strongly consistent read per second, or two eventually consistent read 
   per seconds, for an item up to **4 KB** in size
 * If the items are larger than 4 KB, more RCU are consumed
 * **Example 1**: 10 strongly consistent reads per seconds of 4 KB each
