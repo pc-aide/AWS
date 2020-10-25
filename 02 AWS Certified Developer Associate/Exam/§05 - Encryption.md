@@ -65,6 +65,6 @@ Service (AWS KMS)?
     * B. Amazon Simple Storage Service (Amazon S3)
     * C. Amazon Redshift
     * D. None of the above
-* [Answers]()
-   * [Explication]()
-* Score: 
+* [Answers](https://i.imgur.com/deR5rkR.png)
+   * [Explication](https://i.imgur.com/7xd4xDB.png)
+* Score: 7/10 = 70%
