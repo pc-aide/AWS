@@ -1,5 +1,8 @@
 # URLs
 
+## Acronym
+* S3TA- S3 Transfer Acceleration
+
 ## Table
 | N | Name                                                                        | E.g. |
 | - | --------------------------------------------------------------------------- | ---- |
@@ -33,3 +36,6 @@
 
 ## Infrastructure
 [<img src="https://i.imgur.com/hcOql8b.png">](https://i.imgur.com/hcOql8b.png)
+
+* S3TA:
+[<img src="https://i.imgur.com/RDPhRSB.png">](https://i.imgur.com/RDPhRSB.png)
