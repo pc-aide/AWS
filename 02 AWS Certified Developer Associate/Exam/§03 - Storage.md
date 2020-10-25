@@ -150,5 +150,5 @@ You will be sending company data to Amazon S3. Which Amazon Simple Storage Servi
     * C. Data is replicated only if versioning is enabled on the bucket.
     * D. Data is automatically backed up on tape and restored if needed.
 * [Answers](https://i.imgur.com/VEzgMMW.png)
-      * [With explications](https://i.imgur.com/NduvJeA.png)
+     * [With explications](https://i.imgur.com/NduvJeA.png)
 * 22-10-2020 | Score: 13/21 ≈ 61%
