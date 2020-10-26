@@ -75,6 +75,6 @@ with AWS Elastic Beanstalk?
       * B. Create a supported Oracle edition.
       * C. Retain a database instance despite the deletion of the environment’s database.
       * D. Create a snapshot of the existing database (before deletion).
-* [Answers]()
-    * [Explication]()
+* [Answers](https://i.imgur.com/ABO9Bnh.png)
+    * [Explication](https://i.imgur.com/vnQ8DLm.png)
 * Score: 9/12 = 75%
