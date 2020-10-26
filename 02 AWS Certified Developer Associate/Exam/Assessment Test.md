@@ -189,7 +189,7 @@ OpsWorks Stacks manage? (**Select THREE**.)
     * C. Amazon RDS database instances
     * D. Amazon ElastiCache clusters
     * E. Amazon Redshift data warehouses
-30. Which AWS Cloud service can Simple Active Directory (Simple AD) use to authenticate
+30. Which AWS Cloud service can Simple AD use to authenticate
 users?
     * A. Amazon WorkDocs
     * B. Amazon Cognito
