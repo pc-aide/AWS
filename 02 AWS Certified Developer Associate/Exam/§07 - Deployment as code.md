@@ -147,4 +147,4 @@ permanently?
       * D. Delete all of the revisions, and push all new code.
 * [Answers]()
     * [Explication]()
-* Score: /20
+* Score: 13/20 = 65%
