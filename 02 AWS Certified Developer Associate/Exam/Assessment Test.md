@@ -210,6 +210,7 @@ form:
 {"date":"2017-01-30", "amount":100.20, "product_id": "1012", "region":
 "WA", "customer_id": "3382"}
 ````
+<br/>
 You need to generate two real-time reports. The first reports on the total sales per day for
 each customer. The second reports on the total sales per day for each product. Which AWS
 offerings and services can you use to generate these real-time reports?
