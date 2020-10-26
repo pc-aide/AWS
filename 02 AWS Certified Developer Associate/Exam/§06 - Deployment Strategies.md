@@ -77,4 +77,4 @@ with AWS Elastic Beanstalk?
       * D. Create a snapshot of the existing database (before deletion).
 * [Answers]()
     * [Explication]()
-* Score: /12
+* Score: 9/12 = 75%
