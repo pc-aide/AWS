@@ -52,8 +52,7 @@ pany with minimal cost and shortest time?
     * B. AWS Snowmobile
     * C. Upload files directly to AWS over the internet using Amazon S3 Transfer Acceleration.
     * D. Amazon Kinesis Data Firehose
-8. You are changing your application to take advantage of the elasticity and cost benefits pro-
-vided by AWS Auto Scaling. To do this, you must move session state information from the
+8. You are changing your application to take advantage of the elasticity and cost benefits provided by AWS Auto Scaling. To do this, you must move session state information from the
 individual Amazon EC2 instances. Which of the following AWS Cloud services is best suited as an alternative for storing session state information?
     * A. Amazon DynamoDB
     * B. Amazon Redshift
