@@ -1,4 +1,4 @@
-# Beanstalk & CloudFormation
+# CloudFormation
 
 ## Acronym
 
