@@ -213,7 +213,7 @@ form:
 You need to generate two real-time reports. The first reports on the total sales per day for
 each customer. The second reports on the total sales per day for each product. Which AWS
 offerings and services can you use to generate these real-time reports?
-* A. Ingest the data through Amazon Kinesis Data Streams. Use Amazon Kinesis Data Analyt-
+    * A. Ingest the data through Amazon Kinesis Data Streams. Use Amazon Kinesis Data Analyt-
 ics to query for sales per day for each product and sales per day for each customer using
 SQL queries. Feed the result into two new streams in Amazon Kinesis Data Firehose.
     * B. Ingest the data through Kinesis Data Streams. Use Kinesis Data Firehose to query for
