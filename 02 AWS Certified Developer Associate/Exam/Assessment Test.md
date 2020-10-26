@@ -210,7 +210,6 @@ form:
 {"date":"2017-01-30", "amount":100.20, "product_id": "1012", "region":
 "WA", "customer_id": "3382"}
 ````
-<br/>
 You need to generate two real-time reports. The first reports on the total sales per day for
 each customer. The second reports on the total sales per day for each product. Which AWS
 offerings and services can you use to generate these real-time reports?
@@ -227,6 +226,8 @@ the result into two new streams in Kinesis Data Firehose.
 Firehose to query for sales per day for each product and sales per day for each
 customer with SQL queries. Feed the result into two new streams in Kinesis Data
 Firehose.
+
+
 33. You design an application for selling toys online. Every time a customer orders a toy, you
 want to add an item into the orders table in Amazon DynamoDB and send an email to the
 customer acknowledging their order. The solution should be performant and cost-effective.
