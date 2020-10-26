@@ -36,7 +36,7 @@ What combination of the following do you need? (**Select TWO**.)
     * B. Use an instance store.
     * C. Use a Provisioned IOPS SSD volume.
     * D. Use a previous-generation EBS volume.
-6. Your company stores critical documents in Amazon Simple Storage Service (Amazon S3),
+6. Your company stores critical documents in Amazon S3,
 but it wants to minimize cost. Most documents are used actively for only about one month
 and then used much less frequently after that. However, all data needs to be available
 within minutes when requested. How can you meet these requirements?
