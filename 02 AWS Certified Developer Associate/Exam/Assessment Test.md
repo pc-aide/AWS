@@ -58,8 +58,7 @@ individual Amazon EC2 instances. Which of the following AWS Cloud services is be
     * B. Amazon Redshift
     * C. AWS Storage Gateway
     * D. Amazon Kinesis
-9. Your company’s senior management wants to query several data stores to obtain a “big pic-
-ture” view of the business. The amount of data contained within the data stores is at least
+9. Your company’s senior management wants to query several data stores to obtain a “big picture” view of the business. The amount of data contained within the data stores is at least
 2 TB in size. Which of the following is the best AWS service to deliver results to senior
 management?
     * A. Amazon EBS
