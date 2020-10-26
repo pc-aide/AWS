@@ -89,3 +89,4 @@
 | 83 | IOPS | Input/Output operation Per Second capacity | |
 | 84 | BI | Business Intelligence | Redshift | 
 | 85 | LIFO | Last-In-First-Out | |
+| 86 | RRS | Reduced Redundancy Storage | S3 class RRS |
