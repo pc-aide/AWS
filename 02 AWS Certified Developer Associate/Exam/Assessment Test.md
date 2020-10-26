@@ -216,13 +216,13 @@ offerings and services can you use to generate these real-time reports?
    * A. Ingest the data through Amazon Kinesis Data Streams. Use Amazon Kinesis Data Analyt-
 ics to query for sales per day for each product and sales per day for each customer using
 SQL queries. Feed the result into two new streams in Amazon Kinesis Data Firehose.
-    * B. Ingest the data through Kinesis Data Streams. Use Kinesis Data Firehose to query for
+   * B. Ingest the data through Kinesis Data Streams. Use Kinesis Data Firehose to query for
 sales per day for each product and sales per day for each customer with SQL queries.
 Feed the result into two new streams in Kinesis Data Firehose.
-    * C. Ingest the data through Kinesis Data Analytics. Use Kinesis Data Streams to query for
+   * C. Ingest the data through Kinesis Data Analytics. Use Kinesis Data Streams to query for
 sales per day for each product and sales per day for each customer with SQL queries. Feed
 the result into two new streams in Kinesis Data Firehose.
-    * D. Ingest the data in Amazon SQS. Use Kinesis Data
+   * D. Ingest the data in Amazon SQS. Use Kinesis Data
 Firehose to query for sales per day for each product and sales per day for each
 customer with SQL queries. Feed the result into two new streams in Kinesis Data
 Firehose.
