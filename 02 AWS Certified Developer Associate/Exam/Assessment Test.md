@@ -232,11 +232,11 @@ Firehose.
 want to add an item into the orders table in Amazon DynamoDB and send an email to the
 customer acknowledging their order. The solution should be performant and cost-effective.
 How can you trigger this email?
-    * A. Use an Amazon SQS queue.
-    * B. Schedule an AWS Lambda function to check for changes to the orders table every
+   * A. Use an Amazon SQS queue.
+   * B. Schedule an AWS Lambda function to check for changes to the orders table every
 minute.
-    * C. Schedule an Lambda function to check for changes to the orders table every second.
-    * D. Use Amazon DynamoDB Streams.
+   * C. Schedule an Lambda function to check for changes to the orders table every second.
+   * D. Use Amazon DynamoDB Streams.
 34. A company would like to use Amazon DynamoDB. They want to set up a NoSQL-style
 trigger. Is this something that can be accomplished? If so, how?
     * A. No. This cannot be done with DynamoDB and NoSQL.
