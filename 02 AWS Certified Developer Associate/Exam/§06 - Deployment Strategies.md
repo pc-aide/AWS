@@ -10,7 +10,7 @@ release process every time there is a code change?
 2. Which of the following resources can AWS Elastic Beanstalk use to create a web server
 environment? (**Select FOUR**.)
       * A. Amazon Cognito User Pool
-      * B. WS Serverless Application Model (AWS SAM) Local
+      * B. AWS Serverless Application Model (AWS SAM) Local
       * C. Auto Scaling group
       * D. Amazon Elastic Compute Cloud (Amazon EC2)
       * E. AWS Lambda
