@@ -101,8 +101,7 @@ to use an AWS managed graph database. Which service should you recommend?
     * C. Amazon ElastiCache
     * D. Amazon Redshift
 15. You have an Amazon DynamoDB table that has a partition key and a sort key. However, a
-business analyst on your team wants to be able to query the DynamoDB table with a differ-
-ent partition key. What should you do?
+business analyst on your team wants to be able to query the DynamoDB table with a different partition key. What should you do?
     * A. Create a local secondary index.
     * B. Create a global secondary index.
     * C. Create a new DynamoDB table.
