@@ -145,6 +145,6 @@ permanently?
       * B. Add an additional Amazon EBS volume.
       * C. Configure the AWS CodeDeploy agent to store fewer revisions.
       * D. Delete all of the revisions, and push all new code.
-* [Answers]()
-    * [Explication]()
+* [Answers](https://i.imgur.com/c7gfy0y.png)
+    * [Explication](https://i.imgur.com/Q3oNAJl.png)
 * Score: 13/20 = 65%
