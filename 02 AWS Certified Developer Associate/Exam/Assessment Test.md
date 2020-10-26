@@ -234,8 +234,7 @@ customer acknowledging their order. The solution should be performant and cost-e
 How can you trigger this email?
 
    * A. Use an Amazon SQS queue.
-   * B. Schedule an AWS Lambda function to check for changes to the orders table every
-minute.
+   * B. Schedule an AWS Lambda function to check for changes to the orders table every minute.
    * C. Schedule an Lambda function to check for changes to the orders table every second.
    * D. Use Amazon DynamoDB Streams.
 
