@@ -1,4 +1,4 @@
-# S3 Encryption
+# Encryption
 
 ## Acronym
 * S3 - Simple Storage Service
