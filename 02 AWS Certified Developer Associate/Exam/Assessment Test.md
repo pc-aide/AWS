@@ -120,8 +120,7 @@ Your current applications are using Amazon DynamoDB. What should you recommend?
     * C. Use another NoSQL database on-premises.
     * D. Create an Amazon EC2 instance, and install a
 NoSQL database.
-18. The AWS Encryption SDK provides an encryption library that integrates with AWS KMS as a master key provider. Which of the following opera-
-tions does the AWS Encryption SDK perform to build on the AWS SDKs?
+18. The AWS Encryption SDK provides an encryption library that integrates with AWS KMS as a master key provider. Which of the following operations does the AWS Encryption SDK perform to build on the AWS SDKs?
     * A. Generates, encrypts, and decrypts data keys
     * B. Uses the data keys to encrypt and decrypt your raw data
     * C. Stores the encrypted data keys with the corresponding encrypted data in a single
