@@ -30,9 +30,7 @@ What are the important points to remember when configuring an organization trail
    * B. 10MB
    * C. 4KB
    * D. 1MB
-5. A video encoding application running on an EC2 instance takes about 20 seconds on average to process each raw footage file. The application picks the new job messages from an SQS queue. The development team needs to account for the use-case when the video encoding process takes longer than usual so that the same raw footage is not processed by multiple consumers.
-<br/>
-As a Developer Associate, which of the following solutions would you recommend to address this use-case?
+5. A video encoding application running on an EC2 instance takes about 20 seconds on average to process each raw footage file. The application picks the new job messages from an SQS queue. The development team needs to account for the use-case when the video encoding process takes longer than usual so that the same raw footage is not processed by multiple consumers.<br/>As a Developer Associate, which of the following solutions would you recommend to address this use-case?
    * A. Use ChangeMessageVisibility action to extend a message's visibility timeout
    * B. Use WaitTimeSeconds action to long poll & extend a message's visibility timeout
    * C. Use WaitTimeSeconds action to hosrt poll & extend a message's visibility timeout
