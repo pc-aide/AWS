@@ -36,7 +36,7 @@ What are the important points to remember when configuring an organization trail
    * C. Use WaitTimeSeconds action to hosrt poll & extend a message's visibility timeout
    * D. Use DelaySecond action to dely a message's visibility timeout
 6. As an AWS Certified Developer Associate, you have been hired to consult with a company that uses the NoSQL database for mobile applications. The developers are using DynamoDB to perform operations such as GetItem but are limited in knowledge. They would like to be more efficient with retrieving some attributes rather than all.<br/>Which of the following recommendations would you provide?
-   * A. 
+   * A. Specify a ````text````test
 * [Answer]()
 7.
 * [Answer]()
