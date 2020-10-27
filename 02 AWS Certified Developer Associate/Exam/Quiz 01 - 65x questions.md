@@ -7,9 +7,7 @@
 * 72%
 
 ## Questions
-1. The development team at a retail organization wants to allow a Lambda function in its AWS Account A to access a DynamoDB table in another AWS Account B.
-
-As a Developer Associate, which of the following solutions would you recommend for the given use-case?
+1. The development team at a retail organization wants to allow a Lambda function in its AWS Account A to access a DynamoDB table in another AWS Account B.<br/>As a Developer Associate, which of the following solutions would you recommend for the given use-case?
    * A. Create a clone of the Lambda function in AWS Account B so that it can access the DynamoDB table in the same account
    * B. Create an IAM role in Account B with access to DynamoDB. Modify the trust policy of the execution role in Account A to allow the execution role of Lambda to assume the IAM role in Account B. Update the Lambda function code to add the AssurmeRole API call
    * C. Create an IAM in Account B with Access to DynamoDB. Modify the trust policy of the role in Account B to allow the exeution role of Lambda to assume this role Update the Lambda function code to add the AssumeRole API call
