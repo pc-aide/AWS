@@ -20,9 +20,7 @@ What are the important points to remember when configuring an organization trail
    * C. Member accounts don't have access to organization trail, neither do they have access to the Amazon S3 bucket that logs the files
    * D. By default, CloudTrail tracks only bucket-level actions. To tracks object-level action, you need to enable Amazon S3 data events
    * E. There is nothing called Organization trail. The master account can, however, enable CloudTrail logging, to keep track of all activities acroos AWS accounts
-3. A cyber forensics application, running behind an ALB, wants to analyze patterns for the client IPs.
-
-Which of the following headers can be used for this requirement?
+3. A cyber forensics application, running behind an ALB, wants to analyze patterns for the client IPs.<br/>Which of the following headers can be used for this requirement?
    * A. X-Forwarded-Port
    * B. X-Forwarded-For
    * C. X-Forwarded-IP
