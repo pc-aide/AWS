@@ -57,7 +57,7 @@ What are the important points to remember when configuring an organization trail
    * D. ````docker pull 1234567890.dkr.ecr.eu-west-1.amazonaws.com:latest````
    * C. ````docker login -u $AWS_ACCESS_KEY_ID -p $AWS_SECRET_ACCESS_KEY````
 10. You work as a developer doing contract work for the government on AWS gov cloud. Your applications use Amazon SQS for its message queue service. Due to recent hacking attempts, security measures have become stricter and require you to store data in encrypted queues. <br/>Which of the following steps can you take to meet your requirements without making changes to the existing code?
-   * A. Enable SQS KMS Encryption
+    * A. Enable SQS KMS Encryption
    * B. Use Client side encryption
    * C. Use Secret Manager
    * D. Use the SSL endpoint
