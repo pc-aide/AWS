@@ -83,5 +83,5 @@
      * Client-side encryption if the client wants to perform encryption/decryption itself
 * **Access Controls**: IAM policies to regulate access to the SQS API
 * **SQS Access Policies** (similar to S3 bucket policies)
-      * Useful for corss-account access to SQS queues
-      * Useful for allowing other service (SNS, S3...) to write to an SQS queue
+     * Useful for corss-account access to SQS queues
+     * Useful for allowing other service (SNS, S3...) to write to an SQS queue
