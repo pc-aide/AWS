@@ -386,4 +386,4 @@ usage to help reduce costs? (**Select TWO**.)
     * D. Amazon Route 53
     * E. AWS Budgets
 * [Answers]() 
-* Score: /57
+* Score: 38/57 ≈ 67%
