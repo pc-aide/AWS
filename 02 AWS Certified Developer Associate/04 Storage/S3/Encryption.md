@@ -45,6 +45,7 @@
 * Amazon S3 does not store the encryption key you provide
 * **HTTPS must be used**
 * Encryption key must provided in HTTP headers, for every HTTP headers, for every HTTP request made
+* Available with AWS CLIR or AWS SDK
 
 ### Diagram
 [<img src="https://i.imgur.com/sK8CbHK.png">](https://i.imgur.com/sK8CbHK.png)
