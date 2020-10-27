@@ -78,9 +78,9 @@
 
 ## SQS - Security
 * Encryption:
-      * In-flight encryption using HTTPS API
-      * At-rest encryption using KMS keys
-      * Client-side encryption if the client wants to perform encryption/decryption itself
+     * In-flight encryption using HTTPS API
+     * At-rest encryption using KMS keys
+     * Client-side encryption if the client wants to perform encryption/decryption itself
 * **Access Controls**: IAM policies to regulate access to the SQS API
 * **SQS Access Policies** (similar to S3 bucket policies)
       * Useful for corss-account access to SQS queues
