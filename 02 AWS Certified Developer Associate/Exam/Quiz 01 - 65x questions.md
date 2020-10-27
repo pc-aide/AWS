@@ -25,9 +25,7 @@ What are the important points to remember when configuring an organization trail
    * B. X-Forwarded-For
    * C. X-Forwarded-IP
    * D. X-Forwarded-Proto
-4. A developer at a university is encrypting a large XML payload transferred over the network using AWS KMS and wants to test the application before going to production.
-<br/>
-What is the maximum data size supported by AWS KMS?
+4. A developer at a university is encrypting a large XML payload transferred over the network using AWS KMS and wants to test the application before going to production.<br/>What is the maximum data size supported by AWS KMS?
    * A. 16KB
    * B. 10MB
    * C. 4KB
