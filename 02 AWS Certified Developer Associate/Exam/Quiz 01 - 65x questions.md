@@ -14,8 +14,8 @@ As a Developer Associate, which of the following solutions would you recommend f
    * B. Create an IAM role in Account B with access to DynamoDB. Modify the trust policy of the execution role in Account A to allow the execution role of Lambda to assume the IAM role in Account B. Update the Lambda function code to add the AssurmeRole API call
    * C. Create an IAM in Account B with Access to DynamoDB. Modify the trust policy of the role in Account B to allow the exeution role of Lambda to assume this role Update the Lambda function code to add the AssumeRole API call
    * D. Add a ressouce poly to the DynamoDB table in AWS Account B to give access to the Lambda function in Account A
-2. A multi-national enterprise uses AWS Organizations to manage its users across different divisions. Even though CloudTrail is enabled on the member accounts, managers have noticed that access issues to CloudTrail logs across different divisions and AWS Regions is becoming a bottleneck in troubleshooting issues. They have decided to use the organization trail to keep things simple.
-<br/>
+   
+2. A multi-national enterprise uses AWS Organizations to manage its users across different divisions. Even though CloudTrail is enabled on the member accounts, managers have noticed that access issues to CloudTrail logs across different divisions and AWS Regions is becoming a bottleneck in troubleshooting issues. They have decided to use the organization trail to keep things simple.<br/>
 What are the important points to remember when configuring an organization trail? (**Select two**)
    * A. Member accounts will be able to see the Organization trail, but can't modify or delete it
    * B. By default, CloudTrail event log files are not encrypted
