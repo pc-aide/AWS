@@ -91,3 +91,4 @@
 | 85 | LIFO | Last-In-First-Out | |
 | 86 | RRS | Reduced Redundancy Storage | S3 class RRS |
 | 87 | SWF | Simple WorkFlow Service | Amazon SWF |
+| 88 | IaC | Infrastructure as Code | |
