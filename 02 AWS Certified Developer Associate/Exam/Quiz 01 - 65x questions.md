@@ -143,38 +143,173 @@ What are the important points to remember when configuring an organization trail
     * C. Create an HTTPS listener on the ALB with SSL termination
     * D. Create an HTTP listener on the ALB with SSL termination
 27. A client has hired you as an AWS Certified Developer Associate for a consulting project. The client wants to weigh their options of choosing between an Amazon SQS standard queue and Amazon SWF.<br/>Which of the following statements are correct regarding the two services? (**Select two**)
-    * A. SWF
-28.
-29.
-30.
-31.
-32.
-33.
-34.
-35.
-36.
-37.
-38.
-39.
-40.
-41.
-42.
-43.
-44.
-45.
-46.
-47.
-48.
-49.
-50.
-51.
-52.
-53.
-54.
-55.
-56.
-57.
-58.
+    * A. SWF has task-oriented APIs & SQS has message-oriented APIs
+    * B. SQS ensures the task is assigned only once while SWF may deliver the message multiple times
+    * C. SQS has task-oriented APIs & SWF message-oriented APIs
+    * D. SWS offer synchronous programming option whenreas SQS offers an asynchronous facility
+    * E. SWF ensures the task is assigned only once while SQS may deliver the message multiple times
+28. You are getting ready for an event to show off your Alexa skill written in JavaScript. As you are testing your voice activation commands you find that some intents are not invoking as they should and you are struggling to figure out what is happening. You included the following code ````console.log(JSON.stringify(this.event))```` in hopes of getting more details about the request to your Alexa skill.<br/>You would like the logs stored in an Amazon S3 bucket named ````MyAlexaLog````. How do you achieve this?
+    * A. Use CloudWatch integration feature with S3
+    * B. Use CloudWatch integration feature wih Lambda
+    * C. Use CloudWatch feature with Kinesis
+    * D. Use CloudWatch integration feature with Glue
+29. You are planning to build a fleet of EBS-optimized EC2 instances to handle the load of your new application. Due to security compliance, your organization wants any secret strings used in the application to be encrypted to prevent exposing values as clear text.<br/>The solution requires that decryption events be audited and API calls to be simple. How can this be achieved? (**select two**) 
+    * A. Audit using SSM Audit Trail
+    * B. Store the secret as SecureString in SSM Parameter Store
+    * C. Encrypt first with KMS then store in SSM Parameter store
+    * D. Audit using CloudTrail
+    * E. Store the secret as PlainText in SSM Parameter Store
+30. Your web application front end consists of 5 EC2 instances behind an Application Load Balancer. You have configured your web application to capture the IP address of the client making requests. When viewing the data captured you notice that every IP address being captured is the same, which also happens to be the IP address of the Application Load Balancer.<br/>What should you do to identify the true IP address of the client?
+    * A. Look into the X-Forwarded-For header in the backend
+    * B. Look into the X-Forwarded-Proto header in the backend
+    * C. Look into the client's cookie
+    * D. Modify the front-end of the website so that the users send their IP in the requests
+31. A company has a workload that requires 14,000 consistent IOPS for data that must be durable and secure. The compliance standards of the company state that the data should be secure at every stage of its lifecycle on all of the EBS volumes they use.<br/>Which of the following statements are true regarding data security on EBS?
+    * A. EBS volumes support-in-flight-encryption but does not support encryption at rest
+    * B. EBS volumes don't support any encryption
+    * C. EBS volumes don't support in-flight encryption but do support encryption at rest using KMS
+    * D. EBS volumes support in-flight encryption & encryption at rest using KMS
+32. A developer from your team has configured the load balancer to route traffic equally between instances or across Availability Zones. However, ELB routes more traffic to one instance or Availability Zone than the others.<br/>Why is this happening and how can it be fixed? (**Select two**)
+    * A. Sticky sessions are enabled for hte LB
+    * B. Instances of a specific type aren't equally distributed across AZs
+    * C. There could be short-lived TCP connections between clients & instances
+    * D. After you didable an AZ, the targets in that AZ remain registered with the LB, thereby receiving random bursts of traffic
+    * E. For ALB, cross-zone LB is disabled by default
+33. A security company is requiring all developers to perform server-side encryption with customer-provided encryption keys when performing operations in AWS S3. Developers should write software with C# using the AWS SDK and implement the requirement in the PUT, GET, Head, and Copy operations.<br/>Which of the following encryption methods meets this requirement?
+    * A. SSE-C
+    * B. SSE-S3
+    * C. SSE-KMS
+    * D. Client-Side Encryption
+34. AWS CloudFormation helps model and provision all the cloud infrastructure resources needed for your business.<br/>Which of the following services rely on CloudFormation to provision resources (**Select two**)?
+    * A. AWS CodeBuild
+    * B. AWS AutoScaling
+    * C. AWS SAM
+    * D. Lambda
+    * E. AWS Elastic Beanstalk
+35. Your company has been hired to build a resilient mobile voting app for an upcoming music award show that expects to have 5 to 20 million viewers. The mobile voting app will be marketed heavily months in advance so you are expected to handle millions of messages in the system. You are configuring Amazon SQS queues for your architecture that should receive messages from 20 KB to 200 KB.<br/>Is it possible to send these messages to SQS?
+    * A. Yes, the max message size is 256KB
+    * B. Yes, the max message size is 512KB
+    * C. No, the max message size is 128KB
+    * D. No, the max message size is 64KB
+36. A company has AWS Lambda functions where each is invoked by other AWS services such as Amazon Kinesis Data Firehose, Amazon API Gateway, Amazon Simple Storage Service, or Amazon CloudWatch Events. What these Lambda functions have in common is that they process heavy workloads such as big data analysis, large file processing, and statistical computations.<br/>What should you do to improve the performance of your AWS Lambda functions without changing your code?
+    * A. Increase the Lambda function timeout
+    * B. Increase the RAM assigned to your Lambda function
+    * C. Change the instance type for your Lambda function
+    * D. Change your Lambda function runtime to use Golang
+37. An ASG has a maximum capacity of 3, a current capacity of 2, and a scaling policy that adds 3 instances.<br/>When executing this scaling policy, what is the expected outcome?
+    * A. Amazon EC2 Auto Scaling add 3 instance to the group
+    * B. Amazon EC2 Auto Scaling does not add any instances to the group, but suggests changing the scaling policy to add one instance
+    * C. Amazon EC2 Auto Scaling adds only 1 instance to the group
+    * D. Amazon EC2 Auto Scaling adds 3 instances to the group & scales down 2 of those instances eventually
+38. You were assigned to a project that requires the use of the AWS CLI to build a project with AWS CodeBuild. Your project's root directory includes the buildspec.yml file to run build commands and would like your build artifacts to be automatically encrypted at the end.<br/>How should you configure CodeBuild to accomplish this?
+    * A. Specify a KMS key to use
+    * B. Use in Flight encryption (SSL)
+    * C. Use an AWS Lambda Hook
+    * D. Use the AWS Encryption SDK
+39. An IT company uses AWS CloudFormation templates to provision their AWS infrastructure for Amazon EC2, Amazon VPC, and Amazon S3 resources. Using cross-stack referencing, a developer creates a stack called ````NetworkStack```` which will export the ````subnetId```` that can be used when creating EC2 instances in another stack.<br/>To use the exported value in another stack, which of the following functions must be used?
+    * A. ````!Sub````
+    * B. ````!GetAtt````
+    * C. ````!ImportValue````
+    * D. ````!Ref````
+40. You are a developer working at a cloud company that embraces serverless. You have performed your initial deployment and would like to work towards adding API Gateway stages and associate them with existing deployments. Your stages will include prod, test, and dev and will need to match a Lambda function variant that can be updated over time.<br/>Which of the following features must you add to achieve this? (**select two**)
+    * A. Lambda Versions
+    * B. Stage Variables
+    * C. Mapping Templates
+    * D. Lambda Aliases
+    * E. Lambda X-Ray integration
+41. A firm runs its technology operations on a fleet of Amazon EC2 instances. The firm needs a certain software to be available on the instances to support their daily workflows. The developer team has been told to use the user data feature of EC2 instances.<br/>Which of the following are true about the user data EC2 configuration? (**Select two**)
+    * A. By default, scripts entered as user data don't have root user privileges for executing
+    * B. By default, user data is executed every time an EC2 instance is re-started
+    * C. By default, user data runs ony during the boot cycle when your first launch an instance
+    * D. When an instance is running, you can update user data by using root user credentials
+    * E. By default, scripts entered as user data are executed with user privileges
+42. DevOps engineers are developing an order processing system where notifications are sent to a department whenever an order is placed for a product. The system also pushes identical notifications of the new order to a processing module that would allow EC2 instances to handle the fulfillment of the order. In the case of processing errors, the messages should be allowed to be re-processed at a later stage and never lost.<br/>Which of the following solutions can be used to address this use-case?
+    * A. SNS + SQS
+    * B. SNS + Lambda
+    * C. SQS + SES
+    * D.  SNS + Kinesis
+43. Your team has just signed up an year-long contract with a client maintaining a three-tier web application, that needs to be moved to AWS Cloud. The application has steady traffic throughout the day and needs to be on a reliable system with no down-time or access issues. The solution needs to be cost-optimal for this startup.<br/>Which of the following options should you choose?
+    * A. On-premises EC2 instance
+    * B. Amazon EC2 On Demand Instances
+    * C. Amazon EC2 Spot Instances
+    * D. Amazon EC2 Reserved Instances
+44. A development team has created AWS CloudFormation templates that are reusable by taking advantage of input parameters to name resources based on client names.<br/>You would like to save your templates on the cloud, which storage option should you choose?
+    * A. S3
+    * B. EFS
+    * C. ECR
+    * D. EBS
+45. A company developed an app-based service for citizens to book transportation rides in the local community. The platform is running on AWS EC2 instances and uses Amazon RDS for storing transportation data. A new feature has been requested where receipts would be emailed to customers with PDF attachments retrieved from Amazon S3.<br/>Which of the following options will provide EC2 instances with the right permissions to upload files to Amazon S3 and generate S3 Signed URL?
+    * A. EC2 User Data
+    * B. CloudFormation
+    * C. Run ````aws configure```` on the EC2 instance
+    * D. Create an IMA Role for EC2
+46. You are a DynamoDB developer for an aerospace company that requires you to write 6 objects per second of 4.5KB in size each.<br/>What WCU is needed for your project?
+    * A. 24
+    * B. 46
+    * C. 15
+    * D. 30
+47. A team lead has asked you to create an AWS CloudFormation template that creates EC2 instances and RDS databases. The template should be reusable by allowing the user to input a parameter value for an Amazon EC2 AMI ID.<br/>Which of the following intrinsic function should you choose to reference the parameter?
+    * A. ````!Param````
+    * B. ````!GetAtt````
+    * C. ````!Ref````
+    * D. ````!Join````
+48. A data analytics company wants to use clickstream data for Machine Learning tasks, develop algorithms, and create visualizations and dashboards to support the business stakeholders. Each of these business units works independently and would need real-time access to this clickstream data for their applications.<br/>As a Developer Associate, which of the following AWS services would you recommend such that it provides a highly available and fault-tolerant solution to capture the clickstream events from the source and then provide a simultaneous feed of the data stream to the consumer applications?
+    * A. AWS Kinesis Data Firehose
+    * B. AWS Kinesis Data Analytics
+    * C. Amazon SQS
+    * D. AWS Kinesis Data Streams
+49. You are designing a high-performance application that requires millions of connections. You have several EC2 instances running Apache2 web servers and the application will require capturing the user’s source IP address and source port without the use of X-Forwarded-For.<br/>Which of the following options will meet your needs? 
+    * A. ALB
+    * B. NLB
+    * C. CLB
+    * D. ELB
+50. You are responsible for an application that runs on multiple Amazon EC2 instances. In front of the instances is an Internet-facing load balancer that takes requests from clients over the internet and distributes them to the EC2 instances. A health check is configured to ping the index.html page found in the root directory for the health status. When accessing the website via the internet visitors of the website receive timeout errors.<br/>What should be checked first to resolve the issue?
+    * A. The ALB is warning up
+    * B. IAM Roles
+    * C. The application is down
+    * D. SGs
+51. The development team at an IT company has configured an ALB with a Lambda function A as the target but the Lambda function A is not able to process any request from the ALB. Upon investigation, the team finds that there is another Lambda function B in the AWS account that is exceeding the concurrency limits.<br/>How can the development team address this issue?
+    * A. Use a CloudFront Distribution instead of an ALB for Lambda function A
+    * B. Set up reserved concurrency for the Lambda function B so that it throttles if it goes above a certain concurrency limit
+    * c. Set up provisioned concurrency for the Lambda function B so that it throttles if it goes above a certain concurrency limit
+    * D. Use an API Gateway instead of an ALB for Lambda function A
+52. Your team-mate has configured an Amazon S3 event notification for an S3 bucket that holds sensitive audit data of a firm. As the Team Lead, you are receiving the SNS notifications for every event in this bucket. After validating the event data, you realized that few events are missing.<br/>What could be the reason for this behavior and how to avoid this in the future?
+    * A. If two are made to a single non-versioned object at the same time, it's possible that only a single event notification will be sent
+    * B. Versioning is enabled on the S3 bucket & event notifications are getting fired for only one version
+    * C. Someone could have created a new notification configuration & that has overridden your existing configuration
+    * D. Your notification action is writting to the same bucket that triggers the notification
+53. The development team at an IT company uses CloudFormation to manage its AWS infrastructure. The team has created a network stack containing a VPC with subnets and a web application stack with EC2 instances and an RDS instance. The team wants to reference the VPC created in the network stack into its web application stack.<br/>As a Developer Associate, which of the following solutions would you recommend for the given use-case?
+    * A. Create a cross-stack & use the Output output field to flag the value of VPC from the network stack. Then use Ref instrinsic function to reference the value of VPC into the web application stack
+    * B. Create a cross-stack reference & use the Export output field to flag the value of VPC from the network stack. Then use Fn::ImportValue intrinsic function to import the value of VPC into the web application stack
+    * C. Create a cross-stack reference & use the Export output filed to flag the value of VPC from the network stack. Then use Ref inttrinsic function to reference the value of VPC the web application stack
+    * D. Create a cross-stack reference & use the outputs output field to flag the value of VPC from the network stack. Then use Fn::ImportValue intrinsic function to import the value of VPC into the web application stack
+54. A .NET developer team works with many ASP.NET web applications that use EC2 instances to host them on IIS. The deployment process needs to be configured so that multiple versions of the application can run in AWS Elastic Beanstalk. One version would be used for development, testing, and another version for load testing.<br/>Which of the following methods do you recommend?
+    * A. Use only one Beanstalk environment & perform configuration changes using an Ansible script
+    * B. Define a dev environment with a single instance & a 'load test' environment that has settings close to production environment
+    * C. Create an ALB to route based on hostname so you can pass on parameters to the development Elastic beanstalk environment. Create a file in .ebentensions/ to know how to handle the traffic comming from the ALB
+    * D. You can't have multiple development environments in Elastic Beanstalk, just one development & one production environment
+55. As an AWS certified developer associate, you are working on an AWS CloudFormation template that will create resources for a company's cloud infrastructure. Your template is composed of three stacks which are Stack-A, Stack-B, and Stack-C. Stack-A will provision a VPC, a security group, and subnets for public web applications that will be referenced in Stack-B and Stack-C.<br/>After running the stacks you decide to delete them, in which order should you do it?
+    * A. Stack A, Stack C then Stack B
+    * B. Stack C then Stack A then Stack B
+    * C. Stack A, then Stack B, then Stack C
+    * D. Stak B, then Stack C, then Stack A
+56. A company that specializes in cloud communications platform as a service allows software developers to programmatically use their services to send and receive text messages. The initial platform did not have a scalable architecture as all components were hosted on one server and should be redesigned for high availability and scalability.<br/>Which of the following options can be used to implement the new architecture? (**select two**)
+    * A. API Gateway + Lambda
+    * B. SES + S3
+    * C. EBS + RDS
+    * D. ALB + ECS
+    * E. CloudWatch + CloudFront
+57. An organization with OLTP workloads have successfully moved to DynamoDB after having many issues with traditional database systems. However, a few months into production, DynamoDB tables are consistently recording high latency.<br/>As a Developer Associate, which of the following would you suggest to reduce the latency? (**Select two**)
+    * A. Use eventually consistent reads in place of strongly consistent reads whenever possible
+    * B. Reduce connection pooling, which keeps the connections alive even when user requests aren't present, thereby, blocking the services
+    * C. Consider using Globales if your application is accessed by globally distributed users
+    * D. Increase the request timeout settings, so the client gets enough time to complete the requests, thereby reducing retries on the system
+    * E. Use DAX for business with heavy write-only workloads
+58. You are working with a t2.small instance bastion host that has the AWS CLI installed to help manage all the AWS services installed on it. You would like to know the security group and the instance id of the current instance.<br/>Which of the following will help you fetch the needed information?
+    * A. Query the metadata at http://169.254.169.254/latest/meta-data
+    * B. Query the user data at http://169.254.169.254/latest/user-data
+    * C. Query the user data at http://254.169.254/latest/meta-data
+    * D. Create an IAM role & attach it to your EC2 instance that helps you perform a `describe` API call
 59.
 60.
 61.
