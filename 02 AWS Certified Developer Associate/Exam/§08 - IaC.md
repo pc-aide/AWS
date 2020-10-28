@@ -22,7 +22,7 @@ logical IDs of the load balancer and database are AppLB and AppDB, respectively
 }
 ````
 Which code correctly completes the previous output declaration?
-   * A. `{ "Fn::Join": [ "", [ https://, { "Ref": "AppLB" }, "/login.php" ] ] }`
+    * A. `{ "Fn::Join": [ "", [ https://, { "Ref": "AppLB" }, "/login.php" ] ] }`
    * B.
 ````json
 { "Fn::Join": [ "", [ https://, { "Fn::GetAtt": [ "AppServerA",
