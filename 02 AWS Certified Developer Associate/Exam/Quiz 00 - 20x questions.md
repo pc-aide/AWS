@@ -1,4 +1,4 @@
-# Quiz 02 - 20x questions
+# Quiz 00 - 20x questions
 
 ## Questions
 1.
