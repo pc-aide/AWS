@@ -348,4 +348,7 @@ A multi-national company maintains separate AWS accounts for different verticals
     * C. Amend the IAM policy
     * D. Change the bucket policy
 * [Answers](https://i.imgur.com/DdVNFn1.png)
-* Score: 34/75 = 52%
+* Score:
+    * [27-10-2020 AM] 34/75 = 52%
+    * [27-10-2020 PM] 59/75 = 90%
+ 
