@@ -16,7 +16,7 @@
 * After the **MaximumReceives** threshold is exceeded, the message goes into a dead letter queue (DLQ)
 * Useful for <ins>debugging</ins>
 * Make sure to process the messages in the DLQ before they expire:
-    * Good to set a retention of 14 days i nthe DLQ
+    * Good to set a retention of 14 days in the DLQ
     
 ### Diagram
 [<img src="https://i.imgur.com/f5grbOW.png">](https://i.imgur.com/f5grbOW.png)
