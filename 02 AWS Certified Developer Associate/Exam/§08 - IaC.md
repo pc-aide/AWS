@@ -1,4 +1,4 @@
-# §08 - IaS
+# §08 - IaC
 
 ## Questions
 1. Which of the AWS CloudFormation template sections is/are required?
