@@ -10,7 +10,7 @@
 2. You are writing an AWS CloudFormation template and would like to create an output
 value corresponding to your application’s website URL. The application is composed of
 two application servers in a private subnet behind an Elastic Load Balancing load balancer.
-The application servers read from the Amazon Relational Database Service (Amazon RDS)
+The application servers read from the Amazon RDS
 database instance. The logical IDs of the instances are AppServerA and AppServerB. The
 logical IDs of the load balancer and database are AppLB and AppDB, respectively
 ````json
