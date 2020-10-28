@@ -335,9 +335,7 @@ What are the important points to remember when configuring an organization trail
     * B. you terminated the container instance while it was is STOPPED state, that lead to this synchronization issues
     * C. You terminated the container instance while it was in RUNNING state, that lead to this synchronization issues
     * D. The container instance has been terminated with AWS CLI, whereas, for ECS instances, Amazon ECS CLI, should be used to avoid any synchronization issues
-64. Question 64: Incorrect
-
-A multi-national company maintains separate AWS accounts for different verticals in their organization. The project manager of a team wants to migrate the Elastic Beanstalk environment from Team A's AWS account into Team B's AWS account. As a Developer, you have been roped in to help him in this process.<br/>Which of the following will you suggest?
+64. A multi-national company maintains separate AWS accounts for different verticals in their organization. The project manager of a team wants to migrate the Elastic Beanstalk environment from Team A's AWS account into Team B's AWS account. As a Developer, you have been roped in to help him in this process.<br/>Which of the following will you suggest?
     * A. Create an export configuration from the EB console from Team A's account. This configuration has to be shared with the IAM Role of Team B's account. The import option of Team B's account will show the saved configuration, that can be used to create a new Beanstalk application
     * B. Create a saved configuration in Team A's account & configure it to Export. Now, log into Team B's account & choose the Import option. Here, you need to specify the name of the saved configuration & allow the system to create the new application. This takes a little time based on the Regions the two accounts belong to
     * C. It's not possible to migratite EB environment from one AWS account to the other
