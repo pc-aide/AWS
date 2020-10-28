@@ -8,7 +8,7 @@
 
 ## Intro
 * FIFO
-* Limited throughput: 300 msg/s without batcing, 3000 msg/s with
+* Limited throughput: 300 msg/s without batching, 3000 msg/s with
 * Exactly-once send capability (by removing duplicates)
 * Messages are processed in order by the consumer
 
