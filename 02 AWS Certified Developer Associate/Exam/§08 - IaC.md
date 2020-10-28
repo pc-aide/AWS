@@ -192,4 +192,5 @@ resources declared in your AWS CloudFormation template<br/>How would you best pa
       * D. This cannot be accomplished.
 * [Answers]()
     * [Explications]()
-* Score: /22
+* Score:
+      * [28-10-2020 AM] 9/22 ≈ 41%
