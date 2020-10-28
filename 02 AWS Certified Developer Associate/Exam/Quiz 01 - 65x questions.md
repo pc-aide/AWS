@@ -310,12 +310,42 @@ What are the important points to remember when configuring an organization trail
     * B. Query the user data at http://169.254.169.254/latest/user-data
     * C. Query the user data at http://254.169.254/latest/meta-data
     * D. Create an IAM role & attach it to your EC2 instance that helps you perform a `describe` API call
-59.
-60.
-61.
-62.
-63.
-64.
-65.
-* [Answer]()
+59. An IT company has a HealthCare application with data security requirements such that the encryption key must be stored in a custom application running on-premises. The company wants to offload the data storage as well as the encryption process to Amazon S3 but continue to use the existing encryption keys.<br/>Which of the following S3 encryption options allows the company to leverage Amazon S3 for storing data with given constraints?
+    * A. Server-Side Encryption with CMKs Stored in AWS SSE-KMS
+    * B. Server-Side Enccryption with Amazon SSE-S3
+    * C. Client-Side Encryption with data encryption is done on the lcient-side before sending it to Amazon S3
+    * D. Server-Side Encryption with SSE-C
+60. A Developer at a company is working on a CloudFormation template to set up resources. Resources will be defined using code and provisioned based on certain conditions.<br/>Which section of a CloudFormation template does not allow for conditions?
+    * A. Parameters
+    * B. Conditions
+    * C. Outputs
+    * D. Resources
+61. You team maintains a public API Gateway that is accessed by clients from another domain. Usage has been consistent for the last few months but recently it has more than doubled. As a result, your costs have gone up and would like to prevent other unauthorized domains from accessing your API.<br/>Which of the following actions should you take?
+    * A. Use Mapping Templates
+    * B. Assign a SG to your API Gateway
+    * C. Restrict access by using CORS
+    * D. Use account level throttliing
+62. You have a Java-based application running on EC2 instances loaded with AWS CodeDeploy agents. You are considering different options for deployment, one is the flexibility that allows for incremental deployment of your new application versions and replaces existing versions in the EC2 instances. The other option is a strategy in which an Auto Scaling group is used to perform a deployment.<br/>Which of the following options will allow you to deploy in this manner? (**Select two**)
+    * A. In-place Deployment
+    * B. Cattle Deployment
+    * C. Blue/Green Deployment
+    * D. Pilot Ligh Deployment
+63. A junior developer working on ECS instances terminated a container instance in Amazon ECS as per instructions from the team lead. But the container instance continues to appear as a resource in the ECS cluster.<br/>As a Developer Associate, which of the following solutions would you recommend to fix this behavior?
+    * A. A custom software on the container instance could have failed & resulted in the container hanging in an unhealthy state till restarted again
+    * B. you terminated the container instance while it was is STOPPED state, that lead to this synchronization issues
+    * C. You terminated the container instance while it was in RUNNING state, that lead to this synchronization issues
+    * D. The container instance has been terminated with AWS CLI, whereas, for ECS instances, Amazon ECS CLI, should be used to avoid any synchronization issues
+64. Question 64: Incorrect
+
+A multi-national company maintains separate AWS accounts for different verticals in their organization. The project manager of a team wants to migrate the Elastic Beanstalk environment from Team A's AWS account into Team B's AWS account. As a Developer, you have been roped in to help him in this process.<br/>Which of the following will you suggest?
+    * A. Create an export configuration from the EB console from Team A's account. This configuration has to be shared with the IAM Role of Team B's account. The import option of Team B's account will show the saved configuration, that can be used to create a new Beanstalk application
+    * B. Create a saved configuration in Team A's account & configure it to Export. Now, log into Team B's account & choose the Import option. Here, you need to specify the name of the saved configuration & allow the system to create the new application. This takes a little time based on the Regions the two accounts belong to
+    * C. It's not possible to migratite EB environment from one AWS account to the other
+    * D. Create a saved configuration in Team A's account & download it to your local machine. Make the account specific parameter changes & upload to the S3 bucket in Team B's account. From EB console, create an application from 'Saved Configurations'
+65. You are storing your video files in a separate S3 bucket than your main static website in an S3 bucket. When accessing the video URLs directly the users can view the videos on the browser, but they can't play the videos while visiting the main website.<br/>What is the root cause of this problem?
+    * A. Enable CORS
+    * B. Disable Server-Side Encryption
+    * C. Amend the IAM policy
+    * D. Change the bucket policy
+* [Answers](https://i.imgur.com/DdVNFn1.png)
 * Score: 34/75 = 52%
