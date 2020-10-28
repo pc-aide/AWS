@@ -19,6 +19,7 @@
 | 11 | [serverless-app-examples](https://github.com/amazon-archives/serverless-app-examples/tree/master/python) | sample-app-python (SAM) |
 | 12 | [Service Health Dashboard](https://status.aws.amazon.com/) | [`Serivice Health Dashboard`](#ServiceHealthDashboard) |
 | 13 | [Infrastructure](https://infrastructure.aws/) |[`Infrastructure`](#Infrastructure) |
+| 14 | [CloudFormation (user guide: properties of AWS service](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack.html)
 
 ---
 
@@ -39,3 +40,21 @@
 
 * S3TA:
 [<img src="https://i.imgur.com/RDPhRSB.png">](https://i.imgur.com/RDPhRSB.png)
+
+---
+
+## CloudFormation
+* SG :
+````json
+{
+  "Type" : "AWS::EC2::SecurityGroup",
+  "Properties" : {
+      "GroupDescription" : String,
+      "GroupName" : String,
+      "SecurityGroupEgress" : [ Egress, ... ],
+      "SecurityGroupIngress" : [ Ingress, ... ],
+      "Tags" : [ Tag, ... ],
+      "VpcId" : String
+    }
+}
+````
