@@ -37,3 +37,9 @@ aws configure --profile dev
 aws configure get region
 ````
 [<img src="https://i.imgur.com/nD6GH8h.png">](https://i.imgur.com/nD6GH8h.png)
+
+## set region
+````bash
+aws configure set region us-east-1
+````
+[<img src="https://i.imgur.com/ahsJdxO.png">](https://i.imgur.com/ahsJdxO.png)
