@@ -347,6 +347,7 @@ What are the important points to remember when configuring an organization trail
     * D. Change the bucket policy
 * [Answers](https://i.imgur.com/DdVNFn1.png)
 * Score:
-    * [27-10-2020 AM] 34/75 = 52%
-    * [27-10-2020 PM] 59/75 = 90%
+    * [27-10-2020 AM] 34/65 = 52%
+    * [27-10-2020 PM] 59/65 = 90%
+    * [30-10-2020 PM | 52min] 60/65 = 92%
  
