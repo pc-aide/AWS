@@ -286,10 +286,10 @@
       * D. Permissions boundary
       * E. AWS Organizations Service Control Policy (SCP)
 55. You are creating a Cloud Formation template to deploy your CMS application running on an EC2 instance within your AWS account. Since the application will be deployed across multiple regions, you need to create a map of all the possible values for the base AMI.<br/>How will you invoke the !FindInMap function to fulfill this use case?
-          * A. `!FindInMap [ MapName, TopLevelKey, SecondLevelKey, ThirdLevelKey ]`
-          * B. `!FindInMap [ MapName ]`
-          * B. `!FinInMap [ MapName, TopLevelKey ]`
-          * C. `!FindInMap [ MapName, TopLevelKey, SecondLevelKey ]`
+      * A. `!FindInMap [ MapName, TopLevelKey, SecondLevelKey, ThirdLevelKey ]`
+      * B. `!FindInMap [ MapName ]`
+      * B. `!FinInMap [ MapName, TopLevelKey ]`
+      * C. `!FindInMap [ MapName, TopLevelKey, SecondLevelKey ]`
 56. You are a developer working on AWS Lambda functions that are invoked via REST API's using Amazon API Gateway. Currently, when a GET request is invoked by the consumer, the entire data-set returned by the Lambda function is visible. Your team lead asked you to format the data response.<br/>Which feature of the API Gateway can be used to solve this issue?
           * A. Use an API Gateway Stage variable
           * B. Use API Gateway Mapping Templates
