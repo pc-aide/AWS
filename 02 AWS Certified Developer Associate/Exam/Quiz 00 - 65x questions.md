@@ -1,4 +1,4 @@
-# Quiz 01 - 65x questions
+# Quiz 00 - 65x questions
 
 ## Time
 * 2h10min
