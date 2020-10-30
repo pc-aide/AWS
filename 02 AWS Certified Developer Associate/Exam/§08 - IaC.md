@@ -193,4 +193,4 @@ resources declared in your AWS CloudFormation template<br/>How would you best pa
 * [Answers]()
     * [Explications]()
 * Score:
-      * [28-10-2020 AM] 9/22 ≈ 41%
+    * [28-10-2020 AM] 9/22 ≈ 41%
