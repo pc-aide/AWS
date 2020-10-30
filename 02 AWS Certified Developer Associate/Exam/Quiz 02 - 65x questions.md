@@ -284,85 +284,63 @@
       * B. Identity-based policy
       * C. Resource-based policy
       * D. Permissions boundary
-      * E. AWS Organizations Service Control Polly (SCP)
-55.
-56.
-57.
-58.
-59.
-60.
-61.
-62.
-63.
-64.
-65.
-* [Answers]()
+      * E. AWS Organizations Service Control Policy (SCP)
+55. You are creating a Cloud Formation template to deploy your CMS application running on an EC2 instance within your AWS account. Since the application will be deployed across multiple regions, you need to create a map of all the possible values for the base AMI.<br/>How will you invoke the !FindInMap function to fulfill this use case?
+          * A. `!FindInMap [ MapName, TopLevelKey, SecondLevelKey, ThirdLevelKey ]`
+          * B. `!FindInMap [ MapName ]`
+          * B. `!FinInMap [ MapName, TopLevelKey ]`
+          * C. `!FindInMap [ MapName, TopLevelKey, SecondLevelKey ]`
+56. You are a developer working on AWS Lambda functions that are invoked via REST API's using Amazon API Gateway. Currently, when a GET request is invoked by the consumer, the entire data-set returned by the Lambda function is visible. Your team lead asked you to format the data response.<br/>Which feature of the API Gateway can be used to solve this issue?
+          * A. Use an API Gateway Stage variable
+          * B. Use API Gateway Mapping Templates
+          * C. Use a Lambda custom interceptor
+          * D. Deploy an interceptor shell script
+57. A multi-national company has multiple business units with each unit having its own AWS account. The development team at the company would like to debug and trace data across accounts and visualize it in a centralized account.<br/>As a Developer Associate, which of the following solutions would you suggest for the given use-case?
+          * A. CloudTrail
+          * B. VPC Flow Logs
+          * C. CloudWatch Events
+          * D. X-Ray
+58. The development team at a retail organization wants to allow a Lambda function in its AWS Account A to access a DynamoDB table in another AWS Account B.<br/>As a Developer Associate, which of the following solutions would you recommend for the given use-case?
+          * A. Create a clone of the Lambda function in AWS Account B so that it can access the DynamoDB table in the same account
+          * B. Create an IAM in Account B with access to DynamoDB. Modify the trust policy of the role in Account B to allow the execution role of Lambda to assume this role. Update the Lambda function code to add the AssumeRole API call
+          * C. Add a resource policy to the DynamoDB table in AWS Account B to give access to the Lambda function in Account A
+          * D. Create an IAM role in Account B with access to DynamoDB. Modify the trust policy of the execution role in Account A to allow the execution role of Lambda to assume the IAM role in Account B. Update the Lambda function code to add the AssumeRole API call
+59. A developer has been asked to create an application that can be deployed across a fleet of EC2 instances. The configuration must allow for full control over the deployment steps using the blue-green deployment.<br/>Which service will help you achieve that?
+          * A. CodeBuild
+          * B. CodePipeline
+          * C. CodeDeploy
+          * D. EB
+60. The development team at an IT company uses CloudFormation to manage its AWS infrastructure. The team has created a network stack containing a VPC with subnets and a web application stack with EC2 instances and an RDS instance. The team wants to reference the VPC created in the network stack into its web application stack.<br/>As a Developer Associate, which of the following solutions would you recommend for the given use-case?
+          * A. Create a cross-stack reference & use the Outputs output filed to flag the value of VPC from the network stack. Then use Fn::ImportValue intrinsic function to import the value of VPC into the web application stack
+          * B. Create a cross-stack reference & use the Export output filed to flag to value of VPC from the network stack. Then use Ref intrinsic function to reference the value of VPC into the web application stack
+          * C. Create a cross-stack reference & use the Outputs output filed to flag the value of VPC from the network stack. Then Ref intrinsic function to reference the value of VPC into the web application stack
+          * D. Create a cross-stack reference & use the Export output field to flag the value of VPC from the network stack. Then use Fn::ImportValue intrinsic function to import the value of VPC into the web application stack
+61. A video encoding application running on an EC2 instance takes about 20 seconds on average to process each raw footage file. The application picks the new job messages from an SQS queue. The development team needs to account for the use-case when the video encoding process takes longer than usual so that the same raw footage is not processed by multiple consumers.<br/>As a Developer Associate, which of the following solutions would you recommend to address this use-case?
+          * A. Use ChangeMessageVisibility action to extend a message's visibility timeout
+          * B. Use DelaySeconds action to delay a message's visibility timeout
+          * C. Use WaitTimeSeconds action to short poll & extend a message's visibility timeout
+          * D. Use WaitTimeSeconds action to long poll & extend a message's visibility timeout
+62. A photo-sharing application manages its EC2 server fleet running behind an Application Load Balancer and the traffic is fronted by a CloudFront distribution. The development team wants to decouple the user authentication process for the application so that the application servers can just focus on the business logic.<br/>As a Developer Associate, which of the following solutions would you recommend to address this use-case with minimal development effort?
+          * A. Use Cognito Authentication via Cognito Identity Pools for your ALB
+          * B. Use Cognito Authentication via Cognito User Pools for your ALB
+          * C. Use Cognito Authentication via Cognito User Pools for your CloudFront distribution
+          * D. Use Cognito Authentication via Cognito Identity Pools for your CloudFront distribution
+63. As part of his development work, an AWS Certified Developer Associate is creating policies and attaching them to IAM identities. After creating necessary Identity-based policies, he is now creating Resource-based policies.<br/>Which is the only resource-based policy that the IAM service supports?
+          * A. AWS Organization Service control Policies (SCP)
+          * B. Trust policy
+          * C. Permissions boundary
+          * D. ACL
+64. A startup with newly created AWS account is testing different EC2 instances. They have used Burstable performance instance - T2.micro - for 35 seconds and stopped the instance.<br/>At the end of the month, what is the instance usage duration that the company is charged for?
+          * A. 0 seconds
+          * B. 30 seconds
+          * C. 60 seconds.
+          * D. 35 seconds.
+65. You are a developer in a manufacturing company that has several servers on-site. The company decides to move new development to the cloud using serverless technology. You decide to use the AWS SAM and work with an AWS SAM template file to represent your serverless architecture.<br/>Which of the following is NOT a valid serverless resource type?
+          * A. AWS::Serverless::Function
+          * B. AWS::Serverless::SimpleTable
+          * C. AWS::Serverless::UserPool
+          * D. AWS::Serverless::Api
+* [Answers](https://i.imgur.com/v8BtBiF.png)
 * Score:
     * [28-10-2020 AM] 44/65 = 67%
-````text
-1) B
-2) B
-3) A
-4) C
-5) A
-6) D
-7) B
-8) A
-9) C
-10) A
-11) D
-12) C
-13) D
-14) D
-15) B & C
-16) D & E
-17) A & C
-18) D
-19) A
-20) D
-21) A & E
-22) C
-23) A
-24) A
-25) D
-26) B
-27) D
-28) B
-29) A
-30) D
-31) D
-32) A
-33) A
-34) C
-35) C
-36) A
-37) C
-38) B
-39) D
-40) B
-41) D
-42) A & D
-43) A
-44) B & C
-45) D
-46) B
-47) D
-48) B
-49) D
-50) B & C
-51) B 
-52) A
-53) A
-54) D & E
-55)
-56)
-57)
-58)
-59)
-60)
-61)
-62)
-63)
-64)
-65)
-````
+
