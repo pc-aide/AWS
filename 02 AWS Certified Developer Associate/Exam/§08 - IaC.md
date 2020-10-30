@@ -194,3 +194,41 @@ resources declared in your AWS CloudFormation template<br/>How would you best pa
     * [Explications]()
 * Score:
     * [28-10-2020 AM] 9/22 ≈ 41%
+````textRAW
+1) D
+2) C
+    E
+3) A, B & C 
+    A, C & D
+4) B
+    C
+5) A
+6) C
+    A
+7) A
+    E
+8) A
+9) B
+    C
+10) C
+    A
+11) C
+    B
+12) B
+13) B
+    C
+14) C
+    E
+15) B & C
+16) A
+17) A, B & D
+    B, D & E
+18) B
+19) A & C
+20) E
+21) A
+    B
+22) A
+    C
+score: 9/22 = 41% - p.955/992
+````
