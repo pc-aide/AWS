@@ -343,4 +343,5 @@
 * [Answers](https://i.imgur.com/v8BtBiF.png)
 * Score:
     * [28-10-2020 AM] 44/65 = 67%
+    * [31-10-2020 PM] 60/65 = 92%
 
