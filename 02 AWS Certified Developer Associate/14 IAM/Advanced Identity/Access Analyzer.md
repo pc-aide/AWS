@@ -9,6 +9,12 @@
 
 ## Console
 * IAM\Access Analyzer
+        * Active - all resources
+        * Archived
+        * Resolved
+        * All
+        
+[<img src="https://i.imgur.com/Jrgeyf3.png">](https://i.imgur.com/Jrgeyf3.png)        
 
 ---
 
