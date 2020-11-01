@@ -5,6 +5,9 @@
 
 ## Doc
 
+## Terminology
+* Federated User
+
 ## Diagram
 
 ## Console
