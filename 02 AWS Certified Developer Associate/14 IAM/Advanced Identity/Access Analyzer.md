@@ -6,7 +6,7 @@
 ## Doc
 
 ## Terminology
-* Federated User
+* Federated Users - (external identies) are **users** you manage outside of AWS in your corporate directory
 
 ---
 
