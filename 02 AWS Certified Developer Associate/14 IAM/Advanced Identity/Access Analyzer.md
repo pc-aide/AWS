@@ -39,7 +39,7 @@
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:Get*",
-            "Resource": "arn:aws:s3:::bucket-BucketName/*",
+            "Resource": "arn:aws:s3:::bucketname/*",
             "Condition": {
                 "IpAddress": {
                     "aws:SourceIp": "10.24.34.0/24"
@@ -51,7 +51,7 @@
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:*",
-            "Resource": "arn:aws:s3:::BucketName-ip/*",
+            "Resource": "arn:aws:s3:::bucketname-ip/*",
             "Condition": {
                 "StringEquals": {
                     "aws:SourceVpc": "vpc-abc"
