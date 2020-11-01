@@ -78,3 +78,10 @@
         * etc
         
 [<img src="https://i.imgur.com/itKlT3u.png">](https://i.imgur.com/itKlT3u.png)
+
+### Access analyzer for s3
+* s3\Access analyzer for s3
+       * view finding -> iam\access analyzer\<Finding ID>
+
+[<img src="https://i.imgur.com/8pI822K.png">](https://i.imgur.com/8pI822K.png)
+[<img src="https://i.imgur.com/WifA1Pp.png">](https://i.imgur.com/WifA1Pp.png)
