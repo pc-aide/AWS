@@ -8,7 +8,12 @@
 ## Terminology
 * Federated User
 
+---
+
 ## Diagram
+[<img src="https://i.imgur.com/lPS9UC0.png">](https://i.imgur.com/lPS9UC0.png)
+
+---
 
 ## Console
 * IAM\Access Analyzer
