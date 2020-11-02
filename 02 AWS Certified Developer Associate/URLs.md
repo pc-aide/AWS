@@ -22,6 +22,8 @@
 | 14 | [CloudFormation(user guide: properties of AWS service](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack.html) |
 | 15 | [aws (github)](https://github.com/aws) | |
 | 16 | [AWS Lab (github)](https://github.com/awslabs) | |
+| 17 | [email account for test (mailinator)](https://www.mailinator.com/) | |
+
 ---
 
 ## InsomniaCore
