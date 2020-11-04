@@ -305,12 +305,36 @@
       * C. SSE-C
       * D. SSE-S3
 60) A multi-national company maintains separate AWS accounts for different verticals in their organization. The project manager of a team wants to migrate the Elastic Beanstalk environment from Team A's AWS account into Team B's AWS account. As a Developer, you have been roped in to help him in this process.<br/>Which of the following will you suggest?
-      * A. 
-61)
-62)
-63)
-64)
-65)
-* [Answer]()
+      * A. Create an export configuration from the EB console from Team A's account. This configuration has to be shared with the IAM Role of Team B's account. The import option of Team's account will hsow the saved configuration, that can be used to create a new Beanstalk application
+      * B. Create a saved configuration in Team A's account & configure it to Export. Now, log into Team B's account & choose the miport option. Here, you need to specify the name of the saved configuration & allow the system to create the new application. This takes a little on the Regions the two accounts belong to
+      * C. It is not possible to migrate EB environment from one AWS account to the other
+      * D. Create a saved configuration in Team A's account & download it to your local machine. Make the account-specific parameter changes & upload to the S3 bucket in Team B's account. From EB console, create an application from 'Saved Configurations'
+61) As part of employee skills upgrade, the developers of your team have been delegated few responsibilities of DevOps engineers. Developers now have full control over modeling the entire software delivery process, from coding to deployment. As the team lead, you are now responsible for any manual approvals needed in the process.<br/>Which of the following approaches supports the given workflow?
+      * A. Create deeply integrated AWS CodePipelines for each environment
+      * B. Create multiple CodePipelines for each environment & link them using AWS Lambda
+      * C. Use CodePipeline with Amazon VPC
+      * D. Create one CodePipeline for your entire flow & add a manual approval step
+62) You are running a cloud file storage website with an Internet-facing Application Load Balancer, which routes requests from users over the internet to 10 registered Amazon EC2 instances. Users are complaining that your website always asks them to re-authenticate when they switch pages. You are puzzled because this behavior is not seen in your local machine or dev environment.<br/>What could be the reason?
+      * A. ALB is in slow-start mode, which gives ALB a little more time to read & write session data
+      * B. The EC2 instance are logging out the users because the instances never have access to the client IPs because of the LB
+      * C. The LB does not have TLS enabled
+      * D. The LB does not have stickiness enabled
+63) A multi-national enterprise uses AWS Organizations to manage its users across different divisions. Even though CloudTrail is enabled on the member accounts, managers have noticed that access issues to CloudTrail logs across different divisions and AWS Regions is becoming a bottleneck in troubleshooting issues. They have decided to use the organization trail to keep things simple.<br/>What are the important points to remember when configuring an organization trail? (**Select two**)
+      * A. By default, CloudTrail tacks only bucket-level actions. To track object-level actions, you need to enable Amazon S3 data events
+      * B. Member accounts will be able to see the Organization trail, but can't modify or delete it
+      * C. By default, CloudTrail event log files are not encrypted
+      * D. There is nothing called Organization tRail. The master account can, however, enable CloudTrail logging, to keep track of all activities across AWS accounts
+      * E. Member accounts don't have access to organization trail, neither do they have access to the Amazon S3 bucket that logs the files
+64) A large firm stores its static data assets on Amazon S3 buckets. Each service line of the firm has its own AWS account. For a business use case, the Finance department needs to give access to their S3 bucket's data to the Human Resources department.<br/>Which of the below options is NOT feasible for cross-account access of S3 bucket objects?
+      * A. Use Resource-based ACL & IAM policies for programmatic-only access to S3 bucket objects
+      * B. Use Cross-account IAM role for programmatic & console access to S3 bucket objects
+      * C. Use Resource-based & AWS IAM policies for programmatic-only access to S3 bucket objects
+      * D. Use IAM roles & resource-based policies delegate access aross accounts within different partitions via programmatic access only
+65) Your web application architecture consists of multiple Amazon EC2 instances running behind an Elastic Load Balancer with an Auto Scaling group having the desired capacity of 5 EC2 instances. You would like to integrate AWS CodeDeploy for automating application deployment. The deployment should re-route traffic from your application's original environment to the new environment.<br/>Which of the following options will meet your deployment criteria?
+      * A. Opt for In-place deployment
+      * B. Opt for Rolling deployment
+      * C. Opt for Blue/Green deployment
+      * D. Opt for Immutable deployment
+* [Answer](https://i.imgur.com/niyyoGy.png)
 * Score:
     * [03-11-2020 AM] 33/65 = 50%
