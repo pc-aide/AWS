@@ -43,3 +43,11 @@ aws configure get region
 aws configure set region us-east-1
 ````
 [<img src="https://i.imgur.com/ahsJdxO.png">](https://i.imgur.com/ahsJdxO.png)
+
+---
+
+## List
+````bas
+aws configure list
+````
+[<img src="https://i.imgur.com/1EHdhKT.png">](https://i.imgur.com/1EHdhKT.png)
