@@ -13,15 +13,20 @@
 ## Sample.json
 ````json
 [
-	{
-		"AllowedOrigins":[
-			"*"
-		],
-		"AllowedMethods":[
-			"GET"
-		],
-		"MaxAgeSeconds": 3000
-	}
+    {
+        "AllowedOrigins": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "GET",
+            "HEAD"
+        ],
+        "AllowedHeaders": [
+            "*"
+        ],
+        "ExposeHeaders": [],
+        "MaxAgeSeconds": 3000
+    }
 ]
 ````
 [<img src="http://pix.toile-libre.org/upload/original/1604768625.png">](http://pix.toile-libre.org/upload/original/1604768625.png)
