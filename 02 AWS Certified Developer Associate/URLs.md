@@ -23,6 +23,7 @@
 | 15 | [aws (github)](https://github.com/aws) | |
 | 16 | [AWS Lab (github)](https://github.com/awslabs) | |
 | 17 | [mailinator (email-test)](https://www.mailinator.com/) | |
+| 18 | [doc-javaScript-sdk](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html)|[`JavaScript-sdk`](#JavaScript-sdk) |
 
 ---
 
@@ -61,3 +62,9 @@
     }
 }
 ````
+
+---
+
+## JavaScript-sdk
+
+[<img src="http://pix.toile-libre.org/upload/original/1604848770.png">](http://pix.toile-libre.org/upload/original/1604848770.png)
