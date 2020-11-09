@@ -93,3 +93,4 @@
 | 87 | SWF | Simple WorkFlow Service | Amazon SWF |
 | 88 | IaC | Infrastructure as Code | |
 | 89 | SCP | Service Control Policies | SCP (IAM) | 
+| 90 | ORM | Object Relational Mapping | Convert between db records & in-code "objects" |
