@@ -13,7 +13,7 @@
 ````js
 // Imports
 const AWS = require('aws-sdk')
-const NEWKEYPAIR = require('./NewKeyPair')
+const NewKeyPair = require('./NewKeyPair')
 
 AWS.config.update({ region: 'ca-central-1' })
 
@@ -27,7 +27,7 @@ createSecurityGroup(sgName)
 .then(() => {
   return createKeyPair(keyName)
 })
-.then(helpers.persistKeyPair)
+.then(NewKeyPair.persistKeyPair)
 .then(() => {
   return createInstance(sgName, keyName)
 })
