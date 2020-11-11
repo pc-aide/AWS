@@ -1,6 +1,6 @@
 # 0X - 2 files (instance + keypair)
 
-## Author
+## github
 * [hbfl](https://github.com/ryanmurakami/hbfl)
 
 ## Prereq
