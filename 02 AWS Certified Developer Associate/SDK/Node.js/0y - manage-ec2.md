@@ -45,29 +45,23 @@ node manage-ec2.js
 #### 01 - manage-ec2.js
 ````js
 // Imports
-// Import the aws-sdk
 const AWS = require('aws-sdk')
-const { resolve } = require('path')
 
-// Configure region
-AWS.config.update({ region: 'ca-central-1'})
+AWS.config.update({ region: 'ca-central-1' })
 
 // Declare local variables
-// Create an ec2 object
 const ec2 = new AWS.EC2()
 
-function listInstances () {
-  // List instances using ec2.describeInstances()
+// Functions
+function listInstances() {
   return new Promise((resolve, reject) => {
     ec2.describeInstances({}, (err, data) => {
       if (err) reject(err)
       else {
-        // new array
         resolve(data.Reservations.reduce((i,r) => {
           return i.concat(r.Instances)
         }, []))
-
-      } 
+      }
     })
   })
 }
