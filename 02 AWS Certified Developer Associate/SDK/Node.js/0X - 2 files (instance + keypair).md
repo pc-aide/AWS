@@ -25,6 +25,7 @@ const keyName = 'hamster_key2'
 // Do all the things together
 createSecurityGroup(sgName)
 .then(() => {
+  // keypair: /homme/<userName>/.ssh/<privateKey>
   return createKeyPair(keyName)
 })
 .then(NewKeyPair.persistKeyPair)
@@ -52,6 +53,7 @@ function createSecurityGroup (sgName) {
       else {
         const params = {
           GroupId: data.GroupId,
+          // Inbound
           IpPermissions: [
             {
               IpProtocol: 'tcp',
