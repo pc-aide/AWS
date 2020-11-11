@@ -171,6 +171,6 @@ node create-ec2.js
 [<img src="https://i.imgur.com/plqnxap.png">](https://i.imgur.com/plqnxap.png)
 
 ### 04 O/P
-* it will take couple time (**~3min**) before to see our web page
+* it will take couple time (**~3min 15sec**) before to see our web page
 
 [<img src="https://i.imgur.com/zMfBZG8.png">](https://i.imgur.com/zMfBZG8.png)
