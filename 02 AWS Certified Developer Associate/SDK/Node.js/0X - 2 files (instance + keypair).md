@@ -133,6 +133,7 @@ function persistKeyPair (keyData) {
     const keyPath = path.join(os.homedir(), '.ssh', keyData.KeyName)
     const options = {
       encoding: 'utf8',
+      // permissions (rw)
       mode: 0o600
     }
 
