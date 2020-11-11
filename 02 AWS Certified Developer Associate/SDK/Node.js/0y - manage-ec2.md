@@ -45,7 +45,7 @@ node manage-ec2.js
 
 ---
 
-## Demo-02 more O/P attirube
+## Demo-02 more O/P attirubes
 ### Steps
 #### 01 - manage-ec2.js
 ````js
