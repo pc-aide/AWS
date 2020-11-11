@@ -18,4 +18,4 @@
 
 * Def: Scaling in response to preset **rules**, often triggered by CloudWatch alarms
 * ex:
-    * ELB with CPU Threshold Breached
+    * **LB** with CPU Threshold Breached
