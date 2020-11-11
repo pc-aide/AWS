@@ -3,7 +3,7 @@
 ## Demo 01 - basic
 ### Steps
 #### 01 - create-ami.js
-* we have instanceId with state: running
+* we have an instanceId with state: running
 ````js
 // Imports
 // Import the aws-adk
