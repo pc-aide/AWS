@@ -26,14 +26,9 @@ function listInstances () {
   })
 }
 
-function termnateInstance (instanceId) {
-  // TODO: terminate an instance with a given instanceId
-}
 
 listInstances()
 .then(data => console.log(data))
-// termnateInstance()
-// .then(data => console.log(data))
 ````
 
 #### 02 - node
