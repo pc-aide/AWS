@@ -109,7 +109,7 @@ function createInstance (sgName, keyName) {
       sgName
     ],
     // bootstrap in base64 for Amazon v2 (centOS7)
-    UserData: 'IyEvYmluL2Jhc2gKeXVtIC15IHVwZGF0ZQp5dW0gLXkgaW5zdGFsbCBnaXQKZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9yeWFubXVyYWthbWkvaGJmbC5naXQgL2hvbWUvYml0bmFtaS9oYmZsCmNob3duIC1SIGJpdG5hbWk6IC9ob21lL2JpdG5hbWkvaGJmbApjZCAvaG9tZS9iaXRuYW1pL2hiZmwKc3VkbyBucG0gaQpzdWRvIG5wbSBydW4gc3RhcnQK'
+    UserData: 'IyEvYmluL2Jhc2gKeXVtIC15IHVwZGF0ZQp5dW0gLXkgaW5zdGFsbCBnaXQKY3VybCAtc0wgaHR0cHM6Ly9ycG0ubm9kZXNvdXJjZS5jb20vc2V0dXBfMTAueCB8IHN1ZG8gYmFzaCAtCnl1bSBpbnN0YWxsIC15IG5vZGVqcwpnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL3J5YW5tdXJha2FtaS9oYmZsLmdpdCAvaG9tZS9iaXRuYW1pL2hiZmwKY2hvd24gLVIgYml0bmFtaTogL2hvbWUvYml0bmFtaS9oYmZsCmNkIC9ob21lL2JpdG5hbWkvaGJmbApucG0gdXBkYXRlCm5wbSBpCm5wbSBydW4gc3RhcnQKCg=='
   }
 
   return new Promise((resolve, reject) => {
@@ -169,3 +169,8 @@ node create-ec2.js
 [<img src="https://i.imgur.com/CWh0pgp.png">](https://i.imgur.com/CWh0pgp.png)
 [<img src="https://i.imgur.com/cfKTV4c.png">](https://i.imgur.com/cfKTV4c.png)
 [<img src="https://i.imgur.com/plqnxap.png">](https://i.imgur.com/plqnxap.png)
+
+### 04 O/P
+* it will take couple time (**~3min**) before to see our web page
+
+[<img src="https://i.imgur.com/zMfBZG8.png">](https://i.imgur.com/zMfBZG8.png)
