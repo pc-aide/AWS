@@ -172,5 +172,6 @@ node create-ec2.js
 
 ### 04 O/P
 * it will take couple time (**~3min 15sec**) before to see our web page
+* cred for log in: ryan:pass
 
 [<img src="https://i.imgur.com/zMfBZG8.png">](https://i.imgur.com/zMfBZG8.png)
