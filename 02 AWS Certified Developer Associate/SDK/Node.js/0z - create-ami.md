@@ -37,3 +37,4 @@ function createImage (seedInstanceId, imageName) {
 ````
 [<img src="https://i.imgur.com/bEQ6ZyQ.png">](https://i.imgur.com/bEQ6ZyQ.png)
 [<img src="https://i.imgur.com/6QE2i5H.png">](https://i.imgur.com/6QE2i5H.png)
+[<img src="https://i.imgur.com/biGreby.png">](https://i.imgur.com/biGreby.png)
