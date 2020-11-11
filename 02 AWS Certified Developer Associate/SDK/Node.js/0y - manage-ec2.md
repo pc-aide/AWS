@@ -1,6 +1,6 @@
 # 06 - manage-ec2
 
-## Demo-01 Basic
+## Demo-01 - list ec2
 ### Steps
 #### 01 - manage-ec2.js
 ````js
@@ -40,7 +40,7 @@ node manage-ec2.js
 
 ---
 
-## Demo-02 more O/P attirubes
+## Demo-02 - list ec2 with more attributes
 ### Steps
 #### 01 - manage-ec2.js
 ````js
@@ -79,7 +79,7 @@ listInstances()
 
 ---
 
-## Demo-03 Terminate
+## Demo-03 - Terminate
 ### Steps
 #### 01 - manage-ec2.js
 ````js
