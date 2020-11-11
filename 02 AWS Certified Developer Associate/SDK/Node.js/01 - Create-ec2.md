@@ -1,5 +1,9 @@
 # Create-ec2
 
+## Doc
+
+* [Creating an Amazon EC2 Instance](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/ec2-example-creating-an-instance.html)
+
 ## Prereq
 
 1. nodejs
