@@ -56,4 +56,4 @@ npm install aws-sdk
 node create-ec2.js
 ````
 [<img src="https://i.imgur.com/QL8a28s.png">](https://i.imgur.com/QL8a28s.png)
-[<img src="https://i.imgur.com/PaldO0H.png"](https://i.imgur.com/PaldO0H.png)
+[<img src="https://i.imgur.com/PaldO0H.png">](https://i.imgur.com/PaldO0H.png)
