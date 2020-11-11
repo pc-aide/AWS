@@ -87,3 +87,38 @@ listInstances()
 // .then(data => console.log(data))
 ````
 [<img src="https://i.imgur.com/PNBDQpF.png">](https://i.imgur.com/PNBDQpF.png)
+
+---
+
+## Demo-03 Terminate
+### Steps
+#### 01 - manage-ec2.js
+````js
+// Imports
+const AWS = require('aws-sdk')
+
+AWS.config.update({ region: 'ca-central-1' })
+
+// Declare local variables
+const ec2 = new AWS.EC2()
+
+// Functions
+function terminateInstance (instanceId) {
+  const params = {
+    InstanceIds: [
+      instanceId
+    ]
+  }
+
+  return new Promise((resolve, reject) => {
+    ec2.terminateInstances(params, (err, data) => {
+      if (err) reject(err)
+      else resolve(data)
+    })
+  })
+}
+
+terminateInstance('i-0ec62451e254b9b4b')
+.then(data => console.log(data))
+````
+[<img src="https://i.imgur.com/gGaW7xb.png">](https://i.imgur.com/gGaW7xb.png)
