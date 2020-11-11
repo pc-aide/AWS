@@ -148,9 +148,9 @@ module.exports = {
 }
 ````
 
-### 03 install depences
+### 03 install dependencies
 
-1. depences:
+1. depend.:
 ````bash
 npm install aws-sdk
 ````
