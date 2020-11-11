@@ -13,7 +13,7 @@
 ````js
 // Imports
 const AWS = require('aws-sdk')
-const helpers = require('./helpers')
+const NEWKEYPAIR = require('./NewKeyPair')
 
 AWS.config.update({ region: 'ca-central-1' })
 
@@ -119,7 +119,7 @@ function createInstance (sgName, keyName) {
 
 ````
 
-### 02 helpers.js
+### 02 NewKeyPair.js
 ````js
 const fs = require('fs')
 const path = require('path')
