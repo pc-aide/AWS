@@ -313,12 +313,35 @@ On the first execution, the Lambda function takes 2 seconds to execute. On the s
     * D. The LB is higly available & its public IP may change. The DNS name is constant
 60) An IT company uses a blue/green deployment policy to provision new Amazon EC2 instances in an Auto Scaling group behind a new Application Load Balancer for each new application version. The current set up requires the users to log in after every new deployment.<br/>As a Developer Associate, what advice would you give to the company for resolving this issue?
     * A. Use multicast to replicate session information
-    * B. Use rolling updates instead of a blue/green depl
-61)
-62)
-63)
-64)
-65)
-* [Answers]()
+    * B. Use rolling updates instead of a blue/green deployment
+    * C. Use ElastiCache to maintain user sessions
+    * D. Enable sticky sessions in the ALB
+61) After reviewing your monthly AWS bill you notice that the cost of using Amazon SQS has gone up substantially after creating new queues; however, you know that your queue clients do not have a lot of traffic and are receiving empty responses.<br/>Which of the following actions should you take?
+    * A. Use LongPolling
+    * B. Use a FIFO queue
+    * C. Increase the VisibilityTimeout
+    * D. Decrease DelaySeconds
+62) You are working for a technology startup building web and mobile applications. You would like to pull Docker images from the ECR repository called demo so you can start running local tests against the latest application version.<br/>Which of the following commands must you run to pull existing Docker images from ECR? (**Select two**)
+    * A. `$(aws ecr get-login --no-include-email`
+    * B. `dokcer build -t 1234567890.dkr.ecr.eu-west-1.amazonaws.com/demo:latest`
+    * C. `dokcer pull 1234567890.dkr.ecr.eu-west-1.amazonaws.com/demo:latest`
+    * D. `aws docker push 1234567890.dkr.ecr.eu-west-1.amazonaws.com/demo:latest`
+    * E. `docker login -u $AWS_ACCESS_KEY_IP -p $AWS_SECRET_ACCESS_key1
+63) You're a developer maintaining a web application written in .NET. The application makes references to public objects in a public S3 accessible bucket using a public URL. While doing a code review your colleague advises that the approach is not a best practice because some of the objects contain private data. After the administrator makes the S3 bucket private you can no longer access the S3 objects but you would like to create an application that will enable people to access some objects as needed with a time policy constraint.<br/>Which of the following options will give access to the objects?
+    * A. Using IAM policy
+    * B. Using pre-signed URL
+    * C. Using Routing Policy
+    * D. Using bucket policy
+64) You are a manager for a tech company that has just hired a team of developers to work on the company's AWS infrastructure. All the developers are reporting to you that when using the AWS CLI to execute commands it fails with the following exception: You are not authorized to perform this operation. Encoded authorization failure message: 6h34GtpmGjJJUm946eDVBfzWQJk6z5GePbbGDs9Z2T8xZj9EZtEduSnTbmrR7pMqpJrVYJCew2m8YBZQf4HRWEtrpncANrZMsnzk.<br/>Which of the following actions will help developers decode the message?
+    * A. AWS IAM decode-authorization-message
+    * B. Use KMS decode-authorization-message
+    * C. AWS Cognito Decoder
+    * D. AWS STS decode-authorization-message
+65) A voting system hosted on-premise was recently migrated to AWS to lower cost, gain scalability, and to better serve thousands of concurrent users. When one of the AWS resource state changes, it generates an event and will need to trigger AWS Lambda. The AWS resource whose state changes and AWS Lambda does not have direct integration.<br/>Which of the following methods can be used to trigger AWS Lambda?
+    * A. AWS Lambda Custom Sources
+    * B. Open a support ticket with AWS
+    * C. CloudWatch Events Rules with AWS Lambda
+    * D. Cron jobs to trigger AWS Lambda to check the state of your service
+* [Answers](https://i.imgur.com/XdeSuFs.png)
 * Score:
     * [12-11-2020 AM] 52/65 = 80%
