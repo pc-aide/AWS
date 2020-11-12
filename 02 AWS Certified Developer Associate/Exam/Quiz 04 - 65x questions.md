@@ -153,7 +153,7 @@ def handler(event, context):
     return
 ````
 <br/>On the first execution, the Lambda function takes 2 seconds to execute. On the second execution and all the subsequent ones, the Lambda function takes 1.9 seconds to execute.<br/>What can be done to improve the execution time of the Lambda function?
-   * A. Increase the Lambda function RAM
+    * A. Increase the Lambda function RAM
     * B. Change the runtime to Node.js
     * C. Move the db connection out of the handler
     * D. Upgrade the MySQL instance type
