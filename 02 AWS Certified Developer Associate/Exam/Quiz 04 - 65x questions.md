@@ -153,10 +153,10 @@ def handler(event, context):
     return
 ````
 <br/>On the first execution, the Lambda function takes 2 seconds to execute. On the second execution and all the subsequent ones, the Lambda function takes 1.9 seconds to execute.<br/>What can be done to improve the execution time of the Lambda function?
-    * A. Increase the Lambda function RAM
-    * B. Change the runtime to Node.js
-    * C. Move the db connection out of the handler
-    * D. Upgrade the MySQL instance type
+   * A. Increase the Lambda function RAM
+   * B. Change the runtime to Node.js
+   * C. Move the db connection out of the handler
+   * D. Upgrade the MySQL instance type
 30) A cybersecurity company is publishing critical log data to a log group in Amazon CloudWatch Logs, which was created 3 months ago. The company must encrypt the log data using an AWS KMS CMK, so any future data can be encrypted to meet the company’s security guidelines.<br/>How can the company address this use-case?
     * A. Use AWS CLI `describe-log-groups` command & specify the KMS key ARN
     * B. Enable the encrypt feature on the log group via the CloudWatch Logs console
