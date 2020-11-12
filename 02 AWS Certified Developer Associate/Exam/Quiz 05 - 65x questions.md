@@ -138,18 +138,65 @@
     * B. Create a LB & an ASG
     * C. Prove a static private IP
     * D. Use Route 53
-28)
-29)
-30)
-31)
-32)
-33)
-34)
-35)
-36)
-37)
-38)
-39)
+28) Your e-commerce company needs to improve its software delivery process and is moving away from the waterfall methodology. You decided that every application should be built using the best CI/CD practices and every application should be packaged and deployed as a Docker container. The Docker images should be stored in ECR and pushed with AWS CodePipeline and AWS CodeBuild.<br/>When you attempt to do this, the last step fails with an authorization issue. What is the most likely issue?
+    * A. The ECR repository is stale, you must delete & re-create it
+    * B. CodeBuild can't talk to ECR because of SG issues
+    * C. The ECS instances are misconfigured & must contain additional data in /etc/ecs/ecs.config
+    * D. The IAM permissions are wrong for the CodeBuild service
+29) You are a developer working on AWS Lambda functions that are triggered by Amazon API Gateway and would like to perform testing on a low volume of traffic for new API versions.<br/>Which of the following features will accomplish this task?
+    * A. Custom Authorizers
+    * B. Stage Variables 
+    * C. Mapping Templates
+    * D. Canary Deployment
+30) You have been collecting AWS X-Ray traces across multiple applications and you would now like to index your XRay traces to search and filter through them efficiently.<br/>What should you use in your instrumentation?
+    * A. Segments
+    * B. Metadata
+    * C. Annotations
+    * D. Sampling
+31) An EC2 instance has an IAM instance role attached to it, providing it read and write access to the S3 bucket 'my_bucket'. You have tested the IAM instance role and both reads and writes are working. You then remove the IAM role from the EC2 instance and test both read and write again. Writes stopped working but reads are still working.<br/>What is the likely cause of this behavior?
+    * A. The EC2 instance is using cached temporary IAM credentials
+    * B. Removing an instance role from an EC2 instance can take a few minutes before being active
+    * C. The S3 bucket policy authorize reads
+    * D. When a read is done on a bucket, there's a grace period of 5 minutes to do the same read again
+32) A popular mobile app retrieves data from an AWS DynamoDB table that was provisioned with RCU’s that are evenly shared across four partitions. One of those partitions is receiving more traffic than the other partitions, causing hot partition issues.<br/>What technology will allow you to reduce the read traffic on your AWS DynamoDB table with minimal effort?
+    * A. More partitions
+    * B. ElastiCache
+    * C. DynamoDB Streams
+    * D. DynamoDB DAX
+33) You need to load SSL certificates onto your Load Balancers and also have EC2 instances dynamically retrieve them when needed for service to service two-way TLS communication.<br/>What service should you use to centrally manage these SSL certificates?
+    * A. S3
+    * B. IAM
+    * C. KMS
+    * D. ACM
+34) Which of the following CLI options will allow you to retrieve a subset of the attributes coming from a DynamoDB scan?
+    * A. --projection-expression
+    * B. --page-size
+    * C. --filter-expression
+    * D. --max-items
+35) Your company is shifting towards ECS to deploy applications. The process should be automated using the AWS CLI to create a service where at least ten instances of a task definition are kept running under the default cluster.<br/>Which of the following commands should be executed?
+    * A. `aws ecs create-service --service-name ecs-simple-service --task-definition ecs-demo --desired-count 10`
+    * B. `aws ecs run-task --cluster default --task-definition ecs-demo`
+    * C. `aws ecr create-service --service-name ecs-simple-service --task-definition ecs-demo --desired-count 10`
+    * D. `docker -compose create ecs-simple-service`
+36) You would like to run the X-Ray daemon for your Docker containers deployed using AWS Fargate.<br/>What do you need to do to ensure the setup will work? (**Select two**)
+    * A. Deploy the X-Ray daemon agent as a sidecar container
+    * B. Deploy the X-Ray daemon agent as a daemon set on ECS
+    * C. Provide the correct IAM task role to the X-Ray container
+    * D. Provide the correct IAM instance role to the EC2 instance
+    * E. Deploy the X-Ray daemon agent as a process on your EC2 instance
+37) You have created a DynamoDB table to support your application and provisioned RCU and WCU to it so that your application has been running for over a year now without any throttling issues. Your application now requires a second type of query over your table and as such, you have decided to create an LSI and a GSI on a new table to support that use case. One month after having implemented such indexes, it seems your table is experiencing throttling.<br/>Upon looking at the table's metrics, it seems the RCU and WCU provisioned are still sufficient. What's happening?
+    * A. Adding both an LSI & a GSI to a table is not recommended by AWS best practices as this is a known cause for creating throttles
+    * B. Metrics are lagging in your CloudWatch dashboard & you should see the RCU & WCU peaking for the main table in a few minutes
+    * C. The GSI is throttling so you need to provision more RCU & WCU to the GSI
+    * D. The LSI is throttling so you need to provision more RCU & WCU to the LSI
+38) You have created a test environment in Elastic Beanstalk and as part of that environment, you have created an RDS database.<br/>How can you make sure the database can be explored after the environment is destroyed?
+    * A. Change the EB environment variables
+    * B. Convert the EB environment to a worker environment
+    * C. Make a snapshot of the db before it gets deleted
+    * D. Make a selective delete in EB
+39) A media analytics company has built a streaming application on Lambda using SAM.<br/>As a Developer Associate, which of the following would you identify as the correct order of execution to successfully deploy the application?
+    * A. Develop the SAM template locally => deploy the template to S3 => use your application in the cloud
+    * B. Develop the SAM template locally => upload the template
 40)
 41)
 42)
