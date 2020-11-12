@@ -326,7 +326,7 @@ On the first execution, the Lambda function takes 2 seconds to execute. On the s
     * B. `dokcer build -t 1234567890.dkr.ecr.eu-west-1.amazonaws.com/demo:latest`
     * C. `dokcer pull 1234567890.dkr.ecr.eu-west-1.amazonaws.com/demo:latest`
     * D. `aws docker push 1234567890.dkr.ecr.eu-west-1.amazonaws.com/demo:latest`
-    * E. `docker login -u $AWS_ACCESS_KEY_IP -p $AWS_SECRET_ACCESS_key1
+    * E. `docker login -u $AWS_ACCESS_KEY_IP -p $AWS_SECRET_ACCESS_key1`
 63) You're a developer maintaining a web application written in .NET. The application makes references to public objects in a public S3 accessible bucket using a public URL. While doing a code review your colleague advises that the approach is not a best practice because some of the objects contain private data. After the administrator makes the S3 bucket private you can no longer access the S3 objects but you would like to create an application that will enable people to access some objects as needed with a time policy constraint.<br/>Which of the following options will give access to the objects?
     * A. Using IAM policy
     * B. Using pre-signed URL
