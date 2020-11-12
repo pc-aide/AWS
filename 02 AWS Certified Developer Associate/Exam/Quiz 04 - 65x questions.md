@@ -210,27 +210,110 @@ On the first execution, the Lambda function takes 2 seconds to execute. On the s
     * C. Enable Stickiness
     * D. Enable Multi AZ deployments
 40) You have a popular web application that accesses data stored in an Amazon S3 bucket. Developers use the SDK to maintain the application and add new features. Security compliance requests that all new objects uploaded to S3 be encrypted using SSE-S3 at the time of upload. Which of the following headers must the developers add to their request?
-    * A. 
-41)
-42)
-43)
-44)
-45)
-46)
-47)
-48)
-49)
-50)
-51)
-52)
-53)
-54)
-55)
-56)
-57)
-58)
-59)
-60)
+    * A. 'x-amz-server-side-encryption': 'SSE-KMS'
+    * B. 'x-amz-server-side-encryption': 'SSE-S3'
+    * C. 'x-amz-server-side-encryption': 'AES256'
+    * D. 'x-amz-server-side-encryption': 'aws:kms'
+41) A firm uses AWS DynamoDB to store information about people’s favorite sports teams and allow the information to be searchable from their home page. There is a daily requirement that all 10 million records in the table should be deleted then re-loaded at 2:00 AM each night.<br/>Which option is an efficient way to delete with minimal costs?
+    * A. Scan & call BatchDeleteItem
+    * B. Call PurgeTable
+    * C. Scan & call DeleteItem
+    * D. Delete then re-create the table
+42) As part of internal regulations, you must ensure that all communications to Amazon S3 are encrypted.<br/>For which of the following encryption mechanisms will a request get rejected if the connection is not using HTTPS?
+    * A. Client Side Encryption
+    * B. SSE-KMS
+    * C. SSE-C
+    * D. SSE-S3
+43) Your company is in the process of building a DevOps culture and is moving all of its on-premise resources to the cloud using serverless architectures and automated deployments. You have created a CloudFormation template in YAML that uses an AWS Lambda function to pull HTML files from GitHub and place them into an Amazon S3 bucket that you specify.<br/>Which of the following AWS CLI commands can you use to upload AWS Lambda functions and AWS CloudFormation templates to AWS?
+    * A. `cloudformation package` & `cloudformation upload`
+    * B. `cloudformation zip` & `cloudformation upload`
+    * C. `cloudformation zip` & `cloudformation deploy`
+    * D. `cloudformation package` & `cloudformation deploy`
+44) You are planning to build a fleet of EBS-optimized EC2 instances to handle the load of your new application. Due to security compliance, your organization wants any secret strings used in the application to be encrypted to prevent exposing values as clear text.<br/>The solution requires that decryption events be audited and API calls to be simple. How can this be achieved? (**select two**)
+    * A. Store the secret as SecureString in SSM Parameter Store
+    * B. Encrypt first with KMS then store in SSM Parameter store
+    * C. Audit using SSM Audit Trail
+    * D. Store the secret as PlainText in SSM Parameter Store
+    * E. Audit using CloudTrail
+45) A developer is migrating an on-premises application to AWS Cloud. The application currently processes user uploads and uploads them to a local directory on the server. All such file uploads must be saved and then made available to all instances in an Auto Scaling group.<br/>As a Developer Associate, which of the following options would you recommend for this use-case?
+    * A. Use Amazon S3 & make code changes in the application so all uploads are put on S3
+    * B. Use Instance Store type of EC2 instances & share the files via file synchronization software
+    * C. Use Amazon EBS & configure the application AMI to use a snapshot of the same EBS instance while launching new instances
+    * D. Use Amazon EBS as the storage volume & share the files via file synchronization software
+46) A data analytics company with its IT infrastructure on the AWS Cloud wants to build and deploy its flagship application as soon as there are any changes to the source code.<br/>As a Developer Associate, which of the following options would you suggest to trigger the deployment? (**Select two**)
+    * A. Keep the source code in an Amazon EBS volume & start AWS CodePipeline whenever there are updates to the source code
+    * B. Keep the source code in an AWS CodeCommit repository & start AWS CodePipeline whenever a change is pushed to the CodeCommit repository
+    * C. Keep the source code in Amazon EFS & start AWS CodePipeline whenever a file is updated
+    * D. Keep the source code in an Amazon S3 bucket & start AWS CodePipeline whenever a file in the S3 bucket is updated
+    * E. Keep the source code in an Amazon S3 bucket & set up AWS CodePipeline to recur at an interval of every 15 minutes
+47) You are getting ready for an event to show off your Alexa skill written in JavaScript. As you are testing your voice activation commands you find that some intents are not invoking as they should and you are struggling to figure out what is happening. You included the following code `console.log(JSON.stringify(this.event))` in hopes of getting more details about the request to your Alexa skill.<br/>You would like the logs stored in an Amazon S3 bucket named `MyAlexaLog`. How do you achieve this?
+    * A. Use CloudWatch integration feature with Glue
+    * B. Use CloudWatch integration feature with S3
+    * C. Use CloudWatch integration feature with Kinesis
+    * D. Use CloudWatch inegration feature with Lambda
+48) You have uploaded a zip file to AWS Lambda that contains code files written in Node.Js. When your function is executed you receive the following output, 'Error: Memory Size: 3008 MB Max Memory Used'.<br/>Which of the following explains the problem?
+    * A. The uncompressed zip file exceeds AWS Lambda limits
+    * B. Yur zip file is corrupt
+    * C. Your Lambda function ran out of RAM
+    * D. You have uploaded a zip file larger than 50 MB to AWS Lambda
+49) You have been hired at a company that needs an experienced developer to help with a CI/CD workflow on AWS. You configure the company’s workflow to run an AWS CodePipeline pipeline whenever the application’s source code changes in a repository hosted in AWS Code Commit and compiles source code with AWS Code Build. You are configuring ProjectArtifacts in your build stage.<br/>Which of the following should you do?
+    * A. Configure AWS CodeBuild to store output artifacts on EC2 servers
+    * B. Give AWS CodeCommit permissions to upload the build output to your Amazon S3 bucket
+    * C. Contact AWS Support to allow AWS CodePipeline to manage build outputs
+    * D. Give AWS codeBuild permissions to upload the build output to your Amazon S3 bucket
+50) An e-commerce company has implemented AWS CodeDeploy as part of its AWS cloud CI/CD strategy. The company has configured automatic rollbacks while deploying a new version of its flagship application to Amazon EC2.<br/>What occurs if the deployment of the new version fails?
+    * A. AWS CodePipeline promotes the most recent working deployment with a SUCCEEDED status to production
+    * B. The last known working deployment is automatically restored using the snapshot stored in Amazon S3
+    * C. CodeDeploy switches the Route 53 alias records back to the known good green deployment & terminates the failed blue deployment
+    * D. A new deployment of the last known working version of the application is deployed with a new deployment ID
+51) You manage a group of developers that are experienced with the AWS SDK for Java. You have given them a requirement to build a state machine workflow where each state executes an AWS Lambda function written in Java. Data payloads of 1KB in size will be passed between states and should allow for two retry attempts if the state fails.<br/>Which of the following options will assist your developers with this requirement?
+    * A. AWS ECS
+    * B. AWS Step Functions
+    * C. Amazon Simple Workflow Service
+    * D. CloudWatch Rules
+52) You have a popular three-tier web application that is used by users throughout the globe receiving thousands of incoming requests daily. You have AWS Route 53 policies to automatically distribute weighted traffic to the API resources located at URL api.global.com.<br/>What is an alternative way of distributing traffic to a web application?
+    * A. Auto Scaling
+    * B. ELB
+    * C. S3
+    * D. CloudFront
+53) Your application sends messages to an Amazon SQS queue frequently, which are then polled by another application that specifies which message to retrieve.<br/>Which of the following options describe the maximum number of messages that can be retrieved at one time?
+    * A. 10
+    * B. 5
+    * C. 20
+    * D. 100
+54) You are assigned as the new project lead for a web application that processes orders for customers. You want to integrate event-driven processing anytime data is modified or deleted and use a serverless approach using AWS Lambda for processing stream events.<br/>Which of the following databases should you choose from?
+    * A. ElastiCache
+    * B. RDS
+    * C. DynamoDB
+    * D. Kinesis
+55) A .NET developer team works with many ASP.NET web applications that use EC2 instances to host them on IIS. The deployment process needs to be configured so that multiple versions of the application can run in AWS Elastic Beanstalk. One version would be used for development, testing, and another version for load testing.<br/>Which of the following methods do you recommend?
+    * A. Create an ALB to route based on hostname so you can pass on parameters to the development EB envrironment. Create a file in .ebextensions/ to know how to handle the traffic coming from the ALB
+    * B. You can't have multiple development environmentss in EB, just one development & one production environment
+    * C. Define a dev environment with a single instance & a 'load test' environment that has settings close to production environment
+    * D. Use only one Beanstalk environment & perform configuration changes using an Ansible script
+56) Your AWS CodeDeploy deployment to T2 instances succeed. The new application revision makes API calls to Amazon S3 however the application is not working as expected due to authorization exceptions and you were assigned to troubleshoot the issue.<br/>Which of the following should you do?
+    * A. Fix the IAM permissions for the CodeDeploy service role
+    * B. Enable CodeDeploy Proxy
+    * C. Fix the IAM permissions for the EC2 instance role
+    * D. Make the S3 bucket public
+57) You are revising options that would be best for monitoring a few EC2 instances you currently manage. Amazon CloudWatch has metrics available to monitor your EC2 instances for CPU load, I/O, and network I/O. Your budget does not allow for spending on monitoring so using the default monitoring available is your preferred choice.<br/>With default monitoring, at what interval will these metrics be collected?
+    * A. 2 minutes
+    * B. 1 minute
+    * C. 10 minutes
+    * D. 5 minutes
+58) You have an Amazon Kinesis Data Stream with 10 shards, and from the metrics, you are well below the throughput utilization of 10 MB per second to send data. You send 3 MB per second of data and yet you are receiving ProvisionedThroughputExceededException errors frequently.<br/>What is the likely cause of this?
+    * A. You have too many shards
+    * B. The partition key that you have selected isn't distributed enough
+    * C. The data retention period is too long
+    * D. Metrics are slow to update
+59) Your company has a load balancer in a VPC configured to be internet facing. The public DNS name assigned to the load balancer is `myDns-1234567890.us-east-1.elb.amazonaws.com`. When your client applications first load they capture the load balancer DNS name and then resolve the IP address for the load balancer so that they can directly reference the underlying IP.<br/>It is observed that the client applications work well but unexpectedly stop working after a while. What is the reason for this?
+    * A. Your SGs are not stable
+    * B. You need to disable multi-AZ deployments
+    * C. You need to enable stickiness
+    * D. The LB is higly available & its public IP may change. The DNS name is constant
+60) An IT company uses a blue/green deployment policy to provision new Amazon EC2 instances in an Auto Scaling group behind a new Application Load Balancer for each new application version. The current set up requires the users to log in after every new deployment.<br/>As a Developer Associate, what advice would you give to the company for resolving this issue?
+    * A. Use multicast to replicate session information
+    * B. Use rolling updates instead of a blue/green depl
 61)
 62)
 63)
