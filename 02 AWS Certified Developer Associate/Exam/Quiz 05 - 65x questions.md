@@ -196,33 +196,143 @@
     * D. Make a selective delete in EB
 39) A media analytics company has built a streaming application on Lambda using SAM.<br/>As a Developer Associate, which of the following would you identify as the correct order of execution to successfully deploy the application?
     * A. Develop the SAM template locally => deploy the template to S3 => use your application in the cloud
-    * B. Develop the SAM template locally => upload the template
-40)
-41)
-42)
-43)
-44)
-45)
-46)
-47)
-48)
-49)
-50)
-51)
-52)
-53)
-54)
-55)
-56)
-57)
-58)
-59)
-60)
-61)
-62)
-63)
-64)
-65)
-* [Answer]()
+    * B. Develop the SAM template locally => upload the template to CodeCommit => deploy your application to CodeDeploy
+    * C. Develop the SAM template locally => upload the template to Lambda => deploy your application to the cloud
+    * D. Develop the SAM template locally => upload the template to S3 => deploy your application to the cloud
+40) Your company wants to move away from manually managing Lambda in the AWS console and wants to upload and update them using AWS CloudFormation.<br/>How do you declare an AWS Lambda function in CloudFormation? (**Select two**)
+    * A. Upload all the code as a zip to S3 & refer the object in `AWS::Lambda::Function` block
+    * B. Write the AWS Lambda code inline in CloudFormation in the `AWS::Lambda::Function` block & reference the dependencies as a zip file stored in S3
+    * C. Upload the code to CodeCommit & refer to the CodeCommit Repository in `AWS::Lambda::Function` block
+    * D. Upload all the code as a folder to S3 & refer the folder in `AWS::Lambda::Function` block
+    * E. Write the AWS Lambda code inline in CloudFormation in the `AWS::Lambda::Function` block as long as there are no third-party
+41) You are storing bids information on your betting application and you would like to automatically expire DynamoDB table data after one week.<br/>What should you use?
+    * A. Use DynamoDB Streams
+    * B. Use a Lambda function
+    * C. Use DAX
+    * D. Use TTL
+42) Your development team has created a popular mobile app written for Android. The team is looking for a technology that can send messages to mobile devices using a mobile app.<br/>Mobile app users will register and be given permissions to access AWS resources. Which technology would you recommend for subscribing users to messages?
+    * A. SES
+    * B. Kinesis
+    * C. SQS
+    * D. SNS
+43) You are running a web application where users can author blogs and share them with their followers. Most of the workflow is read based, but when a blog is updated, you would like to ensure that the latest data is served to the users (no stale data). The Developer has already suggested using ElastiCache to cope with the read load but has asked you to implement a caching strategy that complies with the requirements of the site.<br/>Which strategy would you recommend?
+    * A. Use DAX
+    * B. Use a Write Through strategy
+    * C. Use a Lazy Loading strategy with TTL
+    * D. Use a Lazy Loading strategy without TTL
+44) A development team has created AWS CloudFormation templates that are reusable by taking advantage of input parameters to name resources based on client names.<br/>You would like to save your templates on the cloud, which storage option should you choose?
+    * A. S3
+    * B. EBS
+    * C. ECR
+    * D. EFS
+45) Your organization has a single Amazon S3 bucket that contains folders labeled with customer names. Several administrators have IAM access to the S3 bucket and versioning is enabled to easily recover from unintended user actions.<br/>Which of the following statements about versioning is NOT true based on this scenario?
+    * A. Versioning can be enabled only for a specific folder
+    * B. Any file that was unversioned before enabling versioning will have the 'null' version
+    * C. Deleting a file is a recoverable operation
+    * D. Overwriting a file increases its versions
+46) Your Lambda function processes files for your customers and as part of that process, it creates a lot of intermediary files it needs to store on its disk and then discard.<br/>What is the best way to store temporary files for your Lambda functions that will be discarded when the function stops running?
+    * A. Use the local directory /tmp
+    * B. Create a tmp/ direcotry in the source zip file & use it
+    * C. Use the local directory /opt
+    * D. Use an S3 bucket
+47) You would like to deploy a Lambda function globally so that requests are filtered at the AWS edge locations.<br/>Which Lambda deployment mode do you need?
+    * A. Deploy Lambda in S3
+    * B. Deploy Lambda in a Global VPC
+    * C. Use a Global DynamoDB table as a Lambda source
+    * D. Use a Lambda@Edge
+48) You've just deployed an AWS Lambda function. The lambda function will be invoked via the API Gateway. The API Gateway will need to control access to it.<br/>Which of the following mechanisms is not supported for API Gateway?
+    * A. STS
+    * B. Cognito User Pools
+    * C. IAM permissions with sigv4
+    * D. Lambda Authorizer
+49) Your team has just signed up an year-long contract with a client maintaining a three-tier web application, that needs to be moved to AWS Cloud. The application has steady traffic throughout the day and needs to be on a reliable system with no down-time or access issues. The solution needs to be cost-optimal for this startup.<br/>Which of the following options should you choose?
+    * A. Amazon EC2 On Demand Instances
+    * B. On-premise EC2 instance
+    * C. Amazon EC2 Spot Instances
+    * D. Amazon EC2 Reserved Instances
+50) Applications running on EC2 instances process messages from an SQS queue but sometimes they experience errors due to messages not being processed.<br/>To isolate the messages, which option will help with further debugging?
+    * A. Reduce the VisibilityTimeout
+    * B. Implement a DLQ
+    * C. Increase the VisibilityTimeout
+    * D. Use DeleteMessage
+51) Which environment variable can be used by AWS X-Ray SDK to ensure that the daemon is correctly discovered on ECS?
+    * A. AWS_XRAY_TRACING_NAME
+    * B. AWS_XRAY_DAEMON_ADDRESS
+    * C. AWS_XRAY_DEBUG_MODE
+    * D. AWS_XRAY_CONTEXT_MISSING
+52) You would like your Elastic Beanstalk environment to expose an HTTPS endpoint and an HTTP endpoint. The HTTPS endpoint should be used to get in-flight encryption between your clients and your web servers, while the HTTP endpoint should only be used to redirect traffic to HTTPS and support URLs starting with http://.
+What must be done to configure this setup? (**Select three**)
+    * A. Configure your EC2 instances to redirect HTTP traffic to HTTPS
+    * B. Open up port 80 & port 443
+    * C. Assign an SSL certificate to the LB
+    * D. Only open up port 443
+    * E. Only open up port 80
+    * F. Configure your EC2 instances to redirect HTTPS to HTTP
+53) Your web application front end consists of 5 EC2 instances behind an Application Load Balancer. You have configured your web application to capture the IP address of the client making requests. When viewing the data captured you notice that every IP address being captured is the same, which also happens to be the IP address of the Application Load Balancer.<br/>What should you do to identify the true IP address of the client?
+    * A. Look into the X-Forwarded-For header in the backend
+    * B. Modify the front-end of the website so that the users send their IP in the requests
+    * C. Look into the X-Forwarded-Proto header in the backend
+    * D. Look into the client's cookie
+54) You are creating a web application in which users can follow each other. Some users will be more popular than others and thus their data will be requested very often. Currently, the user data sits in RDS and it has been recommended by your Developer to use ElastiCache as a caching layer to improve the read performance. The whole dataset of users cannot sit in ElastiCache without incurring tremendous costs and therefore you would like to cache only the most often requested users profiles there. As your website is high traffic, it is accepted to have stale data for users for a while, as long as the stale data is less than a minute old.<br/>What caching strategy do you recommend implementing?
+    * A. Use a Lazy Loading strategy without TTL
+    * B. Use Write Through strategy with TTL
+    * C. Use Write Through strategy without TTL
+    * D. Use a Lazy Loading strategy with TTL
+55) You would like to have a one-stop dashboard for all the CI/CD needs of one of your projects. You don't need heavy control of the individual configuration of each component in your CI/CD, but need to be able to get a holistic view of your projects.<br/>Which service do you recommend?
+    * A. CodeStar
+    * B. CodePipeline
+    * C. CodeBuild
+    * D. CodeDeploy
+56) A data analytics company ingests a large number of messages and stores them in an RDS database using Lambda. Because of the increased payload size, it is taking more than 15 minutes to process each message.<br/>As a Developer Associate, which of the following options would you recommend to process each message in the MOST scalable way?
+    * A. Provision EC2 instances in an ASG to poll the messages from an SQS queue
+    * B. Contact AWS Support to increase the Lambda timeout to 60 minutes
+    * C. Use DynamoDB instead of RDS as db
+    * D. Provision an EC2 instance to poll the messages from an SQS queue
+57) When your company first created an AWS account, you began with a single sign-in principal called a root user account that had complete access to all AWS services and resources.<br/>What should you do to adhere to best practices for using the root user account?
+    * A. It should be accessible using the access key id & secret access key
+    * B. It should be accessible by one admin only after enabling Multi-factor authentication
+    * C. It should be accessible by 3 to 6 members of the IT team
+    * D. It should be accessible by no one, throw away the passwords after creating the account
+58) You are a cloud security engineer working for a popular cyber-forensics company that offers vulnerability scanning solutions to government contractors. The scanning solutions are integrated with AWS resources to monitor EC2 and S3 API calls which then display results to users on an analytical dashboard.<br/>Which of the following AWS services makes this possible?
+    * A. CloudTrail
+    * B. S3 Access Logs
+    * C. IAM 
+    * D. VPC Flow Logs
+59) You are using AWS SQS FIFO queues to get the ordering of messages on a per user_id basis. On top of this, you would like to make sure that duplicate messages should not be sent to SQS as this would cause application failure.<br/>As a developer, which message parameter should you set for deduplicating messages?
+    * A. ContentBasedDeduplication
+    * B. MessageGroupId
+    * C. ReceiveRequestAttemptId
+    * D. MessageDeduplicaitonId
+60) You are deploying Lambda functions that operate on your S3 buckets to read files and extract key metadata. The Lambda functions are managed using SAM.<br/>Which Policy should you insert in your serverless model template to give buckets read access?
+    * A. SQSPollerPolicy
+    * B. S3ReadPolicy
+    * C. LambdaInvokePolicy
+    * D. S3CrudPolicy
+61) You were assigned to a project that requires the use of the AWS CLI to build a project with AWS CodeBuild. Your project's root directory includes the buildspec.yml file to run build commands and would like your build artifacts to be automatically encrypted at the end.<br/>How should you configure CodeBuild to accomplish this?
+    * A. Specify a KMS key to use
+    * B. Use In Flight encryption (SSL)
+    * C. Use an AWS Lambda Hook
+    * D. Use AWS Encryption SDK
+62) The development team at an e-commerce company is preparing for the upcoming Thanksgiving sale. The product manager wants the development team to implement appropriate caching strategy on Amazon ElastiCache to withstand traffic spikes on the website during the sale. A key requirement is to facilitate consistent updates to the product prices and product description, so that the cache never goes out of sync with the backend.<br/>As a Developer Associate, which of the following solutions would you recommend for the given use-case?
+    * A. Use a caching strategy to write to the cache directly & sync the backend at a later time
+    * B. Use a caching strategy to update the cache & the backend at the same time
+    * C. Use a caching strategy to write to the backend first & wait for the cache to expire via TTL
+    * D. Use a caching strategy to write to the backend first & then invalidate the cache
+63) Your AWS account is now growing to 200 users and you would like to provide each of these users a personal space in the S3 bucket 'my_company_space' with the prefix `/home/<username>`, where they have read/write access.<br/>How can you do this efficiently?
+    * A. Create one customer-managed policy with policy variables & attach to a group of all users
+    * B. Create one customer-managed policy per user & attach them to the relevant users
+    * C. Create inline policies for each user as they are onboarded
+    * D. Create an S3 bucket policy & change it as users are added & removed
+64) You would like your Elastic Beanstalk environment to expose an HTTPS endpoint instead of an HTTP endpoint to get in-flight encryption between your clients and your web servers.<br/>What must be done to set up HTTPS on Beanstalk?
+    * A. Create an .ebextentions file to configure the LB
+    * B. Configure Health Checks
+    * C. Open up the port 80 for the SG
+    * D. Use a separate CloudFormation template to load the SSL certificate into the Lb
+65) An IT company leverages CodePipeline to automate its release pipelines. The development team wants to write a Lambda function that will send notifications for state changes within the pipeline.<br/>As a Developer Associate, which steps would you suggest to associate the Lambda function with the event source?
+    * A. Set up an Amazon CloudWatch Events rule that uses CodePipeline as an event source with the target as the Lambda function
+    * B. Use the Lambda console to configure a trigger that invokes the Lambda function with CodePipeline as the event source
+    * C. Set up an Amazon CloudWatch alarm that monitors status changes in CodePipeline & triggers the Lambda function
+    * D. Use the CodePipeline console to set up a trigger for the Lambda function
+* [Answers](https://i.imgur.com/f1dae10.png)
 * Score:
     * [12-11-2020 PM] 48/65 = 73%
