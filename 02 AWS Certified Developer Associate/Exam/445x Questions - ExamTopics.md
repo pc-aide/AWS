@@ -37,9 +37,9 @@ Which method would be the MOST secure way to authenticate a CloudWatch PUT reque
 
 Which field, when used as the partition key, would result in the MOST consistent performance using DynamoDB?
    * A. starRating
-    * B. reviewID
-    * C. comment
-    * D. productID
+   * B. reviewID
+   * C. comment
+   * D. productID
 * [Answer](https://i.imgur.com/qqIVocr.png)
 5) A Developer has written a serverless application using multiple AWS services. The business logic is written as a Lambda function which has dependencies on third-party libraries. The Lambda function endpoints will be exposed using Amazon API Gateway. The Lambda function will write the information to Amazon
 DynamoDB. The Developer is ready to deploy the application but must have the ability to rollback. How can this deployment be automated, based on these requirements?
