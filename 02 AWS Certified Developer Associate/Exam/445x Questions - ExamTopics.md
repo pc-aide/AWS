@@ -35,7 +35,7 @@ Which method would be the MOST secure way to authenticate a CloudWatch PUT reque
 | comment    | String | User comment string        |
 | productID  | Number | Product ID being reviewed  |
 
-<br/>Which field, when used as the partition key, would result in the MOST consistent performance using DynamoDB?
+Which field, when used as the partition key, would result in the MOST consistent performance using DynamoDB?
     * A. starRating
     * B. reviewID
     * C. comment
