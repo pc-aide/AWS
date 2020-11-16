@@ -758,4 +758,10 @@ Developer decides to cache the user profile data.<br/>Which caching strategy wil
    * B. Embed credentials to prevent typos.
    * C. Remove mappings to decrease the number of variables.
    * D. Use AWS::Include to reference publicly-hosted template files.
-* [Answer]()
+* [Answer](https://i.imgur.com/SPjTKUo.png)
+109) A Developer wants to encrypt new objects that are being uploaded to an Amazon S3 bucket by an application. There must be an audit trail of who has used the key during this process. There should be no change to the performance of the application.Which type of encryption meets these requirements?
+    * A. Server-side encryption using S3-managed keys
+    * B. Server-side encryption with AWS KMS-managed keys
+    * C. Client-side encryption with a client-side symmetric master key
+    * D. Client-side encryption with AWS KMS-managed keys
+
