@@ -711,13 +711,13 @@ Developer decides to cache the user profile data.<br/>Which caching strategy wil
    * C. Amazon Cognito Sync
    * D. AWS Mobile Hub cloud logic
 * [Answer](https://i.ibb.co/0tw5kmh/image.png)
-101) A company needs a new REST API that can return information about the contents of an Amazon S3 bucket, such as a count of the objects stored in it. The company has decided that the new API should be written as a microservice using AWS Lambda and Amazon API Gateway.<br/>How should the Developer ensure that the microservice has the necessary access to the Amazon S3 bucket, while adhering to security best practices?
+101) A company needs a new REST API that can return information about the contents of an Amazon S3 bucket, such as a count of the objects stored in it. The company has decided that the new API should be written as a microservice using AWS Lambda and Amazon API Gateway.How should the Developer ensure that the microservice has the necessary access to the Amazon S3 bucket, while adhering to security best practices?
     * A. Create an IAM user that has permissions to access the Amazon S3 bucket, and store the IAM user credentials in the Lambda function source code.
     * B. Create an IAM role that has permissions to access the Amazon S3 bucket and assign it to the Lambda function as its execution role.
     * C. Create an Amazon S3 bucket policy that specifies the Lambda service as its principal and assign it to the Amazon S3 bucket.
     * D. Create an IAM role, attach the AmazonS3FullAccess managed policy to it, and assign the role to the Lambda function as its execution role.
 * [Answer](https://i.ibb.co/GTZ0mKh/image.png) error
-102) An application is running on an EC2 instance. The Developer wants to store an application metric in Amazon CloudWatch.<br/>What is the best practice for implementing this requirement?
+102) An application is running on an EC2 instance. The Developer wants to store an application metric in Amazon CloudWatch.What is the best practice for implementing this requirement?
     * A. Use the PUT Object API call to send data to an S3 bucket. Use an event notification to invoke a Lambda function to publish data to CloudWatch.
     * B. Publish the metric data to an Amazon Kinesis Stream using a PutRecord API call. Subscribe a Lambda function that publishes data to CloudWatch.
     * C. Use the CloudWatch PutMetricData API call to submit a custom metric to CloudWatch. Provide the required credentials to enable the API call.
