@@ -706,10 +706,10 @@ Developer decides to cache the user profile data.<br/>Which caching strategy wil
     * D. 500 read capacity units 
 * [Answer](https://i.ibb.co/vzBbVDc/image.png)
 100) A web application is designed to allow new users to create accounts using their email addresses. The application will store attributes for each user, and is expecting millions of user to sign up.What should the Developer implement to achieve the design goals?
-    * A. Amazon Cognito user pools
-    * B. AWS Mobile Hub user data storage
-    * C. Amazon Cognito Sync
-    * D. AWS Mobile Hub cloud logic
+   * A. Amazon Cognito user pools
+   * B. AWS Mobile Hub user data storage
+   * C. Amazon Cognito Sync
+   * D. AWS Mobile Hub cloud logic
 * [Answer](https://i.ibb.co/0tw5kmh/image.png)
 101) A company needs a new REST API that can return information about the contents of an Amazon S3 bucket, such as a count of the objects stored in it. The company has decided that the new API should be written as a microservice using AWS Lambda and Amazon API Gateway.<br/>How should the Developer ensure that the microservice has the necessary access to the Amazon S3 bucket, while adhering to security best practices?
     * A. Create an IAM user that has permissions to access the Amazon S3 bucket, and store the IAM user credentials in the Lambda function source code.
