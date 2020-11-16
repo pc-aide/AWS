@@ -314,10 +314,10 @@ db=db_name, connect_timeout=5)
 ````
 What two actions can be taken to improve the performance of this Lambda function without increasing the cost of the solution? (**Select two**.)
    * A. Package only the modules the Lambda function requires
-    * B. Use Amazon DynamoDB instead of Amazon RDS
-    * C. Move the initialization of the variable Amazon RDS connection outside of the handler function
-    * D. Implement custom database connection pooling with the Lambda function
-    * E. Implement local caching of Amazon RDS data so Lambda can re-use the cache
+   * B. Use Amazon DynamoDB instead of Amazon RDS
+   * C. Move the initialization of the variable Amazon RDS connection outside of the handler function
+   * D. Implement custom database connection pooling with the Lambda function
+   * E. Implement local caching of Amazon RDS data so Lambda can re-use the cache
 * [Answer](https://i.imgur.com/QyyeuCI.png) error
 41) An application will ingest data at a very high throughput from many sources and must store the data in an Amazon S3 bucket. Which service would BEST accomplish this task?
     * A. Amazon Kinesis Firehose
