@@ -244,7 +244,7 @@ What could cause this situation?
 * [Answer](https://i.imgur.com/7MrIXnK.png) error
 31)  An application is designed to use Amazon SQS to manage messages from many independent senders. Each sender's messages must be processed in the order they are received.
 <br/>Which SQS feature should be implemented by the Developer?
-   * A. Configure each sender with a unique MessageGroupId
+    * A. Configure each sender with a unique MessageGroupId
    * B. Enable MessageDeduplicationIds on the SQS queue
    * C. Configure each message with unique MessageGroupIds.
    * D. Enable ContentBasedDeduplication on the SQS queue
