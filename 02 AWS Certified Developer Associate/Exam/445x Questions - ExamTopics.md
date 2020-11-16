@@ -712,50 +712,50 @@ Developer decides to cache the user profile data.<br/>Which caching strategy wil
    * D. AWS Mobile Hub cloud logic
 * [Answer](https://i.ibb.co/0tw5kmh/image.png)
 101) A company needs a new REST API that can return information about the contents of an Amazon S3 bucket, such as a count of the objects stored in it. The company has decided that the new API should be written as a microservice using AWS Lambda and Amazon API Gateway.How should the Developer ensure that the microservice has the necessary access to the Amazon S3 bucket, while adhering to security best practices?
-    * A. Create an IAM user that has permissions to access the Amazon S3 bucket, and store the IAM user credentials in the Lambda function source code.
-    * B. Create an IAM role that has permissions to access the Amazon S3 bucket and assign it to the Lambda function as its execution role.
-    * C. Create an Amazon S3 bucket policy that specifies the Lambda service as its principal and assign it to the Amazon S3 bucket.
-    * D. Create an IAM role, attach the AmazonS3FullAccess managed policy to it, and assign the role to the Lambda function as its execution role.
+   * A. Create an IAM user that has permissions to access the Amazon S3 bucket, and store the IAM user credentials in the Lambda function source code.
+   * B. Create an IAM role that has permissions to access the Amazon S3 bucket and assign it to the Lambda function as its execution role.
+   * C. Create an Amazon S3 bucket policy that specifies the Lambda service as its principal and assign it to the Amazon S3 bucket.
+   * D. Create an IAM role, attach the AmazonS3FullAccess managed policy to it, and assign the role to the Lambda function as its execution role.
 * [Answer](https://i.ibb.co/GTZ0mKh/image.png) error
 102) An application is running on an EC2 instance. The Developer wants to store an application metric in Amazon CloudWatch.What is the best practice for implementing this requirement?
-    * A. Use the PUT Object API call to send data to an S3 bucket. Use an event notification to invoke a Lambda function to publish data to CloudWatch.
-    * B. Publish the metric data to an Amazon Kinesis Stream using a PutRecord API call. Subscribe a Lambda function that publishes data to CloudWatch.
-    * C. Use the CloudWatch PutMetricData API call to submit a custom metric to CloudWatch. Provide the required credentials to enable the API call.
-    * D. Use the CloudWatch PutMetricData API call to submit a custom metric to CloudWatch. Launch the EC2 instance with the required IAM role to enable the API call.
+   * A. Use the PUT Object API call to send data to an S3 bucket. Use an event notification to invoke a Lambda function to publish data to CloudWatch.
+   * B. Publish the metric data to an Amazon Kinesis Stream using a PutRecord API call. Subscribe a Lambda function that publishes data to CloudWatch.
+   * C. Use the CloudWatch PutMetricData API call to submit a custom metric to CloudWatch. Provide the required credentials to enable the API call.
+   * D. Use the CloudWatch PutMetricData API call to submit a custom metric to CloudWatch. Launch the EC2 instance with the required IAM role to enable the API call.
 * [Answer](https://i.ibb.co/gzhZjgs/image.png)
 103) Queries to an Amazon DynamoDB table are consuming a large amount of read capacity. The table has a significant number of large attributes. The application does not need all of the attribute data.<br/>How can DynamoDB costs be minimized while maximizing application performance?
-    * A. Batch all the writes, and perform the write operations when no or few reads are being performed.
-    * B. Create a global secondary index with a minimum set of projected attributes.
-    * C. Implement exponential backoffs in the application.
-    * D. Load balance the reads to the table using an Application Load Balancer.
+   * A. Batch all the writes, and perform the write operations when no or few reads are being performed.
+   * B. Create a global secondary index with a minimum set of projected attributes.
+   * C. Implement exponential backoffs in the application.
+   * D. Load balance the reads to the table using an Application Load Balancer.
 * [Answer](https://i.ibb.co/LNYfrgH/image.png)
 104) AWS CodeBuild builds code for an application, creates the Docker image, pushes the image to Amazon Elastic Container Registry (Amazon ECR), and tags the image with a unique identifier.<br/>If the Developers already have AWS CLI configured on their workstations, how can the Docker images be pulled to the workstations?
-    * A. Run the following: docker pull REPOSITORY URI : TAG
-    * B. Run the output of the following: aws ecr get-login and then run: docker pull REPOSITORY URI : TAG
-    * C. Run the following: aws ecr get-login and then run: docker pull REPOSITORY URI : TAG
-    * D. Run the output of the following: aws ecr get-download-url-for-layer and then run: docker pull REPOSITORY URI : TAG
+   * A. Run the following: docker pull REPOSITORY URI : TAG
+   * B. Run the output of the following: aws ecr get-login and then run: docker pull REPOSITORY URI : TAG
+   * C. Run the following: aws ecr get-login and then run: docker pull REPOSITORY URI : TAG
+   * D. Run the output of the following: aws ecr get-download-url-for-layer and then run: docker pull REPOSITORY URI : TAG
 * [Answer](https://i.ibb.co/LNqFk9T/image.png) error
 105) A company caches session information for a web application in an Amazon DynamoDB table. The company wants an automated way to delete old items from the table.<br/>What is the simplest way to do this?
-    * A. Write a script that deletes old records; schedule the scripts as a cron job on an Amazon EC2 instance.
-    * B. Add an attribute with the expiration time; enable the Time To Live feature based on that attribute.
-    * C. Each day, create a new table to hold session data; delete the previous day's table.
-    * D. Add an attribute with the expiration time; name the attribute ItemExpiration.
+   * A. Write a script that deletes old records; schedule the scripts as a cron job on an Amazon EC2 instance.
+   * B. Add an attribute with the expiration time; enable the Time To Live feature based on that attribute.
+   * C. Each day, create a new table to hold session data; delete the previous day's table.
+   * D. Add an attribute with the expiration time; name the attribute ItemExpiration.
 * [Answer](https://i.ibb.co/8zxCH0T/image.png)
 106) An application is expected to process many files. Each file takes four minutes to process each AWS Lambda invocation. The Lambda function does not return any important data.<br/>What is the fastest way to process all the files?
-    * A. First split the files to make them smaller, then process with synchronous RequestResponse Lambda invocations.
-    * B. Make synchronous RequestResponse Lambda invocations and process the files one by one.
-    * C. Make asynchronous Event Lambda invocations and process the files in parallel.
-    * D. First join all the files, then process it all at once with an asynchronous Event Lambda invocation.
+   * A. First split the files to make them smaller, then process with synchronous RequestResponse Lambda invocations.
+   * B. Make synchronous RequestResponse Lambda invocations and process the files one by one.
+   * C. Make asynchronous Event Lambda invocations and process the files in parallel.
+   * D. First join all the files, then process it all at once with an asynchronous Event Lambda invocation.
 * [Answer](https://i.imgur.com/RnaxYxh.png)
 107) The upload of a 15 GB object to Amazon S3 fails. The error message reads: "Your proposed upload exceeds the maximum allowed object size."<br/>What technique will allow the Developer to upload this object?
-    * A. Upload the object using the multi-part upload API.
-    * B. Upload the object over an AWS Direct Connect connection.
-    * C. Contact AWS Support to increase the object size limit.
-    * D. Upload the object to another AWS region.
+   * A. Upload the object using the multi-part upload API.
+   * B. Upload the object over an AWS Direct Connect connection.
+   * C. Contact AWS Support to increase the object size limit.
+   * D. Upload the object to another AWS region.
 * [Answer](https://i.imgur.com/cBsOJfy.png)
 108) A company has an AWS CloudFormation template that is stored as a single file. The template is able to launch and create a full infrastructure stack.<br/>Which best practice would increase the maintainability of the template?
-    * A. Use nested stacks for common template patterns.
-    * B. Embed credentials to prevent typos.
-    * C. Remove mappings to decrease the number of variables.
-    * D. Use AWS::Include to reference publicly-hosted template files.
+   * A. Use nested stacks for common template patterns.
+   * B. Embed credentials to prevent typos.
+   * C. Remove mappings to decrease the number of variables.
+   * D. Use AWS::Include to reference publicly-hosted template files.
 * [Answer]()
