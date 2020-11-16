@@ -250,7 +250,7 @@ What could cause this situation?
 * [Answer](https://i.imgur.com/ITo0t5T.png) error
 32) A deployment package uses the AWS CLI to copy files into any S3 bucket in the account, using access keys stored in environment variables. The package is running on EC2 instances, and the instances have been modified to run with an assumed IAM role and a more restrictive policy that allows access to only one bucket. After the change, the Developer logs into the host and still has the ability to write into all of the S3 buckets in that account.<br/>What is the MOST likely cause of this situation?
     * A. An IAM inline policy is being used on the IAM role
-   * B. An IAM managed policy is being used on the IAM role
-   * C. The AWS CLI is corrupt and needs to be reinstalled
-   * D. The AWS credential provider looks for instance profile credentials last
+    * B. An IAM managed policy is being used on the IAM role
+    * C. The AWS CLI is corrupt and needs to be reinstalled
+    * D. The AWS credential provider looks for instance profile credentials last
 * [Answer](https://i.imgur.com/Q4ZeUd3.png)
