@@ -253,3 +253,93 @@ What could cause this situation?
     * C. The AWS CLI is corrupt and needs to be reinstalled
     * D. The AWS credential provider looks for instance profile credentials last
 * [Answer](https://i.imgur.com/Q4ZeUd3.png)
+33) A Developer is writing transactions into a DynamoDB table called "SystemUpdates" that has 5 write capacity units.<br/>Which option has the highest read throughput?
+    * A. Eventually consistent reads of 5 read capacity units reading items that are 4 KB in size
+    * B. Strongly consistent reads of 5 read capacity units reading items that are 4 KB in size
+    * C. Eventually consistent reads of 15 read capacity units reading items that are 1 KB in size
+    * D. Strongly consistent reads of 15 read capacity units reading items that are 1 KB in size
+* [Answer](https://i.imgur.com/vr2N0t3.png)
+34) Where should an Elastic Beanstalk configuration file named healthcheckur1.config be placed in the application source bundle?
+    * A. In the root of the application
+    * B. In the bin folder
+    * C. In healthcheckur1.config.ebextension under root
+    * D. In the .ebextensions folder
+* [Answer](https://i.imgur.com/vZrkBGn.png)
+35) During non-peak hours, a Developer wants to minimize the execution time of a full Amazon DynamoDB table scan without affecting normal workloads. The workloads average half of the strongly consistent read capacity units during non-peak hours.<br/>How would the Developer optimize this scan?
+    * A. Use parallel scans while limiting the rate
+    * B. Use sequential scans
+    * C. Increase read capacity units during the scan operation
+    * D. Change consistency to eventually consistent during the scan operation 
+* [Answer](https://i.imgur.com/SewYUsx.png)
+36) A Developer is creating a Lambda function and will be using external libraries that are not included in the standard Lambda libraries.<br/>What action would minimize the Lambda compute time consumed?
+    * A. Install the dependencies and external libraries at the beginning of the Lambda function.
+    * B. Create a Lambda deployment package that includes the external libraries.
+    * C. Copy the external libraries to Amazon S3, and reference the external libraries to the S3 location.
+    * D. Install the external libraries in Lambda to be available to all Lambda functions.
+* [Answer](https://i.imgur.com/qXxvvGI.png) error
+37) A Developer is writing a Linux-based application to run on AWS Elastic Beanstalk. Application requirements state that the application must maintain full capacity during updates while minimizing cost.<br/>Which type of Elastic Beanstalk deployment policy should the Developer specify for the environment?
+    * A. Immutable
+    * B. Rolling
+    * C. All at Once
+    * D. Rolling with additional batch
+* [Answer](https://i.imgur.com/hranJZP.png)
+38) An application under development is required to store hundreds of video files. The data must be encrypted within the application prior to storage, with a unique key for each video file.<br/>How should the Developer code the application?
+    * A. Use the KMS Encrypt API to encrypt the data. Store the encrypted data key and data.
+    * B. Use a cryptography library to generate an encryption key for the application. Use the encryption key to encrypt the data. Store the encrypted data.
+    * C. Use the KMS GenerateDataKey API to get a data key. Encrypt the data with the data key. Store the encrypted data key and data.
+    * D. Upload the data to an S3 bucket using server side-encryption with an AWS KMS key.
+* [Answer](https://i.imgur.com/D37MU8f.png) error
+39) A Developer is creating an application that needs to locate the public IPv4 address of the Amazon EC2 instance on which it runs. How can the application locate this information?
+    * A. Get the instance metadata by retrieving http://169.254.169.254/latest/metadata/.
+    * B. Get the instance user data by retrieving http://169.254.169.254/latest/userdata/.
+    * C. Get the application to run IFCONFIG to get the public IP address.
+    * D. Get the application to run IPCONFIG to get the public IP address.
+* [Answer](https://i.imgur.com/fh335E3.png)
+40) The Lambda function below is being called through an API using Amazon API Gateway. The average execution time for the Lambda function is about 1 second.The pseudocode for the Lambda function is as shown in the exhibit.
+````python
+include "3rd party encryption module"
+include "match module"
+lambda_handler(event, context)
+  rds_host = "rds-instance-endpoint"
+  name = db_username
+  password = db_password
+  db_name = db_name
+# Connect to the RDS Database
+Conn = RDSConnection(rds_host, user=name, passwd=password,
+db=db_name, connect_timeout=5)
+#Perform some Processing reading data from the RDS database
+#Code Block
+#Code Block
+#Code Block
+````
+What two actions can be taken to improve the performance of this Lambda function without increasing the cost of the solution? (**Select two**.)
+    * A. Package only the modules the Lambda function requires
+    * B. Use Amazon DynamoDB instead of Amazon RDS
+    * C. Move the initialization of the variable Amazon RDS connection outside of the handler function
+    * D. Implement custom database connection pooling with the Lambda function
+    * E. Implement local caching of Amazon RDS data so Lambda can re-use the cache
+* [Answer](https://i.imgur.com/QyyeuCI.png) error
+41) An application will ingest data at a very high throughput from many sources and must store the data in an Amazon S3 bucket. Which service would BEST accomplish this task?
+    * A. Amazon Kinesis Firehose
+    * B. Amazon S3 Acceleration Transfer
+    * C. Amazon SQS
+    * D. Amazon SNS
+* [Answer](https://i.imgur.com/lNAQog3.png) error
+42) A Developer has setup an Amazon Kinesis Stream with 4 shards to ingest a maximum of 2500 records per second. A Lambda function has been configured to process these records.<br/>In which order will these records be processed?
+    * A. Lambda will receive each record in the reverse order it was placed into the stream following a LIFO method
+    * B. Lambda will receive each record in the exact order it was placed into the stream following a FIFO method.
+    * C. Lambda will receive each record in the exact order it was placed into the shard following a FIFO method. There is no guarantee of order across shards.
+    * D. The Developer can select FIFO, LIFO, random, or request specific record using the getRecords API.
+* [Answer](https://i.imgur.com/EN0F9J7.png) error
+43) A static website is hosted in an Amazon S3 bucket. Several HTML pages on the site use JavaScript to download images from another Amazon S3 bucket. These images are not displayed when users browse the site.<br/>What is the possible cause for the issue?
+    * A. The referenced Amazon S3 bucket is in another region.
+    * B. The images must be stored in the same Amazon S3 bucket.
+    * C. Port 80 must be opened on the security group in which the Amazon S3 bucket is located.
+    * D. Cross Origin Resource Sharing must be enabled on the Amazon S3 bucket.
+* [Answer](https://i.imgur.com/tpXlQ9k.png)
+44) Amazon S3 has the following structure: S3://BUCKET/FOLDERNAME/FILENAME.zip<br/>Which S3 best practice would optimize performance with thousands of PUT request each second to a single bucket?
+    * A. Prefix folder names with user id; for example, s3://BUCKET/2013-FOLDERNAME/FILENAME.zip
+    * B. Prefix file names with timestamps; for example, s3://BUCKET/FOLDERNAME/2013-26-05-15-00-00-FILENAME.zip
+    * C. Prefix file names with random hex hashes; for example, s3://BUCKET/FOLDERNAME/23a6-FILENAME.zip
+    * D. Prefix folder names with random hex hashes; for example, s3://BUCKET/23a6-FOLDERNAME/FILENAME.zip 
+* [Answer](https://i.imgur.com/Cqpsl8P.png)
