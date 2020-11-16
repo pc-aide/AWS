@@ -601,3 +601,161 @@ The company wants to allow users to use multiple device for the game, which requ
     * D. Amazon Cognito, Amazon RDS
     * E. Amazon ECS, Amazon EBS
 * [Answer](https://i.imgur.com/DMlO0sF.png) error
+84) An application displays a status dashboard. The status is updated by 1 KB messages from an SQS queue. Although the status changes infrequently, the
+Developer must minimize the time between the message arrival in the queue and the dashboard update.<br/>What technique provides the shortest delay in updating the dashboard?
+    * A. Retrieve the messages from the queue using long polling every 20 seconds.
+    * B. Reduce the size of the messages by compressing them before sending.
+    * C. Retrieve the messages from the queue using short polling every 10 seconds.
+    * D. Reduce the size of each message payload by sending it in two parts. 
+* [Answer](https://i.imgur.com/vIMz0BH.png)
+85) A company is using AWS CodePipeline to deliver one of its applications. The delivery pipeline is triggered by changes to the master branch of an AWS
+CodeCommit repository and uses AWS CodeBuild to implement the test and build stages of the process and AWS CodeDeploy to deploy the application.
+The pipeline has been operating successfully for several months and there have been no modifications. Following a recent change to the application's source code, AWS CodeDeploy has not deployed the updates application as expected.<br/>What are the possible causes? (**Choose two**.)
+    * A. The change was not made in the master branch of the AWS CodeCommit repository.
+    * B. One of the earlier stages in the pipeline failed and the pipeline has terminated.
+    * C. One of the Amazon EC2 instances in the company's AWS CodePipeline cluster is inactive.
+    * D. The AWS CodePipeline is incorrectly configured and is not executing AWS CodeDeploy.
+    * E. AWS CodePipeline does not have permissions to access AWS CodeCommit.
+* [Answer](https://i.imgur.com/oiLkJtY.png)
+86) A social media company is using Amazon Cognito in order to synchronize profiles across different mobile devices, to enable end users to have a seamless experience.<br/>Which of the following configurations can be used to silently notify users whenever an update is available on all other devices?
+    * A. Modify the user pool to include all the devices which keep them in sync.
+    * B. Use the SyncCallback interface to receive notifications on the application.
+    * C. Use an Amazon Cognito stream to analyze the data and push the notifications.
+    * D. Use the push synchronization feature with the appropriate IAM role.
+* [Answer](https://i.ibb.co/pZ6Wwtz/image.png) error
+87) A website's page load times are gradually increasing as more users access the system at the same time. Analysis indicates that a user profile is being loaded from a database in all the web pages being visited by each user and this is increasing the database load and the page load latency. To address this issue the
+Developer decides to cache the user profile data.<br/>Which caching strategy will address this situation MOST efficiently?
+    * A. Create a new Amazon EC2 Instance and run a NoSQL database on it. Cache the profile data within this database using the write-through caching strategy.
+    * B. Create an Amazon ElastiCache cluster to cache the user profile data. Use a cache-aside caching strategy.
+    * C. Use a dedicated Amazon RDS instance for caching profile data. Use a write-through caching strategy.
+    * D. Create an ElastiCache cluster to cache the user profile data. Use a write-through caching strategy.
+* [Answer](https://i.ibb.co/JCXnDGz/image.png)
+88) An application needs to use the IP address of the client in its processing. The application has been moved into AWS and has been placed behind an ALB. However, all the client IP addresses now appear to be the same. The application must maintain the ability to scale horizontally.<br/>Based on this scenario, what is the MOST cost-effective solution to this problem?
+    * A. Remove the application from the ALB. Delete the ALB and change Amazon Route 53 to direct traffic to the instance running the application.
+    * B. Remove the application from the ALB. Create a Classic Load Balancer in its place. Direct traffic to the application using the HTTP protocol.
+    * C. Alter the application code to inspect the X-Forwarded-For header. Ensure that the code can work properly if a list of IP addresses is passed in the header.
+    * D. Alter the application code to inspect a custom header. Alter the client code to pass the IP address in the custom header.
+* [Answer](https://i.ibb.co/PMXHmPg/image.png)
+89) A development team is using AWS Elastic Beanstalk to deploy a two-tier application that consists of a load-balanced web tier and an Amazon RDS database tier in production. The team would like to separate the RDS instance from the Elastic Beanstalk.<br/>How can this be accomplished?
+    * A. Use the Elastic Beanstalk CLI to disassociate the database.
+    * B. Use the AWS CLI to disassociate the database.
+    * C. Change the deployment policy to disassociate the database.
+    * D. Recreate a new Elastic Beanstalk environment without Amazon RDS. 
+* [Answer](https://i.ibb.co/NjQ3Vhz/image.png)
+90) According to best practice, how should access keys be managed in AWS? (Choose two.)
+    * A. Use the same access key in all applications for consistency.
+    * B. Delete all access keys for the account root user.
+    * C. Leave unused access keys in the account for tracking purposes.
+    * D. Embed and encrypt access keys in code for continuous deployment.
+    * E. Use Amazon IAM roles instead of access keys where possible.
+* [Answer](https://i.ibb.co/dfg3Hnx/image.png)
+91) The development team is working on an API that will be served from Amazon API gateway. The API will be served from three environments: development, test, and production. The API Gateway is configured to use 237 GB of cache in all three stages.<br/>Which is the MOST cost-efficient deployment strategy?
+    * A. Create a single API Gateway with all three stages.
+    * B. Create three API Gateways, one for each stage in a single AWS account.
+    * C. Create an API Gateway in three separate AWS accounts.
+    * D. Enable the cache for development and test environments only when needed.
+* [Answer](https://i.ibb.co/VV19TrX/image.png)
+92) An application running on an Amazon Linux EC2 instance needs to manage the AWS infrastructure.<br/>How can the EC2 instance be configured to make AWS API calls securely?
+    * A. Sign the AWS CLI command using the signature version 4 process.
+    * B. Run the aws configure AWS CLI command and specify the access key id and secret access key.
+    * C. Specify a role for the EC2 instance with the necessary privileges.
+    * D. Pass the access key id and secret access key as parameters for each AWS CLI command.
+* [Answer](https://i.ibb.co/B2Xmpvy/image.png)
+93) A company is migrating from a monolithic architecture to a microservices-based architecture. The Developers need to refactor the application so that the many microservices can asynchronously communicate with each other without impacting performance.<br/>Use of which managed AWS services will enable asynchronous message passing? (**Choose two**.)
+    * A. Amazon SQS
+    * B. Amazon Cognito
+    * C. Amazon Kinesis
+    * D. Amazon SNS
+    * E. Amazon ElastiCache
+* [Answer](https://i.ibb.co/nLT4cdf/image.png)
+94) An application runs on multiple EC2 instances behind an ELB.<br/>Where is the session data best written so that it can be served reliably across multiple requests?
+    * A. Write data to Amazon ElastiCache
+    * B. Write data to Amazon Elastic Block Store.
+    * C. Write data to Amazon EC2 Instance Store.
+    * D. Write data to the root filesystem.
+* [Answer](https://i.ibb.co/fpS4vCK/image.png)
+95) A Developer is creating a Lambda function that will generate and export a file. The function requires 100 MB of temporary storage for temporary files while executing. These files will not be needed after the function is complete.<br/>How can the Developer MOST efficiently handle the temporary files?
+    * A. Store the files in EBS and delete the files at the end of the Lambda function.
+    * B. Copy the files to EFS and delete the files at the end of the Lambda function.
+    * C. Store the files in the /tmp directory and delete the files at the end of the Lambda function.
+    * D. Copy the files to an S3 bucket with a lifecycle policy to delete the files.
+* [Answer](https://i.ibb.co/CQ3MtVf/image.png)
+96) A Developer has developed a web application and wants to deploy it quickly on a Tomcat server on AWS. The Developer wants to avoid having to manage the underlying infrastructure.<br/>What is the easiest way to deploy the application, based on these requirements?
+    * A. AWS CloudFormation
+    * B. AWS Elastic Beanstalk
+    * C. Amazon S3
+    * D. AWS CodePipeline
+* [Answer](https://i.ibb.co/C8Ybsrq/image.png)
+97) An application uses Lambda functions to extract metadata from files uploaded to an S3 bucket; the metadata is stored in Amazon DynamoDB. The application starts behaving unexpectedly, and the Developer wants to examine the logs of the Lambda function code for errors.<br/>Based on this system configuration, where would the Developer find the logs?
+    * A. Amazon S3
+    * B. AWS CloudTrail
+    * C. Amazon CloudWatch
+    * D. Amazon DynamoDB
+* [Answer](https://i.ibb.co/wr4mnTQ/image.png)
+98) An organization is using Amazon CloudFront to ensure that its users experience low-latency access to its web application. The organization has identified a need to encrypt all traffic between users and CloudFront, and all traffic between CloudFront and the web application.<br/>How can these requirements be met? (**Choose two**.)
+    * A. Use AWS KMS to encrypt traffic between CloudFront and the web application.
+    * B. Set the Origin Protocol Policy to "HTTPS Only".
+    * C. Set the Origin's HTTP Port to 443.
+    * D. Set the Viewer Protocol Policy to "HTTPS Only" or "Redirect HTTP to HTTPS".
+    * E. Enable the CloudFront option Restrict Viewer Access.
+* [Answer](https://i.ibb.co/w4ynzjy/image.png) error
+99) An application is using Amazon DynamoDB as its data store, and should be able to read 100 items per second as strongly consistent reads. Each item is 5 KB in size.<br/>To what value should the table's provisioned read throughput be set?
+    * A. 50 read capacity units
+    * B. 100 read capacity units
+    * C. 200 read capacity units
+    * D. 500 read capacity units 
+* [Answer](https://i.ibb.co/vzBbVDc/image.png)
+100) A web application is designed to allow new users to create accounts using their email addresses. The application will store attributes for each user, and is expecting millions of user to sign up.<br/>What should the Developer implement to achieve the design goals?
+    * A. Amazon Cognito user pools
+    * B. AWS Mobile Hub user data storage
+    * C. Amazon Cognito Sync
+    * D. AWS Mobile Hub cloud logic
+* [Answer](https://i.ibb.co/0tw5kmh/image.png)
+101) A company needs a new REST API that can return information about the contents of an Amazon S3 bucket, such as a count of the objects stored in it. The company has decided that the new API should be written as a microservice using AWS Lambda and Amazon API Gateway.<br/>How should the Developer ensure that the microservice has the necessary access to the Amazon S3 bucket, while adhering to security best practices?
+    * A. Create an IAM user that has permissions to access the Amazon S3 bucket, and store the IAM user credentials in the Lambda function source code.
+    * B. Create an IAM role that has permissions to access the Amazon S3 bucket and assign it to the Lambda function as its execution role.
+    * C. Create an Amazon S3 bucket policy that specifies the Lambda service as its principal and assign it to the Amazon S3 bucket.
+    * D. Create an IAM role, attach the AmazonS3FullAccess managed policy to it, and assign the role to the Lambda function as its execution role.
+* [Answer](https://i.ibb.co/GTZ0mKh/image.png) error
+102) An application is running on an EC2 instance. The Developer wants to store an application metric in Amazon CloudWatch.<br/>What is the best practice for implementing this requirement?
+    * A. Use the PUT Object API call to send data to an S3 bucket. Use an event notification to invoke a Lambda function to publish data to CloudWatch.
+    * B. Publish the metric data to an Amazon Kinesis Stream using a PutRecord API call. Subscribe a Lambda function that publishes data to CloudWatch.
+    * C. Use the CloudWatch PutMetricData API call to submit a custom metric to CloudWatch. Provide the required credentials to enable the API call.
+    * D. Use the CloudWatch PutMetricData API call to submit a custom metric to CloudWatch. Launch the EC2 instance with the required IAM role to enable the API call.
+* [Answer](https://i.ibb.co/gzhZjgs/image.png)
+103) Queries to an Amazon DynamoDB table are consuming a large amount of read capacity. The table has a significant number of large attributes. The application does not need all of the attribute data.<br/>How can DynamoDB costs be minimized while maximizing application performance?
+    * A. Batch all the writes, and perform the write operations when no or few reads are being performed.
+    * B. Create a global secondary index with a minimum set of projected attributes.
+    * C. Implement exponential backoffs in the application.
+    * D. Load balance the reads to the table using an Application Load Balancer.
+* [Answer](https://i.ibb.co/LNYfrgH/image.png)
+104) AWS CodeBuild builds code for an application, creates the Docker image, pushes the image to Amazon Elastic Container Registry (Amazon ECR), and tags the image with a unique identifier.<br/>If the Developers already have AWS CLI configured on their workstations, how can the Docker images be pulled to the workstations?
+    * A. Run the following: docker pull REPOSITORY URI : TAG
+    * B. Run the output of the following: aws ecr get-login and then run: docker pull REPOSITORY URI : TAG
+    * C. Run the following: aws ecr get-login and then run: docker pull REPOSITORY URI : TAG
+    * D. Run the output of the following: aws ecr get-download-url-for-layer and then run: docker pull REPOSITORY URI : TAG
+* [Answer](https://i.ibb.co/LNqFk9T/image.png) error
+105) A company caches session information for a web application in an Amazon DynamoDB table. The company wants an automated way to delete old items from the table.<br/>What is the simplest way to do this?
+    * A. Write a script that deletes old records; schedule the scripts as a cron job on an Amazon EC2 instance.
+    * B. Add an attribute with the expiration time; enable the Time To Live feature based on that attribute.
+    * C. Each day, create a new table to hold session data; delete the previous day's table.
+    * D. Add an attribute with the expiration time; name the attribute ItemExpiration.
+* [Answer](https://i.ibb.co/8zxCH0T/image.png)
+106) An application is expected to process many files. Each file takes four minutes to process each AWS Lambda invocation. The Lambda function does not return any important data.<br/>What is the fastest way to process all the files?
+    * A. First split the files to make them smaller, then process with synchronous RequestResponse Lambda invocations.
+    * B. Make synchronous RequestResponse Lambda invocations and process the files one by one.
+    * C. Make asynchronous Event Lambda invocations and process the files in parallel.
+    * D. First join all the files, then process it all at once with an asynchronous Event Lambda invocation.
+* [Answer](https://i.imgur.com/RnaxYxh.png)
+107) The upload of a 15 GB object to Amazon S3 fails. The error message reads: "Your proposed upload exceeds the maximum allowed object size."<br/>What technique will allow the Developer to upload this object?
+    * A. Upload the object using the multi-part upload API.
+    * B. Upload the object over an AWS Direct Connect connection.
+    * C. Contact AWS Support to increase the object size limit.
+    * D. Upload the object to another AWS region.
+* [Answer](https://i.imgur.com/cBsOJfy.png)
+108) A company has an AWS CloudFormation template that is stored as a single file. The template is able to launch and create a full infrastructure stack.<br/>Which best practice would increase the maintainability of the template?
+    * A. Use nested stacks for common template patterns.
+    * B. Embed credentials to prevent typos.
+    * C. Remove mappings to decrease the number of variables.
+    * D. Use AWS::Include to reference publicly-hosted template files.
+* [Answer]()
