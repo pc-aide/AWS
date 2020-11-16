@@ -705,8 +705,8 @@ Developer decides to cache the user profile data.<br/>Which caching strategy wil
     * C. 200 read capacity units
     * D. 500 read capacity units 
 * [Answer](https://i.ibb.co/vzBbVDc/image.png)
-100) A web application is designed to allow new users to create accounts using their email addresses. The application will store attributes for each user, and is expecting millions of user to sign up.<br/>What should the Developer implement to achieve the design goals?
-   * A. Amazon Cognito user pools
+100) A web application is designed to allow new users to create accounts using their email addresses. The application will store attributes for each user, and is expecting millions of user to sign up.What should the Developer implement to achieve the design goals?
+    * A. Amazon Cognito user pools
     * B. AWS Mobile Hub user data storage
     * C. Amazon Cognito Sync
     * D. AWS Mobile Hub cloud logic
