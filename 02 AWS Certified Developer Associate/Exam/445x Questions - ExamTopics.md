@@ -313,7 +313,7 @@ db=db_name, connect_timeout=5)
 #Code Block
 ````
 What two actions can be taken to improve the performance of this Lambda function without increasing the cost of the solution? (**Select two**.)
-    * A. Package only the modules the Lambda function requires
+   * A. Package only the modules the Lambda function requires
     * B. Use Amazon DynamoDB instead of Amazon RDS
     * C. Move the initialization of the variable Amazon RDS connection outside of the handler function
     * D. Implement custom database connection pooling with the Lambda function
