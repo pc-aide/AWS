@@ -236,11 +236,11 @@ What could cause this situation?
     * D. The Lambda function is missing a target CloudWatch Log group.
 * [Answer](https://i.imgur.com/g8I8zzl.png)
 30)  An application has hundreds of users. Each user may use multiple devices to access the application. The Developer wants to assign unique identifiers to these users regardless of the device they use.
-Which of the following methods should be used to obtain unique identifiers?
-    * A. Create a user table in Amazon DynamoDB as key-value pairs of users and their devices. Use these keys as unique identifiers.
-    * B. Use IAM-generated access key IDs for the users as the unique identifier, but do not store secret keys.
-    * C. Implement developer-authenticated identities by using Amazon Cognito, and get credentials for these identities.
-    * D. Assign IAM users and roles to the users. Use the unique IAM resource ID as the unique identifier.
+<br/>Which of the following methods should be used to obtain unique identifiers?
+   * A. Create a user table in Amazon DynamoDB as key-value pairs of users and their devices. Use these keys as unique identifiers.
+   * B. Use IAM-generated access key IDs for the users as the unique identifier, but do not store secret keys.
+   * C. Implement developer-authenticated identities by using Amazon Cognito, and get credentials for these identities.
+   * D. Assign IAM users and roles to the users. Use the unique IAM resource ID as the unique identifier.
 * [Answer](https://i.imgur.com/7MrIXnK.png) error
 31)  An application is designed to use Amazon SQS to manage messages from many independent senders. Each sender's messages must be processed in the order they are received.
 Which SQS feature should be implemented by the Developer?
