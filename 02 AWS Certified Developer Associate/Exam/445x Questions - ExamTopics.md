@@ -1348,4 +1348,42 @@ Which of the following solutions will accomplish this task? (**Choose two**.)
    * D. Transfer the data over an SSL connection
    * E. Set up Server-Side Encryption with S3-Managed Keys
 * [Answer](https://i.imgur.com/T1BI7YY.png)
-185)
+185) A company is running a Docker application on Amazon ECS. The application must scale based on user load in the last 15 seconds.
+How should a Developer instrument the code so that the requirement can be met?
+   * A. Create a high-resolution custom Amazon CloudWatch metric for user activity data, then publish data every 30 seconds
+   * B. Create a high-resolution custom Amazon CloudWatch metric for user activity data, then publish data every 5 seconds
+   * C. Create a standard-resolution custom Amazon CloudWatch metric for user activity data, then publish data every 30 seconds
+   * D. Create a standard-resolution custom Amazon CloudWatch metric for user activity data, then publish data every 5 seconds
+* [Answer](https://i.imgur.com/hxEhift.png)
+186) A company needs to ingest terabytes of data each hour from thousands of sources that are delivered almost continually throughout the day. The volume of messages generated varies over the course of the day. Messages must be delivered in real time for fraud detection and live operational dashboards.
+Which approach will meet these requirements?
+   * A. Send the messages to an Amazon SQS queue, then process the messages by using a fleet of Amazon EC2 instances
+   * B. Use the Amazon S3 API to write messages to an S3 bucket, then process the messages by using Amazon Redshift
+   * C. Use AWS Data Pipeline to automate the movement and transformation of data
+   * D. Use Amazon Kinesis Data Streams with Kinesis Client Library to ingest and deliver messages
+* [Answer](https://i.imgur.com/1F8e58U.png)
+187) A Developer accesses AWS CodeCommit over SSH. The SSH keys configured to access AWS CodeCommit are tied to a user with the following permissions:
+````json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "codecommit:BatchGetRepositories",
+        "codecommit:Get*",
+        "codecommit:List*",
+        "codecommit:GitPull"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+````
+The Developer needs to create/delete branches.
+Which specific IAM permissions need to be added, based on the principle of least privilege?
+   * A. "codecommit:CreateBranch" "codecommit:DeleteBranch"
+   * B. "codecommit:Put*"
+   * C. "codecommit:Update*"
+   * D. "codecommit:*"
+* [Answer](https://i.imgur.com/ZXPnYm2.png)
