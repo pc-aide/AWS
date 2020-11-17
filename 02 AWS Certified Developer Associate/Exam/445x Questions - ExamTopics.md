@@ -1199,3 +1199,153 @@ What is the MOST efficient way for the Developer to achieve these requirements u
    * C. Use Cognito Sync.
    * D. Use Cognito events.
 * [Answer](https://i.imgur.com/OyN3jom.png)
+166) A company is migrating a single-server, on-premises web application to AWS. The company intends to use multiple servers behind an Elastic Load Balancer
+(ELB) to balance the load, and will also store session data in memory on the web server. The company does not want to lose that session data if a server fails or goes offline, and it wants to minimize user's downtime.
+Where should the company move session data to MOST effectively reduce downtime and make users' session data more fault tolerant?
+   * A. An Amazon ElastiCache for Redis cluster
+   * B. A second Amazon EBS volume
+   * C. The web server's primary disk
+   * D. An Amazon EC2 instance dedicated to session data
+* [Answer](https://i.imgur.com/IbDUN5u.png)
+167) A Developer created configuration specifications for an AWS Elastic Beanstalk application in a file named healthcheckurl.yaml in the .ebextensions/directory of their application source bundle. The file contains the following:
+````yaml
+option_settings:
+  - namespace: aws:elasticbeanstalk:application
+    option_name: Application Healtcheck URL
+    value: /health_check
+````
+After the application launches, the health check is not being run on the correct path, event though it is valid.
+What can be done to correct this configuration file?
+   * A. Convert the file to JSON format.
+   * B. Rename the file to a .config extension.
+   * C. Change the configuration section from options_settings to resources.
+   * D. Change the namespace of the option settings to a custom namespace. 
+* [Answer](https://i.imgur.com/wGZrY9G.png)
+168) A Developer is making changes to a custom application that is currently using AWS Elastic Beanstalk.
+After the Developer completes the changes, what solutions will update the Elastic Beanstalk environment with the new application version? (**Choose two**.)
+   * A. Package the application code into a .zip file, and upload, then deploy the packaged application from the AWS Management Console
+   * B. Package the application code into a .tar file, create a new application version from the AWS Management Console, then update the environment by using AWS CLI
+    * C. Package the application code into a .tar file, and upload and deploy the packaged application from the AWS Management Console
+    * D. Package the application code into a .zip file, create a new application version from the packaged application by using AWS CLI, then update the environment by using AWS CLI
+    * E. Package the application code into a .zip file, create a new application version from the AWS Management Console, then rebuild the environment by using AWS CLI
+* [Answer](https://i.imgur.com/pg0cc7s.png)
+169) To include objects defined by the AWS Serverless Application Model (SAM) in an AWS CloudFormation template, in addition to Resources, what section MUST be included in the document root?
+   * A. Conditions
+   * B. Globals
+   * C. Transform
+   * D. Properties
+* [Answer](https://i.imgur.com/KhxGnfc.png)
+170) A company is using Amazon RDS MySQL instances for its application database tier and Apache Tomcat servers for its web tier. Most of the database queries from web applications are repeated read requests.
+Use of which AWS service would increase in performance by adding in-memory store for repeated read queries?
+   * A. Amazon RDS Multi-AZ
+   * B. Amazon SQS
+   * C. Amazon ElastiCache
+   * D. Amazon RDS read replica
+* [Answer](https://i.imgur.com/klQTdOu.png) error
+171) A Developer is investigating an issue whereby certain requests are passing through an Amazon API Gateway endpoint /MyAPI, but the requests do not reach the
+AWS Lambda function backing /MyAPI. The Developer found that a second Lambda function sometimes runs at maximum concurrency allowed for the given AWS account.
+How can the Developer address this issue?
+   * A. Manually reduce the concurrent execution limit at the account level
+   * B. Add another API Gateway stage for /MyAPI, and shard the requests
+   * C. Configure the second Lambda function's concurrency execution limit
+   * D. Reduce the throttling limits in the API Gateway /MyAPI endpoint C
+* [Answer](https://i.imgur.com/Dw81lMT.png)
+172) A Developer must analyze performance issues with production-distributed applications written as AWS Lambda functions. These distributed Lambda applications invoke other components that make up the applications.
+How should the Developer identify and troubleshoot the root cause of the performance issues in production?
+   * A. Add logging statements to the Lambda functions, then use Amazon CloudWatch to view the logs.
+   * B. Use AWS Cloud Trail and then examine the logs
+   * C. Use AWS X-Ray, then examine the segments and errors
+   * D. Run Amazon Inspector agents and then analyze performance
+* [Answer](https://i.imgur.com/PuyzSHI.png)
+173) A Developer wants to debug an application by searching and filtering log data. The application logs are stored in Amazon CloudWatch Logs. The Developer creates a new metric filter to count exceptions in the application logs. However, no results are returned from the logs.
+What is the reason that no filtered results are being returned?
+   * A. A setup of the Amazon CloudWatch interface VPC endpoint is required for filtering the CloudWatch Logs in the VPC
+   * B. CloudWatch Logs only publishes metric data for events that happen after the filter is created
+   * C. The log group for CloudWatch Logs should be first streamed to Amazon Elasticsearch Service before metric filtering returns the results
+   * D. Metric data points for logs groups can be filtered only after they are exported to an Amazon S3 bucket
+* [Answer](https://i.imgur.com/mNbQg3w.png)
+174) An e-commerce web application that shares session state on-premises is being migrated to AWS. The application must be fault tolerant, natively highly scalable, and any service interruption should not affect the user experience.
+What is the best option to store the session state?
+   * A. Store the session state in Amazon ElastiCache
+   * B. Store the session state in Amazon CloudFront
+   * C. Store the session state in Amazon S3
+   * D. Enable session stickiness using elastic load balancers
+* [Answer](https://i.imgur.com/qcZg5jd.png)
+175) A Developer is creating a template that uses AWS CloudFormation to deploy an application. This application is serverless and uses Amazon API Gateway,
+Amazon DynamoDB, and AWS Lambda.
+Which tool should the Developer use to define simplified syntax for expressing serverless resources?
+   * A. CloudFormation serverless intrinsic functions
+   * B. AWS serverless express
+   * C. An AWS serverless application model
+   * D. A CloudFormation serverless plugin
+* [Answer](https://i.imgur.com/20RpYs7.png)
+176) A Developer has a stateful web server on-premises that is being migrated to AWS. The Developer must have greater elasticity in the new design.
+How should the Developer re-factor the application to make it more elastic? (**Choose two**.)
+   * A. Use pessimistic concurrency on Amazon DynamoDB
+   * B. Use Amazon CloudFront with an Auto Scaling group
+   * C. Use Amazon CloudFront with an AWS Web Application Firewall
+   * D. Store session state data in an Amazon DynamoDB table
+   * E. Use an ELB with an Auto Scaling group
+* [Answer](https://i.imgur.com/woq5SPR.png)
+177) A company needs to distribute firmware updates to its customers around the world.
+Which service will allow easy and secure control of the access to the downloads at the lowest cost?
+   * A. Use Amazon CloudFront with signed URLs for Amazon S3
+   * B. Create a dedicated Amazon CloudFront Distribution for each customer
+   * C. Use Amazon CloudFront with AWS Lambda@Edge
+   * D. Use Amazon API Gateway and AWS Lambda to control access to an S3 bucket
+* [Answer](https://i.imgur.com/whOAmrh.png)
+178) A company is running an application built on AWS Lambda functions. One Lambda function has performance issues when it has to download a 50MB file from the
+Internet in every execution. This function is called multiple times a second.
+What solution would give the BEST performance increase?
+   * A. Cache the file in the /tmp directory
+   * B. Increase the Lambda maximum execution time
+   * C. Put an Elastic Load Balancer in front of the Lambda function
+   * D. Cache the file in Amazon S3
+* [Answer](https://i.imgur.com/fnohnYd.png) error
+179) An application writes items to an Amazon DynamoDB table. As the application scales to thousands of instances, calls to the DynamoDB API generate occasional
+ThrottlingException errors. The application is coded in a language incompatible with the AWS SDK.
+How should the error be handled?
+   * A. Add exponential backoff to the application logic
+   * B. Use Amazon SQS as an API message bus
+   * C. Pass API calls through Amazon API Gateway
+   * D. Send the items to DynamoDB through Amazon Kinesis Data Firehose
+* [Answer](https://i.imgur.com/j7Fq512.png)
+180) An application deployed on AWS Elastic Beanstalk experiences increased error rates during deployments of new application versions, resulting in service degradation for users. The Development team believes that this is because of the reduction in capacity during the deployment steps. The team would like to change the deployment policy configuration of the environment to an option that maintains full capacity during deployment while using the existing instances.
+Which deployment policy will meet these requirements while using the existing instances?
+   * A. All at once
+   * B. Rolling
+   * C. Rolling with additional batch
+   * D. Immutable
+* [Answer](https://i.imgur.com/lQIvWPI.png)
+181) A Developer is building a web application that uses Amazon API Gateway to expose an AWS Lambda function to process requests from clients. During testing, the Developer notices that the API Gateway times out even though the Lambda function finishes under the set time limit.
+Which of the following API Gateway metrics in Amazon CloudWatch can help the Developer troubleshoot the issue? (Choose two.)
+   * A. CacheHitCount
+   * B. IntegrationLatency
+   * C. CacheMissCount
+   * D. Latency
+   * E. Count
+* [Answer](https://i.imgur.com/BPOPW0D.png) error
+182) An AWS Lambda function must access an external site by using a regularly rotated user name and password. These items must be kept securely and cannot be stored in the function code.
+What combination of AWS services can be used to accomplish this? (**Choose two**.)
+   * A. AWS Certificate Manager (ACM)
+   * B. AWS Systems Manager Parameter Store
+   * C. AWS Trusted Advisor
+   * D. AWS KMS
+   * E. Amazon GuardDuty
+* [Answer](https://i.imgur.com/EPwEmsu.png)
+183) A Developer is trying to deploy a serverless application using AWS CodeDeploy. The application was updated and needs to be redeployed.
+What file does the Developer need to update to push that change through CodeDeploy?
+   * A. dockerrun.aws.json
+   * B. buildspec.yml
+   * C. appspec.yml
+   * D. ebextensions.config
+* [Answer](https://i.imgur.com/02nR44m.png)
+184) A Developer wants to upload data to Amazon S3 and must encrypt the data in transit.
+Which of the following solutions will accomplish this task? (**Choose two**.)
+   * A. Set up hardware VPN tunnels to a VPC and access S3 through a VPC endpoint
+   * B. Set up Client-Side Encryption with an AWS KMS-Managed Customer Master Key
+   * C. Set up Server-Side Encryption with AWS KMS-Managed Keys
+   * D. Transfer the data over an SSL connection
+   * E. Set up Server-Side Encryption with S3-Managed Keys
+* [Answer](https://i.imgur.com/T1BI7YY.png)
+185)
