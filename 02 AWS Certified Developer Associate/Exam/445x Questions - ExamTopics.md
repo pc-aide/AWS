@@ -813,7 +813,7 @@ What is the MOST secure approach?
    * C. Use AWS Lambda to encrypt and decrypt objects as they are placed into the S3 bucket.
    * D. Use client-side encryption/decryption with Amazon S3 and AWS KMS.
 * [Answer](https://i.imgur.com/q9gpgCr.png)
-117)A company has an internet-facing application that uses Web Identity Federation to obtain a temporary credential from AWS Security Token Service (AWS STS).
+117) A company has an internet-facing application that uses Web Identity Federation to obtain a temporary credential from AWS Security Token Service (AWS STS).
 The app then uses the token to access AWS services.
 Review the following response:
 ````xml
