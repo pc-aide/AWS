@@ -850,3 +850,208 @@ Based on the response displayed what permissions are associated with the call fr
    * C. Use parameter values
    * D. Use quoting strings
 * [Answer](https://i.imgur.com/wSLgcu7.png)
+119) What does an Amazon SQS delay queue accomplish?
+   * A. Messages are hidden for a configurable amount of time when they are first added to the queue.
+   * B. Messages are hidden for a configurable amount of time after they are consumed from the queue.
+   * C. The consumer can poll the queue for a configurable amount of time before retrieving a message.
+   * D. Message cannot be deleted for a configurable amount of time after they are consumed from the queue.
+* [Answer](https://i.imgur.com/3pZMP7V.png)
+120) A company has multiple Developers located across the globe who are updating code incrementally for a development project. When Developers upload code concurrently, internet connectivity is slow and it is taking a long time to upload code for deployment in AWS Elastic Beanstalk.
+Which step will result in minimized upload and deployment time with the LEAST amount of administrative effort?
+   * A. Allow the Developers to upload the code to an Amazon S3 bucket, and deploy it directly to Elastic Beanstalk.
+   * B. Allow the Developers to upload the code to a central FTP server to deploy the application to Elastic Beanstalk.
+   * C. Create an AWS CodeCommit repository, allow the Developers to commit code to it, and then directly deploy the code to Elastic Beanstalk.
+   * D. Create a code repository on an Amazon EC2 instance so that all Developers can update the code, and deploy the application from the instance to Elastic Beanstalk.
+* [Answer](https://i.imgur.com/WLBhmb8.png)
+121) A company recently migrated its web, application and NoSQL database tiers to AWS. The company is using Auto Scaling to scale the web and application tiers.
+More than 95 percent of the Amazon DynamoDB requests are repeated read-requests.
+How can the DynamoDB NoSQL tier be scaled up to cache these repeated requests?
+   * A. Amazon EMR
+   * B. Amazon DynamoDB Accelerator
+   * C. Amazon SQS
+   * D. Amazon CloudFront
+* [Answer](https://i.imgur.com/p9L7IVe.png)
+122) A company is building an application to track athlete performance using an Amazon DynamoDB table. Each item in the table is identified by a partition key
+(user_id) and a sort key (sport_name). The table design is shown below:
+````dynamoDB
+Partition Key: user_id
+Sort Key: sport_name
+Attributes: score
+            score_datetimme
+````
+A Developer is asked to write a leaderboard application to display the top performers (user_id) based on the score for each sport_name.
+What process will allow the Developer to extract results MOST efficiently from the DynamoDB table?
+   * A. Use a DynamoDB query operation with the key attributes of user_id and sport_name and order the results based on the score attribute.
+   * B. Create a global secondary index with a partition key of sport_name and a sort key of score, and get the results
+   * C. Use a DynamoDB scan operation to retrieve scores and user_id based on sport_name, and order the results based on the score attribute.
+   * D. Create a local secondary index with a primary key of sport_name and a sort key of score and get the results based on the score attribute.
+* [Answer](https://i.imgur.com/TQHFO7n.png) error
+123) A Developer is creating a mobile application that will not require users to log in.
+What is the MOST efficient method to grant users access to AWS resources?
+   * A. Use an identity provider to securely authenticate with the application.
+   * B. Create an AWS Lambda function to create an IAM user when a user accesses the application.
+   * C. Create credentials using AWS KMS and apply these credentials to users when using the application.
+   * D. Use Amazon Cognito to associate unauthenticated users with an IAM role that has limited access to resources
+* [Answer](https://i.imgur.com/ImYIeAp.png) error
+124) An application running on Amazon EC2 instances must access objects within an Amaon S3 busket that are encrypted using server-side encryption using AWS
+KMS encryption keys (SSE-KMS). The application must have access to the customer master key (CMK) to decrypt the objects.
+Which combination of steps will grant the application access? (**Select TWO**.)
+   * A. Write an S3 bucket policy that grants the bucket access to the key.
+   * B. Grant access to the key in the IAM EC2 role attached to the application's EC2 instances.
+   * C. Write a key policy that enables IAM policies to grant access to the key.
+   * D. Grant access to the key in the S3 bucket's ACL
+   * E. Create a Systems Manager parameter that exposes the KMS key to the EC2 instances.
+* [Answer](https://i.imgur.com/Fwahhlw.png) error
+125) A company needs a fully-managed source control service that will work in AWS. The service must ensure that revision control synchronizes multiple distributed repositories by exchanging sets of changes peer-to-peer. All users need to work productively even when not connected to a network.
+Which source control service should be used?
+   * A. Subversion
+   * B. AWS CodeBuild
+   * C. AWS CodeCommit
+   * D. AWS CodeStar
+* [Answer](https://i.imgur.com/sOmysXy.png)
+126) A Developer is writing a serverless application that requires that an AWS Lambda function be invoked every 10 minutes.
+What is an automated and serverless way to trigger the function?
+   * A. Deploy an Amazon EC2 instance based on Linux, and edit its /etc/crontab file by adding a command to periodically invoke the Lambda function.
+   * B. Configure an environment variable named PERIOD for the Lambda function. Set the value to 600.
+   * C. Create an Amazon CloudWatch Events rule that triggers on a regular schedule to invoke the Lambda function.
+   * D. Create an Amazon SNS topic that has a subscription to the Lambda function with a 600-second timer.
+* [Answer](https://i.imgur.com/xpE5X5Q.png) error
+127) A Developer is writing an imaging micro service on AWS Lambda. The service is dependent on several libraries that are not available in the Lambda runtime environment.
+Which strategy should the Developer follow to create the Lambda deployment package?
+   * A. Create a ZIP file with the source code and all dependent libraries.
+   * B. Create a ZIP file with the source code and a script that installs the dependent libraries at runtime.
+   * C. Create a ZIP file with the source code. Stage the dependent libraries on an Amazon S3 bucket indicated by the Lambda environment variable LD_LIBRARY_PATH
+   * D. Create a ZIP file with the source code and a buildspec.yaml file that installs the dependent libraries on AWS Lambda.
+* [Answer](https://i.imgur.com/Kagfyhz.png) error
+128) A Developer is designing a fault-tolerant environment where client sessions will be saved.
+How can the Developer ensure that no sessions are lost if an Amazon EC2 instance fails?
+   * A. Use sticky sessions with an Elastic Load Balancer target group.
+   * B. Use Amazon SQS to save session data.
+   * C. Use Amazon DynamoDB to perform scalable session hadling.
+   * D. Use Elastic Load Balancer connection draining to stop sending requests to failing instances.
+* [Answer](https://i.imgur.com/rvLwuqU.png) error
+129) In a move toward using microservices, a company's Management team has asked all Development teams to build their services so that API requests depend only on that service's data store. One team is building a Payments service which has its own database; the service needs data that originates in the Accounts database. Both are using Amazon DynamoDB.
+What approach will result in the simplest, decoupled, and reliable method to get near-real time updates from the Accounts database?
+   * A. Use Amazon Glue to perform frequent ETL updates from the Accounts database to the Payments database.
+   * B. Use Amazon ElastiCache in Payments, with the cache updated by triggers in the Accounts database.
+   * C. Use Amazon Kinesis Data Firehouse to deliver all changes from the Accounts database to the Payments database.
+   * D. Use Amazon DynamoDB Streams to deliver all changes from the Accounts database to the Payments database.
+* [Answer](https://i.imgur.com/MJpRjkO.png)
+130) How should custom libraries be utilized in AWS Lambda?
+   * A. Host the library on Amazon S3 and reference to it from the Lambda function.
+   * B. Install the library locally and upload a ZIP file of the Lambda function.
+   * C. Import the necessary Lambda blueprint when creating the function.
+   * D. Modify the function runtime to include the necessary library.
+* [Answer](https://i.imgur.com/brO8ZwY.png) error
+131) A company needs to secure its existing website running behind an Elastic Load Balancer. The website's Amazon EC2 instances are CPU-constrained.
+What should be done to secure the website while not increasing the CPU load on the EC2 web servers? (**Select TWO**.)
+   * A. Configure an Elastic Load Balancer with SSL pass-through.
+   * B. Configure SSL certificates on an Elastic Load Balancer.
+   * C. Configure an Elastic Load Balancer with a Loadable Storage System.
+   * D. Install SSL certificates on the EC2 instances.
+   * E. Configure an Elastic Load Balancer with SSL termination.
+* [Answer](https://i.imgur.com/EmCmRUF.png)
+132) An AWS Lambda function generates a 3MB JSON file and then uploads it to an Amazon S3 bucket daily. The file contains sensitive information, so the Developer must ensure that it is encrypted before uploading to the bucket.
+Which of the following modifications should the Developer make to ensure that the data is encrypted before uploading it to the bucket?
+   * A. Use the default AWS KMS customer master key for S3 in the Lambda function code.
+   * B. Use the S3 managed key and call the GenerateDataKey API to encrypt the file.
+   * C. Use the GenerateDateKey API, then use that data key to encrypt the file in the Lambda function code.
+   * D. Use a custom KMS customer master key created for S3 in the Lambda function code.
+* [Answer](https://i.imgur.com/BFlQIgR.png)
+133) A Developer wants to find a list of items in a global secondary index from an Amazon DynamoDB table.
+Which DynamoDB API call can the Developer use in order to consume the LEAST number of read capacity units?
+   * A. Scan operation using eventually-consistent reads
+   * B. Query operation using strongly-consistent reads
+   * C. Query operation using eventually-consistent reads
+   * D. Scan operation using strongly-consistent reads
+* [Answer](https://i.imgur.com/XpYMZJd.png)
+134) A Developer has published an update to an application that is served to a global user base using Amazon CloudFront. After deploying the application, users are not able to see the updated changes.
+How can the Developer resolve this issue?
+   * A. Remove the origin from the CloudFront configuration and add it again.
+   * B. Disable forwarding of query strings and request headers from the CloudFront distribution configuration.
+   * C. Invalidate all the application objects from the edge caches.
+   * D. Disable the CloudFront distribution and enable it again to update all the edge locations
+* [Answer](https://i.imgur.com/QEsdpyq.png)
+135) A Developer must deploy a new AWS Lambda function using an AWS CloudFormation template.
+Which procedures will deploy a Lambda function? (**Select TWO**.)
+   * A. Upload the code to an AWS CodeCommit repository, then add a reference to it in an AWS::Lambda::Function resource in the template.
+   * B. Create an AWS::Lambda::Function resource in the template, then write the code directly inside the CloudFormation template.
+   * C. Upload a .ZIP file containing the function code to Amazon S3, then add a reference to it in an AWS::Lambda::Function resource in the template.
+   * D. Upload a .ZIP file to AWS CloudFormation containing the function code, then add a reference to it in an AWS::Lambda::Function resource in the template.
+   * E. Upload the function code to a private Git repository, then add a reference to it in an AWS::Lambda::Function resource in the template. BD
+* [Answer](https://i.imgur.com/YZXDhYg.png) error
+136) A Developer wants to enable AWS X-Ray for a secure application that runs in an Amazon ECS environment.
+What combination of steps will enable X-Ray? (**Select THREE**.)
+   * A. Create a Docker image that runs the X-Ray daemon.
+   * B. Add instrumentation to the application code for X-Ray.
+   * C. Install the X-Ray daemon on the underlying EC2 instance.
+   * D. Configure and use an IAM EC2 instance role.
+   * E. Register the application with X-Ray.
+   * F. Configure and use an IAM role for tasks.
+* [Answer](https://i.imgur.com/kbmIjN9.png) error
+137) A Developer is designing a new application that uses Amazon S3. To satisfy compliance requirements, the Developer must encrypt the data at rest.
+How can the Developer accomplish this?
+   * A. Use s3:x-amz-acl as a condition in the S3 bucket policy.
+   * B. Use Amazon RDS with default encryption.
+   * C. Use aws:SecureTransport as a condition in the S3 bucket policy.
+   * D. Turn on S3 default encryption for the S3 bucket.
+* [Answer](https://i.imgur.com/MYjTUwg.png) 
+138) An AWS Elastic Beanstalk application needs to be deployed in multiple regions and requires a different Amazon Machine Image (AMI) in each region.
+Which AWS CloudFormation template key can be used to specify the correct AMI for each region?
+   * A. Parameters
+   * B. Outputs
+   * C. Mappings
+   * D. Resources
+* [Answer](https://i.imgur.com/u1iu9pl.png)
+139) A Developer has been asked to make changes to the source code of an AWS Lambda function. The function is managed using an AWS CloudFormation template. The template is configured to load the source code from an Amazon S3 bucket. The Developer manually created a .ZIP file deployment package containing the changes and put the file into the correct location on Amazon S3. When the function is invoked, the code changes have not been applied.
+What step is required to update the function with the changes?
+   * A. Delete the .ZIP file on S3, and re-upload by using a different object key name.
+   * B. Update the CloudFormation stack with the correct values for the function code properties S3Bucket, S3Key, or S3ObjectVersion.
+   * C. Ensure that the function source code is base64-encoded before uploading the deployment package to S3.
+   * D. Modify the execution role of the Lambda function to allow S3 access permission to the deployment package .ZIP file.
+* [Answer](https://i.imgur.com/bJV8Vua.png)
+140) A Developer needs to design an application running on AWS that will be used to consume Amazon SQS messages that range from 1 KB up to 1GB in size.
+How should the Amazon SQS messages be managed?
+   * A. Use Amazon S3 and the Amazon SQS CLI.
+   * B. Use Amazon S3 and the Amazon SQS Extended Client Library for Java.
+   * C. Use Amazon EBS and the Amazon SQS CLI.
+   * D. Use Amazon EFS and the Amazon SQS CLI.
+* [Answer](https://i.imgur.com/k14eEpr.png)
+141) A company is developing an application that will run on several Amazon EC2 instances in an Auto Scaling group and can access a database running on Amazon
+EC2. The application needs to store secrets required to connect to the database. The application must allow for periodic secret rotation, and there should be no changes to the application when a secret changes.
+What is the SAFEST way to meet these requirements?
+   * A. Associate an IAM role to the EC2 instance where the application is running with permission to access the database.
+   * B. Use AWS Systems Manager Parameter Store with the SecureString data type to store secrets.
+   * C. Configure the application to store secrets in Amazon S3 object metadata.
+   * D. Hard code the database secrets in the application code itself
+* [Answer](https://i.imgur.com/vXbOLUv.png)
+142) A Developer writes an AWS Lambda function and uploads the code in a .ZIP file to Amazon S3. The Developer makes changes to the code and uploads a new
+.ZIP file to Amazon S3. However, Lambda executes the earlier code.
+How can the Developer fix this in the LEAST disruptive way?
+   * A. Create another Lambda function and specify the new .ZIP file.
+   * B. Call the update-function-code API.
+   * C. Remove the earlier .ZIP file first, then add the new .ZIP file.
+   * D. Call the create-alias API.
+* [Answer](https://i.imgur.com/5S9D9gR.png)
+143) An AWS Lambda function must read data from an Amazon RDS MySQL database in a VPC and also reach a public endpoint over the internet to get additional data.
+Which steps must be taken to allow the function to access both the RDS resource and the public endpoint? (**Select TWO**.)
+   * A. Modify the default configuration for the Lambda function to associate it with an Amazon VPC private subnet.
+   * B. Modify the default network access control list to allow outbound traffic.
+   * C. Add a NAT Gateway to the VPC.
+   * D. Modify the default configuration of the Lambda function to associate it with a VPC public subnet.
+   * E. Add an environmental variable to the Lambda function to allow outbound internet access.
+* [Answer](https://i.imgur.com/3SODrUR.png)
+144) A Developer must build an application that uses Amazon DynamoDB. The requirements state that items being stored in the DynamoDB table will be 7KB in size and that reads must be strongly consistent. The maximum read rate is 3 items per second, and the maximum write rate is 10 items per second.
+How should the Developer size the DynamoDB table to meet these requirements?
+   * A. Read: 3 read capacity units Write: 70 write capacity units
+   * B. Read: 6 read capacity units Write: 70 write capacity units
+   * C. Read: 6 read capacity units Write: 10 write capacity units
+   * D. Read: 3 read capacity units Write: 10 write capacity units
+* [Answer](https://i.imgur.com/CkBsRFm.png)
+145) A Developer is creating an AWS Lambda function to process a stream of data from an Amazon Kinesis Data Stream. When the Lambda function parses the data and encounters a missing field, it exits the function with an error. The function is generating duplicate records from the Kinesis stream. When the Developer looks at the stream output without the Lambda function, there are no duplicate records.
+What is the reason for the duplicates?
+   * A. The Lambda function did not advance the Kinesis stream pointer to the next record after the error.
+   * B. The Lambda event source used asynchronous invocation, resulting in duplicate records.
+   * C. The Lambda function did not handle the error, and the Lambda service attempted to reprocess the data.
+   * D. The Lambda function is not keeping up with the amount of data coming from the stream.
+* [Answer]()
