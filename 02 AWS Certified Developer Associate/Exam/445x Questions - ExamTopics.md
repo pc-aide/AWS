@@ -760,8 +760,93 @@ Developer decides to cache the user profile data.<br/>Which caching strategy wil
    * D. Use AWS::Include to reference publicly-hosted template files.
 * [Answer](https://i.imgur.com/SPjTKUo.png)
 109) A Developer wants to encrypt new objects that are being uploaded to an Amazon S3 bucket by an application. There must be an audit trail of who has used the key during this process. There should be no change to the performance of the application.Which type of encryption meets these requirements?
-    * A. Server-side encryption using S3-managed keys
-    * B. Server-side encryption with AWS KMS-managed keys
-    * C. Client-side encryption with a client-side symmetric master key
-    * D. Client-side encryption with AWS KMS-managed keys
-
+   * A. Server-side encryption using S3-managed keys
+   * B. Server-side encryption with AWS KMS-managed keys
+   * C. Client-side encryption with a client-side symmetric master key
+   * D. Client-side encryption with AWS KMS-managed keys
+* [Answer](https://i.imgur.com/NymobRZ.png)
+110) An on-premises application makes repeated calls to store files to Amazon S3. As usage of the application has increased, "LimitExceeded" errors are being logged.What should be changed to fix this error?
+   * A. Implement exponential backoffs in the application.
+   * B. Load balance the application to multiple servers.
+   * C. Move the application to Amazon EC2.
+   * D. Add a one second delay to each API call.
+* [Answer](https://i.imgur.com/HLiakW0.png)
+111) An organization is storing large files in Amazon S3, and is writing a web application to display meta-data about the files to end-users. Based on the metadata a user selects an object to download. The organization needs a mechanism to index the files and provide single-digit millisecond latency retrieval for the metadata.
+What AWS service should be used to accomplish this?
+   * A. Amazon DynamoDB
+   * B. Amazon EC2
+   * C. AWS Lambda
+   * D. Amazon RDS
+* [Answer](https://i.imgur.com/3PlZ90p.png)
+112) While developing an application that runs on Amazon EC2 in an Amazon VPC, a Developer identifies the need for centralized storage of application-level logs.
+Which AWS service can be used to securely store these logs?
+   * A. Amazon EC2 VPC Flow Logs
+   * B. Amazon CloudWatch Logs
+   * C. Amazon CloudSearch
+   * D. AWS CloudTrail
+* [Answer](https://i.imgur.com/Om5QVg9.png) error
+113) A stock market monitoring application uses Amazon Kinesis for data ingestion. During simulated tests of peak data rates, the Kinesis stream cannot keep up with the incoming data.
+What step will allow Kinesis to accommodate the traffic during peak hours?
+   * A. Install the Kinesis Producer Library (KPL) for ingesting data into the stream.
+   * B. Reduce the data retention period to allow for more data ingestion using DecreaseStreamRetentionPeriod.
+   * C. Increase the shard count of the stream using UpdateShardCount.
+   * D. Ingest multiple records into the stream in a single call using PutRecords.
+* [Answer](https://i.imgur.com/VqFpGOx.png) error
+114) Where can PortMapping be defined when launching containers in Amazon ECS?
+   * A. Security groups
+   * B. Amazon Elastic Container Registry (Amzon ECR)
+   * C. Container agent
+   * D. Task definition
+* [Answer](https://i.imgur.com/m6KWJ2k.png)
+115) An application uses Amazon Kinesis Data Streams to ingest and process large streams of data records in real time. Amazon EC2 instances consume and process the data from the shards of the Kinesis data stream by using Amazon Kinesis Client Library (KCL). The application handles the failure scenarios and does not require standby workers. The application reports that a specific shard is receiving more data than expected. To adapt to the changes in the rate of data flow, the "hot" shard is resharded.
+Assuming that the initial number of shards in the Kinesis data stream is 4, and after resharding the number of shards increased to 6, what is the maximum number of EC2 instances that can be deployed to process data from all the shards?
+   * A. 12
+   * B. 6
+   * C. 4
+   * D. 1
+* [Answer](https://i.imgur.com/vlfpnDe.png) error
+116) A Development team is working on a case management solution that allows medical claims to be processed and reviewed. Users log in to provide information related to their medical and financial situations.
+As part of the application, sensitive documents such as medical records, medical imaging, bank statements, and receipts are uploaded to Amazon S3. All documents must be securely transmitted and stored. All access to the documents must be recorded for auditing.
+What is the MOST secure approach?
+   * A. Use S3 default encryption using Advanced Encryption Standard-256 (AES-256) on the destination bucket.
+   * B. Use Amazon Cognito for authorization and authentication to ensure the security of the application and documents.
+   * C. Use AWS Lambda to encrypt and decrypt objects as they are placed into the S3 bucket.
+   * D. Use client-side encryption/decryption with Amazon S3 and AWS KMS.
+* [Answer](https://i.imgur.com/q9gpgCr.png)
+117)A company has an internet-facing application that uses Web Identity Federation to obtain a temporary credential from AWS Security Token Service (AWS STS).
+The app then uses the token to access AWS services.
+Review the following response:
+````xml
+<AssumeRoleWithWebIdentityResponse xmlns="https://st.amazonaws.com/doc/2011-06-15/"
+  <AssuremeRoleWithWebIdentityResult>
+    <SubjectFromWebIdentityToken>amzn1.acccount.AF6RHO7KZU5XRQJGXK6HB56KR2A</SubjectFromWebIdentityToken>
+    <Audience>client.5498841531868486423.1548@apps.example.com</Audience>
+    <AssumeRoleUser>
+      <Arn>arn:aws:sts:123456789012:assumed-role/FederatedWebIdentityRole/app1</arn>
+      <AssumeRoleId>AROACLKWSDQRAOEXAMPLE:app1</AssumeRoleId>
+    </AssumeRoleUser>
+    <Credentials>
+      <SessionToken>AQoDYXdzEE0a8ANXXXXXN01ewxE5TijQyp+IEXAMPLE</SessionToken>
+      <SecretAccessKey>wJa1rXUtnFEMI/K7MDENG/bPxRfiCYzEXAMPLEKEY</SecretAccessKey>
+      <Expiration>2014-10-24T23:00:23x</Expiration>
+      <AccessKeyId>ASgeIAIOSFODNN7EXAMPLE</AccessKeyId>
+    </Credentials>
+    <Provider>www.amazon.com</Provider>
+  </AssuremeRoleWithWebIdentityResult>
+  <ResponseMetadata>
+    <RequestId>ad4156e9-bce1-11e2-82e6-6b6efEXAMPLE</RequestId>
+  </ResponseMetadata>
+</AssumeRoleWithWebIdentityResponse>
+````
+Based on the response displayed what permissions are associated with the call from the application?
+   * A. Permissions associated with the role AROACLKWSDQRAOEXAMPLE:app1
+   * B. Permissions associated with the default role used when the AWS service was built
+   * C. Permission associated with the IAM principal that owns the AccessKeyID ASgeIAIOSFODNN7EXAMPLE
+   * D. Permissions associated with the account that owns the AWS service
+* [Answer](https://i.imgur.com/umwjCQ4.png) error
+118) A Developer is using AWS CLI, but when running list commands on a large number of resources, it is timing out.What can be done to avoid this time-out?
+   * A. Use pagination
+   * B. Use shorthand syntax
+   * C. Use parameter values
+   * D. Use quoting strings
+* [Answer](https://i.imgur.com/wSLgcu7.png)
