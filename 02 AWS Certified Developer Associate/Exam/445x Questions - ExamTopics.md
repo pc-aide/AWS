@@ -1118,3 +1118,84 @@ According to AWS best practices, how can this issue be resolved with MINIMAL cos
    * C. Add a random number suffix to the partition key values.
    * D. Add a global secondary index to the DynamoDB table.
 * [Answer](https://i.imgur.com/A84PY7j.png) error
+155) A company is providing services to many downstream consumers. Each consumer may connect to one or more services. This has resulted in a complex architecture that is difficult to manage and does not scale well. The company needs a single interface to manage these services to consumers.
+Which AWS service should be used to refactor this architecture?
+   * A. AWS Lambda
+   * B. AWS X-Ray
+   * C. Amazon SQS
+   * D. Amazon API Gateway
+* [Answer](https://i.imgur.com/UMIFJmm.png) error
+156) A Developer is creating a serverless website with content that includes HTML files, images, videos, and JavaScript (client-side scripts).
+Which combination of services should the Developer use to create the website?
+   * A. Amazon S3 and Amazon CloudFront
+   * B. Amazon EC2 and Amazon ElastiCache
+   * C. Amazon ECS and Redis
+   * D. AWS Lambda and Amazon API Gateway
+* [Answer](https://i.imgur.com/TcIOqda.png) error
+157) A Development team has pushed out 10 applications running on several Amazon EC2 instances. The Operations team is asking for a graphical representation of one key performance metric for each application. These metrics should be available on one screen for easy monitoring.
+Which steps should the Developer take to accomplish this using Amazon CloudWatch?
+   * A. Create a custom namespace with a unique metric name for each application.
+   * B. Create a custom dimension with a unique metric name for each application.
+   * C. Create a custom event with a unique metric name for each application.
+   * D. Create a custom alarm with a unique metric name for each application.
+* [Answer](https://i.imgur.com/9XBYKdc.png)
+158) A Developer wants access to make the log data of an application running on an EC2 instance available to systems administrators.
+Which of the following enables monitoring of this metric in Amazon CloudWatch?
+   * A. Retrieve the log data from CloudWatch using the GetMetricData API call
+   * B. Retrieve the log data from AWS CloudTrail using the LookupEvents API call.
+   * C. Launch a new EC2 instance, configure Amazon CloudWatch Events, and then install the application.
+   * D. Install the Amazon CloudWatch Logs agent on the EC2 instance that the application is running on.
+* [Answer](https://i.imgur.com/xwsbqhp.png)
+159) A nightly batch job loads 1 million new records into a DynamoDB table. The records are only needed for one hour, and the table needs to be empty by the next night's batch job.
+Which is the MOST efficient and cost-effective method to provide an empty table?
+   * A. Use DeleteItem using a ConditionExpression.
+   * B. Use BatchWriteItem to empty all of the rows.
+   * C. Write a recursive function that scans and calls out DeleteItem.
+   * D. Create and then delete the table after the task has completed.
+* [Answer](https://i.imgur.com/OfFhtca.png)
+160) A company has an application that logs all information to Amazon S3. Whenever there is a new log file, an AWS Lambda function is invoked to process the log files. The code works, gathering all of the necessary information. However, when checking the Lambda function logs, duplicate entries with the same request ID are found.
+What is causing the duplicate entries?
+   * A. The S3 bucket name was specified incorrectly.
+   * B. The Lambda function failed, and the Lambda service retired the invocation with a delay.
+   * C. There was an S3 outage, which caused duplicate entries of the sale log file.
+   * D. The application stopped intermittently and then resumed.
+* [Answer](https://i.imgur.com/mKtvI8c.png)
+161) A company maintains a REST service using Amazon API Gateway and the API Gateway native API key validation. The company recently launched a new registration page, which allows users to sign up for the service. The registration page creates a new API key using CreateApiKey and sends the new key to the user. When the user attempts to call the API using this key, the user receives a 403 Forbidden error. Existing users are unaffected and can still call the API.
+What code updates will grant these new users access to the API?
+   * A. The createDeployment method must be called so the API can be redeployed to include the newly created API key.
+   * B. The updateAuthorizer method must be called to update the API's authorizer to include the newly created API key.
+   * C. The importApiKeys method must be called to import all newly created API keys into the current stage of the API.
+   * D. The createUsagePlanKey method must be called to associate the newly created API key with the correct usage plan
+* [Answer](https://i.imgur.com/yJwoCpF.png) error
+162) A Developer is writing a mobile application that allows users to view images from an S3 bucket. The users must be able to log in with their Amazon login, as well as FacebookÂ® and/or GoogleÂ® accounts.
+How can the Developer provide this authentication functionality?
+   * A. Use Amazon Cognito with web identity federation.
+   * B. Use Amazon Cognito with SAML-based identity federation.
+   * C. Use AWS IAM Access/Secret keys in the application code to allow Get* on the S3 bucket.
+   * D. Use AWS STS AssumeRole in the application code and assume a role with Get* permissions on the S3 bucket. 
+* [Answer](https://i.imgur.com/u9e0Dp1.png)
+163) A Developer has created a Lambda function and is finding that the function is taking longer to complete than expected. After some debugging, the Developer has discovered that increasing compute capacity would improve performance.
+How can the Developer increase the Lambda compute resources?
+   * A. Run on a larger instance size with more compute capacity.
+   * B. Increase the maximum execution time.
+   * C. Specify a larger compute capacity when calling the Lambda function.
+   * D. Increase the allocated memory for the Lambda function.
+* [Answer](https://i.imgur.com/9IAjGMW.png)
+164) An e-commerce site allows returning users to log in to display customized web pages. The workflow is shown in the image below:
+[<img src="https://i.imgur.com/U1J8jYi.png">](https://i.imgur.com/U1J8jYi.png)
+
+An application is running on EC2 instances. Amazon RDS is used for the database that stores user accounts and preferences. The website freezes or is slow to load while waiting for the login step to complete. The remaining components of the site are well-optimized.
+Which of the following techniques will resolve this issue? (**Select Two**.)
+   * A. Implement the user login page as an asynchronous Lambda function.
+   * B. Use Amazon ElastiCache for MemCached to cache user data.
+   * C. Use Amazon Application Load Balancer to load balance the traffic to the website.
+   * D. Call the database asynchronously so the code can continue executing.
+   * E. Batch login requests from hundreds of users together as a single read request to the database. 
+* [Answer](https://i.imgur.com/1DDbgU1.png)
+165) A Developer is building a mobile application and needs any update to user profile data to be pushed to all devices accessing the specific identity. The Developer does not want to manage a back end to maintain the user profile data.
+What is the MOST efficient way for the Developer to achieve these requirements using Amazon Cognito?
+   * A. Use Cognito federated identities.
+   * B. Use a Cognito user pool.
+   * C. Use Cognito Sync.
+   * D. Use Cognito events.
+* [Answer](https://i.imgur.com/OyN3jom.png)
