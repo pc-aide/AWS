@@ -1054,4 +1054,67 @@ What is the reason for the duplicates?
    * B. The Lambda event source used asynchronous invocation, resulting in duplicate records.
    * C. The Lambda function did not handle the error, and the Lambda service attempted to reprocess the data.
    * D. The Lambda function is not keeping up with the amount of data coming from the stream.
-* [Answer]()
+* [Answer](https://i.imgur.com/c2ypXxB.png) error
+146) A company maintains an application responsible for processing several thousand external callbacks each day. The company's System administrators want to know how many callbacks are being received on a rolling basis, and they want this data available for 10 days.
+The company also wants the ability to issue automated alerts if the number of callbacks exceeds the defined thresholds.
+What is the MOST cost-effective way to address the need to track and alert on these statistics?
+   * A. Push callback data to an Amazon RDS database that can be queried to show historical data and to alert on exceeded thresholds.
+   * B. Push callback data to AWS X-Ray and use AWS Lambda to query, display, and alert on exceeded thresholds.
+   * C. Push callback data to Amazon Kinesis Data Streams and invoke an AWS Lambda function that stores data in Amazon DynamoDB and sends the required alerts.
+   * D. Push callback data to Amazon CloudWatch as a custom metric and use the CloudWatch alerting mechanisms to alert System Administrators.
+* [Answer](https://i.imgur.com/OKGBRcC.png)
+147) A company has a website that is developed in PHP and WordPress and is launched using AWS Elastic Beanstalk. There is a new version of the website that needs to be deployed in the Elastic Beanstalk environment. The company cannot tolerate having the website offline if an update fails. Deployments must have minimal impact and rollback as soon as possible.
+What deployment method should be used?
+   * A. All at once
+   * B. Rolling
+   * C. Snapshots
+   * D. Immutable
+* [Answer](https://i.imgur.com/SmCmHL0.png)
+148) A company has a multi-tiered web application on AWS. During a recent spike in traffic, one of the primary relational databases on Amazon RDS could not serve all the traffic. Some read queries for repeatedly accessed items failed, so users received error messages.
+What can be done to minimize the impact on database read queries MOST efficiently during future traffic spikes?
+   * A. Use Amazon S3 to cache database query results.
+   * B. Use Amazon RDS as a custom origin for Amazon CloudFront.
+   * C. Use local storage and memory on Amazon EC2 instances to cache data.
+   * D. Use Amazon ElastiCache in front of the primary database to cache data.
+* [Answer](https://i.imgur.com/NC2zMDT.png)
+149) A Development team currently supports an application that uses an in-memory store to save accumulated game results. Individual results are stored in a database. As part of migrating to AWS, the team needs to use automatic scaling. The team knows this will yield inconsistent results.
+Where should the team store these accumulated game results to BEST allow for consistent results without impacting performance?
+   * A. Amazon S3
+   * B. Amazon RDS
+   * C. Amazon ElastiCache
+   * D. Amazon Kinesis 
+* [Answer](https://i.imgur.com/iDwZvWB.png)
+150) In a multi-container Docker environment in AWS Elastic Beanstalk, what is required to configure container instances in the environment?
+   * A. An Amazon ECS task definition
+   * B. An Amazon ECS cluster
+   * C. A Docker in an application package
+   * D. A CLI for Elastic Beanstalk
+* [Answer](https://i.imgur.com/ES67mXL.png)
+151) An application that runs on an Amazon EC2 instance needs to access and make API calls to multiple AWS services.
+What is the MOST secure way to provide access to the AWS services with MINIMAL management overhead?
+   * A. Use AWS KMS to store and retrieve credentials.
+   * B. Use EC2 instance profiles.
+   * C. Use AWS root user to make requests to the application.
+   * D. Store and retrieve credentials from AWS CodeCommit.
+* [Answer](https://i.imgur.com/bfzex6w.png) error
+152) A company is creating an application that will require users to access AWS services and allow them to reset their own passwords.
+Which of the following would allow the company to manage users and authorization while allowing users to reset their own passwords?
+   * A. Amazon Cognito identify pools and AWS STS
+   * B. Amazon Cognito identity pools and AWS IAM
+   * C. Amazon Cognito user pools and AWS KMS
+   * D. Amazon Cognito user pools and identity pools
+* [Answer](https://i.imgur.com/gh48wPf.png) 
+153) A company has three different environments: Development, QA, and Production. The company wants to deploy its code first in the Development environment, then QA, and then Production.
+Which AWS service can be used to meet this requirement?
+   * A. Use AWS CodeCommit to create multiple repositories to deploy the application.
+   * B. Use AWS CodeBuild to create, configure, and deploy multiple build application projects.
+   * C. Use AWS Data Pipeline to create multiple data pipeline provisions to deploy the application.
+   * D. Use AWS CodeDeploy to create multiple deployment groups.
+* [Answer](https://i.imgur.com/Q0WOCqM.png) error
+154) A company uses Amazon DynamoDB for managing and tracking orders. The DynamoDB table is partitioned based on the order date. The company receives a huge increase in orders during a sales event, causing DynamoDB writes to throttle, and the consumed throughput is far below the provisioned throughput.
+According to AWS best practices, how can this issue be resolved with MINIMAL costs?
+   * A. Create a new DynamoDB table for every order date.
+   * B. Increase the read and write capacity units of the DynamoDB table.
+   * C. Add a random number suffix to the partition key values.
+   * D. Add a global secondary index to the DynamoDB table.
+* [Answer](https://i.imgur.com/A84PY7j.png) error
