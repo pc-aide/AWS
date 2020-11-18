@@ -94,3 +94,4 @@
 | 88 | IaC | Infrastructure as Code | |
 | 89 | SCP | Service Control Policies | SCP (IAM) | 
 | 90 | ORM | Object Relational Mapping | Convert between db records & in-code "objects" |
+| 91 | SOA | Service Oriented Architecture | SOA for container like ECS | 
