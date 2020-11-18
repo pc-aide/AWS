@@ -1568,3 +1568,212 @@ How can Company B reduce the number of empty responses?
    * C. myawsbucket.amazonaws.com
    * D. myawsbucket.tokyo.amazonaws.com
 * [Answer](https://i.imgur.com/DIAvApg.png)
+213) You are inserting 1000 new items every second in a DynamoDB table. Once an hour these items are analyzed and then are no longer needed. You need to minimize provisioned throughput, storage, and API calls.
+Given these requirements, what is the most efficient way to manage these Items after the analysis?
+   * A. Retain the items in a single table
+   * B. Delete items individually over a 24 hour period
+   * C. Delete the table and create a new table per hour
+   * D. Create a new table per hour
+* [Answer](https://i.imgur.com/xl2qzei.png)
+214) You have written an application that uses the Elastic Load Balancing service to spread traffic to several web servers. Your users complain that they are sometimes forced to login again in the middle of using your application, after they have already logged in. This is not behavior you have designed.
+What is a possible solution to prevent this happening?
+   * A. Use instance memory to save session state.
+   * B. Use instance storage to save session state.
+   * C. Use EBS to save session state
+   * D. Use ElastiCache to save session state.
+   * E. Use Glacier to save session slate.
+* [Answer](https://i.imgur.com/9du3J8Z.png)
+215) You run an ad-supported photo sharing website using S3 to serve photos to visitors of your site. At some point you find out that other sites have been linking to the photos on your site, causing loss to your business.
+What is an effective method to mitigate this?
+   * A. Store photos on an EBS volume of the web server
+   * B. Remove public read access and use signed URLs with expiry dates.
+   * C. Use CloudFront distributions for static content.
+   * D. Block the IPs of the offending websites in Security Groups.
+* [Answer](https://i.imgur.com/TwcomK7.png)
+216) Which statements about DynamoDB are true? (**Choose two**.)
+   * A. DynamoDB uses a pessimistic locking model
+   * B. DynamoDB uses optimistic concurrency control
+   * C. DynamoDB uses conditional writes for consistency
+   * D. DynamoDB restricts item access during reads
+   * E. DynamoDB restricts item access during writes
+* [Answer](https://i.imgur.com/u54x9sO.png)
+217) You are providing AWS consulting services for a company developing a new mobile application that will be leveraging Amazon SNS Mobile Push for push notifications. In order to send direct notification messages to individual devices each device registration identifier or token needs to be registered with SNS; however the developers are not sure of the best way to do this.
+You advise them to:
+   * A. Bulk upload the device tokens contained in a CSV file via the AWS Management Console.
+   * B. Let the push notification service (e.g. Amazon Device Messaging) handle the registration.
+   * C. Implement a token vending service to handle the registration.
+   * D. Call the CreatePlatformEndPoint API function to register multiple device tokens.
+* [Answer](https://i.imgur.com/AZSenki.png) error
+218) You are writing to a DynamoDB table and receive the following exception:"
+ProvisionedThroughputExceededException". though according to your Cloudwatch metrics for the table, you are not exceeding your provisioned throughput.
+What could be an explanation for this?
+   * A. You haven't provisioned enough DynamoDB storage instances
+   * B. You're exceeding your capacity on a particular Range Key
+   * C. You're exceeding your capacity on a particular Hash Key
+   * D. You're exceeding your capacity on a particular Sort Key
+   * E. You haven't configured DynamoDB Auto Scaling triggers
+* [Answer](https://i.imgur.com/R3YB1aV.png)
+219) Which of the following services are included at no additional cost with the use of the AWS platform? (**Choose two**.)
+   * A. Simple Storage Service
+   * B. Elastic Compute Cloud
+   * C. Auto Scaling
+   * D. Elastic Load Balancing
+   * E. CloudFormation
+   * F. Simple Workflow Service
+* [Answer](https://i.imgur.com/BnvIKFV.png)
+220) Your application is trying to upload a 6 GB file to Simple Storage Service and receive a "Your proposed upload exceeds the maximum allowed object size." error message.
+What is a possible solution for this?
+   * A. None, Simple Storage Service objects are limited to 5 GB
+   * B. Use the multi-part upload API for this object
+   * C. Use the large object upload API for this object
+   * D. Contact support to increase your object size limit
+   * E. Upload to a different region
+* [Answer](https://i.imgur.com/n1mnxSS.png)
+221) What AWS products and features can be deployed by Elastic Beanstalk? (**Choose three**.)
+   * A. Auto scaling groups
+   * B. Route 53 hosted zones
+   * C. Elastic Load Balancers
+   * D. RDS Instances
+   * E. Elastic IP addresses
+   * F. SQS Queues
+* [Answer](https://i.imgur.com/vVcymXO.png)
+222) Games-R-Us is launching a new game app for mobile devices. Users will log into the game using their existing
+Facebook account and the game will record player data and scoring information directly to a DynamoDB table.
+What is the most secure approach for signing requests to the DynamoDB API?
+   * A. Create an IAM user with access credentials that are distributed with the mobile app to sign the requests
+   * B. Distribute the AWS root account access credentials with the mobile app to sign the requests
+   * C. Request temporary security credentials using web identity federation to sign the requests
+   * D. Establish cross account access between the mobile app and the DynamoDB table to sign the requests
+* [Answer](https://i.imgur.com/h8EslG5.png)
+223) Which of the following programming languages have an officially supported AWS SDK? (**Choose two**.)
+   * A. Perl
+   * B. PHP
+   * C. Pascal
+   * D. Java
+   * E. SQL
+* [Answer](https://i.imgur.com/2eeq4E2.png)
+224) A meteorological system monitors 600 temperature gauges, obtaining temperature samples every minute and saving each sample to a DynamoDB table. Each sample involves writing 1K of data and the writes are evenly distributed over time.
+How much write throughput is required for the target table?
+   * A. 1 write capacity unit
+   * B. 10 write capacity units
+   * C. 60 write capacity units
+   * D. 600 write capacity units
+   * E. 3600 write capacity units
+* [Answer](https://i.imgur.com/P6UzH2g.png) error
+225) In DynamoDB, what type of HTTP response codes indicate that a problem was found with the client request sent to the service?
+   * A. 5xx HTTP response code
+   * B. 200 HTTP response code
+   * C. 306 HTTP response code
+   * D. 4xx HTTP response code
+* [Answer](https://i.imgur.com/ygNGnPe.png)
+226) Company C has recently launched an online commerce site for bicycles on AWS. They have a "Product"
+DynamoDB table that stores details for each bicycle, such as, manufacturer, color, price, quantity and size to display in the online store. Due to customer demand, they want to include an image for each bicycle along with the existing details.
+Which approach below provides the least impact to provisioned throughput on the "Product" table?
+   * A. Serialize the image and store it in multiple DynamoDB tables
+   * B. Create an "Images" DynamoDB table to store the Image with a foreign key constraint to the "Product" table
+   * C. Add an image data type to the "Product" table to store the images in binary format
+   * D. Store the images in Amazon S3 and add an S3 URL pointer to the "Product" table item for each image
+* [Answer](https://i.imgur.com/ceRMDFz.png)
+227) Which DynamoDB limits can be raised by contacting AWS support? (**Choose two**.)
+   * A. The number of hash keys per account
+   * B. The maximum storage used per account
+   * C. The number of tables per account
+   * D. The number of local secondary indexes per account
+   * E. The number of provisioned throughput units per account
+* [Answer](https://i.imgur.com/xRtwxi0.png) error
+228) When a Simple Queue Service message triggers a task that takes 5 minutes to complete, which process below will result in successful processing of the message and remove it from the queue while minimizing the chances of duplicate processing?
+   * A. Retrieve the message with an increased visibility timeout, process the message, delete the message from the queue
+   * B. Retrieve the message with an increased visibility timeout, delete the message from the queue, process the message
+   * C. Retrieve the message with increased DelaySeconds, process the message, delete the message from the queue
+   * D. Retrieve the message with increased DelaySeconds, delete the message from the queue, process the
+* [Answer](https://i.imgur.com/eJlk9PF.png)
+229) Company A has an S3 bucket containing premier content that they intend to make available to only paid subscribers of their website. The S3 bucket currently has default permissions of all objects being private to prevent inadvertent exposure of the premier content to non-paying website visitors.
+How can Company A provide only paid subscribers the ability to download a premier content file in the S3 bucket?
+   * A. Apply a bucket policy that grants anonymous users to download the content from the S3 bucket
+   * B. Generate a pre-signed object URL for the premier content file when a paid subscriber requests a download
+   * C. Add a bucket policy that requires Multi-Factor Authentication for requests to access the S3 bucket objects
+   * D. Enable server side encryption on the S3 bucket for data protection against the non-paying website visitors
+* [Answer](https://i.imgur.com/TAjklxP.png)
+230) Which of the following is an example of a good DynamoDB hash key schema for provisioned throughput efficiency?
+   * A. User ID, where the application has many different users.
+   * B. Status Code where most status codes are the same
+   * C. Device ID, where one is by far more popular than all the others.
+   * D. Game Type, where there are three possible game types
+* [Answer](https://i.imgur.com/mDeQdK7.png) error
+231) An application stores payroll information nightly in DynamoDB for a large number of employees across hundreds of offices. Item attributes consist of individual name, office identifier, and cumulative daily hours.
+Managers run reports for ranges of names working in their office. One query is. "Return all Items in this office for names starting with A through E".
+Which table configuration will result in the lowest impact on provisioned throughput for this query?
+   * A. Configure the table to have a hash index on the name attribute, and a range index on the office identifier
+   * B. Configure the table to have a range index on the name attribute, and a hash index on the office identifier
+   * C. Configure a hash index on the name attribute and no range index
+   * D. Configure a hash index on the office Identifier attribute and no range index
+* [Answer](https://i.imgur.com/aKltal2.png) error
+232) What is one key difference between an Amazon EBS-backed and an instance-store backed instance?
+   * A. Virtual Private Cloud requires EBS backed instances
+   * B. Amazon EBS-backed instances can be stopped and restarted
+   * C. Auto scaling requires using Amazon EBS-backed instances.
+   * D. Instance-store backed instances can be stopped and restarted.
+* [Answer](https://i.imgur.com/qBtXNM1.png)
+233) How can you secure data at rest on an EBS volume?
+   * A. Attach the volume to an instance using EC2's SSL interface.
+   * B. Write the data randomly instead of sequentially.
+   * C. Use an encrypted file system on top of the EBS volume.
+   * D. Encrypt the volume using the S3 server-side encryption service.
+   * E. Create an IAM policy that restricts read and write access to the volume.
+* [Answer](https://i.imgur.com/Kd2rY5F.png)
+234) Which of the following is chosen as the default region when making an API call with an AWS SDK?
+   * A. ap-northeast-1
+   * B. us-west-2
+   * C. us-east-1
+   * D. eu-west-1
+   * E. us-central-1
+* [Answer](https://i.imgur.com/z280H1q.png)
+235) Which of the following statements about SWF are true? (**Choose three**.)
+   * A. SWF tasks are assigned once and never duplicated
+   * B. SWF requires an S3 bucket for workflow storage
+   * C. SWF workflow executions can last up to a year
+   * D. SWF triggers SNS notifications on task assignment
+   * E. SWF uses deciders and workers to complete tasks
+   * F. SWF requires at least 1 EC2 instance per domain
+* [Answer](https://i.imgur.com/RP5wIqV.png)
+236) Which of the following are valid SNS delivery transports? (**Choose two**.)
+   * A. HTTP
+   * B. UDP
+   * C. SMS
+   * D. DynamoDB
+   * E. Named Pipes
+* [Answer](https://i.imgur.com/vNxIieX.png)
+237) How is provisioned throughput affected by the chosen consistency model when reading data from a
+DynamoDB table?
+   * A. Strongly consistent reads use the same amount of throughput as eventually consistent reads
+   * B. Strongly consistent reads use more throughput than eventually consistent reads.
+   * C. Strongly consistent reads use less throughput than eventually consistent reads
+   * D. Strongly consistent reads use variable throughput depending on read activity
+* [Answer](https://i.imgur.com/p3db6cP.png)
+238) Which of the following are valid arguments for an SNS Publish request? (**Choose three**.)
+   * A. TopicAm
+   * B. Subject
+   * C. Destination
+   * D. Format
+   * E. Message
+   * F. Language
+* [Answer](https://i.imgur.com/FI5UDcq.png) error
+239) How can software determine the public and private IP addresses of the Amazon EC2 instance that it is running on?
+   * A. Query the appropriate Amazon CloudWatch metric.
+   * B. Use ipconfig or ifconfig command.
+   * C. Query the local instance userdata.
+   * D. Query the local instance metadata.
+* [Answer](https://i.imgur.com/IOixO8O.png)
+240) EC2 instances are launched from Amazon Machine images (AMIs). A given public AMI can:
+   * A. be used to launch EC2 Instances in any AWS region.
+   * B. only be used to launch EC2 instances in the same country as the AMI is stored.
+   * C. only be used to launch EC2 instances in the same AWS region as the AMI is stored.
+   * D. only be used to launch EC2 instances in the same AWS availability zone as the AMI is stored
+* [Answer](https://i.imgur.com/dunHdi3.png)
+241) Which EC2 API call would you use to retrieve a list of Amazon Machine Images (AMIs)?
+   * A. DescnbeInstances
+   * B. DescribeAMls
+   * C. DescribeImages
+   * D. GetAMls
+   * E. You cannot retrieve a list of AMIs as there are over 10,000 AMIs
+* [Answer](https://i.imgur.com/RYLuhdT.png)
