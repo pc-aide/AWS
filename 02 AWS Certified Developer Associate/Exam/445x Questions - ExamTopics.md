@@ -2,6 +2,7 @@
 
 ## URL
 * https://www.examtopics.com/exams/amazon/aws-certified-developer-associate/view/
+* https://www.examtopics.com/exams/amazon/aws-certified-developer-associate/view/26/
 
 ## Questions
 1) A Developer created a dashboard for an application using Amazon API Gateway, Amazon S3, AWS Lambda, and Amazon RDS. The Developer needs an authentication mechanism allowing a user to sign in and view the dashboard. It must be accessible from mobile applications, desktops, and tablets, and must remember user preferences across platforms.
@@ -1777,3 +1778,87 @@ DynamoDB table?
    * D. GetAMls
    * E. You cannot retrieve a list of AMIs as there are over 10,000 AMIs
 * [Answer](https://i.imgur.com/RYLuhdT.png)
+242) In AWS, which security aspects are the customer’s responsibility? (**Choose four**.)
+   * A. Life-cycle management of IAM credentials
+   * B. Decommissioning storage devices
+   * C. Security Group and ACL (Access Control List) settings
+   * D. Encryption of EBS (Elastic Block Storage) volumes
+   * E. Controlling physical access to compute resources
+   * F. Patch management on the EC2 instance’s operating system
+* [Answer](https://i.imgur.com/9TVf9eH.png)
+243) When using a large Scan operation in DynamoDB, what technique can be used to minimize the impact of a scan on a table's provisioned throughput?
+   * A. Set a smaller page size for the scan
+   * B. Use parallel scans
+   * C. Define a range index on the table
+   * D. Prewarm the table by updating all items
+* [Answer](https://i.imgur.com/Diqmv6h.png)
+244) Company D is running their corporate website on Amazon S3 accessed from http//www.companyd.com. Their marketing team has published new web fonts to a separate S3 bucket accessed by the S3 endpoint https://s3- us-west-1.amazonaws.com/cdfonts. While testing the new web fonts, Company D recognized the web fonts are being blocked by the browser.
+What should Company D do to prevent the web fonts from being blocked by the browser?
+   * A. Enable versioning on the cdfonts bucket for each web font
+   * B. Create a policy on the cdfonts bucket to enable access to everyone
+   * C. Add the Content-MD5 header to the request for webfonts in the cdfonts bucket from the website
+   * D. Configure the cdfonts bucket to allow cross-origin requests by creating a CORS configuration
+* [Answer](https://i.imgur.com/ih2iEoa.png)
+245) Which of the following platforms are supported by Elastic Beanstalk? (**Choose two**.)
+   * A. Apache Tomcat
+   * B. .NET
+   * C. IBM Websphere
+   * D. Oracle JBoss
+   * E. Jetty
+* [Answer](https://i.imgur.com/7OavPnW.png)
+246) Which code snippet below returns the URL of a load balanced web site created in CloudFormation with an
+AWS::ElasticLoadBalancing::LoadBalancer resource name "ElasticLoad Balancer"?
+   * A. "Fn::Join" : ["". [ "http://", {"Fn::GetAtr" : [ "ElasticLoadBalancer","DNSName"]}]]
+   * B. "Fn::Join" : ["". [ "http://", {"Fn::GetAtr" : [ "ElasticLoadBalancer","Url"]}]]
+   * C. "Fn::Join" : ["". [ "http://", {"Ref" : "ElasticLoadBalancerUrl"}]]
+   * D. "Fn::Join" : [".", [ "http://", {"Ref" : "ElasticLoadBalancerDNSName"}]]
+* [Answer](https://i.imgur.com/uncJExa.png)
+247) Which features can be used to restrict access to data in S3? (**Choose two**.)
+   * A. Use S3 Virtual Hosting
+   * B. Set an S3 Bucket policy.
+   * C. Enable IAM Identity Federation.
+   * D. Set an S3 ACL on the bucket or the object.
+   * E. Create a CloudFront distribution for the bucket
+* [Answer](https://i.imgur.com/X3iH5lA.png)
+248) What happens, by default, when one of the resources in a CloudFormation stack cannot be created?
+   * A. Previously-created resources are kept but the stack creation terminates.
+   * B. Previously-created resources are deleted and the stack creation terminates.
+   * C. The stack creation continues, and the final results indicate which steps failed.
+   * D. CloudFormation templates are parsed in advance so stack creation is guaranteed to succeed.
+* [Answer](https://i.imgur.com/NzyBOhl.png) error
+249) Which of the following are correct statements with policy evaluation logic in AWS Identity and Access
+Management? (**Choose two**.)
+   * A. By default, all requests are denied
+   * B. An explicit allow overrides an explicit deny
+   * C. An explicit allow overrides default deny.
+   * D. An explicit deny does not override an explicit allow
+   * E. By default, all request are allowed
+* [Answer](https://i.imgur.com/f96oveQ.png) 
+250) You have an environment that consists of a public subnet using Amazon VPC and 3 instances that are running in this subnet. These three instances can successfully communicate with other hosts on the Internet. You launch a fourth instance in the same subnet, using the same AMI and security group configuration you used for the others, but find that this instance cannot be accessed from the Internet.
+What should you do to enable internet access?
+   * A. Deploy a NAT instance into the public subnet.
+   * B. Modify the routing table for the public subnet
+   * C. Configure a publically routable IP Address In the host OS of the fourth instance.
+   * D. Assign an Elastic IP address to the fourth instance.
+* [Answer](https://i.imgur.com/5uvsbEJ.png) error
+251) If a message is retrieved from a queue in Amazon SQS, how long is the message inaccessible to other users by default?
+   * A. 0 seconds
+   * B. 1 hour
+   * C. 1 day
+   * D. forever
+   * E. 30 seconds
+* [Answer](https://i.imgur.com/cmByBKK.png)
+252) What is the format of structured notification messages sent by Amazon SNS?
+   * A. An XML object containing MessageId, UnsubscribeURL, Subject, Message and other values
+   * B. An JSON object containing MessageId, DuplicateFlag, Message and other values
+   * C. An XML object containing MessageId, DuplicateFlag, Message and other values
+   * D. An JSON object containing MessageId, unsubscribeURL, Subject, Message and other values
+* [Answer](https://i.imgur.com/eGkTekF.png) error
+253) Which of the following services are key/value stores? (**Choose three**.)
+   * A. Amazon ElastiCache
+   * B. Simple Notification Service
+   * C. DynamoDB
+   * D. Simple Workflow Service
+   * E. Simple Storage Service
+* [Answer]()
+https://www.examtopics.com/exams/amazon/aws-certified-developer-associate/view/26/
