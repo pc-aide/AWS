@@ -1387,3 +1387,80 @@ Which specific IAM permissions need to be added, based on the principle of least
    * C. "codecommit:Update*"
    * D. "codecommit:*"
 * [Answer](https://i.imgur.com/ZXPnYm2.png)
+188) A Developer has been asked to create an AWS Lambda function that is triggered any time updates are made to items in an Amazon DynamoDB table. The function has been created, and appropriate permissions have been added to the Lambda execution role. Amazon DynamoDB streams have been enabled for the table, but the function is still not being triggered.
+Which option would enable DynamoDB table updates to trigger the Lambda function?
+   * A. Change the StreamViewType parameter value to NEW_AND_OLD_IMAGES for the DynamoDB table
+   * B. Configure event source mapping for the Lambda function
+   * C. Map an Amazon SNS topic to the DynamoDB streams
+   * D. increase the maximum execution time (timeout) setting of the Lambda function
+* [Answer](https://i.imgur.com/rl5f1BE.png)
+189) An application is being developed to audit several AWS accounts. The application will run in Account A and must access AWS services in Accounts B and C.
+What is the MOST secure way to allow the application to call AWS services in each audited account?
+   * A. Configure cross-account roles in each audited account. Write code in Account a that assumes those roles
+   * B. Use S3 cross-region replication to communicate among accounts, with Amazon S3 event notifications to trigger Lambda functions
+   * C. Deploy an application in each audited account with its own role. Have Account A authenticate with the application
+   * D. Create an IAM user with an access key in each audited account. Write code in Account A that uses those access keys
+* [Answer](https://i.imgur.com/mfQMHpJ.png)
+190) A Developer is building a three-tier web application that should be able to handle a minimum of 5000 requests per minute. Requirements state that the web tier should be completely stateless while the application maintains session state for the users.
+How can session data be externalized, keeping latency at the LOWEST possible value?
+   * A. Create an Amazon RDS instance, then implement session handling at the application level to leverage a database inside the RDS database instance for session data storage
+   * B. Implement a shared file system solution across the underlying Amazon EC2 instances, then implement session handling at the application level to leverage the shared file system for session data storage
+   * C. Create an Amazon ElastiCache Memcached cluster, then implement session handling at the application level to leverage the cluster for session data storage
+   * D. Create an Amazon DynamoDB table, then implement session handling at the application level to leverage the table for session data storage
+* [Answer](https://i.imgur.com/DxuI7hu.png)
+191) An Amazon DynamoDB table uses a Global Secondary Index (GSI) to support read queries. The primary table is write-heavy, whereas the GSI is used for read operations. Looking at Amazon CloudWatch metrics, the Developer notices that write operations to the primary table are throttled frequently under heavy write activity. However, write capacity units to the primary table are available and not fully consumed.
+Why is the table being throttled?
+   * A. The GSI write capacity units are underprovisioned
+   * B. There are not enough read capacity units on the primary table
+   * C. Amazon DynamoDB Streams is not enabled on the table
+   * D. A large write operation is being performed against another table
+* [Answer](https://i.imgur.com/ed79F46.png)
+192) A company runs an e-commerce website that uses Amazon DynamoDB where pricing for items is dynamically updated in real time. At any given time, multiple updates may occur simultaneously for pricing information on a particular product. This is causing the original editor's changes to be overwritten without a proper review process.
+Which DynamoDB write option should be selected to prevent this overwriting?
+   * A. Concurrent writes
+   * B. Conditional writes
+   * C. Atomic writes
+   * D. Batch writes
+* [Answer](https://i.imgur.com/2UqzQIA.png)
+193) A company needs a version control system for collaborative software development. Features of the system must include the following:
+✑ Support for batches of changes across multiple files
+✑ Parallel branching
+✑ Version tracking
+Which AWS service will meet these requirements?
+   * A. AWS CodePipeline
+   * B. Amazon S3
+   * C. AWS Code Build
+   * D. AWS CodeCommit 
+* [Answer](https://i.imgur.com/4yZMiJC.png)
+194) A company is using continuous integration and continuous delivery systems. A Developer now needs to automate a software package deployment to both
+Amazon EC2 instances and virtual servers running on-premises.
+Which AWS service should be used to accomplish this?
+   * A. AWS CodePipeline
+   * B. AWS CodeBuild
+   * C. AWS Elastic Beanstalk
+   * D. AWS CodeDeploy
+* [Answer](https://i.imgur.com/3NhBb9T.png)
+195) A Developer created a new AWS account and must create a scalable AWS Lambda function that meets the following requirements for concurrent execution:
+✑ Average execution time of 100 seconds
+✑ 50 requests per second
+Which step must be taken prior to deployment to prevent errors?
+   * A. Implement dead-letter queues to capture invocation errors
+   * B. Add an event source from Amazon API Gateway to the Lambda function
+   * C. Implement error handling within the application code
+   * D. Contact AWS Support to increase the concurrent execution limits
+* [Answer](https://i.imgur.com/LNs6Hmh.png) error
+196) A Development team wants to instrument their code to provide more detailed information to AWS X-Ray than simple outgoing and incoming requests. This will generate large amounts of data, so the Development team wants to implement indexing so they can filter the data.
+What should the Development team do to achieve this?
+  * A. Add annotations to the segment document and the code
+  * B. Add metadata to the segment document and the code
+  * C. Configure the necessary X-Ray environment variables
+  * D. Install required plugins for the appropriate AWS SDK
+* [Answer](https://i.imgur.com/FMTxToq.png)
+197) A team of Developers must migrate an application running inside an AWS Elastic Beanstalk environment from a Classic Load Balancer to an Application Load
+Balancer.
+Which steps should be taken to accomplish the task using the AWS Management Console?
+   * A. 1. Update the application code in the existing deployment. 2. Select a new load balancer type before running the deployment. 3. Deploy the new version of the application code to the environment.
+   * B. 1. Create a new environment with the same configurations except for the load balancer type. 2. Deploy the same application version as used in the original environment. 3. Run the swap-environment-cnames action.
+   * C. 1. Clone the existing environment, changing the associated load balancer type. 2. Deploy the same application version as used in the original environment. 3. Run the swap-environment-cnames action.
+   * D. 1. Edit the environment definitions in the existing deployment. 2. Change the associated load balancer type according to the requirements. 3. Rebuild the environment with the new load balancer type.
+* [Answer](https://i.imgur.com/MtWQRpL.png) error
