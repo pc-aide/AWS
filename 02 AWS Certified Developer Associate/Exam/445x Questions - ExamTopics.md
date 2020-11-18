@@ -1464,3 +1464,107 @@ Which steps should be taken to accomplish the task using the AWS Management Cons
    * C. 1. Clone the existing environment, changing the associated load balancer type. 2. Deploy the same application version as used in the original environment. 3. Run the swap-environment-cnames action.
    * D. 1. Edit the environment definitions in the existing deployment. 2. Change the associated load balancer type according to the requirements. 3. Rebuild the environment with the new load balancer type.
 * [Answer](https://i.imgur.com/MtWQRpL.png) error
+198) A Developer must encrypt a 100-GB object using AWS KMS.
+What is the BEST approach?
+   * A. Make an Encrypt API call to encrypt the plaintext data as ciphertext using a customer master key (CMK)
+   * B. Make an Encrypt API call to encrypt the plaintext data as ciphertext using a customer master key (CMK) with imported key material
+   * C. Make an GenerateDataKey API call that returns a plaintext key and an encrypted copy of a data key. Use a plaintext key to encrypt the data
+   * D. Make an GenerateDataKeyWithoutPlaintext API call that returns an encrypted copy of a data key. Use an encrypted key to encrypt the data
+* [Answer](https://i.imgur.com/RSEMeBN.png)
+199) A Development team would like to migrate their existing application code from a GitHub repository to AWS CodeCommit.
+What needs to be created before they can migrate a cloned repository to CodeCommit over HTTPS?
+   * A. A GitHub secure authentication token
+   * B. A public and private SSH key file
+   * C. A set of Git credentials generated from IAM
+   * D. An Amazon EC2 IAM role with CodeCommit permissions
+* [Answer](https://i.imgur.com/j642DKN.png)
+200) A Developer is writing a REST service that will add items to a shopping list. The service is built on Amazon API Gateway with AWS Lambda integrations. The shopping list items are send as query string parameters in the method request.
+How should the Developer convert the query string parameters to arguments for the Lambda function?
+   * A. Enable request validation
+   * B. Include the Amazon Resource Name (ARN) of the Lambda function
+   * C. Change the integration type
+   * D. Create a mapping template 
+* [Answer](https://i.imgur.com/FIhTNMj.png)
+201) When developing an AWS Lambda function that processes Amazon Kinesis Data Streams, Administrators within the company must receive a notice that includes the processed data.
+How should the Developer write the function to send processed data to the Administrators?
+   * A. Separate the Lambda handler from the core logic
+   * B. Use Amazon CloudWatch Events to send the processed data
+   * C. Publish the processed data to an Amazon SNS topic
+   * D. Push the processed data to Amazon SQS
+* [Answer](https://i.imgur.com/OWID8E7.png)
+202) A Developer is storing documents in Amazon S3 that will require encryption at rest. The encryption keys must be rotated annually, at least.
+What is the easiest way to achieve this?
+   * A. Encrypt the data before sending it to Amazon S3
+   * B. Import a custom key into AWS KMS with annual rotation enabled
+   * C. Use AWS KMS with automatic key rotation
+   * D. Export a key from AWS KMS to encrypt the data
+* [Answer](https://i.imgur.com/dg41Ael.png)
+203) A company is creating a REST service using an Amazon API Gateway with AWS Lambda integration. The service run different versions for testing purposes.
+What would be the BEST way to accomplish this?
+   * A. Use an x-Version header to denote which version is being called and pass that header to the Lambda function(s)
+   * B. Create an API Gateway Lambda authorizer to route API clients to the correct API version
+   * C. Create an API Gateway resource policy to isolate versions and provide context to the Lambda function(s)
+   * D. Deploy the API versions as unique stages with unique endpoints and use stage variables to provide further context
+* [Answer](https://i.imgur.com/ztHTKdD.png)
+204) A company wants to implement authentication for its new REST service using Amazon API Gateway. To authenticate the calls, each request must include HTTP headers with a client ID and user ID. These credentials must be compared to authentication data in an Amazon DynamoDB table.
+What MUST the company do to implement this authentication in API Gateway?
+   * A. Implement an AWS Lambda authorizer that references the DynamoDB authentication table
+   * B. Create a model that requires the credentials, then grant API Gateway access to the authentication table
+   * C. Modify the integration requests to require the credentials, then grant API Gateway access to the authentication table
+   * D. Implement an Amazon Cognito authorizer that references the DynamoDB authentication table
+* [Answer](https://i.imgur.com/DZJ1wbQ.png) error
+205) An Amazon RDS database instance is used by many applications to look up historical data. The query rate is relatively constant. When the historical data is updated each day, the resulting write traffic slows the read query performance and affects all application users.
+What can be done to eliminate the performance impact on application users?
+   * A. Make sure Amazon RDS is Multi-AZ so it can better absorb increased traffic.
+   * B. Create an RDS Read Replica and direct all read traffic to the replica.
+   * C. Implement Amazon ElastiCache in front of Amazon RDS to buffer the write traffic.
+   * D. Use Amazon DynamoDB instead of Amazon RDS to buffer the read traffic. 
+* [Answer](https://i.imgur.com/kpzyhsW.png)
+206) Company C is currently hosting their corporate site in an Amazon S3 bucket with Static Website Hosting enabled. Currently, when visitors go to http://www.companyc.com the index.html page is returned. Company C now would like a new page welcome.html to be returned when a visitor enters http://www.companyc.com in the browser.
+Which of the following steps will allow Company C to meet this requirement? (**Choose two**.)
+   * A. Upload an html page named welcome.html to their S3 bucket
+   * B. Create a welcome subfolder in their S3 bucket
+   * C. Set the Index Document property to welcome.html
+   * D. Move the index.html page to a welcome subfolder
+   * E. Set the Error Document property to welcome.html
+* [Answer](https://i.imgur.com/oh64RCN.png)
+207) What type of block cipher does Amazon S3 offer for server side encryption?
+   * A. Triple DES
+   * B. Advanced Encryption Standard
+   * C. Blowfish
+   * D. RC5
+* [Answer](https://i.imgur.com/HuSzovZ.png)
+208) If an application is storing hourly log files from thousands of instances from a high traffic web site, which naming scheme would give optimal performance on S3?
+   * A. Sequential
+   * B. instanceID_log-HH-DD-MM-YYYY
+   * C. instanceID_log-YYYY-MM-DD-HH
+   * D. HH-DD-MM-YYYY-log_instanceID
+   * E. YYYY-MM-DD-HH-log_instanceID
+* [Answer](https://i.imgur.com/FstiVPz.png)
+209) Which of the following statements about SQS is true?
+   * A. Messages will be delivered exactly once and messages will be delivered in First in, First out order
+   * B. Messages will be delivered exactly once and message delivery order is indeterminate
+   * C. Messages will be delivered one or more times and messages will be delivered in First in, First out order
+   * D. Messages will be delivered one or more times and message delivery order is indeterminate
+* [Answer](https://i.imgur.com/U6BzJgm.png)
+210) A corporate web application is deployed within an Amazon VPC, and is connected to the corporate data center via IPSec VPN. The application must authenticate against the on-premise LDAP server. Once authenticated, logged-in users can only access an S3 keyspace specific to the user.
+Which two approaches can satisfy the objectives? (**Choose two**.)
+   * A. The application authenticates against LDAP. The application then calls the IAM Security Service to login to IAM using the LDAP credentials. The application can use the IAM temporary credentials to access the appropriate S3 bucket.
+   * B. The application authenticates against LDAP, and retrieves the name of an IAM role associated with the user. The application then calls the IAM Security Token Service to assume that IAM Role. The application can use the temporary credentials to access the appropriate S3 bucket.
+   * C. The application authenticates against IAM Security Token Service using the LDAP credentials. The application uses those temporary AWS security credentials to access the appropriate S3 bucket.
+   * D. Develop an identity broker which authenticates against LDAP, and then calls IAM Security Token Service to get IAM federated user credentials. The application calls the identity broker to get IAM federated user credentials with access to the appropriate S3 bucket.
+   * E. Develop an identity broker which authenticates against IAM Security Token Service to assume an IAM Role to get temporary AWS security credentials. The application calls the identity broker to get AWS
+* [Answer](https://i.imgur.com/iXn2USc.png) error
+211) Company B provides an online image recognition service and utilizes SQS to decouple system components for scalability The SQS consumers poll the imaging queue as often as possible to keep end-to-end throughput as high as possible. However, Company B is realizing that polling in tight loops is burning CPU cycles and increasing costs with empty responses.
+How can Company B reduce the number of empty responses?
+   * A. Set the imaging queue visibility Timeout attribute to 20 seconds
+   * B. Set the Imaging queue ReceiveMessageWaitTimeSeconds attribute to 20 seconds
+   * C. Set the imaging queue MessageRetentionPeriod attribute to 20 seconds
+   * D. Set the DelaySeconds parameter of a message to 20 seconds
+* [Answer](https://i.imgur.com/VrMad2z.png) error
+212) An Amazon S3 bucket, "myawsbucket" is configured with website hosting in Tokyo region, what is the region- specific website endpoint?
+   * A. www.myawsbucket.ap-northeast-1.amazonaws.com
+   * B. myawsbucket.s3-website-ap-northeast-1.amazonawscom
+   * C. myawsbucket.amazonaws.com
+   * D. myawsbucket.tokyo.amazonaws.com
+* [Answer](https://i.imgur.com/DIAvApg.png)
