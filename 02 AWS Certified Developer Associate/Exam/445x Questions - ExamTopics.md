@@ -1903,4 +1903,4 @@ Assume that no security Keys are allowed to be stored on the EC2 instance. (**Ch
    * E. Create an IAM Role that allows write access to the DynamoDB table.
    * F. Launch an EC2 Instance with the IAM User included in the launch configuration.
 * [Answer](https://i.imgur.com/Z2KjdYO.png)
-260) 
+260) after $$$
