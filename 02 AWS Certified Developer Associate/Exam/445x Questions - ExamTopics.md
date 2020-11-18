@@ -1860,5 +1860,47 @@ What should you do to enable internet access?
    * C. DynamoDB
    * D. Simple Workflow Service
    * E. Simple Storage Service
-* [Answer]()
-https://www.examtopics.com/exams/amazon/aws-certified-developer-associate/view/26/
+* [Answer](https://i.imgur.com/sesKesG.png) error
+254) When uploading an object, what request header can be explicitly specified in a request to Amazon S3 to encrypt object data when saved on the server side?
+   * A. x-amz-storage-class
+   * B. Content-MD5
+   * C. x-amz-security-token
+   * D. x-amz-server-side-encryption
+* [Answer](https://i.imgur.com/f7M4u4g.png)
+255) What item operation allows the retrieval of multiple items from a DynamoDB table in a single API call?
+   * A. GetItem
+   * B. BatchGetItem
+   * C. GetMultipleItems
+   * D. GetItemRange
+* [Answer](https://i.imgur.com/xOz5cQW.png) error
+256) After launching an instance that you intend to serve as a NAT (Network Address Translation) device in a public subnet you modify your route tables to have the NAT device be the target of internet bound traffic of your private subnet. When you try and make an outbound connection to the Internet from an instance in the private subnet, you are not successful.
+Which of the following steps could resolve the issue?
+   * A. Attaching a second Elastic Network interface (ENI) to the NAT instance, and placing it in the private subnet
+   * B. Attaching a second Elastic Network Interface (ENI) to the instance in the private subnet, and placing it in the public subnet
+   * C. Disabling the Source/Destination Check attribute on the NAT instance
+   * D. Attaching an Elastic IP address to the instance in the private subnet
+* [Answer](https://i.imgur.com/VkbrWcd.png) error
+257) You attempt to store an object in the US-STANDARD region in Amazon S3, and receive a confirmation that it has been successfully stored. You then immediately make another API call and attempt to read this object. S3 tells you that the object does not exist.
+What could explain this behavior?
+   * A. US-STANDARD uses eventual consistency and it can take time for an object to be readable in a bucket
+   * B. Objects in Amazon S3 do not become visible until they are replicated to a second region.
+   * C. US-STANDARD imposes a 1 second delay before new objects are readable.
+   * D. You exceeded the bucket object limit, and once this limit is raised the object will be visible.
+* [Answer](https://i.imgur.com/TR8gyB2.png)
+258) What is the maximum number of S3 Buckets available per AWS account?
+   * A. 100 per region
+   * B. there is no limit
+   * C. 100 per account
+   * D. 500 per account
+   * E. 100 per IAM user
+* [Answer](https://i.imgur.com/GuPPW6V.png)
+259) Which of the following items are required to allow an application deployed on an EC2 instance to write data to a DynamoDB table?
+Assume that no security Keys are allowed to be stored on the EC2 instance. (**Choose two**.)
+   * A. Create an IAM User that allows write access to the DynamoDB table.
+   * B. Add an IAM Role to a running EC2 instance.
+   * C. Add an IAM User to a running EC2 Instance.
+   * D. Launch an EC2 Instance with the IAM Role included in the launch configuration.
+   * E. Create an IAM Role that allows write access to the DynamoDB table.
+   * F. Launch an EC2 Instance with the IAM User included in the launch configuration.
+* [Answer](https://i.imgur.com/Z2KjdYO.png)
+260) 
