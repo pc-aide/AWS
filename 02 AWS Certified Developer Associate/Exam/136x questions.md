@@ -137,20 +137,158 @@ Which steps should be taken to reveal the bottleneck?
   * B. Use the AWS X-Ray API to write trace data into X-Ray from strategic places within the code. Use the Amazon CloudWatch console to analyze the resulting data.
   * C. Use the AWS X-Ray API to write trace data into X-Ray from strategic places within the code. Use the X-Ray console to analyze the resulting data.
   * D. Use the Amazon CloudWatch API to write timestamps to a custom CloudWatch metric. Use the AWS X-Ray console to analyze the resulting data.
-22)
-23)
-24)
-25)
-26)
-27)
-28)
-29)
-30)
-31)
-32)
-33)
-34)
-35)
+22) A developer added a new feature to an application running on an Amazon EC2 instance that uses Amazon SQS. After deployment, the developer noticed a significant increase in Amazon SQS costs. When monitoring the Amazon SQS metrics on Amazon CloudWatch, the developer found that on average one message per minute is posted on this queue.
+What can be done to reduce Amazon SQS costs for this application?
+   * A.  Increase the Amazon SQS queue polling timeout.
+   * B. Scale down the Amazon SQS queue to the appropriate size for low traffic demand.
+   * C. Configure push delivery via Amazon SNS instead of polling the Amazon SQS queue.
+   * D. Use an Amazon SQS first-in, first-out (FIFO) queue instead of a standard queue.
+23) A developer is using Amazon DynamoDB to store application data. The developer wants to further improve application performance by reducing response times for read and write operations.
+Which DynamoDB feature should be used to meet these requirements?
+   * A. Amazon DynamoDB Streams
+   * B. Amazon DynamoDB Accelerator
+   * C. Amazon DynamoDB global tables
+   * D. Amazon DynamoDB transactions
+24) A developer is creating a script to automate the deployment process for a serverless application. The developer wants to use an existing AWS Serverless Application Model (AWS SAM) template for the application.
+What should the developer use for the project? (**Choose two**.)
+   * A. Call aws cloudformation package to create the deployment package. Call aws cloudformation deploy to deploy the package afterward.
+   * B. Call sam package to create the deployment package. Call sam deploy to deploy the package afterward.
+   * C. Call aws s3 cp to upload the AWS SAM template to Amazon S3. Call aws lambda update-function-code to create the application.
+   * D. Create a ZIP package locally and call aws serverlessrepo create-application to create the application.
+   * E. Create a ZIP package and upload it to Amazon S3. Call aws cloudformation create-stack to create the application.
+25) A development team is designing a mobile app that requires multi-factor authentication.
+Which steps should be taken to achieve this? (**Choose two**.)
+   * A. Use Amazon Cognito to create a user pool and create users in the user pool.
+   * B. Send multi-factor authentication text codes to users with the Amazon SNS Publish API call in the app code.
+   * C. Enable multi-factor authentication for the Amazon Cognito user pool.
+   * D. Use AWS IAM to create IAM users.
+   * E. Enable multi-factor authentication for the users created in AWS IA
+26) A gaming application stores scores for players in an Amazon DynamoDB table that has four attributes: user_id, user_name, user_score, and user_rank. The users are allowed to update their names only. A user is authenticated by web identity federation.
+Which set of conditions should be added in the policy attached to the role for the dynamodb: PutItem API call?
+    * A.   
+````json
+"Condition": {
+  "ForAllValues:StringEquals": {
+    "dynamodb:LeadingKeys": [
+      "${www.amazon.com:user_id}"
+    ],
+    "dynamodb:Attributes": [
+      "user_name"
+    ]
+  }
+}
+````
+   * B. 
+````json
+"Condition": {
+  "ForAllValues:StringEquals": {
+    "dynamodb:LeadingKeys": [
+      "${www.amazon.com:user_name}"
+    ],
+    "dynamodb:Attributes": [
+      "user_id"
+    ]
+  }
+}
+````
+  * C. 
+````json
+"Condition": {
+  "ForAllValues:StringEquals": {
+    "dynamodb:LeadingKeys": [
+      "${www.amazon.com:user_id}"
+    ],
+    "dynamodb:Attributes": [
+      "user_name", "user_ide"
+    ]
+  }
+}
+````
+  * D.
+````json
+"condition": {
+  "ForAllValues:StringEquals": {
+    "dynamodb:LeadingKeys": [
+      "${www.amazon.com:user_name}"
+    ],
+    "dynamodb:Attributes": [
+      "user_name", "user_ide"
+    ]
+  }
+}
+````
+27) A developer is using AWS CodeDeploy to deploy an application running on Amazon EC2. The developer wants to change the file permissions for a specific deployment file.
+Which lifecycle event should a developer use to meet this requirement?
+  * A. AfterInstall
+  * B. DownloadBundle
+  * C. BeforeInstall
+  * D. ValidateService
+28) Given the following AWS CloudFormation template:
+````yaml
+Description: Creates a new Amazon S3 bucket for shared content. use 
+a random bucket name to avoid conflicts.
+Resources:
+  ContentBucket:
+    Type: AWS::S3::Bucket
+  Outputs:
+    ContentBucketName:
+      Value: !Ref ContentBucket
+````
+What is the MOST efficient way to reference the new Amazon S3 bucket from another AWS CloudFormation template?
+  * A. Add an Export declaration to the Outputs section of the original template and use ImportValue in other templates.
+  * B. Add Exported: true to the Contentbucket in the original template and use ImportResource in other templates.
+  * C. Create a custom AWS CloudFormation resource that gets the bucket name from the ContentBucket resource of the first stack.
+  * D. Use Fn::Include to include the existing template in other templates and use the ContentBucket resource directly.
+29) A company is developing a report executed by AWS Step Functions. Amazon CloudWatch shows errors in the Step Functions task state machine. To troubleshoot each task, the state input needs to be included along with the error message in the state output.
+Which coding practice can preserve both the original input and the error for the state?
+  * A. Use ResultPath in a Catch statement to include the error with the original input.
+  * B. Use InputPath in a Catch statement and set the value to null.
+  * C. Use ErrorEquals in a Retry statement to include the error with the original input.
+  * D. Use OutputPath in a Retry statement and set the value to $.
+30) A developer receives the following error message when trying to launch or terminate an Amazon EC2 instance using a boto3 script.
+````xml
+boto.exception.BotoServerError:BotoServerError: 503 Service Unavailable
+<?xml version="1.0" encoding="UTF-8"?>
+<Response><Errors><Error><Code>RequestLimitExceeded</Code>
+<Message>Request limit execeeded.</Message></Error></Errors>
+<RequestID>bfddec84-53b3-4701-b728-dceefb696ced</RequestID
+</Response>
+````
+What should the developer do to correct this error message?
+  * A. Assign an IAM role to the EC2 instance to allow necessary API calls on behalf of the client.
+  * B. Implement an exponential backoff algorithm for optimizing the number of API requests made to Amazon EC2.
+  * C. Increase the overall network bandwidth to handle higher API request rates.
+  * D. Upgrade to the latest AWS CLI version so that boto3 can handle higher request rates.
+31) A developer is updating an application deployed on AWS Elastic Beanstalk. The new version is incompatible with the old version. To successfully deploy the update, a full cutover to the new, updated version must be performed on all instances at one time, with the ability to roll back changes in case of a deployment failure in the new version.
+How can this be performed with the LEAST amount of downtime?
+  * A. Use the Elastic Beanstalk All at once deployment policy to update all instances simultaneously.
+  * B. Perform an Elastic Beanstalk Rolling with additional batch deployment.
+  * C. Deploy the new version in a new Elastic Beanstalk environment and swap environment URLs.
+  * D. Perform an Elastic Beanstalk Rolling deployment.
+32) A developer is writing a web application that must share secure documents with end users. The documents are stored in a private Amazon S3 bucket. The application must allow only authenticated users to download specific documents when requested, and only for a duration of 15 minutes.
+How can the developer meet these requirements?
+  * A. Copy the documents to a separate S3 bucket that has a lifecycle policy for deletion after 15 minutes.
+  * B. Create a presigned S3 URL using the AWS SDK with an expiration time of 15 minutes.
+  * C. Use server-side encryption with AWS KMS managed keys (SSE-KMS) and download the documents using HTTP
+  * D. Modify the S3 bucket policy to only allow specific users to download the documents. Revert the change after 15 minutes.
+33) A developer wants to send multi-value headers to an AWS Lambda function that is registered as a target with an Application Load Balancer (ALB).
+What should the developer do to achieve this?
+  * A. Place the Lambda function and target group in the same account.
+  * B. Send the request body to the Lambda function with a size less than 1 M
+  * C. Include the Base64 encoding status, status code, status description, and headers in the Lambda function.
+  * D. Enable the multi-value headers on the ALB
+34) An ecommerce startup is preparing for an annual sales event. As the traffic to the company’s application increases, the development team wants to be notified when the Amazon EC2 instance’s CPU utilization exceeds 80%.
+Which solution will meet this requirement?
+  * A. Create a custom Amazon CloudWatch alarm that sends a notification to an Amazon SNS topic when the CPU utilization exceeds 80%.
+  * B. Create a custom AWS Cloud Trail alarm that sends a notification to an Amazon SNS topic when the CPU utilization exceeds 80%.
+  * C. Create a cron job on the EC2 instance that executes the --describe-instance-information command on the host instance every 15 minutes and sends the results to an Amazon SNS topic.
+  * D. Create an AWS Lambda function that queries the AWS CloudTrail logs for the CPU Utilization metric every 15 minutes and sends a notification to an Amazon SNS topic when the CPU utilization exceeds 80%.
+35) An application running on Amazon EC2 opens connections to an Amazon RDS SQL Server database. The developer does not want to store the user name and password for the database in the code. The developer would also like to automatically rotate the credentials.
+What is the MOST secure way to store and access the database credentials?
+  * A. Create an IAM role that has permissions to access the database. Attach the role to the EC2 instance.
+  * B. Use AWS Secrets Manager to store the credentials. Retrieve the credentials from Secrets Manager as needed.
+  * C. Store the credentials in an encrypted text file in an Amazon S3 bucket. Configure the EC2 instance’s user data to download the credentials from Amazon S3 as the instance boots.
+  * D. Store the user name and password credentials directly in the source code. No further action is needed because the source code is stored in a private repository.
 36)
 37)
 38)
