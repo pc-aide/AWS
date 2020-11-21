@@ -332,19 +332,51 @@ Which combination of additional steps should developers take to access the table
    * C. Ask an administrator in Account A to allow the EC2 IAM role permission to assume the AccessPII role with predefined service control policies.
    * D. Include the AssumeRole API in the application code logic to obtain credentials to access the PII table.
    * E. Include the GetSessionToken API in the application code logic to obtain credentials to access the PII table.
-43)  A developer is creating an AWS Lambda function that generates a new file each time it runs. Each new file must be checked into an AWS CodeCommit repository hosted in the same AWS account.
+43) A developer is creating an AWS Lambda function that generates a new file each time it runs. Each new file must be checked into an AWS CodeCommit repository hosted in the same AWS account.
 How should the developer accomplish this?
    * A. When the Lambda function starts, use the Git CLI to clone the repository. Check the new file into the cloned repository and push the change.
    * B. After the new file is created in Lambda, use cURL to invoke the CodeCommit AP
    * C. Send the file to the repository.
    * D. Use an AWS SDK to instantiate a CodeCommit client. Invoke the put_file method to add the file to the repository.
    * E. Upload the new to an Amazon S3 bucket. Create an AWS Step Function to accept S3 events. In the Step Function, add the new file to the repository.
-44)
-45)
-46)
-47)
-48)
-49)
+44) A developer must ensure that the IAM credentials used by an application in Amazon EC2 are not misused or compromised.
+What should the developer use to keep user credentials secure?
+   * A. Environment variables
+   * B. AWS credentials file
+   * C. Instance profile credentials
+   * D. Command line options
+45) A company has an application where reading objects from Amazon S3 is based on the type of user. The user types are registered user and guest user. The company has 25,000 users and is growing. Information is pulled from an S3 bucket depending on the user type.
+Which approaches are recommended to provide access to both user types? (**Choose two**.)
+   * A. Provide a different access key and secret access key in the application code for registered users and guest users to provide read access to the objects.
+   * B. Use S3 bucket policies to restrict read access to specific IAM users.
+   * C. Use Amazon Cognito to provide access using authenticated and unauthenticated roles.
+   * D. Create a new IAM user for each user and grant read access.
+   * E. Use the AWS IAM service and let the application assume the different roles using the AWS Security Token Service (AWS STS) AssumeRole action depending on the type of user and provide read access to Amazon S3 using the assumed role.
+46) A developer is testing an application that invokes an AWS Lambda function asynchronously. During the testing phase, the Lambda function fails to process after two retries.
+How can the developer troubleshoot the failure?
+   * A. Configure AWS CloudTrail logging to investigate the invocation failures
+   * B. Configure Dead Letter Queues by sending events to Amazon SQS for investigation
+   * C. Configure Amazon Simple Workflow Service to process any direct unprocessed events
+   * D. Configure AWS Config to process any direct unprocessed events
+47) A developer is setting up Amazon API Gateway for their company’s products. The API will be used by registered developers to query and update their environments. The company wants to limit the amount of requests end users can send for both cost and security reasons. Management wants to offer registered developers the option of buying larger packages that allow for more requests.
+How can the developer accomplish this with the LEAST amount of overhead management?
+   * A. Enable throttling for the API Gateway stage. Set a value for both the rate and burst capacity. If a registered user chooses a larger package, create a stage for them, adjust the values, and share the new URL with them.
+   * B. Set up Amazon CloudWatch API logging in API Gateway. Create a filter based on the user and requestTime fields and create an alarm on this filter. Write an AWS Lambda function to analyze the values and requester information, and respond accordingly. Set up the function as the target for the alarm. If a registered user chooses a larger package, update the Lambda code with the values.
+   * C. Enable Amazon CloudWatch metrics for the API Gateway stage. Set up CloudWatch alarms based off the Count metric and the ApiName, Method, Resource, and Stage dimensions to alerts when request rates pass the threshold. Set the alarm action to Deny. If a registered user chooses a larger package, create a user-specific alarm and adjust the values.
+   * D. Set up a default usage plan, specify values for the rate and burst capacity, and associate it with a stage. If a registered user chooses a larger package, create a custom plan with the appropriate values and associate the plan with the user.
+48) A developer is refactoring a monolithic application. The application takes a POST request and performs several operations. Some of the operations are in parallel while others run sequentially. These operations have been refactored into individual AWS Lambda functions. The POST request will be processed by Amazon API Gateway.
+How should the developer invoke the Lambda functions in the same sequence using API Gateway?
+   * A. Use Amazon SQS to invoke the Lambda functions
+   * B. Use an AWS Step Functions activity to run the Lambda functions
+   * C. Use Amazon SNS to trigger the Lambda functions
+   * D. Use an AWS Step Functions state machine to orchestrate the Lambda functions
+49) A company is adding stored value (or gift card) capability to its highly popular casual gaming website. Users need to be able to trade this value for other users’ items on the platform. This would require both users’ records be updated as a single transaction, or both users’ records to be completely rolled back.
+Which AWS database options can provide the transactional capability required for this new feature? (**Choose two**.)
+   * A. Amazon DynamoDB with operations made with the ConsistentRead parameter set to true
+   * B. Amazon ElastiCache for Memcached with operations made within a transaction block
+   * C. Amazon Aurora MySQL with operations made within a transaction block
+   * D. Amazon DynamoDB with reads and writes made using Transact* operations
+   * E. Amazon Redshift with operations made within a transaction block.
 50)
 51)
 52)
