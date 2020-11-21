@@ -289,14 +289,56 @@ What is the MOST secure way to store and access the database credentials?
   * B. Use AWS Secrets Manager to store the credentials. Retrieve the credentials from Secrets Manager as needed.
   * C. Store the credentials in an encrypted text file in an Amazon S3 bucket. Configure the EC2 instance’s user data to download the credentials from Amazon S3 as the instance boots.
   * D. Store the user name and password credentials directly in the source code. No further action is needed because the source code is stored in a private repository.
-36)
-37)
-38)
-39)
-40)
-41)
-42)
-43)
+36) A global company has an application running on Amazon EC2 instances that serves image files from Amazon S3. User requests from the browser are causing high traffic, which results in degraded performance.
+Which optimization solution should a developer implement to increase application performance?
+   * A. Create multiple prefixes in the S3 bucket to increase the request rate.
+   * B. Create an Amazon ElastiCache cluster to cache and serve frequently accessed items.
+   * C. Use Amazon CloudFront to serve the content of images stored in Amazon S3.
+   * D. Submit a ticket to AWS Support to request a rate limit increase for the S3 bucket.
+37) An application needs to encrypt data that is written to Amazon S3 where the keys are managed in an on-premises data center, and the encryption is handled by S3.
+Which type of encryption should be used?
+   * A. Use server-side encryption with Amazon S3-managed keys
+   * B. Use server-side encryption with AWS KMS-managed keys
+   * C. Use client-side encryption with customer master keys
+   * D. Use server-side encryption with customer-provided keys
+38)  A development team is working on a mobile app that allows users to upload pictures to Amazon S3. The team expects the app will be used by hundreds of thousands of users during a single event simultaneously. Once the pictures are uploaded, the backend service will scan and parse the pictures for inappropriate content.
+Which approach is the MOST resilient way to achieve this goal, which also smooths out temporary volume spikes for the backend service?
+   * A. Develop an AWS Lambda function to check the upload folder in the S3 bucket. If new uploaded pictures are detected, the Lambda function will scan and parse them.
+   * B. Once a picture is uploaded to Amazon S3, publish the event to an Amazon SQS queue. Use the queue as an event source to trigger an AWS Lambda function. In the Lambda function, scan and parse the picture.
+   * C. When the user uploads a picture, invoke an API hosted in Amazon API Gateway. The API will invoke an AWS Lambda function to scan and parse the picture.
+   * D. Create a state machine in AWS Step Functions to check the upload folder in the S3 bucket. If a new picture is detected, invoke an AWS Lambda function to scan and parse it.
+39) A development team wants to run their container workloads on Amazon ECS. Each application container needs to share data with another container to collect logs and metrics.
+What should the developer team do to meet these requirements?
+   * A. Create two pod specifications. Make one to include the application container and the other to include the other container. Link the two pods together.
+   * B. Create two task definitions. Make one to include the application container and the other to include the other container. Mount a shared volume between the two tasks.
+   * C. Create one task definition. Specify both containers in the definition. Mount a shared volume between those two containers.
+   * D. Create a single pod specification. Include both containers in the specification. Mount a persistent volume to both containers.
+40)  A company has 25,000 employees and is growing. The company is creating an application that will be accessible to its employees only. A developer is using Amazon S3 to store images and Amazon RDS to store application data. The company requires that all employee information remain in the legacy Security Assertion Markup Language (SAML) employee directory only and is not interested in mirroring any employee information on AWS.
+How can the developer provide authorized access for the employees who will be using this application so each employee can access their own application data only?
+   * A. Use Amazon VPC and keep all resources inside the VPC, and use a VPC link for the S3 bucket with the bucket policy.
+   * B. Use Amazon Cognito user pools, federate with the SAML provider, and use user pool groups with an IAM policy.
+   * C. Use an Amazon Cognito identity pool, federate with the SAML provider, and use an IAM condition key with a value for the cognito-identity.amazonaws.com:sub variable to grant access to the employees.
+   * D. Create a unique IAM role for each employee and have each employee assume the role to access the application so they can access their personal data only.
+41) A company has developed a new serverless application using AWS Lambda functions that will be deployed using the AWS Serverless Application Model (AWS SAM) CLI.
+Which step should the developer complete prior to deploying the application?
+   * A. Compress the application to a .zip file and upload it into AWS Lambda
+   * B. Test the new AWS Lambda function by first tracing it in AWS X-Ray
+   * C. Bundle the serverless application using a SAM package
+   * D. Create the application environment using the eb create my-env command
+42) A company stores all personally identifiable information (PII) in an Amazon DynamoDB table named PII in Account A. An application running on Amazon EC2 instances in Account B requires access to the PII table. An administrator in Account A created an IAM role named AccessPII with privileges to access the PII table, and made Account B a trusted entity.
+Which combination of additional steps should developers take to access the table? (**Choose two**.)
+   * A. Ask an administrator in Account B to allow the EC2 IAM role permission to assume the AccessPII role.
+   * B. Ask an administrator in Account B to allow the EC2 IAM role permission to assume the AccessPII role with predefined service control policies.
+   * C. Ask an administrator in Account A to allow the EC2 IAM role permission to assume the AccessPII role with predefined service control policies.
+   * D. Include the AssumeRole API in the application code logic to obtain credentials to access the PII table.
+   * E. Include the GetSessionToken API in the application code logic to obtain credentials to access the PII table.
+43)  A developer is creating an AWS Lambda function that generates a new file each time it runs. Each new file must be checked into an AWS CodeCommit repository hosted in the same AWS account.
+How should the developer accomplish this?
+   * A. When the Lambda function starts, use the Git CLI to clone the repository. Check the new file into the cloned repository and push the change.
+   * B. After the new file is created in Lambda, use cURL to invoke the CodeCommit AP
+   * C. Send the file to the repository.
+   * D. Use an AWS SDK to instantiate a CodeCommit client. Invoke the put_file method to add the file to the repository.
+   * E. Upload the new to an Amazon S3 bucket. Create an AWS Step Function to accept S3 events. In the Step Function, add the new file to the repository.
 44)
 45)
 46)
