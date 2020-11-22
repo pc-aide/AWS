@@ -69,7 +69,7 @@
 "Condition" : {"Bool" : {"aws:SecureTransport": "true"}}
 ````
 ````json
-"Condition" : {"Bool" " {"aws:MultiFactorAuthPresent": "true"}}
+"Condition" : {"Bool" : {"aws:MultiFactorAuthPresent": "true"}}
 ````
   5) (Not)IpAddress:
 ````json
