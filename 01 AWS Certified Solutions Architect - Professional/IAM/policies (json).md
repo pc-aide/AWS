@@ -46,3 +46,47 @@
     ]
 }
 ````
+
+---
+
+## Conditions
+* Syntax:
+````json
+"Condition" : {"{condition-operator}" : {"{condition-key}" : "{condition-value}"}}
+````
+* Operators
+    1) String (StringEquals, StringNotEquals, StingLike...)
+````json
+"Condition" : {"StringEquals" : {"aws:PrincipalTag/job-category": "iamuser-admin"}}
+````
+````json
+"Condition" : {"StirngLike" : {"s3:prefix": [ "", "home/", "home/${aws:username}/" ]}}
+`````
+   2) Numeric (NumericEquals, NumericNotEquals, NumericLessThan...)
+   3) Data (DateEquals, DateNotEquals, DateLessThan...)
+   4) Boolean
+````json
+"Condition" : {"Bool" : {"aws:SecureTransport": "true"}}
+````
+````json
+"Condition" : {"Bool" " {"aws:MultiFactorAuthPresent": "true"}}
+````
+  5) (Not)IpAddress:
+````json
+"Condition" " {"IpAddress": {"aws:SourceIp": "203.0.113.0/24"}}
+````
+  6) ArnEquals, ArnLike
+  7) Null:
+````json
+"Condition": {"Null": {"aws:TokenIssueTime": "true"}}
+````
+
+---
+
+## Variables
+* Example: ${aws:username}
+````json
+"Resource": ["arn:aws:s3:::mybucket/${aws:username}/*"]
+````
+* AWS Specific:
+    * aws:CurrentTime,aws:TokenIssueTime
