@@ -1,5 +1,8 @@
 # IAM
 
+## Doc
+* [Example IAM identity-based policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)
+
 ## Acronym
 * IAM - Identity & access management
 
