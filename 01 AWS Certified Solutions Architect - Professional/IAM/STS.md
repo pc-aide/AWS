@@ -33,12 +33,12 @@
 * You can gran your IAM users permissions to switch to roles within your AWS account
   or to roles defined in other AWS accounts **that you own**
 * <ins>Benifits</ins>: 
-  * You must explicitly grant your users permission to assume the role
-  * Your users must actively switch to the role using the AWS Management Console or assume
+   * You must explicitly grant your users permission to assume the role
+   * Your users must actively switch to the role using the AWS Management Console or assume
     the role using the AWS CLI or AWS API
-  * **You can add MFA protection to the role** so that only users who sign in with an MFA
+   * **You can add MFA protection to the role** so that only users who sign in with an MFA
     device can assume the role
-  * Least privilege + auditing using CloudTrail
+   * Least privilege + auditing using CloudTrail
   
 ### Diagram
 [<img src="https://i.imgur.com/PhPzF49.png">](https://i.imgur.com/PhPzF49.png)
