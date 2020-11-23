@@ -1,11 +1,16 @@
 # Organizations
 
+## Doc
+* [Example service control policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html)
+* [Policy evaluation logic](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html)
+
 ## Acronym
 * IAM - Identity & Access Management
 * STS - Security Token Service
 * SSO - Single Sign-On
 * OU - Organizational Units
 * SCP - Service Control Policies
+* RI - Reserved Instance
 * EMR - Elastic MapReduce
 
 ## Intro
@@ -80,4 +85,56 @@
 ---
 
 ## SCP Examples - Blacklist & Whitelist strategies
-* 
+* Blacklist: 
+````json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowAllActions",
+      "Effect": "Allow",
+      "Action": "*",
+      "Resource": "*"
+    },
+    {
+      "Sid": "DenyDynamoDB",
+      "Effect": "Deny",
+      "Action": "dynamodb:*",
+      "Resource": "*"
+    }
+  ]
+}
+````
+* Whitelist:
+````json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Actions": [
+        "ec2:*",
+        "cloudwatch:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+````
+
+---
+
+## IAM Policy Evaluation Logic
+[<img src="https://i.imgur.com/6hCTFrk.png">](https://i.imgur.com/6hCTFrk.png)
+
+---
+
+## Reserved Instances
+* For billing purposes, the consolidated billing feature of AWS Organizations treats all the accounts
+  in the organization as one account
+* This means that **all accounts** in the organization can receive the hourly cost benefit of Reserved
+  Instances that are purchased **by any other account**
+* **The payer account (master account) of an organization** can turn off Reserved Instance (RI) discount
+  & Savings Plans discount sharing for any accouonts in that organization, including the payer account
+* This means that RIs & Saving Plans discounts aren't shared between any accounts that have sharing turned off
+* To share an RI or Savings Plans discount with an account, both accounts must have sharing turned on
