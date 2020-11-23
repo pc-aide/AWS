@@ -8,6 +8,7 @@
 * AD - Active Directory
 * RDS - Relational Database Service
 * DC - Domain Controller
+* MFA - Multi-Factor Authentication
 * AZ - Availability Zone
 * ADFS - AD Federation Service
 * SSO - Single Sign-On
@@ -113,3 +114,14 @@
 
 ### Diagram
 [<img src="https://i.imgur.com/2uMgwNM.png">](https://i.imgur.com/2uMgwNM.png)
+
+---
+
+## Directory Services Simple AD
+* **Simple AD** is an inexpensive AD - compatible service with the common directory features
+* Supports joining EC2 instances, manage users & groups
+* Does not support MFA, RDS SQL server, AWS SSO
+* Small: 500 users, large: 5k users
+* Powered by Sambda 4, compatible with Microsoft AD
+* Lower cost, low scale, basic AD compatible, or LDAP compatibility
+* No trust relationship
