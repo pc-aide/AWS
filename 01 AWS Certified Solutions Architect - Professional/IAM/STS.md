@@ -54,7 +54,13 @@
 * Zone of trust = accounts, organizations that you own 
 * Outside Zone of Trust = 3<sup>rd</sup> parties
 * Use IAM Access Analyzer to find out which resources are exposed
-* For granting access to a 3<sup>rd party:
+* For granting access to a 3<sup>rd</sup> party:
+  * The 3<sup>rd</sup> party AWS account ID
+  * **An External ID** (secret between you & the 3<sup>rd</sup> party)
+    * To uniquely associate with role between you & 3<sup>rd</sup> party
+    * Must be provided when defining the trust & when assuming the role
+    * Must be chosen by the 3<sup>rd</sup> party
+  * Define permissions in the IAM policy
   
   
 ---
