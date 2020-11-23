@@ -1,13 +1,17 @@
-# AWS Directory Services
+# Directory Services
 
 ## Doc
 * [How to Establish Federated Access to Your AWS Resources by Using Active Directory User Attributes](https://aws.amazon.com/blogs/security/how-to-establish-federated-access-to-your-aws-resources-by-using-active-directory-user-attributes/)
+* [How to Connect Your On-Premises Active Directory to AWS Using AD Connector](https://aws.amazon.com/blogs/security/how-to-connect-your-on-premises-active-directory-to-aws-using-ad-connector/)
 
 ## Acronym
 * AD - Active Directory
 * RDS - Relational Database Service
+* DC - Domain Controller
+* AZ - Availability Zone
 * ADFS - AD Federation Service
 * SSO - Single Sign-On
+* DX - Direct Connect
 * EC2 - Elastic Cloud Compute
 * SAML - Security Assertion Markup Language
 * DS - Directory Service
@@ -58,5 +62,54 @@
 * Integrations:
   * RDS for SQL Server, AWS Workspaces, Quicksight...
   * AWS SSO to provide access to 3<sup>rd</sup> party applications
+* Standalone repository in AWS or joined to on-premise AD
+* Multi AZ deployment of AD in 2 AZ, # of DC can be increased for scaling
+* automated backups
 
 ### Diagram
+[<img src="https://i.imgur.com/dTPXW73.png">](https://i.imgur.com/dTPXW73.png)
+
+---
+
+## AWS Microsoft Managed AD - Integrations
+[<img src="https://i.imgur.com/dMbxdMl.png">](https://i.imgur.com/dMbxdMl.png)
+
+---
+
+## Connect to on-premises AD
+* Ability to connect your on-premise AD to AWS Managed Microsoft AD
+* Must establish a Direct Connect (DX) or VPN connection
+* Can setup 3 kinds of forest trust:
+ 1) **One-way trust**:
+  * AWS => On-Premise
+ 2) **One-way trust**:
+  * On-Premise => AWS
+ 3) **Two-way forest trust**:
+ * AWS <=> On-Premise
+* Forest trust is different than synchronization (**replication is not supported**)
+
+### Diagram
+[<img src="https://i.imgur.com/SvXyArQ.png">](https://i.imgur.com/SvXyArQ.png)
+
+---
+
+## Solution Architecture: AD Replication
+* You may want to create a replica of your AD on EC2 in the cloud to minimize latency 
+  of case DX or VPN goes down
+* Establish trust between the AWS Managed Microsoft AD & EC2
+
+### Diagram
+[<img src="https://i.imgur.com/1aJzNAq.png">](https://i.imgur.com/1aJzNAq.png)
+
+---
+
+## Direcotry Services AD Connector
+* **AD Connector** is a directory **gateway** to redirect directory requests to your
+  on-premises Microsoft AD
+* No caching capability
+* Manage users solely on-premise, no possibility of setting up a trust
+* VPN or Direct Connect
+* Doesn't work with SQL Server, doesn't do seamless joining, can't share directory
+
+### Diagram
+[<img src="https://i.imgur.com/2uMgwNM.png">](https://i.imgur.com/2uMgwNM.png)
