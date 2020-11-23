@@ -6,6 +6,7 @@
 * SSO - Single Sign-On
 * OU - Organizational Units
 * SCP - Service Control Policies
+* EMR - Elastic MapReduce
 
 ## Intro
 * Master accounts must invite Child Accounts
@@ -62,3 +63,21 @@
 ## SCP
 * Whitelist or blacklist IAM actions
 * Applied at the **Root, OU** our **Account** level
+* SCP is applied to all the **Users & Roles** of the Account, including Root
+* The SCP does not affect service-linked roles
+  * Service-linked roles enable other AWS services to integrate with AWS Organizations
+    & can't be restricted by SCPs
+* SCP must have explicit Allow (does not allow anything by default)
+* Use cases:
+  * Restrict access to certain services (for examples: can't user EMR)
+  * Enforce PCI compliance by explicitly disabling services
+
+---
+
+## SCP Hierarchy
+[<img src="https://i.imgur.com/SGqyJvq.png">](https://i.imgur.com/SGqyJvq.png)
+
+---
+
+## SCP Examples - Blacklist & Whitelist strategies
+* 
