@@ -33,3 +33,6 @@
 * /other-department/
 * /aws/reference/secretsManager/secret_ID_in_Secrets_Manager
 * /aws/service/ami-amzon-linux-latest/amzn2-ami-hvm-x86_64-gp2
+
+### Diagram 
+[<img src="https://i.imgur.com/KgNaqTc.png">](https://i.imgur.com/KgNaqTc.png)
