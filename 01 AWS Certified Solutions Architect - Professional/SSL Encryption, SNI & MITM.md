@@ -7,6 +7,7 @@
 * CA - Certificate Authorities
 * SNI - Server Name Indication
 * DNS SEC - DNS Security Extension
+* MITM - Man In The Middle
 * ALB - Application Load Balancer
 * CLB - Classic Load Balancer
 * NLB - Network Load Balancer
