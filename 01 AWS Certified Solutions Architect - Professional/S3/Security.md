@@ -101,3 +101,10 @@
 * S3 Object Lock
   * Adopt a WORM model
   * Block an object version deletion for a specified amount of time
+* Glacier Vault Lock
+  * Adopt a WORM model
+  * Lock the policy for future edits (can no longer be changed)
+  * Helpful for compliance & data retention
+  
+### Diagram
+[<img src="https://i.imgur.com/MmvH8A6.png">](https://i.imgur.com/MmvH8A6.png)
