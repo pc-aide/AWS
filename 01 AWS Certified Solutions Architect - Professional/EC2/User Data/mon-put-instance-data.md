@@ -1,5 +1,8 @@
 # mon-put-instance-data.pl
 
+## Doc
+* [How to monitor free disk space at Amazon EC2 with Cloud Watch](https://www.howtoforge.com/tutorial/how-to-monitor-disk-space-with-cloudwatch/)
+
 ## IAM Role - EC2ForCloudWatch
 ````json
 {
