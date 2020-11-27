@@ -35,3 +35,28 @@
 
 ## What's a DDoS Attach ?
 [<img src="https://i.imgur.com/KZzwaDh.png">](https://i.imgur.com/KZzwaDh.png)
+
+---
+
+## Type of Attacks on your infrastructure
+* DDoS
+  * When your service is unavailable because it's receiving too many requests
+  * SYN Flood (layer 4): send too many TCP connection requests
+  * UDP Reflection (Layer 4): get other servers to send many big UDP request
+  * DNS flood attack: overwhelm the DNS so legitimate users can't find the site
+  * Slow Loris attack: a lot of HTTP connections are opened & maintaned
+* Application level attacks:
+  * more complex, more specific (HTTP level)
+  * Cache bursting strategies: overload the backend database by invalidating cache
+  
+---
+
+## DDoS Protection on AWS
+* **Shield Standard**: protects against DDoS attack for your website & applications, for all customers at no additional costs
+* **Shield Advanced**: 24/7 premium DDoS protection
+* **WAF**: Filter specific requests based on rules
+* CloudFront & Route 53:
+  * Default have Shield enabled
+  * Availability protection using global edge network
+  * Combined with Shield, provides DDoS attack mitigation at the edge
+* Be ready to scale - leverage Auto Scaling
