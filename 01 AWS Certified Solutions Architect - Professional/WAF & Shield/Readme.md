@@ -8,15 +8,19 @@
 * Layer 4 -> Transport -> e.g -> TCP, UDP
 * Layer 7 -> Application -> end user -> e.g -> SMTP -> level exploit on process
 
-[<imgs src="https://i.imgur.com/keR5lyG.png">](https://i.imgur.com/keR5lyG.png)
+[<img src="https://i.imgur.com/keR5lyG.png">](https://i.imgur.com/keR5lyG.png)
 
 ## Acronym
 * WAF - Web Application Firewall
 * ALB - Application Load Balancer
+* CLB - Classic Load Balancer
 * DRP - Disaster Response Program
+* ACL - Access Control List
+* EIP - Elastic IP
 * ELB - Elastic Load Balancer
 * DDoS - Distributed Deny of Service
 * SMTP - Simple Mail Tranfer Protocol
+* VPC - Virtual Private Cloud
 * RDS - Relational Database Service
 * VPC - Virtual Private Cloud
 * SG - Security Group
@@ -97,4 +101,22 @@
 
 ## WAF
 * Protects your web applications from common web exploits (Layer 7 - Application)
-* Deploy on ALB (lo
+* Deploy on **ALB** (lolocalized rules)
+* Deploy on **API Gateway** (rules running at the regional or edge level)
+* Deploy on **CloudFront** (rules globally on edge locations)
+  * Used to front other solutions: CLB, EC2 instances, custom origin, S3 websites
+* <ins>WAF is not for DDoS protection</ins>
+* Define Web ACL
+  * Rules can include: **IP addresses**, HTTP headers, HTTP body, or URI strings
+  * Protects from common attack - **SQL injection** & Cross-Site Scripting (XSS)
+  * Size constraints, Geo match
+  * Rate-based rules (to count occurrences of events)
+
+---
+
+## Firewall Manager
+* Manage rules in all accounts of an AWS Organization
+* Common set of security rules
+* WAF rules (ALB, API Gateway, CloudFront)
+* Shield Advanced (ALB, CLB, EIP, CloudFront)
+* SGs for EC2 & ENI resources in VPC
