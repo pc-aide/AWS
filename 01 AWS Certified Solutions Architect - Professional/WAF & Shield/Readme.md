@@ -1,8 +1,22 @@
 # WAF & Shield
 
+## Doc
+* [Security (White paper)](https://d1.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf)
+
+## OSI 7 Layer Model
+* Layer 3 -> Network -> e.g -> packets -> IP, ICMP
+* Layer 4 -> Transport -> e.g -> TCP, UDP
+* Layer 7 -> Application -> end user -> e.g -> SMTP -> level exploit on process
+
+[<imgs src="https://i.imgur.com/keR5lyG.png">](https://i.imgur.com/keR5lyG.png)
+
 ## Acronym
 * WAF - Web Application Firewall
+* ALB - Application Load Balancer
+* DRP - Disaster Response Program
+* ELB - Elastic Load Balancer
 * DDoS - Distributed Deny of Service
+* SMTP - Simple Mail Tranfer Protocol
 * RDS - Relational Database Service
 * VPC - Virtual Private Cloud
 * SG - Security Group
@@ -60,3 +74,27 @@
   * Availability protection using global edge network
   * Combined with Shield, provides DDoS attack mitigation at the edge
 * Be ready to scale - leverage Auto Scaling
+* Separate static resources (s3/CloudFront) from dynamic ones (EC2/ALB)
+
+---
+
+## Sample Reference Architecture
+[<img src="https://i.imgur.com/rjJKf6c.png">](https://i.imgur.com/rjJKf6c.png)
+
+---
+
+## Shield
+1) Shield Standard:
+  * **Free** service that is activated for every AWS customer
+  * Provides protection fron attacks such as **SYN/UDP Floods**, **Reflection** attacks & other layer 3 (network), layer 4 (transport) attacks
+2) Shield Advanced:
+  * Optional DDoS mitigation service (**3k$ /month** per organization)
+  * Protect against more sophisticated attack on EC2, ELB, CloudFront, Global Accelerator, & Route 53
+  * 24/7 access to DDoS response team (DRP)
+  * Protect against higher fees during usage spikes due to DDoS
+  
+---
+
+## WAF
+* Protects your web applications from common web exploits (Layer 7 - Application)
+* Deploy on ALB (lo
