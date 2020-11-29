@@ -1,4 +1,4 @@
-# Alternative htaccess + ALB + NACL
+# Alternative htaccess with ALB + NACL
 
 ## Acronym
 * ALB - Application Load Balancer
