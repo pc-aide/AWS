@@ -5,7 +5,7 @@
 * NACL - Network Access Control List
 
 ## Tology
-[<img src="https://i.imgur.com/v3q58tE.png">](https://i.imgur.com/v3q58tE.png)
+[<img src="https://i.imgur.com/3KB5nJw.png">](https://i.imgur.com/3KB5nJw.png)
 
 ## Steps
 ### 01 - User data
