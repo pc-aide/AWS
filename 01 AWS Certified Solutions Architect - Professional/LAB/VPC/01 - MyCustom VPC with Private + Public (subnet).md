@@ -1,4 +1,4 @@
-# 01 - My Custom VPC
+# 01 - MyCustom VPC with Private + Public (subnet)
 
 ## SRC
 * https://youtu.be/VGAT5C8qIUY
