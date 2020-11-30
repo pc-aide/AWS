@@ -1,4 +1,4 @@
-# SSL on ELB
+# SSL
 
 ## Acronym
 * ALB - Application Load Balancer
