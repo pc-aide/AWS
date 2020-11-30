@@ -65,3 +65,6 @@ echo "dummy log data" > /var/log/application.log
 ## Create Metric Filter
 * ...
 * Metric Name: AppError
+
+## Create Alarm
+* thresold -> e.g -> SNS 
