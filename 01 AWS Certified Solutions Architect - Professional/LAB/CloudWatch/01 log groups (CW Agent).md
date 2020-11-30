@@ -5,8 +5,8 @@
 
 ## Steps
 ### 01 - IAM 
-* New Policy: EC2ForLogGroups(CW)
-  * Description EC2 For CloudWatch Agent (Log groups)
+* New Policy: EC2ForLogGroups-CW
+  * Description EC2 For Log groups - CloudWatch
 ````json
 {
   "Version": "2012-10-17",
