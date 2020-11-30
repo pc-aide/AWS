@@ -9,7 +9,7 @@
   * Description EC2 For CloudWatch Agent (Log groups)
 ````json
 {
-  "version": "2012-10-17",
+  "Version": "2012-10-17",
   "Statement":[
     {
       "Effect": "Allow",
