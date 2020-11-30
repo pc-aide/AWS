@@ -2,6 +2,7 @@
 
 ## Youtube
 * [AWS - CloudWatch Logs](https://www.youtube.com/watch?v=F4IE69V-iuw)
+* [Log groups (CW Agent)](https://youtu.be/Aae8avMUGNc)
 
 ## Steps
 ### 01 - IAM 
