@@ -3,7 +3,10 @@
 ## Acronym
 * ELB - Elastic Load Balancer
 * L - Layer
+* SAN - Subject Alternate Name
 * LB - Load Balancer
+* SSL - Secure Sockets Layer
+* SNI - Server Name Indication
 * CLB - Classic Load Balancer
 * Cert - Certificate
 * ALB - Application Load Balancer
@@ -25,7 +28,11 @@
 ## CLB (v1) Listeners
 * Health Checks can be HTTP(L7) or TCP(L4) based
 * Supports only one SSL cert
-  * The SSL cert can have many SAN, but the SSL cert must be changed anytime a SAN is
+  * The SSL cert can have many SAN, but the SSL cert must be changed anytime a SAN is added/edit/removed
+  * Better to use ALB with SNI if possible
+  * Can use multiple CLB if you want distinct SSL certificates
+* TCP => TCP passes all the traffic to the EC2 instance
+  * Only way to use 2-way SSL authentication
 
 * SSL:
 
