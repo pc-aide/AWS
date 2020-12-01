@@ -5,6 +5,7 @@
 * CLB - Classic Load Balancer
 * ALB - Application Load Balancer
 * NLB - Network Load Balancer
+* ELB - Elastic Load Balancer
 * TTL - Time To Live
 * EB - Elastic Beanstalk
 
@@ -68,4 +69,36 @@
 ---
 
 ## Latency Routing Policy (4/6)
-* Redirect to the server that has th
+* Redirect to the server that has the least latency close to use
+* Super hepful when latency of users is a priority
+* Latency is evaluated in terms of user to designated AWS Region
+* Germany users may be directed to the US (if that's the lowest latency)
+* Has failover capability if you enable health checks
+
+### Diagram
+[<img src="https://i.imgur.com/fhBrXy0.png">](https://i.imgur.com/fhBrXy0.png)
+
+---
+
+## Geo Location Routing Policy (5/6)
+* Different from Laency based!
+* This is routing based on user location
+* Here we specify: traffic from the UK should go to this specific IP
+* Should create a "default" policy (in case there's no match on location)
+
+### Diagram
+[<img src="https://i.imgur.com/99HiWHm.png">](https://i.imgur.com/99HiWHm.png)
+
+---
+
+## Multi Value Routing Policy (6/6)
+* Use when routing trafic to multiple resources
+* Want to assocaite a Route 53 health checks with records
+* Up to 8 healthy records are returned for each Multi Value query
+* **Multi value** is not a substitute for having an ELB
+
+
+---
+
+## Route 53 - Complex/Nested Records
+[<img src="https://i.imgur.com/Ifrevfr.png">](https://i.imgur.com/Ifrevfr.png)
