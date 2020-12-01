@@ -2,6 +2,9 @@
 
 ## Acronym
 * EIP - Elastic IP
+* SQS - Simple Queue Service
+* WAF - Web Application Firewall
+* LB - Load Balancer
 * TTL - Time To Live
 * ALB - Application Load Balancer
 * ASG - Auto Scaling Group
@@ -77,6 +80,59 @@
 * Application is run on Docker
 * Service Auto Scaling is easy
 * Time to be in-service is quick (no need to launch an EC2 instance in advance)
-* Still limited by the ALB in case 
+* Still limited by the ALB in case of sudden peaks
+* "Serverless" application tier
+* "Managed" LB
 
 ### Diagram
+[<img src="https://i.imgur.com/W5AVQxx.png">](https://i.imgur.com/W5AVQxx.png)
+
+---
+
+## ALB + Lambda
+* Limited to Lambda's runtimes
+* Seamless scaling thanks to Lambda
+* Simple way to expose Lambda functions as HTTP/S without all the features from API Gateway
+* Can combine with WAF
+* Good for hybrid microservices
+* Example: use ECS for some requests, use Lambda for others
+
+### Diagram
+[<img src="https://i.imgur.com/xhQg6V7.png">](https://i.imgur.com/xhQg6V7.png)
+
+---
+
+## API Gateway + Lambda
+* Pay per reuest, seamless scaling, fully serverless
+* Soft limits: 10k/s API Gateway, 1k concurrent Lambda
+* API Gateway features:
+  * authentication, rate limiting, caching, etc...
+* Lambda Cold Start time may increase latency for some requests
+* Fully integrated with X-Ray
+
+### Diagram
+[<img src="https://i.imgur.com/aw5xuR2.png">](https://i.imgur.com/aw5xuR2.png)
+
+---
+
+## API Gateway + AWS Service (as a proxy)
+* Lower latency, cheaper
+* Not using Lambda concurrent capacity, no custom code
+* Expose AWS APIs securely through API Gateway
+* SQS, SNS, Step Functions...
+* Remember API Gateway has a payload limit of 10MB (can be a problem ofr S3 proxy)
+
+### Diagram
+[<img src="https://i.imgur.com/hpBp4NH.png">](https://i.imgur.com/hpBp4NH.png)
+
+---
+
+## API Gateway + HTTP backend (ex: ALB)
+* Use API Gateway features on top of custom HTTP backend (authentication, rate control, API keys, caching...)
+* Can connect to...
+* On-premise service
+* ALB
+* 3<sup>rd</sup> party HTTP service
+
+
+## Diagram
