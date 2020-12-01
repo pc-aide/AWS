@@ -98,7 +98,14 @@
 * **Multi value** is not a substitute for having an ELB
 
 
+| Name            | Type     | Value        | TTL | Set ID | Health Check |
+|-----------------|----------|--------------|-----|--------|--------------|
+| www.example.com | A Record | 192.0.2.2    | 60  | Web1   | A            |
+| www.example.com | A Record | 198.51.100.2 | 60  | Web2   | B            |
+| www.example.com | A Record | 203.0.113.2  | 60  | Web3   | C            |
+
 ---
 
 ## Route 53 - Complex/Nested Records
 [<img src="https://i.imgur.com/Ifrevfr.png">](https://i.imgur.com/Ifrevfr.png)
+
