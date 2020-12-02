@@ -8,6 +8,7 @@
 ## Doc
 * [S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
 * [Logging S3 API calls using CloudTrail](https://docs.aws.amazon.com/AmazonS3/latest/dev/cloudtrail-logging.html)
+* [S3 Select and Glacier Select – Retrieving Subsets of Objects](https://aws.amazon.com/blogs/aws/s3-glacier-select/)
 
 ## Intro
 * Object storage, serverless, unlimited storage, pay-as-you-go
@@ -114,3 +115,8 @@
 * Retrieve less data using SQL by performing **server side filtering**
 * Can filter by rows & columns (simple SQL statements)
 * Less network transfer, less CPU cost client-side
+
+### Diagram
+[<img src="https://i.imgur.com/UmsMPJT.png">](https://i.imgur.com/UmsMPJT.png)
+
+[<img src="https://i.imgur.com/dclqkkH.png">](https://i.imgur.com/dclqkkH.png)
