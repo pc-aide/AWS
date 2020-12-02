@@ -2,7 +2,7 @@
 
 ## Aronym
 * RDS - Relational Database Service 
-* HA - 
+* HA - High Availability
 * AZ - Availability Zone
 
 ## Intro
@@ -41,3 +41,13 @@
 * Redis:
   * Multi AZ with Auto-Failover
   * **Read replicas** to scale reads & have HA
+  * Persisten, Data durability:
+    * Read Only File Feature (AOF), backkup & restore features
+* Memcached:
+  * Multi-node for partitioning of data (sharding)
+  * **Non persistent**
+  * No backup & restore
+  * Multi-threaded architecture
+  
+### Diagram
+[<img src="https://i.imgur.com/KhqZZPm.png">](https://i.imgur.com/KhqZZPm.png)
