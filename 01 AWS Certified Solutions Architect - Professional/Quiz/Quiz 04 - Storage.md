@@ -25,6 +25,6 @@
   * B. Past Objects: fetch the object partially from an AWS Lambda function using an S3 byte-range fetch & extract the index data
   * C. Past Objects: fetch the object partially from an AWS Lambda function using an S3 byte-range fetch & extract the index data
   * D. Past Objects: fetch the object entirely from an AWS Lambda function & extract the index data Future Objects: create an S3 event for new objects to trigger the previous Lambda function
-* [Answers]()
+* [Answers](https://i.imgur.com/lYoqoDW.png)
 * Score:
   * [ 2-12-2020 AM] 3/5 = 60%
