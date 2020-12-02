@@ -2,7 +2,7 @@
 
 ## Questions
 1) You have a 3 TB gp2 EBS volume mounted onto an m5.large EC2 instance and you would like to get an increase of 3000 IOPS in performance. What do you recommend doing?
-  * A. Mount a 2nd EBS volume as RAID 0
+   * A. Mount a 2nd EBS volume as RAID 0
   * B. Mount a 2nd EBS volume as RAID 1
   * C. Increase the EBS drive by 1TB
   * D. Upgrade the EC2 instance type
