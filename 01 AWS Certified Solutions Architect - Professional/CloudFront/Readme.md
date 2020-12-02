@@ -189,7 +189,7 @@
 
 [<img src="https://i.imgur.com/hgbWQkK.png">](https://i.imgur.com/hgbWQkK.png)
 
-* Config 002: 
+* Config 002 - SSL cert = CloudFront = ALB: 
 
 [<img src="https://i.imgur.com/zIbvOyi.png">](https://i.imgur.com/zIbvOyi.png)
 
