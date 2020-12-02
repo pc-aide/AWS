@@ -5,10 +5,13 @@
 
 ## Doc
 * [Global Edge Network](https://aws.amazon.com/cloudfront/features/?nc=sn&loc=2)
+* [Lambda@Edge Design Best Practices](https://aws.amazon.com/blogs/networking-and-content-delivery/lambdaedge-design-best-practices/)
 
 ## Acronym
 * CDN - Content Delivery Network
+* SNI - Server Name Indication
 * HA - High Availability
+* OIDC - OpenID Connect
 * TTL - Time To Live
 * CRR - Cross Region Replication
 * IAM - Identity & Access Management
@@ -148,3 +151,48 @@
     * Build more responsive applications
     * You don't manage servers, Lambda is deployed globally
     * Customize the CDN content
+    * Pay only for what you use
+* You can use Lambda to change CloudFront requests & responses:
+  1) After CloudFront receives a request from a viewer (viewer request)
+  2) Before CloudFront forwards the request to the origin (origin request)
+  3) After CloudFront receives the response from the origin (origin response)
+  4) Before CloudFront forwards the response to the viewer (viewer response)
+* You can also generate reponses to viewers without ever sending the request to the origin
+* Lambda@Edge doesn't have any cache. It's only to change requests/responses
+  
+### Diagram
+[<img src="https://i.imgur.com/3CuyTMd.png">](https://i.imgur.com/3CuyTMd.png)
+
+---
+
+## Lambda@Edge: Authentication & Authorization
+[<img src="https://i.imgur.com/6kJ2BP8.png">](https://i.imgur.com/6kJ2BP8.png)
+
+---
+
+## Lambda@Edge: Use Cases
+* Website Security & Privacy
+* Dynamic Web Application at the Edge
+* Search Engine Optimization (SEO)
+* Intellignetly Route Across Origins & Data Centers
+* Bot Mitigation at the Edge
+* Real-time Image Transformation
+* A/B Testing
+* User Authentication & Authorization
+* User Prioritization, User Tracking & Analytics
+* Increasing the cache hit ratio (by modifying headers, normalize user-agent...)
+
+---
+
+## HTTPS configuration & Host
+* Config 001:
+
+[<img src="https://i.imgur.com/hgbWQkK.png">](https://i.imgur.com/hgbWQkK.png)
+
+* Config 002: 
+
+[<img src="https://i.imgur.com/zIbvOyi.png">](https://i.imgur.com/zIbvOyi.png)
+
+* Config 003:
+
+[<img src="https://i.imgur.com/09pXyiM.png">](https://i.imgur.com/09pXyiM.png)
