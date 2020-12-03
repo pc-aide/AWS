@@ -1,5 +1,8 @@
 ## Amazon MQ
 
+## Doc
+* [Migrating from IBM MQ to Amazon MQ using a phased approach](https://aws.amazon.com/blogs/compute/migrating-from-ibm-mq-to-amazon-mq-using-a-phased-approach/)
+
 ## Acronym
 * SQS - Simple Queue Service
 * HA - High Availability
