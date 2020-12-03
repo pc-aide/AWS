@@ -2,8 +2,16 @@
 
 ## Acronym
 * RPS - Requests Per Second
+* AZ - Availability Zone
+* KMS - Key Management Service
+* DAX - DynamoDB Accelerator
+* DR - Disaster Recovery
+* GSI - Global Secondary Index
+* TTL - Time To Live
+* LSI - Local Seconday Index
 * IAM - Identity & Access Management
 * ACID - Atomic, Consistency, Integration, & Durability
+* RDS - Relational Database Service
 * WCU - Write Capacity Unit
 * RCU - Read Capacity Unit
 * CRUD - Create,Read,Update, & Delete
@@ -61,4 +69,54 @@
 ---
 
 ## Indexes
-* Object = <ins>
+* Object = <ins>primary key + optional sort key</ins> + attributes
+* LSI
+  * Keep the same primary key
+  * Select an alternative sort key
+  * Must be defined at table creation time
+* GSI
+  * Change the primary key & optonal sort key
+  * Can be defined after the table is created
+* You can only quey by PK + sort key on the main table & indexes (≠ RDS)
+
+---
+
+## Important Features
+* TTL: automatically expire row after a specified epoch data
+* DynamoDB **Streams**:
+  * react to changes to DynamoDB tables in real time
+  * Can be read by Lambda, EC2...
+  * 24 hours retention of data
+* **Global Tables**: 
+  * Cross region replication
+    * Active Active Replication, many regions
+    * Must enable DynamoDB Streams
+    * Useful for low latency, DR purposes
+  
+### Diagram
+[<img src="https://i.imgur.com/8gJeBH6.png">](https://i.imgur.com/8gJeBH6.png)
+
+---
+
+## Indexing objects in DynamoDB
+[<img src="https://i.imgur.com/xJEArLf.png">](https://i.imgur.com/xJEArLf.png)
+
+---
+
+## DAX
+* Seamless cache for DynamoDB, no application re-write
+* Writes go through DAX to DynamoDB
+* Micro second latency for cached reads & queries
+* Solves the Hot Key problem (too many reads)
+* 5 minutes TTL for cache by default
+* Up to 10 nodes in the cluster
+* Multi AZ (3 nodes minimum recommended for production)
+* Secure (Encryption at rest with KMS, VPC, IAM, CloudTrail...)
+
+### Diagram
+[<img src="https://i.imgur.com/Rltd4cY.png">](https://i.imgur.com/Rltd4cY.png)
+
+---
+
+## DAX vs ElastiCache
+[<img src="https://i.imgur.com/H5yUFUQ.png">](https://i.imgur.com/H5yUFUQ.png)
