@@ -1,4 +1,4 @@
-# Kinesis Firehose
+# Kinesis Data Firehose
 
 ## Acronym
 * ES - ElasticSearch
