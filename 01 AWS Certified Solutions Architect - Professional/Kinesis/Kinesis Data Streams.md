@@ -2,6 +2,8 @@
 
 ## Acronym
 * IoT - Internet of Things
+* KCL - Kinesis Client Library
+* KPL - Kinesis Producer Library
 * AZ - Availability Zone
 
 ## Intro
@@ -37,4 +39,46 @@
 
 ---
 
-## 
+## Shards
+* One stream is made of many different shards
+* Billing is per shard provisioned, can have as many shards as you want
+* Batching available or per message calls
+* The number of shards can evolve over time (reshard/merge)
+* **Records are ordered per shard**
+
+### Diagram
+[<img src="https://i.imgur.com/fiQhoPH.png">](https://i.imgur.com/fiQhoPH.png)
+
+---
+
+## Kinesis Producers & Consumers
+* <ins>**KINESIS PRODUCERS**</ins>
+  * AWS SDK: simple producer
+  * **Kinesis Producer Library**: batch, compression, retries, c++, Java
+* **Kinesis Agent**:
+  * Monitor log files & sends them to Kinesis directly
+  * can write to Kinesis Data Streams <ins>**AND**</ins> Kinesis Data Firehose
+* <ins>**KINESIS COMSUMERS**</ins>
+  * AWS SDK: simple consumer
+  * Lambda: (through Event source mapping)
+  * KCL: checkpoint, coordinated reads
+  
+### Diagram
+[<img src="https://i.imgur.com/oYjL3i5.png">](https://i.imgur.com/oYjL3i5.png)
+
+---
+
+## Limits
+* Producer:
+  * 1MB/s or 1k messages/s at write PER SHARD
+  * "ProvisionedThroughputException" otherwise
+    * add shar for more throughput
+* Consumer Classic:
+  * 2MB/s at read PER SHARD across all consumers
+  * 5 API calls per second PER SHARD across all consumers
+* Consumer Enchanced Fan-Out:
+  * 2MB/s at read PER SHARD, PER ENHANCED CONSUMER
+  * No API calls needed (push model)
+* Data Retention:
+  * 24 hours data retention by default
+  * Can be extentended to 7 days
