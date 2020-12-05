@@ -80,3 +80,16 @@
   
 ### Diagram
 [<img src="https://i.imgur.com/CwTTLY6.png">](https://i.imgur.com/CwTTLY6.png)
+
+
+---
+
+## Others Concepts
+* CloudFormer
+  * Create an AWS CloudFormation template from existing AWS resources
+* ChangeSets
+  * Generate & Preview the CloudFormation changes before they get applied
+* StacksSets
+  * Deploy a CloudFormation stack across multiple accounts & regions
+* Stack Policies
+  * Prevent accidental updates/deletes to stack resources
