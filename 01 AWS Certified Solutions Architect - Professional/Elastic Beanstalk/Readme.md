@@ -2,6 +2,7 @@
 
 ## Acronym
 * ASG - Auto Scaling Group
+* EB - Elastic Beanstalk
 * ALB - Application Load Balancer
 * ELB - Elastic Load Balancer
 * RDS - Relational Database Service
@@ -40,3 +41,28 @@
 ---
 
 ## Beanstalk Environments
+[<img src="https://i.imgur.com/D8LvTRy.png">](https://i.imgur.com/D8LvTRy.png)
+
+---
+
+## Web Server vs Worker Environment
+* If your application performs tasks that are long to complete, offload these tasks to a dedicated **worker environment**
+* **Decoupling** your application into two tiers is common
+* Example: processing a video, generating a zip file, etc
+* You can define periodic tasks in a file **cron.yaml**
+
+### Diagram
+[<img src="https://i.imgur.com/8Tcybj9.png">](https://i.imgur.com/8Tcybj9.png)
+
+---
+
+## EB Deployment | Bue/Green
+* Not a "direct feature" of EB
+* Zero downtime & release facility
+* Create a new "stage" environment & deploy v2 there
+* The **new environment (green**) can be validated independently & roll back if issues
+* Route 53 can be setup using weighted policies to redirect a little bit of traffic to the stage environment
+* Using Beanstalk, "swap URLs" (DNS swap) when done with the environment test
+
+### Diagram
+[<img src="https://i.imgur.com/JJGDyvM.png">](https://i.imgur.com/JJGDyvM.png)
