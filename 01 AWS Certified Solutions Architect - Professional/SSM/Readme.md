@@ -54,3 +54,30 @@
 * Integrated with IAM & CloudTrail
 * **No need for SSH**
 * Results in the console
+
+### Diagram
+[<img src="https://i.imgur.com/rNrbQcb.png">](https://i.imgur.com/rNrbQcb.png)
+
+---
+
+## SSM Path Manager - Predefined Path Baselines
+* Defines which patches should or shouldn't be installed on your instances
+* <ins>Linux:</ins>
+  * AWS-AmazonLinux2DefaultPatchBaseline
+  * AWS-CentOSDefaultPatchBaseline
+  * AWS-RedHatDefaultPatchBaseline
+  * AWS-SuseDefaultPathcBaseline
+  * AWS-UbuntuDefaultPatchBaseline   
+* <ins>Windows:</ins> (patches are auto-approved 7 days after the release)
+  * **AWS-DefaultPatchBaseline**: install OS patch CriticalUpdates & SecurityUpdates
+  * AWS-WindowsPredefinedPatchBaseline-OS: same as "AWS-DefaultPatchBaseline"
+  * AWS-WindowsPredefinedPatchBaseline-OS-Applications: also updates Microsoft applications
+* Can define your own custom patch baselines as well (OS, classification, severity...)
+
+---
+
+## SSM Patch Managers - Steps
+1) Define a **path baseline** to use (or multiple if you have multiple environments)
+2) Define path groups: define based on tags, example different environments (dev,test,prod) - use tag **Patch Group**
+3) Define **Maintenance Windows** (schedule, duration, registered targets/patch groups & registered tasks)
+4) Add the **AWS-RunPatchBaseline Run Command** as part of the registered tasks of the Maintenance 
