@@ -5,6 +5,69 @@
 
 ## Acronym
 * IAM - Identity & access management
+* IdP - Identity Provider
+* Creds - Credentials
+* MFA - Multi-Factor Authentication
+* cfg - Configuration
+
+---
+
+## Identities
+1) IAM user
+  * **Persons** or **application** wiht access to resrouces in AWS account
+2) Existing Users
+  * Federated from directory or IdP like Amazon Cognito, Facebook, Gooogle
+
+---
+
+## Creds
+1) User & Pwd
+  * Console access
+    * Can disable or reset
+2) AWS Access key
+  * Programmatic access
+    * Set inactive or delete
+3) MFA cfg
+
+---
+
+## Policies for Permissions
+1) Principal
+  * principal is a **person** or **application** that can make a **request** for an **action** or **operation** on an AWS resource
+2) Action
+3) Resource
+4) Condition (optional)
+
+---
+
+## Policies
+* **Deny by default**
+  * Allow must be present, no specific deny
+* Everything in request must match a policy if something is not working check:
+  1) Principal
+  2) Action
+  3) Resource
+  4) Condition
+
+---
+
+## Inline Policy
+* Embedded directly in an entity
+* Policy is deleted when entity deleted
+* Ensure policy only assigned to one entity
+* Use managed policies for most cases
+
+---
+
+## Group Organization
+1) Admins
+2) Dev
+3) Billing
+* Limit
+  * IAM user can belong to max 10 groups
+
+### Diagram
+[<img src="https://i.imgur.com/k5h0fGl.png">](https://i.imgur.com/k5h0fGl.png)
 
 ---
 
