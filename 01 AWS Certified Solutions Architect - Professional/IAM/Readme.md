@@ -34,6 +34,20 @@
 ## Policies for Permissions
 1) Principal
   * principal is a **person** or **application** that can make a **request** for an **action** or **operation** on an AWS resource
+  * e.g.
+````json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": { "AWS": "arn:aws:iam::866457158735:root"},
+      "Action": "sts:AssumeRole",
+      "Condition": {}
+    }
+  ]
+}
+````
 2) Action
 3) Resource
 4) Condition (optional)
