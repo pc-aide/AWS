@@ -1,6 +1,6 @@
 # Bucket Policy
 
-## E.g 01 - List + Get
+## E.g 01 - List + Get (one Bucket)
 ````json
 {
   "Version": "2012-10-17",
