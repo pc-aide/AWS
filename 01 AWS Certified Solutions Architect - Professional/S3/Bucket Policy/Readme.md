@@ -1,6 +1,11 @@
 # Bucket Policy
 
 ## E.g 01 - List + Get (one Bucket)
+* if we remove Ln 18 & Ln20 (GetObject + bucketname/*), the user can't now **download** from this bucket:
+
+[<img src="https://i.imgur.com/frjRzvh.png">](https://i.imgur.com/frjRzvh.png)
+  
+  
 ````json
 {
   "Version": "2012-10-17",
