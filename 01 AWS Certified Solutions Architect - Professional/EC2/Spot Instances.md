@@ -1,7 +1,7 @@
 # Spot Instances
 
 ## Doc
-* [Pricing Hitory (via Console)](https://ca-central-1.console.aws.amazon.com/ec2sp/v1/spot/dashboard?region=ca-central-1)
+* [Pricing History (via Console)](https://ca-central-1.console.aws.amazon.com/ec2sp/v1/spot/dashboard?region=ca-central-1)
 
 ## Acronym
 * ECS - Elastic Container Service
