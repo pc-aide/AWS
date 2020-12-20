@@ -8,6 +8,9 @@
 * ASG - Auto Scaling Group
 * CI/CD - Continuous Integration/Continuous Delivery
 
+## URL
+* [Spot Instance Advisor](https://aws.amazon.com/ec2/spot/instance-advisor/)
+
 ## Intro
 * Can get a discount of up to **90%** compared to On-demand
 * Define **max spot price** & get the instance while **current spot price** < max
@@ -75,3 +78,4 @@
 * $205 (spot - default)
 
 [<img src="https://i.imgur.com/MkDygZp.png">](https://i.imgur.com/MkDygZp.png)
+
