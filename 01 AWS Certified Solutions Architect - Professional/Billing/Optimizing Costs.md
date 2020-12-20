@@ -10,6 +10,7 @@
 * IAM - Identity & Access Management
 * IA - Infrequently Access
 * SNS - Simple Notification Service
+* SCP - Service Control Policy
 
 
 ## 5 Common Mistakes
@@ -116,6 +117,7 @@
 * AWS Budgets
   * Configure custom budgets & alerts based on budget
 * AWS Trusted Advisor  
+  * Cost Optimizatin suggestions with service plan
 
 ### Cost Anaomaly Detection
 * new service - free - you pay only the sub-service (e.g -> SNS)
@@ -123,3 +125,13 @@
 
     
 [<img src="https://i.imgur.com/YAHerNR.png">](https://i.imgur.com/YAHerNR.png)
+
+---
+
+## AWS Organizations
+* Cost visibility with **single payer account**
+* Saving plans & Reserved Instances apply to entire organization
+* Volume discounts on combined usage
+* Simplify reports
+* Limit services with SCPs
+* Regular cleanup of sandbox accounts
