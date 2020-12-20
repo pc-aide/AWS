@@ -6,6 +6,7 @@
 ## Acronym
 * ECS - Elastic Container Service
 * ASG - Auto Scaling Group
+* CI/CD - Continuous Integration/Continuous Delivery
 
 ## Intro
 * Can get a discount of up to **90%** compared to On-demand
@@ -42,3 +43,35 @@
 * Soft limits:
   * Target capacity per Spot Fleet or EC2 fleet: 10k
   * Target capcity across all Spot Fleet & EC2 Fleet in a region: 100k
+
+---
+
+## Use Case
+* Big data analytics
+* Containerized workloads
+* CI/CD pipelines
+* Web services
+* Image & media rendering
+* High performance computing
+
+---
+
+## Using Spot Instance
+* Request detail 
+  * **Max price**
+* Price < max?
+  * = spot fulfilled
+* Stop anytime 
+  * you or AWS
+* Defined duration
+  * 1-6 hours
+  
+---
+
+## E.g - 6 hrs@1k EC2 m5.large us-east-1
+* $575 - on demand
+* $222 - Reserved
+* $402 (spot - duration)
+* $205 (spot - default)
+
+[<img src="https://i.imgur.com/MkDygZp.png">](https://i.imgur.com/MkDygZp.png)
