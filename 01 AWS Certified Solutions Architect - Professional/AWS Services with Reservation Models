@@ -1,0 +1,46 @@
+# AWS Services with Reservation Models
+
+## Doc
+* [Pricing for Provisioned Capacity](https://aws.amazon.com/dynamodb/pricing/provisioned/)
+
+## Acronym
+* RDS - Relational Database Service
+
+## List
+1) Amazon EC2
+2) Amazon RDS
+3) Amazon Redshfit
+4) Amazon ElastiCache
+5) Amazon DynamoDB
+
+### E.g
+#### EC2
+[<img src="https://i.imgur.com/MHhkJ2Q.png">](https://i.imgur.com/MHhkJ2Q.png)
+
+#### RDS MySQL
+[<img src="https://i.imgur.com/DuzJph1.png">](https://i.imgur.com/DuzJph1.png)
+
+#### Reshift
+[<img src="https://i.imgur.com/tggjR38.png">](https://i.imgur.com/tggjR38.png)
+
+#### ElastiCache
+[<img src="https://i.imgur.com/k30E6W2.png">](https://i.imgur.com/k30E6W2.png)
+
+---
+
+## DynamoDB Reservation Model
+1) On-demand
+  * Automatically adjusts 
+  * Charged per million
+  * Based on actual use
+  * Good for irregular or low-volume workloads
+2) Provisoned
+  * Specify capacity
+  * Charged hourly
+  * Changes with capacity
+  * Good for periodic predictable workloads
+3) Reserved
+  * Specify 100-unit blocks
+  * Upfront + reduced rate
+  * Charged constantly
+  * Good for constant predictable workloads
