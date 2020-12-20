@@ -8,7 +8,7 @@
 * ASG - Auto Scaling Group
 
 ## Intro
-* Can get a discount of up to 90% compared to On-demand
+* Can get a discount of up to **90%** compared to On-demand
 * Define **max spot price** & get the instance while **current spot price** < max
   * The hourly spot price varies based on offer & capacity
   * If the current spot price > your max price you can choose to **stop** or **terminate** your instance with a 2 minutes grace period
