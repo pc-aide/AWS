@@ -123,7 +123,42 @@
 #### Launch Failed
 * msgError:
 ````txt
-
+You are not authorized to perform this operation. Encoded authorization failure message: otB_oykdG7YeZSvyGmEc_xaXQwzobRST7Qtoj4lk-
+L_jsp6jaRY95LDF9gZo4m4luLnxZsqDyzzuJbp36lliX_aB...
 ````
 
 [<img src="https://i.imgur.com/LGaMFEM.png">](https://i.imgur.com/LGaMFEM.png)
+
+---
+
+## DenyInstanceTerminate
+* New SCP
+* Name: DenyInstanceTerminate
+* Description: Deny terminate action of EC2 instance
+* Policy:
+````json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "NoTerminateEC2s",
+      "Effect": "Deny",
+      "Action": "ec2:TerminateInstances",
+      "Resource": "arn:aws:ec2:*:*:instance/*"
+    }
+  ]
+}
+````
+
+* Attach:
+
+[<img src="https://i.imgur.com/noFRrHM.png">](https://i.imgur.com/noFRrHM.png)
+
+* Policies inherited:
+
+[<img src="https://i.imgur.com/Zu4kEZa.png">](https://i.imgur.com/Zu4kEZa.png)
+
+### Test
+* error - terminate instance:
+
+[<img src="https://i.imgur.com/7Omx1fv.png">](https://i.imgur.com/7Omx1fv.png)
