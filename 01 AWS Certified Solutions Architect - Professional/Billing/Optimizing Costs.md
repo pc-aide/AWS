@@ -9,6 +9,7 @@
 * st1 - Throughput Optimized HDD
 * IAM - Identity & Access Management
 * IA - Infrequently Access
+* SNS - Simple Notification Service
 
 
 ## 5 Common Mistakes
@@ -93,3 +94,32 @@
 | Glacier | min-hr | 90 days | $409 |
 | Glacier Deep Archive | hours | 180 days | $101 |
 
+---
+
+## Saving Plans
+* Similar to **Reserved Instances** discount
+  * 1-3 year commitment
+  * Full, partial, or no upfront payment
+* Compute spend per hour
+  * e.g. $50/hr
+* Automatically apply to any:
+  * Instance family, size tenancy, OS, region
+  * Fargate & Lambda
+* AWS Cost Explorer
+
+---
+
+## Tools
+* AWS Cost Explorer
+  * Graph, visualize, analyze spend
+  * Saving plans
+* AWS Budgets
+  * Configure custom budgets & alerts based on budget
+* AWS Trusted Advisor  
+
+### Cost Anaomaly Detection
+* new service - free - you pay only the sub-service (e.g -> SNS)
+  * receive a SNS for cost anomaly detection
+
+    
+[<img src="https://i.imgur.com/YAHerNR.png">](https://i.imgur.com/YAHerNR.png)
