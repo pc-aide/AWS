@@ -1,4 +1,4 @@
-# IP Addressing Globomantics.md
+# IP Addressing Globomantics VPC Design
 
 ## Prefix
 * Pub - Public
