@@ -33,4 +33,4 @@
   * garante separated rack for our EC2 instance for maximum HA
 
 ### Diagram
-[<img src="https://i.imgur.com/895Npnt.png">](https://i.imgur.com/895Npnt.png)
+[<img src="https://i.imgur.com/BQIYHpV.png">](https://i.imgur.com/BQIYHpV.png)
