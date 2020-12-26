@@ -23,3 +23,8 @@
       
 ### Diagram
 [<img src="https://i.imgur.com/tYweZH2.png">](https://i.imgur.com/tYweZH2.png)
+
+---
+
+## basic-network.template
+* https://github.com/pc-aide/AWS/blob/master/01%20AWS%20Certified%20Solutions%20Architect%20-%20Professional/CloudFormation/Template/basic-network.md
