@@ -28,3 +28,12 @@
 
 ## basic-network.template
 * https://github.com/pc-aide/AWS/blob/master/01%20AWS%20Certified%20Solutions%20Architect%20-%20Professional/CloudFormation/Template/basic-network.md
+
+---
+
+## IP addressing
+* Other CIDR
+  * 10.1.0.0/24
+  
+### Diagram
+[<img src="https://i.imgur.com/RaWcMXy.png">](https://i.imgur.com/RaWcMXy.png)
