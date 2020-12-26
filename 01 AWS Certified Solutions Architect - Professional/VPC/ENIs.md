@@ -23,3 +23,14 @@
 * **primary ENI is eth0** & can't be removed
 * Secondary ENIs can be attached
 * All instance ENIs must be in same AZ
+
+### Diagram
+* ENIs
+  * eth0 Public
+   * 10.0.1.5
+   * 10.0.1.10
+   * 10.0.1.6
+ * eth1 Private
+  * 10.0.0.4.5
+  
+[<img src="https://i.imgur.com/aBCJpGJ.png">](https://i.imgur.com/aBCJpGJ.png)
