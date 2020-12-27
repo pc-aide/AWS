@@ -26,10 +26,10 @@
 
 ---
 
-## Route
+## Route default
 * e.g.
-  * rtb-default:
-  * igw-default
+  * rtb-b94357d1
+  * igw-2bea2c43
 
 |Destination  |Target      |Status|Propagated|
 |-------------|------------|------|----------|
