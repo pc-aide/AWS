@@ -1,5 +1,8 @@
 # Route Tables
 
+## Abbreviation
+* igw - Internet Gateway
+
 ## Intro
 * Main or custom table
 * Table type
@@ -20,3 +23,15 @@
 * Leave main empty
   * Except local routes
 * Custom uses explicit association
+
+---
+
+## Route
+* e.g.
+  * rtb-default:
+  * igw-default
+
+|Destination  |Target      |Status|Propagated|
+|-------------|------------|------|----------|
+|172.31.0.0/16|local       |active|No        |
+|0.0.0.0/0    |igw-2bea2c43|active|No        |
