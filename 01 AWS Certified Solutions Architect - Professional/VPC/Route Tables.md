@@ -1,5 +1,8 @@
 # Route Tables
 
+## Acronym
+* NAT - Network Address Translation
+
 ## Abbreviation
 * igw - Internet Gateway
 
@@ -35,3 +38,17 @@
 |-------------|------------|------|----------|
 |172.31.0.0/16|local       |active|No        |
 |0.0.0.0/0    |igw-2bea2c43|active|No        |
+
+---
+
+## Target types
+* Internet gateway (igw)
+* Egress only internet gateway
+* NAT gateway
+* Outpost local gateway
+* Transit gateway
+* Virtual private gateway
+* Instance
+  * NAT instance
+* Network interface
+* Peering connection
