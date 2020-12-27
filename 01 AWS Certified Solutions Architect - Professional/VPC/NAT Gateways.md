@@ -1,6 +1,7 @@
 # NAT Gateways
 
 ## Acronym
+* AZ - Availability Zone
 * NAT - Network Address Translation
 * HA - High Available
 * SG - Security Group
@@ -26,3 +27,19 @@
 
 ### Diagram
 [<img src="https://i.imgur.com/qnViHlH.png">](https://i.imgur.com/qnViHlH.png)
+
+---
+
+## HA
+### NAT-GW
+* if NAT-GW fail, AWS will be create new NAT-GW, nothing to do as cumsumer or used multiple NAT-inst + detection failOver (applicance)
+
+[<img src="https://i.imgur.com/huqGHqz.png">](https://i.imgur.com/huqGHqz.png)
+
+### NAT-Inst
+* if NAT-Inst fail, Client must have to update rtb quickly
+* if NAT-Inst fail, script detect for update rtb on another AZ
+
+[<img src="https://i.imgur.com/gRMv34e.png">](https://i.imgur.com/gRMv34e.png)
+[<img src="https://i.imgur.com/kanhteD.png">](https://i.imgur.com/kanhteD.png)
+[<img src="https://i.imgur.com/DGRorlV.png">](https://i.imgur.com/DGRorlV.png)
