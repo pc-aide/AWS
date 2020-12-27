@@ -1,6 +1,7 @@
 # SGs
 
 ## Acronym
+* CIDR - Classless Inter-Domain Routing
 * SG - Security Group
 * VPC - Virtual Private Cloud
 
@@ -29,3 +30,23 @@
 * Outbound rule
   * idem
 * We can edit this SG default for different something 
+
+---
+
+## Inbound or Outbound
+* Protocol
+  * TCP, UDP, ICMP (ping), or custom
+* Port range
+  * from 0 to 65 535
+  * from 0 t0 1023 well-know ports
+    * e.g:
+      * 80 -> http
+      * 22 -> ssh
+      * 21 -> ftp
+      * 443 -> https
+      * 53 -> DNS
+      * 3389 -> rdp
+* Source (Inbound)
+  * CIDR, IP, SG
+* Destination (Outbound)
+  * CIDR, IP, SG, **prefix list (pl)**
