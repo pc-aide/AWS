@@ -28,3 +28,10 @@
   * Instance Metadata Service
   
 [<img src="https://i.imgur.com/HLXRtA4.png">](https://i.imgur.com/HLXRtA4.png)
+
+### Diagram
+[<img src="https://i.imgur.com/hGm2GD3.png">](https://i.imgur.com/hGm2GD3.png)
+
+
+### Console
+[<img src="https://i.imgur.com/P9YYISa.png">](https://i.imgur.com/P9YYISa.png)
