@@ -23,3 +23,8 @@
 * Endpoints support IPv4 & same region only
 * Endpoints can't be extended outside of VPC
 * DNS resolutin must be enabled or configured properly   
+
+---
+
+## Diagram
+[<img src="https://i.imgur.com/xslKbfi.png">](https://i.imgur.com/xslKbfi.png)
