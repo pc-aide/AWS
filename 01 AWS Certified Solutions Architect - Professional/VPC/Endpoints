@@ -1,0 +1,17 @@
+# Endpoints
+
+## Acronym
+* IGW - Internet Gateway
+* NAT - Network Address Translation
+* S3 - Simple Storage Service
+
+## Intro
+* Regional endpoints
+* VPC endpoints
+* Secure access to AWS services
+  * No IGW, NAT device, VPN connection
+  * No public IP address
+  * Does not leave Amazon network
+* Gateway or interface
+  * S3 & DynamoDB for gateway
+  * AWS PrivteLink interface for others
