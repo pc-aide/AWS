@@ -23,3 +23,8 @@
 * Catch all deny rule
 * One NACL per subnet
 * Rule evaluation is in order of rules (smallest to biggest)
+
+---
+
+## Diagram
+[<img src="https://i.imgur.com/pC4Jhcq.png">](https://i.imgur.com/pC4Jhcq.png)
