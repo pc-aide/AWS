@@ -5,6 +5,8 @@
 * ISP - Internet Service Provider
   * e.g: Bell, Videotron, Telus, and so on
 * LAG - Link Aggregation Groups
+* VGW - Virtual Gateway
+* vif - virtual interface
 
 ## Intro
 * Private connection to AWS network
@@ -38,3 +40,15 @@
 * Less expensive:
 
 [<img src="https://i.imgur.com/cJnCIT9.png">](https://i.imgur.com/cJnCIT9.png)
+
+---
+
+## Direct Connect Gateway 
+* Used to connect one or more VPCs
+* Globally available resource
+* Private or transit virtual interfaces to Direct Connect connection
+* VGW or transit gateway to VPCs
+* Support for multiple accounts, regions, & VPCs
+
+### Diagram
+[<img src="https://i.imgur.com/ZVFEyvk.png">](https://i.imgur.com/ZVFEyvk.png)
