@@ -28,6 +28,9 @@
   * Programmatic access
     * Set inactive or delete
 3) MFA cfg
+  * Password Policy/MFA
+    * aws:MultiFactorAuthPresent
+    * aws:MultiFactorAuthAge
 
 ---
 
