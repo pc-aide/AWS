@@ -106,3 +106,55 @@
     * iam:ResourceTag/key-name
     * aws:PrincipalTag/key-name
     
+---
+
+## Limit Actions to a Region
+* Denies all actions on all resources if the requested region is not "us-west-2"
+````json
+{
+  "Effect": "Deny",
+  "Action": "*",
+  "Resource": "*",
+  "Condition": {
+    "StringNotEquals": {
+      "aws:RequestedRegion": [
+        "us-west-2"
+      ]
+    }
+  }
+}
+````
+
+--- Exclude some action from deny
+* Denies all actions on all resources EXCEPT EC2 if the requested region is not "us-west-2"
+* Does not grant any permissions; just block the effect of the deny
+````json
+{
+  "Effect": "Deny",
+  "NotAction": ["ec2:*"],
+  "Resource": "*",
+  "Condition": {
+    "StringNotEquals": {
+      "aws:RequestedRegion": [
+        "us-west-2"
+      ]
+    }
+  }
+}
+````
+---
+
+## WhiteList
+* e.g.:
+````json
+{
+  "Effect": "Allow",
+  "Action": [
+    "ec2:Describe*",
+    "ec2:RebootInstances",
+    "ec2:StartInstances",
+    "ec2:StopInstances",
+  ],
+  ...
+}
+````
