@@ -158,3 +158,27 @@
   ...
 }
 ````
+
+---
+
+## LimitActionUSWest2
+````json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "LimitActionUSwest2",
+      "Effect": "Deny",
+      "Action": "*",
+      "Resource": "*",
+      "Condition": {
+        "StringNotEquals": {
+          "aws:RequestedRegion": [
+            "us-west-2"
+          ]
+        }
+      }
+    }
+  ]
+}
+````
