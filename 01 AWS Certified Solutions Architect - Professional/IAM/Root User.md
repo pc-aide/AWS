@@ -25,4 +25,13 @@
 ---
 
 ## Limit Root User Actions with SCPs
-* Actions
+* Actions not listed in SCP are implicitly denied
+* Lock down root users in member accounts
+* Set guardrails with SCPs
+  * SCPs pply to ALL users, uncluding root
+
+### Diagram
+[<img src="https://i.imgur.com/i40TUk4.png">](https://i.imgur.com/i40TUk4.png)
+[<img src="https://i.imgur.com/sq4LBFO.png">](https://i.imgur.com/sq4LBFO.png)
+
+---
