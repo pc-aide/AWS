@@ -53,3 +53,11 @@
   * CloudFront
   * ELB
   * API Gateway
+
+---
+
+## Create & Deploy certs
+* Private certs
+  * Create & activate private CA
+  * Request private cert
+  * ACM can deploy or export cert
