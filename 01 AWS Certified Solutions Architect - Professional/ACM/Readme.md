@@ -3,10 +3,12 @@
 ## Acronym
 * ACM - AWS Certificate Management
 * ALB - Application Load Balancer
-* SSL - Secure Sockets Layer
-* LB - Load Balancer
-* EB - Elastic Beanstalk
 * CA - Certificate Authority
+* EB - Elastic Beanstalk
+* ELB - Elastic Load Balancer
+* LB - Load Balancer
+* SSL - Secure Sockets Layer
+
 
 ## Intro
 * To host **public SSL certificate** in AWS, you can:
@@ -17,6 +19,11 @@
   * CloudFront distributions
   * APIs on API Gateways
 * SSL certificates is overall a pain to manually manage, so ACM is great to leverage in your AWS infrastructure
+* **Free public certificates** with services
+* Managed certificate renewal
+  * No "certificate expired" messages
+* Private Certificate Authority (CA)
+  * Manage your private certificates (not free$)
   
 ### Diagram
 [<img src="https://i.imgur.com/p3sjGja.png">](https://i.imgur.com/p3sjGja.png)
@@ -38,3 +45,11 @@
 * ACM is a **regional** service
   * To use with a global application (multiple ALB for example), you need to issue an SSL certificate in each region where your application is deployed
   * You can't copy certs across regions
+
+---
+
+## Use Cases
+* Integrated with AWS services:
+  * CloudFront
+  * ELB
+  * API Gateway
