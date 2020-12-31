@@ -1,5 +1,8 @@
 # CloudHSM
 
+## Abbriation
+* B - One billion
+
 ## Acronym
 * HSM - Hardware Security Module
 * TDE - Transparent Data Encryption
@@ -10,6 +13,7 @@
 * TLS - Transport Layer Security
 * AZ - Availability Zone
 * KMS - Key Management Service
+* FIPS - Federal Information Processing Standard Publication
 
 ## Intro
 * KMS -> AWS manages the **software** for encryption
@@ -43,11 +47,12 @@
 | Feature                    | KMS                                                                 | CloudHSM                                                                                           |
 | -------------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | Tenancy                    | Uses multi-tenant key storage                                       | Single tenant key storage,<br>dedicated to one costomer                                            |
-| keys                       | Keys owned & managed by AWS                                         | Customer managed keys                                                                              |
+| keys                       | Keys owned & managed by AWS<br>Can't export master keys                                         | Customer managed keys<br>Can export master keys                                                                              |
 | Encryption                 | Supports only symmetric key<br>encryption                           | Supports both symmetrics &<br>assymmetric encryption                                               |
 | Cryptographic acceleration | None                                                                | SSL/TLS Acceleration<br>Oracle TDE Acceleration                                                    |
 | Key storage & management   | Accessible from multiple regions<br>Centralized management from IAM | Deployed & managed from a customer VPC<br>Accessible & can be shared across VPCs using VPC peering |
 | Free tier availability     | yes                                                                 | no                                                                                                 |
+| U.S. government computer security standard | FIPS 140-2 Level 2 | FIPS 140-2 Level 3 |
 ---
 
 ## Price
@@ -58,6 +63,18 @@
   * 2x HSM cluster for 1 month for 2x AZ -> 1$.60/hr/device
   * Up to 3.8k keys, full capacity for calls
     * $2 380/month
+* KMS
+  * low keys
+    * $1/month/key
+    * Charge per request (encryption/decryption)
+    * 1 key, 1M Requests
+      * $4/month
+  * a lot of keys
+    * 2.5k keys, 1M req
+      * $2 504/month
+    * 1 key, 1B requests
+      * $3001/month
+    
 
 ---
 
