@@ -48,3 +48,27 @@
 | Cryptographic acceleration | None                                                                | SSL/TLS Acceleration<br>Oracle TDE Acceleration                                                    |
 | Key storage & management   | Accessible from multiple regions<br>Centralized management from IAM | Deployed & managed from a customer VPC<br>Accessible & can be shared across VPCs using VPC peering |
 | Free tier availability     | yes                                                                 | no                                                                                                 |
+---
+
+## Price
+* Pay per hour per device
+
+### Cost: CloudHSM vs KMS
+* CloudHSM
+  * 2x HSM cluster for 1 month for 2x AZ -> 1$.60/hr/device
+  * Up to 3.8k keys, full capacity for calls
+    * $2 380/month
+
+---
+
+## Use Case
+* Custom key store
+  * Use KMS service with keys on own HSM
+* SSL acceleration
+  * Offload to HSM, secure private key
+* Certificate authority
+  * Protect privte key & perform signing
+* CloudHSM client
+  * For host to establish secure connection
+* Software libraries
+  * Perform operations on HSMs from application
