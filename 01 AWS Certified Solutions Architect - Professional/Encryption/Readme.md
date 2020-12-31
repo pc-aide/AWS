@@ -12,7 +12,7 @@
 * Durable - lost key means lost data
 * Compliance for key management, audit use of keys
 
---
+---
 
 ## KMS
 * Managed service - centralized control
