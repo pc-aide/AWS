@@ -2,6 +2,7 @@
 
 ## Acronym
 * IAM - Identity & Access Management
+* RDS - Relational Database Service
 
 ## Intro
 * Maximum allowed access
@@ -124,3 +125,43 @@
   ]
 }
 ````
+* attach to user: dev1
+
+[<img src="https://i.imgur.com/DGfj7dw.png">](https://i.imgur.com/DGfj7dw.png)
+
+* test create new role with dev1:
+  * Another AWS account
+    * Account ID: 018116317022
+    * Policy: AdministratorAcces - test
+    
+[<img src="https://i.imgur.com/lJnkbpq.png">](https://i.imgur.com/lJnkbpq.png)
+
+* error - permissions
+
+[<img src="https://i.imgur.com/jJ777Vc.png">](https://i.imgur.com/jJ777Vc.png)
+
+* Set permissions boundary
+* RadioButton: Use a permissions boundary to control the maximum role permissions
+* Filter policies: DevBoundary
+
+[<img src="https://i.imgur.com/4DJOSRH.png">](https://i.imgur.com/4DJOSRH.png)
+[<img src="https://i.imgur.com/zRs8j3T.png">](https://i.imgur.com/zRs8j3T.png)
+
+* Test
+  * Switch Role
+    * Account: 018116317022
+    * Role: DevCreated1
+    * Display Name: LimitedAdmin
+* Access
+  * EC2, S3 
+  * Region: only Oregon (us-west-2)
+    
+[<img src="https://i.imgur.com/P2Jg9Qo.png">](https://i.imgur.com/P2Jg9Qo.png)
+[<img src="https://i.imgur.com/JkKnPDQ.png">](https://i.imgur.com/JkKnPDQ.png)
+[<img src="https://i.imgur.com/tlEuPZc.png">](https://i.imgur.com/tlEuPZc.png)
+
+* Denied, if region = us-west-1
+* Denies if try another service, e.g.: RDS
+
+[<img src="https://i.imgur.com/yvHF5ia.png">](https://i.imgur.com/yvHF5ia.png)
+[<img src="https://i.imgur.com/dQqj6ae.png">](https://i.imgur.com/dQqj6ae.png)
