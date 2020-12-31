@@ -4,16 +4,18 @@
 * B - One billion
 
 ## Acronym
+* AZ - Availability Zone
+* CRUD - Create, Read, Update & Delete 
+* FIPS - Federal Information Processing Standard Publication
 * HSM - Hardware Security Module
 * TDE - Transparent Data Encryption
-* CRUD - Create, Read, Update & Delete 
 * HA - High Availability
 * SSE-C - Side-Server Encryption Custom
 * SSL - Secure Sockets Layer
 * TLS - Transport Layer Security
-* AZ - Availability Zone
 * KMS - Key Management Service
-* FIPS - Federal Information Processing Standard Publication
+* VPC - Virtual Private Cloud
+
 
 ## Intro
 * KMS -> AWS manages the **software** for encryption
@@ -53,6 +55,10 @@
 | Key storage & management   | Accessible from multiple regions<br>Centralized management from IAM | Deployed & managed from a customer VPC<br>Accessible & can be shared across VPCs using VPC peering |
 | Free tier availability     | yes                                                                 | no                                                                                                 |
 | U.S. government computer security standard | FIPS 140-2 Level 2 | FIPS 140-2 Level 3 |
+| API | Only KMS servvice has HSM access | Direct HSM access with APIs
+|Performance | Regional endpoint | Speed - hardware in VPC |
+| Designed | Integration with AWS services | Integration with your application |
+
 ---
 
 ## Price
