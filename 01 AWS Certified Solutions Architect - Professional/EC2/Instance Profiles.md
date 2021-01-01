@@ -17,6 +17,7 @@
 
 ## Summary
 * Instance profiles
- * Assign **IAM role** to EC2 instance
- * No **credentials** to **embed**
- * Scale to multiple instances
+  * Assign **IAM role** to EC2 instance
+  * No **credentials** to **embed**
+  * Scale to multiple instances
+  * Instant updates from role changes
