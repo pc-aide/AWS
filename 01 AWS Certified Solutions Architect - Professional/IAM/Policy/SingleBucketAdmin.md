@@ -61,3 +61,9 @@
   ]
 }
 ````
+* try agin list our bukcet (aws cli)
+* we will get an error
+* but bucket 2 - it will work
+
+[<img src="https://i.imgur.com/wv1DuPl.png">](https://i.imgur.com/wv1DuPl.png)
+[<img src="https://i.imgur.com/QDgQU2J.png">](https://i.imgur.com/QDgQU2J.png)
