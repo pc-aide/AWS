@@ -1,5 +1,8 @@
 # Placement Groups
 
+## Doc
+* [Placement groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html)
+
 ## Acronym
 * AZ - Availability Zone
 
