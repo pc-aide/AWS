@@ -49,3 +49,13 @@
   * Delete existing groups then add instances to new single group
 * One at a time
   * An instance can't span multiple placement groups
+
+---
+
+## Summary
+1) Cluster
+  * close together, low latency, high throughput
+2) Partition
+  * each partition on separate racks
+3) Spread 
+  * seperate individual instances
