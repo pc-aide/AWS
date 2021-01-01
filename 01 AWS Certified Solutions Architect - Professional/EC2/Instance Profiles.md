@@ -12,3 +12,11 @@
 
 ### Diagram
 [<img src="https://i.imgur.com/dCq8Fgx.png">](https://i.imgur.com/dCq8Fgx.png)
+
+---
+
+## Summary
+* Instance profiles
+ * Assign **IAM role** to EC2 instance
+ * No **credentials** to **embed**
+ * Scale to multiple instances
