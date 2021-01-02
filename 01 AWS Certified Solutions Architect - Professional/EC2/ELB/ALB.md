@@ -53,4 +53,8 @@
 6) Advanced health check settings (optiona)
 
 ### 05 - Register Targets
-* Instances
+* Instances: add to registered
+
+|n|Instance (i-<Number>)| on port|
+|-|---------------------|--------|
+|1|i-<number>           | 80     |
