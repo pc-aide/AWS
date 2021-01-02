@@ -5,6 +5,8 @@
 * AZ - Availability Zone
 * LB - Load Balancer
 * SG - Security Group
+* SSL - Secure Sockets Layer
+* TG - Target Group
 
 ## Abbreviation
 * cfg - configuration
@@ -30,5 +32,25 @@
   * VPC: default
   * AZ: you have to two AZs
   
-### 02 - cfg Security Settings/SG
-* Choose at least one SG for ALB
+### 02-03 - cfg Security Settings/SG
+1) Choose at least one SG for ALB
+
+### 04 - cfg Routing
+1) TG: new or existing TG
+2) Target Type: 
+  * instance
+  * IP
+  * Lambda function
+3) Protocol
+  * HTTP
+  * HTTPS - need SSL here
+4) Port
+5) Health check
+  * Protocol
+    * HTTP
+    * HTTPS
+  * Path
+6) Advanced health check settings (optiona)
+
+### 05 - Register Targets
+* Instances
