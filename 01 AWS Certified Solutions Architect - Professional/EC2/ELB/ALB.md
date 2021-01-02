@@ -55,6 +55,6 @@
 ### 05 - Register Targets
 * Instances: add to registered
 
-|n|Instance (i-<Number>)| on port|
-|-|---------------------|--------|
-|1|i-<number>           | 80     |
+|n|Instance (i-\<Number\>)| on port|
+|-|-----------------------|--------|
+|1|i-\<number\>         | 80     |
