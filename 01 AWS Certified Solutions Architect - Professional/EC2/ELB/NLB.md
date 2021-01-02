@@ -41,6 +41,4 @@
 1) cert (if choose TLS) type:
   * 
   
-li:hover {
-    cursor: pointer;
-}
+li { cursor: pointer; }
