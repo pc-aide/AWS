@@ -11,6 +11,9 @@
 ## Abbreviation
 * cfg - configuration
 
+## Pricing calculator
+* [Pricing_Calculator](https://aws.amazon.com/elasticloadbalancing/pricing/#Pricing_Calculator)
+
 ## Create new ALB
 ### 01 - cfg LB
 1) Name: 
