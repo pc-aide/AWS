@@ -1,0 +1,6 @@
+# cloud-init-output.log
+
+## log
+````sh
+tail -f /var/log/cloud-init-output.log
+````
