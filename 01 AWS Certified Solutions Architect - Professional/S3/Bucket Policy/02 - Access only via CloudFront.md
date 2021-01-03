@@ -21,3 +21,10 @@
   ]
 }
 ````
+
+### Test
+* URL (Bucket)
+  * 403 forbidden
+  
+* URL (CloudFront
+  * 200 OK
