@@ -72,3 +72,10 @@
 
 ### Diagram
 [<img src="https://i.imgur.com/AfI3szd.png">](https://i.imgur.com/AfI3szd.png)
+
+---
+
+## Performance
+* MySQL & PostgreSQL compatible
+* Up to 5 times moure throughput than MySQL
+* High speed distributed storage (~64TB max)
