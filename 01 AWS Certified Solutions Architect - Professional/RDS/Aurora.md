@@ -79,3 +79,8 @@
 * MySQL & PostgreSQL compatible
 * Up to 5 times moure throughput than MySQL
 * High speed distributed storage (~64TB max)
+
+---
+
+## Migration
+* Simple push button migration from MySQL & PostgreSQL
