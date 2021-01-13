@@ -38,3 +38,8 @@
 
 ## On-Premise & VPC Peering
 [<img src="https://i.imgur.com/gtbgT62.png">](https://i.imgur.com/gtbgT62.png)
+
+---
+
+## Mount
+* Mount on-premise over DirectConnect
