@@ -12,7 +12,6 @@
 
 ## Intro
 * Object storage, serverless, unlimited storage, pay-as-you-go
-  * 5 TB max / object to upload
 * Good to store static content (image, video files)
 * Access objects by key, no indexing facility
 * Not a filesystem, can't be mounted natively on EC2
@@ -121,3 +120,10 @@
 [<img src="https://i.imgur.com/UmsMPJT.png">](https://i.imgur.com/UmsMPJT.png)
 
 [<img src="https://i.imgur.com/dclqkkH.png">](https://i.imgur.com/dclqkkH.png)
+
+---
+
+## Limits
+* Soft limits (we can contact Amazon to raise the quota)
+  * 100 bucket / account
+* 5 TB max / object
