@@ -12,6 +12,7 @@
 
 ## Intro
 * Object storage, serverless, unlimited storage, pay-as-you-go
+  * 5 TB max / object to upload
 * Good to store static content (image, video files)
 * Access objects by key, no indexing facility
 * Not a filesystem, can't be mounted natively on EC2
