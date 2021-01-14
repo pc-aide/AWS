@@ -1,28 +1,36 @@
 # Kinesis Data Streams
 
 ## Acronym
+* AZ - Availability Zone
 * IoT - Internet of Things
 * KCL - Kinesis Client Library
 * KPL - Kinesis Producer Library
-* AZ - Availability Zone
+* VPC - Virtual Private Cloud
 
 ## Intro
+* Can collect & process large streams of data records in real time
+* Accessible via VPC & over the pbulic internet
+* Ability to scale to keep up with data being produced
+* Allow ingestion of large amounts of data & provides durable storage, while a default retention period of 24 hours
+* Groups of Data Recors form Data Streams that get distributed into **Shards**
 * Kinesis is a managed "data **streaming**" service
 * Great for application logs, metrics, IoT, clickstreams
 * Great for "real-time" big data
 * Great for streaming processing frameworks (Spark, NiFi, etc...)
 * Data is automatically replicated synchronously to 3 AZ
 1) **Kinesis Streams**: 
-  * low latency streaming ingest at scale
+   * low latency streaming ingest at scale
 2) **Kinesis Analytics**: 
-  * perform real-time analytics on streams using SQL
+   * perform real-time analytics on streams using SQL
 3) **Kinesis Firehose**:
-  * load streams into S3, Redshift, ElasticSearch & Splunk
+   * load streams into S3, Redshift, ElasticSearch & Splunk
   
 ---
 
 ## Arhitecture
 [<img src="https://i.imgur.com/B4EQSFg.png">](https://i.imgur.com/B4EQSFg.png)
+[<img src="https://i.imgur.com/AQpaPC5.png">](https://i.imgur.com/AQpaPC5.png)
+
 
 ---
 
