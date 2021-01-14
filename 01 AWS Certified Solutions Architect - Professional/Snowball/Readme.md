@@ -9,11 +9,16 @@
 * how to use
   * transfert your data to snoball, & after you ship to Amazon (with track GPS)
   * our retrieve our data in your bucket
-* snowball edge (launched 2016):
+* Snowball edge (launched 2016):
   * 100 TB local storage
   * local compute equivalent to an EC2 m4.4xlarge instance
   * 10GBase-T, 10/25Gb SFP28, & 40Gb QSFP+ networking
   * Reggedized & rack-mountable
+* Snowmobile
+  * Up to 100 PB capacity
+  * GPStracking
+  * Data encryption end-to-end
+  * Dedicated security personnel
 
 
 ### PNG
