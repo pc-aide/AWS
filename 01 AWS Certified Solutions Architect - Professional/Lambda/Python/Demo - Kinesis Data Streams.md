@@ -1,6 +1,7 @@
 # Demo - Kinesis Data Streams
 
-## Kine
+## Anocrym
+* CW - CloudWatch
 
 ## Lambda - Producer
 * Runtime: Python 3.8
@@ -79,4 +80,7 @@ def lambda_handler(event, context):
 ---
 
 ## CloudWatch
-* 
+* Lambda\consumer\view logs in CW
+  * Log Stream\
+
+[<img src="https://i.imgur.com/ul1qZtz.png">](https://i.imgur.com/ul1qZtz.png)
