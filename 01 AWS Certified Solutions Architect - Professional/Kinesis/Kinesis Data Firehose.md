@@ -10,9 +10,13 @@
 * the goal is:
   * to ingest data at scale in..
 * Pay for the amount of data going through Firehose
+* Outputs to data services like S3, Amazon Redshift, ElasticSearch, & Splunk
+* Can output raw data or transform data before delivery
+* Stores data up to 24 hours in case of delivery failures
 
 ### Diagram
 [<img src="https://i.imgur.com/8YMPxXn.png">](https://i.imgur.com/8YMPxXn.png)
+[<img src="https://i.imgur.com/uIZs1Dq.png">](https://i.imgur.com/uIZs1Dq.png)
 
 ---
 
