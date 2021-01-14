@@ -84,3 +84,4 @@ def lambda_handler(event, context):
   * Log Stream\
 
 [<img src="https://i.imgur.com/ul1qZtz.png">](https://i.imgur.com/ul1qZtz.png)
+[<img src="https://i.imgur.com/8k0PzyC.png">](https://i.imgur.com/8k0PzyC.png)
