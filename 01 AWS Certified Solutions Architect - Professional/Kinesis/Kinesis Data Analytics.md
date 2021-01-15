@@ -7,6 +7,9 @@
 * Real-time processing & analysis of streams using SQL
 * Time-series analytics, real-time dashboard, & real-time metrics
 * Outputs to data Firehose, Lambda, & Data Streams
+* Source for Data Analytics
+  * Data Stream
+  * Data Firehose
 
 ### Diagram
 [<img src="https://i.imgur.com/lahcaMA.png">](https://i.imgur.com/lahcaMA.png)
