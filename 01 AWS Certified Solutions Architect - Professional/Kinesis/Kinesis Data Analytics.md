@@ -3,6 +3,13 @@
 ## Acronym
 * ETL - Extrac, Transform, Load
 
+## Intro
+* Real-time processing & analysis of streams using SQL
+* Time-series analytics, real-time dashboard, & real-time metrics
+* Outputs to data Firehose, Lambda, & Data Streams
+
+---
+
 ## Conceptually...
 [<img src="https://i.imgur.com/wSpRhqq.png">](https://i.imgur.com/wSpRhqq.png)
 
