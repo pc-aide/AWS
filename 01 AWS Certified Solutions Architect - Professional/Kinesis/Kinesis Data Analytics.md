@@ -8,10 +8,15 @@
 * Time-series analytics, real-time dashboard, & real-time metrics
 * Outputs to data Firehose, Lambda, & Data Streams
 
+### Diagram
+[<img src="https://i.imgur.com/lahcaMA.png">](https://i.imgur.com/lahcaMA.png)
+
 ---
 
 ## Conceptually...
 [<img src="https://i.imgur.com/wSpRhqq.png">](https://i.imgur.com/wSpRhqq.png)
+
+
 
 ---
 
