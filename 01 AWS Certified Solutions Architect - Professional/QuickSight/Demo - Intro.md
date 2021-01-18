@@ -22,12 +22,14 @@
 | Additonal author per month (monthly)\*\*           | $12          | $24                                        |
 | Additonal readers (Pay-per-Session)                | N/A          | $0.3/session (max $5/reader/month)\*\*\*\* |
 | Additional SPICE per month                         | $0.25 per GB | $0.38 per GB                               |
-| SSO with SAML or OpenID Connect                    | TRUE         | TRUE                                       |
-| Connect to spreadsheets, databases & business apps | TRUE         | TRUE                                       |
-| Access data in Private VPCs                        |              | TRUE                                       |
-| Row-level security for dashboards                  |              | TRUE                                       |
-| Hourly refresh of SPICE data                       |              | TRUE                                       |
-| Secure data encryption at rest                     |              | TRUE                                       |
-| \* Connect to your AD                              |              | TRUE                                       |
-| \* Use AD Groups\*\*\*                             |              | TRUE                                       |
-| Send email reports                                 |              | TRUE                                       |
+| SSO with SAML or OpenID Connect                    | ✓            | ✓                                          |
+| Connect to spreadsheets, databases & business apps | ✓            | ✓                                          |
+| Access data in Private VPCs                        |              | ✓                                          |
+| Row-level security for dashboards                  |              | ✓                                          |
+| Hourly refresh of SPICE data                       |              | ✓                                          |
+| Secure data encryption at rest                     |              | ✓                                          |
+| \* Connect to your AD                              |              | ✓                                          |
+| \* Use AD Groups\*\*\*                             |              | ✓                                          |
+| Send email reports                                 |              | ✓                                          |
+
+* * Trial authors are auto-converted to month-to-month subscription upon trial expiry
