@@ -1,12 +1,13 @@
 # ElasticSearch
 
 ## Acronym
+* API - Application Programming Interface
 * ES - ElasticSearch
 * CRUD - Create,Read,Update, & Delete table
 
-## 
+## Intro
 * <ins>May be called Amazon ES at the exam</ins>
-* Managed version of ElasticSearch (open source project)
+* Managed version of ElasticSearch (open source project & analytics engine)
 * Needs to run on servers (not a serverless offering)
 * Use cases:
   * Log Analytics
@@ -15,6 +16,8 @@
   * Full Text Search
   * Clickstream Analytics
   * Indexing
+* Detection & recovery of failed nodes
+* Scales easily with a single API call
   
 ---
 
