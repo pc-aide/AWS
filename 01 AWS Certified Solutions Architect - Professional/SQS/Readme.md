@@ -8,6 +8,7 @@
 * IAM - Identity & Access Management
 
 ## Intro
+* SQS was the very first service offered by AWS
 * Serverless, managed queue, integrated with IAM
 * Can handle extreme scale, no provisioning required
 * Used to **decouple** services
@@ -17,6 +18,7 @@
 * SQS FIFO:
   * receive messages in order they were sent
   * 300 messages/s without batching, 3k/s with batching
+* No requirement of message brokers
   
 ---
 
