@@ -33,7 +33,7 @@
 | \* Use AD Groups\*\*\*                             |              | ✓                                          |
 | Send email reports                                 |              | ✓                                          |
 
-1) * Trial authors are auto-converted to month-to-month subscription upon trial expiry
+1) \* Trial authors are auto-converted to month-to-month subscription upon trial expiry
 2) ** Each additional author includes 10GB of SPICE capacity
 3) *** AD groups are available in accounts connected to AD
 4) **** Session of 30-minutes duration. Total charges for each reader are capped at $5 per mont. Conditions apply
