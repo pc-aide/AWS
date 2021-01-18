@@ -1,7 +1,9 @@
 # Demo - Intro
 
 ## Acronym
+* CW - CloudWatch
 * IAM - Identity & Access Management
+* O/P - OutPut
 
 ## Console
 * Redshift\Create cluster
@@ -55,4 +57,44 @@
 * Additional configurations
   * ToggleRadio
     * off
-  * Netw
+  * Network & security
+  * Data configurations
+  * Maintenance
+  * Monitoring
+  * Backup
+
+[<img src="https://i.imgur.com/7FZSU51.png">](https://i.imgur.com/7FZSU51.png)
+
+* O/P: 
+
+[<img src="https://i.imgur.com/JnEZDjD.png">](https://i.imgur.com/JnEZDjD.png)
+
+* Cluster performance
+  * CW
+    * CPU utilization
+    * Auto vaccum space freed
+    * Health status
+    * Percentage disk space used
+    * Database connections
+    * Query duration
+    
+[<img src="https://i.imgur.com/IL92p2E.png">](https://i.imgur.com/IL92p2E.png)
+
+* Queries\Saved SQL queries
+  * Create saved SQL query
+    * Query name:
+    * Query description:
+    * SQL query:
+
+[<img src="https://i.imgur.com/66nMEgb.png">](https://i.imgur.com/66nMEgb.png)
+[<img src="https://i.imgur.com/2vAyG5J.png">](https://i.imgur.com/2vAyG5J.png)
+
+* Editor\Connect to database
+  * Connection:
+  * Cluster
+  * Database name:
+  * Database user:
+  * Database pwd:
+
+[<img src="https://i.imgur.com/07P1Ve9.png">](https://i.imgur.com/07P1Ve9.png)
+[<img src="https://i.imgur.com/qAY7m8S.png">](https://i.imgur.com/qAY7m8S.png)
