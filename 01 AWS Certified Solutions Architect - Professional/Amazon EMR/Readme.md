@@ -7,7 +7,7 @@
 * CW - CloudWatch
 
 ## Intro
-* EMR helps creating **Hadoop clusters (Big Data**) to analyze & process vast amount of data
+* EMR helps creating **Hadoop clusters (Big Data**) & **Apache Spark** to analyze & process vast amount of data
 * Migrate On-premise your Hadoop cluster to AWS (for big compagny)
 * The custers can be made of hundreds of EC2 instances
 * Also support Apache Spark, HBase, Presto, Flink...
