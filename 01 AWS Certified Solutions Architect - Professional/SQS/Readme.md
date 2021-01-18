@@ -25,6 +25,10 @@
 ## Queues
 1) Standard
 2) FIFO
+
+### Diagram
+
+[<img src="https://i.imgur.com/TMoMj6f.png">](https://i.imgur.com/TMoMj6f.png)
   
 ---
 
