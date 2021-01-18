@@ -1,7 +1,10 @@
 # Demo - Intro
 
 ## Acronym
+* CW - CloudWatch
+* ES - ElasticSearch
 * IAM - Identity & Access Management
+* O/P - OutPut
 * SAML - Security Assertion Markup Language
 * SG - Security Group
 
@@ -84,4 +87,72 @@
 
 * Amazon Cognito authentication
   * CheckBox
-    * Enable Amazon Cognito au
+    * Enable Amazon Cognito authentication
+
+[<img src="https://i.imgur.com/EdBTFJ9.png">](https://i.imgur.com/EdBTFJ9.png)
+
+* Access policy
+  * Domain access policy: 
+  
+[<img src="https://i.imgur.com/C8npr4h.png">](https://i.imgur.com/C8npr4h.png)
+
+* Encryption
+  * Encryption
+    * CheckBox
+      * Require HTTPS for all trafficto the domain
+      * Node-to-node encryption
+      * Enable encryption of dat at rest
+      
+[<img src="https://i.imgur.com/mB1a4vR.png">](https://i.imgur.com/mB1a4vR.png)
+
+* Optional ElasticSearch cluster settings
+  * Indices in request bodies
+    * CheckBox
+      * Allow APIs that can span multiple indices & bypass index-specific access policies
+  * Fileddata cache allocation:
+  * Max clause count:
+  
+[<img src="https://i.imgur.com/dbwBQUD.png">](https://i.imgur.com/dbwBQUD.png)
+
+* Review (demo):
+
+[<img src="https://i.imgur.com/Wfd9klK.png">](https://i.imgur.com/Wfd9klK.png)
+[<img src="https://i.imgur.com/rOhV3Cc.png">](https://i.imgur.com/rOhV3Cc.png)
+
+* O/P (demo):
+  * Domain status: Loading
+    * it'll take 10m
+
+[<img src="https://i.imgur.com/oz9g5Rp.png">](https://i.imgur.com/oz9g5Rp.png)
+
+* Use case
+  * Analyzing & Visualizin real time data, ElasticSearch is probabley par of that answer
+  
+* CW\Log groups
+  * Lambda
+
+[<img src="https://i.imgur.com/vJSXcdk.png">](https://i.imgur.com/vJSXcdk.png)
+
+* Choose Destination
+  * Select account
+    * RadioButton
+      * This account
+      * Another account
+  * Amazon ES cluster:
+  
+[<img src="https://i.imgur.com/yO5dkGK.png">](https://i.imgur.com/yO5dkGK.png)
+
+* Domain status: Active
+  * Endpoint
+
+[<img src="https://i.imgur.com/uh7bslK.png">](https://i.imgur.com/uh7bslK.png)
+
+* Kibana
+
+[<img src="https://i.imgur.com/zn8oh4G.png">](https://i.imgur.com/zn8oh4G.png)
+[<img src="https://i.imgur.com/77bGf7W.png">](https://i.imgur.com/77bGf7W.png)
+[<img src="https://i.imgur.com/nYYjnER.png">](https://i.imgur.com/nYYjnER.png)
+
+* Try our sample data
+
+[<img src="https://i.imgur.com/OsqerPH.png">](https://i.imgur.com/OsqerPH.png)
