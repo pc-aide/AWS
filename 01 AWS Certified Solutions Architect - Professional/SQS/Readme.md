@@ -20,6 +20,12 @@
   
 ---
 
+## Queues
+1) Standard
+2) FIFO
+  
+---
+
 ## Solution Architecture Idempotency
 * Messages can processed twice by consumer (in case of failures, timeouts, etc)
 * to hedge against that problem, implement **idempotency** at the consumer level
