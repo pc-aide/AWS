@@ -63,3 +63,35 @@
 
 ### Diagram
 [<img src="https://i.imgur.com/xjYpJDL.png">](https://i.imgur.com/xjYpJDL.png)
+
+---
+
+## Visibility Timeout
+* Receiving a message simply **hides** it based on this **visibility time out**
+* E.g visibilit Timeout (value):
+ * 0 - never hide (min)
+ * 12h - 12h to wait before to see the message
+
+### Diagram
+[<img src="https://i.imgur.com/1IX7wKW.png">](https://i.imgur.com/1IX7wKW.png)
+
+---
+
+## Queue Attributes 
+* Retention
+  * Number of days before the message will be delete forever
+  * Min: 1m
+  * Max: 14d
+* Maximum Message Size
+  * Min: 1KB
+  * Max: 256KB
+* Receive message Wait Time
+  * 0 = Short Polling
+  * 1-20 = Long Polling
+  
+### Diagram
+[<img src="https://i.imgur.com/57J9rtr.png">](https://i.imgur.com/57J9rtr.png)
+
+* Other e.g.
+
+[<img src="https://i.imgur.com/HLKOXbP.png">](https://i.imgur.com/HLKOXbP.png)
