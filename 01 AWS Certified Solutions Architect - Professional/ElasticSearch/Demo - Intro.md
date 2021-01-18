@@ -154,5 +154,12 @@
 [<img src="https://i.imgur.com/nYYjnER.png">](https://i.imgur.com/nYYjnER.png)
 
 * Try our sample data
+  * Sample web logs
+    * view data
 
 [<img src="https://i.imgur.com/OsqerPH.png">](https://i.imgur.com/OsqerPH.png)
+[<img src="https://i.imgur.com/znKCiY6.png">](https://i.imgur.com/znKCiY6.png)
+
+* Dashboard:
+
+[<img src="https://i.imgur.com/ZrvG9EE.png">](https://i.imgur.com/ZrvG9EE.png)
