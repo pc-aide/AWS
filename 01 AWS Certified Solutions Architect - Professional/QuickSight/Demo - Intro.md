@@ -29,8 +29,8 @@
 | Row-level security for dashboards                  |              | ✓                                          |
 | Hourly refresh of SPICE data                       |              | ✓                                          |
 | Secure data encryption at rest                     |              | ✓                                          |
-| \* Connect to your AD                              |              | ✓                                          |
-| \* Use AD Groups\*\*\*                             |              | ✓                                          |
+|  Connect to your AD                                |              | ✓                                          |
+|  Use AD Groups\*\*\*                               |              | ✓                                          |
 | Send email reports                                 |              | ✓                                          |
 
 1) \* Trial authors are auto-converted to month-to-month subscription upon trial expiry
