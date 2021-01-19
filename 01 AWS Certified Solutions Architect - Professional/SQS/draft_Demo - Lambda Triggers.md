@@ -43,6 +43,9 @@ def lambda_handler(event, context):
 [<img src="https://i.imgur.com/Mcnru2Z.png">](https://i.imgur.com/Mcnru2Z.png)
 
 
+* Permissions\SQS
+  * 
+
 ---
 
 ### 03 - Permissions (SendMessage)
