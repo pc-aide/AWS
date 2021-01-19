@@ -5,6 +5,16 @@
 * Pub/Sub - Publish/Subscribe
 * SQS - Simple Queue Service
 
+---
+
+## Intro
+* Coordinates & manages delivery & sending of messages to subscribers through resources called topics
+* There are two types of clients know as subscribers & publishers, they're also known as consumers & producers
+* Subscribers consume messages & notifications that are published via supported protocol, like HTTP/S or email
+* Policies can be put into place to control who can publish messages to the topic
+
+---
+
 ## Pub/Sub
 * What if you want to send one message to many receivers?
 
