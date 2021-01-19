@@ -57,7 +57,10 @@ def lambda_handler(event, context):
       "Principal": {
         "AWS": "arn:aws:iam::123456789012:user/yxq"
       },
-      "Action": "SQS:SendMessage",
+      "Action": [
+        "SQS:SendMessage",
+        "SQS:ReceiveMessage"
+      ],
       "Resource": "https://sqs.ca-central-1.amazonaws.com/123456789012/Test"
     }
   ]
@@ -116,3 +119,6 @@ def lambda_handler(event, context):
   * ReceiveMessage (sqs policy)
 
 [<img src="https://i.imgur.com/fsZllye.png">](https://i.imgur.com/fsZllye.png)
+
+* SQS std\Lambda triggers
+
