@@ -116,6 +116,8 @@ def lambda_handler(event, context):
 ---
 
 ### 05 - Lambda Worker
+* Goal
+  * Delete Message in SQS
 * New Lambda function
   * Name: LambdaWorker
   * Runtime: Python 3.8
