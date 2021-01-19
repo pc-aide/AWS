@@ -26,9 +26,8 @@ def lambda_handler(event, context):
     MessageBody=f'Hello from Lambda! - Time: {time.time()}'
   )
 ````
-[<img src="https://i.imgur.com/DtjmvS1.png>](https://i.imgur.com/DtjmvS1.png)
+[<img src="https://i.imgur.com/ABmBUte.png">](https://i.imgur.com/ABmBUte.png)
 * Deploy
-
 * Env var
   * Key
     * SQS_QUEUE
@@ -37,6 +36,7 @@ def lambda_handler(event, context):
     
 [<img src="https://i.imgur.com/lKgj3dG.png">](https://i.imgur.com/lKgj3dG.png)
 [<img src="https://i.imgur.com/Mcnru2Z.png">](https://i.imgur.com/Mcnru2Z.png)
+
 
 ---
 
