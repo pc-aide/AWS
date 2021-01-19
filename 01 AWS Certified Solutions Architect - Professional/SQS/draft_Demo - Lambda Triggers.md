@@ -60,7 +60,7 @@ def lambda_handler(event, context):
 }
 ````
 
-[<img src="https://i.imgur.com/MNr9YRH.png">](https://i.imgur.com/MNr9YRH.png)
+[<img src="https://i.imgur.com/6jriSnU.png">](https://i.imgur.com/6jriSnU.png)
 
 ---
 
