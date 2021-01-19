@@ -59,7 +59,9 @@ def lambda_handler(event, context):
       },
       "Action": [
         "SQS:SendMessage",
-        "SQS:ReceiveMessage"
+        "SQS:ReceiveMessage",
+        "SQS:DeleteMessage",
+        "SQS:GetQueueAttributes"
       ],
       "Resource": "https://sqs.ca-central-1.amazonaws.com/123456789012/Test"
     }
@@ -94,6 +96,10 @@ def lambda_handler(event, context):
 * New Lambda function
   * Name: LambdaWorker
   * Runtime: Python 3.8
+* Permission side sqs for worker
+  * DeleteMessage
+  * ReceiveMessage
+  * GetQueueAttributes
 * code:
 ````python
 import json
