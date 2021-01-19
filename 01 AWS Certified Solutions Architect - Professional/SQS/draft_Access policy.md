@@ -5,7 +5,14 @@
 * [Overview of managing access in Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-overview-of-managing-access.html)
 
 ## Intro
-* AWS account & root user
+* Principal :
+  * AWS account and root user
+  * IAM users
+  * Federated users (using web identity or SAML federation) 
+  * IAM roles
+  * Assumed-role sessions
+  * AWS services
+  * Anonymous users (not recommended)
 
 ---
 
