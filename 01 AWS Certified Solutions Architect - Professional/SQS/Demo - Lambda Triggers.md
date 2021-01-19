@@ -43,8 +43,27 @@ def lambda_handler(event, context):
 [<img src="https://i.imgur.com/Mcnru2Z.png">](https://i.imgur.com/Mcnru2Z.png)
 
 
-* Permissions\SQS
-  * 
+* Permissions\SQS (Role name)
+  * New policy & attach this lambda function:
+````json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "sqs:SendMessage",
+                "sqs:ReceiveMessage",
+                "sqs:DeleteMessage",
+                "sqs:GetQueueAttributes"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:sqs:ca-central-1:427263915585:SQS"
+        }
+    ]
+}
+````
+
+[<img src="https://i.imgur.com/MNr9YRH.png">](https://i.imgur.com/MNr9YRH.png)
 
 ---
 
@@ -59,7 +78,7 @@ def lambda_handler(event, context):
       "Sid": "__owner_statement",
       "Effect": "Allow",
       "Principal": {
-        "AWS": "*"
+        "AWS": "arn_user"
       },
       "Action": [
         "SQS:SendMessage",
