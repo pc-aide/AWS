@@ -3,6 +3,7 @@
 ## Revision
 * [19-01-2021]
   * Permission on sqs policy !?
+    * Princiapl: * - all users bad !?, if i put my user_arn error accessDenied
 
 ## Steps
 ### 01 - SQS Std
