@@ -51,10 +51,7 @@ def lambda_handler(event, context):
     "Statement": [
         {
             "Action": [
-                "sqs:SendMessage",
-                "sqs:ReceiveMessage",
-                "sqs:DeleteMessage",
-                "sqs:GetQueueAttributes"
+                "sqs:SendMessage"
             ],
             "Effect": "Allow",
             "Resource": "arn:aws:sqs:ca-central-1:427263915585:SQS"
