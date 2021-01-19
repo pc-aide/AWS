@@ -5,10 +5,17 @@
 * [Overview of managing access in Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-overview-of-managing-access.html)
 
 ## Intro
+* AWS account & root user
+
+---
+
+## Syntax
+
 1) Allow who
   * AWS account 1
   * AWS account 2
     * e.g ``
+    
 
 ### PNG
 [<img src="https://i.imgur.com/e3LGilM.png">](https://i.imgur.com/e3LGilM.png)
