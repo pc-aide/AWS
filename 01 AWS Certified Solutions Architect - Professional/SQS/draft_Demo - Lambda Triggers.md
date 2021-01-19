@@ -62,7 +62,10 @@ def lambda_handler(event, context):
 
 ---
 
-### 04 - Test
+### 04 - Test-01
+* Goal
+  * Send message from Lambda sender
+  * Check out receive message in sqs std
 * Lambda\SQSSender\Test
   * Event name: test
 
@@ -77,3 +80,33 @@ def lambda_handler(event, context):
 * Messages
 
 [<img src="https://i.imgur.com/mSVH7yn.png">](https://i.imgur.com/mSVH7yn.png)
+
+---
+
+### 05 - Lambda Worker
+* New Lambda function
+  * Name: LambdaWorker
+  * Runtime: Python 3.8
+* code:
+````python
+import json
+
+def lambda_handler(event, context):
+    pretty_json = json.dumps(event, indent=2)
+    print(pretty_json)
+````
+[<img src="https://i.imgur.com/eeNCZc6.png">](https://i.imgur.com/eeNCZc6.png) 
+* Add trigger
+
+[<img src="https://i.imgur.com/o5fRGLp.png">](https://i.imgur.com/o5fRGLp.png)
+
+* Trigger configuration
+  * Select a trigger: SQS
+  * SQS Name: <arn_sqs>
+  * Batch size: 5
+ 
+  
+[<img src="https://i.imgur.com/6TZRONK.png">](https://i.imgur.com/6TZRONK.png)
+
+* Permission
+
