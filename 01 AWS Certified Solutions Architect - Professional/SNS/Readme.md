@@ -4,6 +4,7 @@
 * SNS - Simple Notification Service
 * Pub/Sub - Publish/Subscribe
 * SQS - Simple Queue Service
+* SSE - Server-Side-Encryption
 
 ---
 
@@ -48,3 +49,9 @@
 
 ### Diagram
 [<img src="https://i.imgur.com/GIHkdUS.png">](https://i.imgur.com/GIHkdUS.png)
+
+---
+
+## Encryption
+* SNS provides **in-transit** encryption by default
+* Enabling SSE add **at-rest** encryption to your topics
