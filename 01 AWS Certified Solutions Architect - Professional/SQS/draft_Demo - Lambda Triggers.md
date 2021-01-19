@@ -48,7 +48,6 @@ def lambda_handler(event, context):
 * SQS\Policy
 ````json
 {
-  {
   "Version": "2008-10-17",
   "Id": "__default_policy_ID",
   "Statement": [
@@ -56,7 +55,7 @@ def lambda_handler(event, context):
       "Sid": "__owner_statement",
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn_user"
+        "AWS": "*"
       },
       "Action": [
         "SQS:SendMessage",
@@ -64,7 +63,7 @@ def lambda_handler(event, context):
         "SQS:DeleteMessage",
         "SQS:GetQueueAttributes"
       ],
-      "Resource": "arn_lambdaSender
+      "Resource": "arn_sqs"
     }
   ]
 }
