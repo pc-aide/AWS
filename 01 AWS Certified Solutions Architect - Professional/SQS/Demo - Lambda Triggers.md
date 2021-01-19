@@ -1,5 +1,8 @@
 # Demo - Lambda Triggers
 
+## Acronym
+* CW - CloudWatch
+
 ## Steps
 ### 01 - SQS_Std
 * Create sqs std with default value
@@ -146,3 +149,8 @@ def lambda_handler(event, context):
 [<img src="https://i.imgur.com/Ct3Mvgj.png">](https://i.imgur.com/Ct3Mvgj.png)
 [<img src="https://i.imgur.com/XWaTEZj.png">](https://i.imgur.com/XWaTEZj.png)
 [<img src="https://i.imgur.com/oES4btZ.png">](https://i.imgur.com/oES4btZ.png)
+
+* LambdaWorker\Monitoring\View log in CW
+
+[<img src="https://i.imgur.com/akd9R75.png">](https://i.imgur.com/akd9R75.png)
+[<img src="https://i.imgur.com/uXMnleI.png">](https://i.imgur.com/uXMnleI.png)
