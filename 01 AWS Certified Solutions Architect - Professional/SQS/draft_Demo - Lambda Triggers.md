@@ -1,5 +1,9 @@
 # Demo - Lambda Triggers
 
+## Revision
+* [19-01-2021]
+  * Permission on sqs policy !?
+
 ## Steps
 ### 01 - SQS Std
 * Create new SQS std with default values:
@@ -109,4 +113,6 @@ def lambda_handler(event, context):
 [<img src="https://i.imgur.com/6TZRONK.png">](https://i.imgur.com/6TZRONK.png)
 
 * Permission
+  * ReceiveMessage (sqs policy)
 
+[<img src="https://i.imgur.com/fsZllye.png">](https://i.imgur.com/fsZllye.png)
