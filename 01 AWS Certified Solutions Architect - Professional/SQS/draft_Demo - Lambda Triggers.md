@@ -63,7 +63,7 @@ def lambda_handler(event, context):
         "SQS:DeleteMessage",
         "SQS:GetQueueAttributes"
       ],
-      "Resource": "https://sqs.ca-central-1.amazonaws.com/123456789012/Test"
+      "Resource": "arn_queueName"
     }
   ]
 }
