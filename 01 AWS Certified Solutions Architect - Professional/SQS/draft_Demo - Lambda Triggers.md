@@ -15,7 +15,7 @@
 
 ### 02 - Lambda sender
 * Create function:
-  1) Lambda name: Sender | Runtime: Python 3.8
+  1) Lambda name: LambdaSender | Runtime: Python 3.8
 ````py
 import json
 import boto3
