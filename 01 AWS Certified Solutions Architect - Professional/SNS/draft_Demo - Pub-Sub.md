@@ -3,8 +3,12 @@
 ## Acronym
 * Pu/Sub - Publishier/Subcriber
 
+---
+
 ## Steps
-### 01 - LambdaA
+
+
+### 02 - LambdaA
 * New lambda function
   * Name: LambdaA
   * Runtime: Python 3.8
