@@ -17,6 +17,11 @@
 * Maximum **execution time of 1 year**
 * Possibility to implement **human approval** feature
 * If you chain Lambda function using Step Functions, be mindful of the added latency to pass the calls
+* Coordinate distributed applications using visual workflows
+* Each component performs a discrete **function** or **task**
+* Reliable coordination & step through of your applications
+* Automatic triggering, step tracking, & retries after errors
+* All steps are logged for quick diagnosis of problems
 
 ---
 
