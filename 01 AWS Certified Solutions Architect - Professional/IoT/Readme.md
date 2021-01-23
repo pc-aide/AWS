@@ -32,3 +32,6 @@
     * Raspberry Pi
 
 [<img src="https://i.imgur.com/YXu0ou4.png">](https://i.imgur.com/YXu0ou4.png)
+
+### Diagram
+[<img src="https://i.imgur.com/lPXt0yU.png">](https://i.imgur.com/lPXt0yU.png)
