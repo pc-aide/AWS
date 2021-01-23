@@ -12,6 +12,13 @@
 * ECS - Elastic Container Service
 
 ## Intro
+* Monitors AWS resources in real time
+* Collect & track metrics
+* Create alarms
+  * Based on these metrics
+* Visualize resource utilization
+* Measure application performance
+* Maintain operational health
 * CW Metrics
   * Provided by many AWS services
   * EC2 standard: 5min, detailed monitoring: 1min
@@ -32,6 +39,19 @@
   * Display metrics & alarms
   * Can show metrics of multiple regions
   
+---
+
+## Key Concepts
+* Namespaces
+  * Metric\
+* Metrics
+* Dimesions
+* Statistics
+* Percentiles
+* Alarms
+  
+[<img src="https://i.imgur.com/ml0qaXc.png">](https://i.imgur.com/ml0qaXc.png)
+
 ---
 
 ## CW Alarms integrations
