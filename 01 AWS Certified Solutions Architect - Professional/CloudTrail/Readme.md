@@ -32,6 +32,12 @@
   * Ability to store these events in S3 for further analysis
   * Can be region specific or be global & include global events (IAM, etc)
   
+  
+---
+
+## Diagram
+[<img src="https://i.imgur.com/z8hU60H.png">](https://i.imgur.com/z8hU60H.png)
+
 ---
 
 ## CloudTrail Configuration
