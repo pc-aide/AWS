@@ -13,6 +13,10 @@
 * Create this user - On-Premise (VM)
   * Name: cwagent
 * Create this policy & attach it to the user: cwagent
+* if you use ec2 for cwagent
+ * add this in our section action:
+   * `"ec2:DescribeVolumes"`
+   * `"ec2:DescribeTags"`
 ````json
 {
     "Version": "2012-10-17",
