@@ -1,15 +1,21 @@
 # CloudTrail
 
 ## Acronym
-* SDK - Software Developement Kit
-* CLI - Command Line Interface
 * API - Application Program Interface
-* IAM - Identity & Access Management
-* S3 - Siimple Storage Service
+* CLI - Command Line Interface
 * CW - CloudWatch
+* IAM - Identity & Access Management
+* S3 - Simple Storage Service
+* SDK - Software Developement Kit
+
 
 ## Intro
 * Provides governance, compliance & audit for your AWS Account
+* Records events performed by users, roles, & AWS services
+* Includes action events fro mthe console, CLI, & any SDK or API
+* Enable governance, compliance, & operational & risk auditing
+* Gain to view, search, download, archive, analyze, & respond to monitored actvities within your accounts
+* **Trails** are regional, but can be created in all regions
 * CloudTrail is enabled by default
 * Get an history of events/API calls made within your AWS Account by:
   * Console
@@ -26,6 +32,13 @@
   * Ability to store these events in S3 for further analysis
   * Can be region specific or be global & include global events (IAM, etc)
   
+---
+
+## CloudTrail Configuration
+* Management Events
+* Data Events
+* S3 Storage & Encryption
+
 ---
 
 ## Architecture
