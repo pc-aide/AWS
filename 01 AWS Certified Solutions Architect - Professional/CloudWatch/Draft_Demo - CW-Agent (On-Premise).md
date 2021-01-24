@@ -155,6 +155,8 @@ sudo touch /usr/share/collectd/types.db
 
 [<img src="https://i.imgur.com/NWW57ur.png">](https://i.imgur.com/NWW57ur.png)
 
+---
+
 ### 09 - CW\Metrics\CWAgent
 
 [<img src="https://i.imgur.com/im7SOYv.png">](https://i.imgur.com/im7SOYv.png)
