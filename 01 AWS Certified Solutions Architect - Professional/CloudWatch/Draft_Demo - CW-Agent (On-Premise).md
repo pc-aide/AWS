@@ -166,3 +166,12 @@ sudo touch /usr/share/collectd/types.db
  * /run/user/0
  
 [<img src="https://i.imgur.com/wHSSAfJ.png">](https://i.imgur.com/wHSSAfJ.png)
+
+---
+
+### 10 - Log groups
+* secure
+
+[<img src="https://i.imgur.com/vHy4hJJ.png">](https://i.imgur.com/vHy4hJJ.png)
+[<img src="https://i.imgur.com/bQOFo56.png">](https://i.imgur.com/bQOFo56.png)
+[<img src="https://i.imgur.com/xCs8Buf.png">](https://i.imgur.com/xCs8Buf.png)
