@@ -143,6 +143,7 @@ sudo touch /usr/share/collectd/types.db
 ### 08 - Start CW-Agent
 * Switchs
   * -s --start agent
+  * Service:
 * `sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m onPremise -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s`
 
 
@@ -157,3 +158,9 @@ sudo touch /usr/share/collectd/types.db
 ### 09 - CW\Metrics\CWAgent
 
 [<img src="https://i.imgur.com/im7SOYv.png">](https://i.imgur.com/im7SOYv.png)
+[<img src="https://i.imgur.com/nAvd7NN.png">](https://i.imgur.com/nAvd7NN.png)
+
+* Path
+ * /run/user/0
+ 
+[<img src="https://i.imgur.com/wHSSAfJ.png">](https://i.imgur.com/wHSSAfJ.png)
