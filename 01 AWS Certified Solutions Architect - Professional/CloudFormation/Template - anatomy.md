@@ -1,6 +1,7 @@
 # Template  - anatomy
 
 ## json
+* Resources is the only required filed (Ln35 in json or Ln 73 in yaml)
 ````json
 {
   "AWSTemplateFormatVersion" : "version date",
