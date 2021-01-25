@@ -7,6 +7,11 @@
 * ntp - network time protocol
 
 ## Intro
+* Configuration managment service that helps you configure & operate your applications
+* It uses **Puppet** or **Chef** as the backbone of its operations
+* OpsWorks Stacks & OpsWorks for Chef Automate leverage Chef cookbooks
+* OpsWorks for Puppet Enterprise leverages Puppet Enterprise
+* Puppert allows us to enforce a desired state for our resources & automate tasks on-demand
 * Chef & Puppet help you perform server configuration automatically, or repetitive actions
 * They work great with EC2 & On-Premise VM
 * AWS OpsWorks = Managed Chef & Puppet
