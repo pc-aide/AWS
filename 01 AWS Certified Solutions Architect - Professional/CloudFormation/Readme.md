@@ -29,6 +29,15 @@
 
 ---
 
+## Stacks
+* CloudFormation uses stacks, which are a collection of AWS resources managed as a single unit
+* You can make changes to the stack & update it in place, as opposed to having to tear it down & re-create it
+* Direct Updates are used for quick changes. Change Sets are used when you want ot review th changes that will be applied
+* Detect unmanded config changes (drift) using CloudFormation
+  * Not all resources support drift detection
+
+---
+
 ## ASG
 * CloudFormation manages the ASG, not the underlying EC2
 * You can define "success conditions" for the launch of your EC2 instances using a **CreationPolicy**
