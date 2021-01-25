@@ -11,6 +11,9 @@
 * SSM - Systems Manager
 
 ## Intro
+* Systems Manager allows you to view & control your infrastructure in an automated fashion
+* Both EC2 & On-Premises servers can be made into managed instances
+* Parameter Store is available to provide a secure, hierarchical storage for secrets
 * Heps you manage your **EC2 & On-Premise** systems at scale
 * Get operational insights about the stae of your infrastructure
 * Easily detect problems
