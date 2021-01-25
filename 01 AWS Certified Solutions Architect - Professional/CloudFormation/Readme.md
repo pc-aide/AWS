@@ -4,13 +4,22 @@
 * ASG - Auto Scaling Group
 * ALB - Application Load Balancer
 * AMI - Amazon Machine Image
+* CI/CD - Continuous Integration/Continuous Delivery
+* DB - DynamoDB
 * EBS - Elastic Block Store
 * IaC - Infrastructure as Code
 * IAM - Identity & Access Management
+* HA - High Availability
 * SAM - Serverless Application Model
 * RDS - Relational Database Service
 
 ## Intro
+* Simplify Deployments:
+  * Easily simplify your infrastructure deployments all at once
+* Replicate Quickly:
+  * Templates allow for reuse in other regions to stand up HA applications
+* Track Changes
+  * CloudFormation tells you what you have deployed & tracks any changes
 * IaC in AWS
 * Portability of stacks across multiple accounts & regions
 * Backbone of the Elastic Beanstalk service
@@ -28,7 +37,9 @@
 
 ### Diagram
 [<img src="https://i.imgur.com/zI41hQZ.png">](https://i.imgur.com/zI41hQZ.png)
-[<img src="https://i.imgur.com/Xk99Vkq.png">](https://i.imgur.com/Xk99Vkq.png)
+[<img src="https://i.imgur.com/EwB7wJL.png">](https://i.imgur.com/EwB7wJL.png)
+[<img src="https://i.imgur.com/WYOmV9r.png">](https://i.imgur.com/WYOmV9r.png)
+[<img src="https://i.imgur.com/aCb3cGS.png">](https://i.imgur.com/aCb3cGS.png)
 
 ---
 
