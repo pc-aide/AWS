@@ -88,8 +88,8 @@
    3) **Scheduled Reserved Instances**: example - every Thursday between 3 & 6 pm
 4) **Dedicated Instances**: no other customers will share your hardware
 5) **Dedicated Hosts:** book an entire **physical server**, control instance placement
-  * Great for **software licenses** that operate at the core, or CPU socket level
-  * Can define **host affinity** so that instance reboots are kept on the same host
+   * Great for **software licenses** that operate at the core, or CPU socket level
+   * Can define **host affinity** so that instance reboots are kept on the same host
   
 ---
 
