@@ -83,9 +83,9 @@
   * a bit more expensive
 2) **Spot** Instances: short workloads, for cheap, can lose instances (not reliable)
 3) **Reserved**: (MINIMUM 1 year)
-  1) **Reserverd Instances**: log workloads
-  2) **Convertible Reserved Instances**: log workloads with flexible instances
-  3) **Scheduled Reserved Instances**: example - every Thursday between 3 & 6 pm
+   1) **Reserverd Instances**: log workloads
+   2) **Convertible Reserved Instances**: log workloads with flexible instances
+   3) **Scheduled Reserved Instances**: example - every Thursday between 3 & 6 pm
 4) **Dedicated Instances**: no other customers will share your hardware
 5) **Dedicated Hosts:** book an entire **physical server**, control instance placement
   * Great for **software licenses** that operate at the core, or CPU socket level
