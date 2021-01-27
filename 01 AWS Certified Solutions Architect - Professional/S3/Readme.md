@@ -127,3 +127,18 @@
 * Soft limits (we can contact Amazon to raise the quota)
   * 100 bucket / account
 * 5 TB max / object
+
+---
+
+## Cost Savings
+* **S3 Select & Glacier Select**: save in network & CPU cost
+* **S3 Lifecyle Rules**: transition objects between tiers
+* **Compress Objects** to save space
+* **S3 Requester Pays**
+  * In general, bucket owners pay for all Amazon S3 storage & data transfer costs associated with their bucket
+  * With Requester Pays buckets, the requester instead of the bucket owner pays the cost of the request & the data download from the bucket
+  * The bucket owner always pays the cost of storing data
+  * Helpful when you want ot share large datasets with other accounts
+    * To enable this feature, you need to add in the policy bucket
+  * ** If an IAM role is assumed, the owner account of that role pays for the request**
+    
