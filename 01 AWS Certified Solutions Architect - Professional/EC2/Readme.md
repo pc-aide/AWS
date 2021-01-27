@@ -2,9 +2,11 @@
 
 ## Acronym
 * AZ - Availability Zone
-* VM - Virtual Machine
 * HA - High Availability
 * HDFS - Hadoop Distributed File System 
+* RI - Reserve Instance
+* VM - Virtual Machine
+
 
 ## Doc
 * [ec2 instances info](https://www.ec2instances.info/)
@@ -112,3 +114,15 @@
 
 ### Diagram
 [<img src="https://i.imgur.com/79cH2gI.png">](https://i.imgur.com/79cH2gI.png)
+
+---
+
+## Savings Plan
+* New pricing model to get a discount based on long-term usage
+* Commit ot a certain type of usage: ex $10 per hour for 1 to 3 years
+* Any usage beyond the savings plan is billed at the on-demand price
+* **EC2 Instance Savings plan** (up to 72% - same discount as Standard RIs)
+  * Select instance family (e.g.: M5, C5 ...), & locked to a specific region
+  * Flexible across size (m5.large to m5.4xlarge), OS (Windows to Linux), tenancy (dedicated or default)
+* **Compute Savings plan** (up to 66% - same discount as Convertible RIs)
+  * Ability to move between instance family (move from C5 to M5), region (Ireland to US), compute type (EC2, Fargate, Lambda), OS & tenancy
