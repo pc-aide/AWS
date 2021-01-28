@@ -5,6 +5,12 @@
 * Snowball
   * size storage : 50-80 TB
   * 10G network
+  * Physical data transport solution that helps moving TBs or PBs of data in or out of AWS
+  * Alternative to moving data over the network (& paying network fees)
+  * Secure, tamper resistant, use KMS 256 bit encryption
+  * Trancking using SNS & text message. E-ink shipping label
+  * Use case: large dta cloud migrations, DC decommission, disaster recovery
+  * If 
 * a physical device to migrate your own data to cloud with Snowball
 * how to use
   * transfert your data to snoball, & after you ship to Amazon (with track GPS)
