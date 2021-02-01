@@ -5,6 +5,11 @@
 * DMS - Database Migration Service
 
 ## Intro
+* Quickly & securely migrate database to AWS, resilient, self healing
+* The source database remains available during the migration
+* Supports:
+  * Homogeneous migrations: ex Oracle db to Oracle other db
+  * Heterogeneous migrations: ex Micr
 
 ---
 
