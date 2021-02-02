@@ -4,6 +4,7 @@
 * CDS - Change Data Capture
 * DML - Data Manipulation Language
 * DMS - Database Migration Service
+* SCT - Schema Conversion Tool
 
 ## Intro
 * Quickly & securely migrate database to AWS, resilient, self healing
@@ -26,7 +27,20 @@
   * Amazon RDS : all incuding Aurora
   * Amazon S3
 * <ins>Targets:</ins>
-  * On-Premise & 
+  * On-Premise & EC2 instances databases: Oracle, MS SQL Server, MySQL, MariaDB, PostgreSQL, SAP
+  * Amazon RDS
+  * Amazon Redshift
+  * Amazon DynamoDB
+  * Amazon S3
+  * ElasticSearch Service
+  * Kinesis Data Streams
+  * DocumentDB
+  
+---
+
+## AWS SCT
+* Convert your Database's Schema from one engine to another
+* Example OLTP: (SQL Server or Oracle
 
 ---
 
