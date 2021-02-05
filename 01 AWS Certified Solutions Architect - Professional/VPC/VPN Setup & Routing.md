@@ -27,3 +27,6 @@
 [<img src="https://i.imgur.com/faHCS05.png">](https://i.imgur.com/faHCS05.png)
 
 ---
+
+## Transit VPC (=Software VPN)
+* Not an AWS offering, newer managed solution is Transit Gateway
