@@ -2,6 +2,7 @@
 
 ## Acronym
 * BGP - Border Gateway Protocol
+* CIDR - Classless Inter-Domain Routing
 * HA - High Availability
 * VGW - Virtual Gateway
 
@@ -30,3 +31,16 @@
 
 ## Transit VPC (=Software VPN)
 * Not an AWS offering, newer managed solution is Transit Gateway
+* Use the public internet with a software VPN solution 
+* Allows for transitive connectivity between VPC & locations
+* More complex routing rules, overlapping CIDR ranges, network-level packet filtering
+
+### Diagram
+[<img src="https://i.imgur.com/HrhKLBF.png">](https://i.imgur.com/HrhKLBF.png)
+
+---
+
+## Network topologies can become complicated
+[<img src="https://i.imgur.com/TV7kWN4.png">](https://i.imgur.com/TV7kWN4.png)
+
+---
