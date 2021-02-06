@@ -7,6 +7,7 @@
 * CGW - Costomer Gateway
 * HA - High Availability
 * VGW - Virtual Private Gateway
+* VPN - Virtual Private Network
 
 ## Steps
 1) Create a Virtual privte gateway & attach to VPC
@@ -79,9 +80,58 @@
 ## Site to Site VPN & Internet Access
 * **Not okay** (blocked by **NAT Gateway** restrictions)
 * **Okay** (self managed **NAT Instance** - more control)
+* **Okay** (alternative to NAT Instances/Gateway)
 
 ### Diagram
 [<img src="https://i.imgur.com/VGCvNCI.png">](https://i.imgur.com/VGCvNCI.png)
 
 [<img src="https://i.imgur.com/F5F1QSQ.png">](https://i.imgur.com/F5F1QSQ.png)
 
+[<img src="https://i.imgur.com/N6yxX71.png">](https://i.imgur.com/N6yxX71.png)
+
+---
+
+## AWS VPN CloudHub
+* Can connect up to 10 Customer Gateway for each VGW
+* Low cost hub-and-spoke model for primary or secondary network connectivity between locations
+* Provide secure communication between sites, if you have multiple VPN connections
+* It's a VPN connection so it goes over the public internet
+* Can be a **failover connection** between your on-premise locations
+
+### Diagram
+[<img src="https://i.imgur.com/8MKjAGc.png">](https://i.imgur.com/8MKjAGc.png)
+
+---
+
+## AWS Client VPN
+* Connect from your computer using OpenVPN to your privte network in AWS & on-premise
+
+### Diagram
+[<img src="https://i.imgur.com/LKBZQFZ.png">](https://i.imgur.com/LKBZQFZ.png)
+
+---
+
+## Software VPN (not AWS managed)
+* You can setup your own software VPN, but you have to manage everything including badwidth, redundancy, etc.
+* You would have more control over the setup & routing options
+
+### Diagram
+[<img src="https://i.imgur.com/snzaIPk.png">](https://i.imgur.com/snzaIPk.png)
+
+---
+
+## VPN to multiple VPC
+* For VPN-based customers, AWS recommends creating a separate VPN connection for each customer VPC
+* Direct Connect is recommended because it has a Direct Connect Gateway
+
+### Diagram
+[<img src="https://i.imgur.com/yj6a44y.png">](https://i.imgur.com/yj6a44y.png)
+
+---
+
+## Shared Services VPC
+* Create a VPN connection between on-premise & shared service VPC
+* Replicate services, applications, databases between on-premise & the Shared Services VPC or deploy proxies in the shared service VPC
+* Do VPC peering between the VPC & the shared service VPC
+
+### Diagram
