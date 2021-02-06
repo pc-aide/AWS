@@ -1,10 +1,14 @@
 # Endpoints
 
 ## Acronym
+* DX - Direct Connect
 * ENI - Elastic Network Interface
 * IGW - Internet Gateway
 * NAT - Network Address Translation
 * S3 - Simple Storage Service
+* SG - Security Group
+* TGW - Transit Gateway
+* VPC - Virtual Private Cloud
 
 ## Intro
 * Regional endpoints
@@ -30,4 +34,28 @@
 
 ---
 
-## 
+## VPC Endpoint Gateway
+* Only work for S3 & DynamoDB, must create one gateway per VPC
+* Must update route tables entries
+* Gateway is defined at the VPC level
+* DNS resolution must be enabled in the VPC
+* The same public hostname for S3 can be used
+* Gateway endpoint can't be extended out of a VPC (VPN, DX, TGW, peering)
+
+### Diagram
+[<img src="https://i.imgur.com/WWcIIvv.png">](https://i.imgur.com/WWcIIvv.png)
+
+---
+
+## Interface
+* Provision an ENI that will have a private endpoint interface hostname
+* Leverage SGs for security
+* Private DNS (setting when you create the endpoint)
+  * The public hostname of a service will resolve to the private Endpoint Interface hostname
+  * VPC Setting: "Enable DNS hostnames" & "Enable DNS Support" must be 'true'
+  * Example for Athena:
+    * vpc-0b7d2995e9dfe5418-mwrths3x.athena.us-east-1.vpce.amazonaws.com
+    * vpc-0b7d2995e9dfe5418-mwrths3x-us-east-1a.athena.us-east-1a.vpce.amazonaws.com
+    * vpc-0b7d2995e9dfe5418-mwrths3x-us-east-1a.athena.us-east-1b.vpce.amazonaws.com
+    * **athena.us-east-1.amazonaws.com** (private DNS name)
+* Interface can be accessed from Direct Connect & Site-to-Site VPN
