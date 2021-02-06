@@ -133,5 +133,23 @@
 * Create a VPN connection between on-premise & shared service VPC
 * Replicate services, applications, databases between on-premise & the Shared Services VPC or deploy proxies in the shared service VPC
 * Do VPC peering between the VPC & the shared service VPC
+* VPCs can directly access the Shared Service VPC services & don't need VPN connection to on-premise
 
 ### Diagram
+[<img src="https://i.imgur.com/ywihRVj.png">](https://i.imgur.com/ywihRVj.png)
+
+---
+
+## Other Solutions
+* Transit VPC (complicated)
+  * Good for resources that are hard to replicate on the cloud
+  * Must use VPN as VPC peering does not support transitive routing
+  
+### Diagram
+* Transit VPC:
+
+[<img src="https://i.imgur.com/VdaJ4Oa.png">](https://i.imgur.com/VdaJ4Oa.png)
+
+* Transit Gateway (simple):
+
+[<img src="https://i.imgur.com/awA0oGB.png">](https://i.imgur.com/awA0oGB.png)
