@@ -76,3 +76,9 @@
 
 ### Diagram
 [<img src="https://i.imgur.com/C6iOLll.png">](https://i.imgur.com/C6iOLll.png)
+
+
+---
+
+## Direct Connect Gateway + Transit Gateway
+[<img src="https://i.imgur.com/EOrS5sU.png">](https://i.imgur.com/EOrS5sU.png)
