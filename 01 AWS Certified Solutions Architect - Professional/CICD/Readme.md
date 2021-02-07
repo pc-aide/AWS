@@ -19,4 +19,23 @@
 
 ## Continuous Delivery
 * Ensure that the software can be released reliably whenever needed
-* 
+* Ensure deplyments happen often & are quick
+* Shift away from "one release every 3 months" to "5 releases a day"
+* That usually means automated deployment
+  * CodeDeploy
+  * Jenkins CD
+  * Spinnaker
+  * Etc...
+  
+### Diagram
+[<img src="https://i.imgur.com/x0YR4AH.png">](https://i.imgur.com/x0YR4AH.png)
+
+---
+
+## Technology Stack for CI/CD
+[<img src="https://i.imgur.com/Im4BmLE.png">](https://i.imgur.com/Im4BmLE.png)
+
+---
+
+## CICD Architecture
+[<img src="https://i.imgur.com/097fH6C.png">](https://i.imgur.com/097fH6C.png)
