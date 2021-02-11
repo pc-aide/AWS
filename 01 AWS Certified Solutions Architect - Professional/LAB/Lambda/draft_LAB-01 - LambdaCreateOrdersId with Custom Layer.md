@@ -16,7 +16,7 @@
 1) Lambda
 2) Role
 3) CloudFormation
-  * Cloud9
+   * Cloud9
 4) API Gateway
 * CW - optional
 
