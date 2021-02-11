@@ -106,13 +106,10 @@ exports.handler = async (event) => {
 
 [<img src="https://i.imgur.com/Oh2LgTg.png">](https://i.imgur.com/Oh2LgTg.png)
 
-* test API endpoint
-* `curl k1v15e7zk7.execute-api.us-west-2.amazonaws.com`
-
-[<img src="https://i.imgur.com/bLR0vKp.png">](https://i.imgur.com/bLR0vKp.png)
+---
 
 ## Cloud9
-* test with Cloud9 (IDE)
+* test api endpoint with Cloud9 (IDE)
 * c9-dev\Open IDE
 
 [<img src="https://i.imgur.com/nt5Tc1i.png">](https://i.imgur.com/nt5Tc1i.png)
@@ -124,7 +121,7 @@ exports.handler = async (event) => {
   * -H --header
   * -X --request
 ````bash
-HTTP_URL="https://k1v15e7zk7.execute-api.us-west-2.amazonaws.com"
+HTTP_URL="<invokeURL>"
 curl -d '{"orderId":"111","price":232.2, "quantity":2,"payment_mode":"creditcard"}' -H "Content-Type: application/json" -X POST $HTTP_URL
 ````
 
@@ -143,7 +140,7 @@ curl -d '{"orderId":"111","price":232.2, "quantity":2,"payment_mode":"creditcard
 
 ---
 
-## Lambda
+## ValidateInputData - Lambda
 * We want to ensure input before to put in DynamoDB !
 * put this code after line 5 - add validation function...
   * validates (e.g.):
@@ -214,7 +211,8 @@ exports.handler = async (event) => {
 [<img src="https://i.imgur.com/ziGJ2h7.png">](https://i.imgur.com/ziGJ2h7.png)
 * Deploy (save)
 
-## Test API Endpoint 
+## Test API Endpoint with validationFunction
+* test our API endpoint againt with the update Lambda
 * validate input data
 * Cloud9:
 ````sh
@@ -253,7 +251,7 @@ curl -d '{"orderId":"222","price":232.2, "quantity":100,"payment_mode":"creditca
 
 ---
 
-## Lambda layer
+## prepare Lambda layer in Cloud9
 * cloud9\c9-dev\Open IDE
 * paste code:
 ````sh
@@ -263,3 +261,129 @@ mkdir nodejs
 cd nodejs
 ````
 [<img src="https://i.imgur.com/YSrHiPP.png">](https://i.imgur.com/YSrHiPP.png)
+
+* initialize the npm env
+* enter for default value
+* `npm init`
+
+[<img src="https://i.imgur.com/NAhyyxp.png">](https://i.imgur.com/NAhyyxp.png)
+
+* New file: package.json
+
+[<img src="https://i.imgur.com/IpTGHJn.png">](https://i.imgur.com/IpTGHJn.png)
+
+* folder: nodejs\New File
+ * Name: utils.js
+ 
+[<img src="https://i.imgur.com/5JiWGr0.png">](https://i.imgur.com/5JiWGr0.png)
+
+* code for utils.js
+````js
+function validateInputs(raw_input){ 
+    const o_regex = /^[0-9]*$/g; 
+    const valid_payment_options = ["cash", "creditcard", "paypal"] 
+    const price_regex=/^[-+]?[0-9]+\.[0-9]+$/;    
+
+    if (!raw_input.orderId){ 
+       throw new Error("order id is missing") 
+    } 
+
+    if (!o_regex.test(raw_input.orderId)){
+       throw new Error("OrderId is not in the expected format")
+    }
+
+    if (!price_regex.test(raw_input.price)){ 
+       throw new Error("Price is not in the expected format") 
+    } 
+
+    if (!Number.isInteger(raw_input.quantity)){ 
+       throw new Error("Quantity is not an integer") 
+    }     
+
+    if (raw_input.quantity < 0 || raw_input.quantity >= 10){ 
+       throw new Error("Quantity is not in the expected range [1 to 10]") } 
+
+    if (!valid_payment_options.includes(raw_input.payment_mode)){ 
+      throw new Error("Invalid Payment option") 
+    } 
+
+    return true
+}
+
+module.exports.validateInputs = validateInputs
+````
+* save (ctrl + s)
+
+[<img src="https://i.imgur.com/QT0im1b.png">](https://i.imgur.com/QT0im1b.png)
+
+* bash (cloud9):
+* Switch:
+  * -r --recursive
+````sh
+cd ~/environment/utils/
+zip -r utils.zip ./*
+````
+
+[<img src="https://i.imgur.com/6cxYcUJ.png">](https://i.imgur.com/6cxYcUJ.png)
+
+* download utils.zip - it will be used for the Lambda layer
+
+[<img src="https://i.imgur.com/yZcmBDc.png">](https://i.imgur.com/yZcmBDc.png)
+
+## Lambda
+* left pane\Additonal resources\Layer\Create layer
+  * Name: utils
+  * Upload: utils.zip
+  * Compatible runtimes: Node.js 12x
+  
+[<img src="https://i.imgur.com/NJjABeG.png">](https://i.imgur.com/NJjABeG.png)
+[<img src="https://i.imgur.com/YobNTFF.png">](https://i.imgur.com/YobNTFF.png)
+
+---
+
+## Lambda
+* Lambda layer - code for validate the incoming events
+* function\create-order\Layers
+* Add a layer
+
+[<img src="https://i.imgur.com/Y3uHG3S.png">](https://i.imgur.com/Y3uHG3S.png)
+
+* Choose a layer: Custom layers
+* Custom layers: utils
+* Version: 1
+
+[<img src="https://i.imgur.com/sT4VHP7.png">](https://i.imgur.com/sT4VHP7.png)
+[<img src="https://i.imgur.com/i5OHw27.png">](https://i.imgur.com/i5OHw27.png)
+
+---
+
+## update code function
+* Remove function validate - because we have it in layer
+* And add reference to the lambda layer code
+* inde.js\Ln3
+* add `const utils = require('/opt/nodejs/utils');`
+* deploy (save)
+* NB: layers are extracted to the **/opt/** directory
+
+[<img src="https://i.imgur.com/Sh3hKrT.png">](https://i.imgur.com/Sh3hKrT.png)
+
+* Remove function validateInputs
+
+[<img src="https://i.imgur.com/KrjxBgH.png">](https://i.imgur.com/KrjxBgH.png)
+
+* Replace the validateInputs(raw_input): `utils.validateInputs(raw_input)`
+
+[<img src="https://i.imgur.com/N6pipeq.png">](https://i.imgur.com/N6pipeq.png)
+
+---
+
+## Test API with update code
+* test our API endpoint with update code in cloud9
+````sh
+curl -d '{"orderId":"444","price":10.2, "quantity":4,"payment_mode":"creditcard"}' -H "Content-Type: application/json" -X POST $HTTP_URL
+````
+[<img src="https://i.imgur.com/TNqj5BY.png">](https://i.imgur.com/TNqj5BY.png)
+
+* CheckOut DynamodDB\Tables\orders_table\Items
+
+[<img src="https://i.imgur.com/J5ijQ5D.png">](https://i.imgur.com/J5ijQ5D.png)
