@@ -233,5 +233,32 @@ curl -d '{"orderId":"222","price":232.2, "quantity":100,"payment_mode":"creditca
 | 2021-02-11T14:48:22.032-05:00 | 2021-02-11T19:48:22.032Z 099f6dde-2105-4688-b4b2-cc92ad2105e4 ERROR Invoke Error {"errorType":"Error","errorMessage":"Quantity is not in the expected range [1 to 10]","stack":["Error: Quantity is not in the expected range [1 to 10]"," at validateInputs (/var/task/index.js:28:14)"," at Runtime.exports.handler (/var/task/index.js:41:9)"," at Runtime.handleOnce (/var/runtime/Runtime.js:66:25)"]}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | 2021-02-11T14:48:22.052-05:00 | END RequestId: 099f6dde-2105-4688-b4b2-cc92ad2105e4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | 2021-02-11T14:48:22.052-05:00 | REPORT RequestId: 099f6dde-2105-4688-b4b2-cc92ad2105e4 Duration: 53.66 ms Billed Duration: 54 ms Memory Size: 128 MB Max Memory Used: 77 MB Init Duration: 320.03 ms                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-  
-[<img src="https://i.imgur.com/TEL6Jip.png">](https://i.imgur.com/TEL6Jip.png)
+
+* 2021-02-11T19:48:22.032Z	099f6dde-2105-4688-b4b2-cc92ad2105e4	ERROR	Invoke Error
+````json
+{
+    "errorType": "Error",
+    "errorMessage": "Quantity is not in the expected range [1 to 10]",
+    "stack": [
+        "Error: Quantity is not in the expected range [1 to 10]",
+        "    at validateInputs (/var/task/index.js:28:14)",
+        "    at Runtime.exports.handler (/var/task/index.js:41:9)",
+        "    at Runtime.handleOnce (/var/runtime/Runtime.js:66:25)"
+    ]
+}
+````
+
+[<img src="https://i.imgur.com/5ZGLiHL.png">](https://i.imgur.com/5ZGLiHL.png)
+
+---
+
+## Lambda layer
+* cloud9\c9-dev\Open IDE
+* paste code:
+````sh
+mkdir utils
+cd utils/
+mkdir nodejs
+cd nodejs
+````
+[<img src="https://i.imgur.com/YSrHiPP.png">](https://i.imgur.com/YSrHiPP.png)
