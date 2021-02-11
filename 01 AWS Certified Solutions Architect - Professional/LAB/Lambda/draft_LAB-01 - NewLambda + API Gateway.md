@@ -4,6 +4,7 @@
 * CW - CloudWatch
 
 ## Intro
+* Create an API Gateway who invoke LambdaCreateOrderID for DynamoDB like input data
 
 ## Time
 * 40m
