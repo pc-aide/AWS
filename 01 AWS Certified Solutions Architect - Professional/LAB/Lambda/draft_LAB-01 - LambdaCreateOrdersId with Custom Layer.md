@@ -18,7 +18,11 @@
 3) CloudFormation
    * Cloud9
 4) API Gateway
+5) DynamodDB
+   * OutPut API endpoint
 * CW - optional
+   * Log Lambda: Success or error
+
 
 ---
 
