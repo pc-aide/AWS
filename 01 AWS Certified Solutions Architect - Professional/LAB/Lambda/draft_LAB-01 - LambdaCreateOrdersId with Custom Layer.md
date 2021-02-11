@@ -1,10 +1,13 @@
-# LAB-01 - NewLambda + APIGateway
+# LAB-01 - LambdaCreateOrdersId with Custom Layer
 
 ## Acronym
 * CW - CloudWatch
 
 ## Intro
-* Create an API Gateway who invoke LambdaCreateOrderID for DynamoDB like input data
+1) Create LambdaCreateOrdferId
+2) Create an API Gateway who invoke lambda function for DynamoDB like input data
+3) Test API endpoint into Cloud9
+4) Used layer for lambda function (code externe)
 
 ## Time
 * 40m
