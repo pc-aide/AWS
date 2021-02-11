@@ -12,6 +12,16 @@
 ## Time
 * 40m
 
+## Resources
+1) Lambda
+2) Role
+3) CloudFormation
+  * Cloud9
+4) API Gateway
+* CW - optional
+
+---
+
 ## draft_Role
 * Name: ima_for_freateorder
 * Trust relationShips: Lambda
