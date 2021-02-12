@@ -113,7 +113,8 @@ exports.handler = async (event) => {
   * -X --request
 ````sh
 HTTP_URL="<invokeURL>"
-curl -d '{"orderId":"111","price":232.2, "quantity":2,"payment_mode":"creditcard"}' -H "Content-Type: application/json" -X POST $HTTP_URL
+curl -d '{"orderId":"111","price":232.2, "quantity":2,"payment_mode":"creditcard"}' \
+-H "Content-Type: application/json" -X POST $HTTP_URL
 ````
 
 * O/P: LambdaDynamo for new items
