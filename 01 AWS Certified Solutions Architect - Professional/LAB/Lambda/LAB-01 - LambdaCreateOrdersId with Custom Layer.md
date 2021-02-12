@@ -17,14 +17,14 @@
 ---
 
 ## Cloud9
-* create environment
+* Create environment
   * Name: c9-dev
   * Environment type: Create a new EC2 Insance for environement (direct access)
   * Instance type: t3.small
   * Platform: Amazon Linux
     * ami: Cloud9Default
 
-  * NB: it'll  create automatic CF\NewStack:
+  * NB: It'll  create automatic CF\NewStack:
     * Resources
       * Instance
       * InstanceSG
@@ -75,7 +75,7 @@ exports.handler = async (event) => {
 
 * env var\edit\add env var
   * key: TABLE_NAME
-  * Value: 
+  * Value: orders_table
 
 ---
 
